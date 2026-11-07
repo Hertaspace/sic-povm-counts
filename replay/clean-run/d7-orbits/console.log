@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "claim": "d7-orbits",
+  "mode": "fresh-execution",
+  "result": "work/final-d7-orbits/result.json",
+  "workspace": "repo",
+  "error": null
+}

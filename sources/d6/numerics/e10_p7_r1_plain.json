@@ -1,0 +1,57 @@
+{
+  "seed": 20261031,
+  "mask": 4032,
+  "prior_final_smt": {
+    "files": [
+      "e08c_d6_p7_m4032_seed_final.smt2.gz.part000",
+      "e08c_d6_p7_m4032_seed_final.smt2.gz.part001",
+      "e08c_d6_p7_m4032_seed_final.smt2.gz.part002",
+      "e08c_d6_p7_m4032_seed_final.smt2.gz.part003"
+    ],
+    "uncompressed_bytes": 30197687,
+    "compressed_bytes": 3029069,
+    "uncompressed_sha256": "5e6130adb2d0d83bae72a5d48270997decf4756f764400abdfa2f58b48c5431d"
+  },
+  "certificates": [
+    {
+      "files": [
+        "e10_p7_r1_c0000.json.gz.part000"
+      ],
+      "uncompressed_bytes": 7026,
+      "compressed_bytes": 1311,
+      "uncompressed_sha256": "38fac9187b25c7485aedda10afb72ca9e5100a097022d409516dc53cfe67b135"
+    },
+    {
+      "files": [
+        "e10_p7_r1_c0001.json.gz.part000"
+      ],
+      "uncompressed_bytes": 7594,
+      "compressed_bytes": 1357,
+      "uncompressed_sha256": "3897e5727673ec92415558a5c95c67f98dbba6fc0500c4958614e2523a4a9d61"
+    },
+    {
+      "files": [
+        "e10_p7_r1_c0002.json.gz.part000"
+      ],
+      "uncompressed_bytes": 8558,
+      "compressed_bytes": 1402,
+      "uncompressed_sha256": "75b37decc497a84efd3abfbcaa4128df19f7584b80455276966cf7544a34b9af"
+    }
+  ],
+  "status": "covered_UNSAT",
+  "new_source_cells": 3,
+  "uses_e31_strengthening": false,
+  "check_seconds": 8.682268,
+  "seconds": 9.644663,
+  "final_smt": {
+    "files": [
+      "e10_p7_r1_plain_final.smt2.gz.part000",
+      "e10_p7_r1_plain_final.smt2.gz.part001",
+      "e10_p7_r1_plain_final.smt2.gz.part002",
+      "e10_p7_r1_plain_final.smt2.gz.part003"
+    ],
+    "uncompressed_bytes": 30514564,
+    "compressed_bytes": 3032574,
+    "uncompressed_sha256": "eed5a2d6192dba16ab141e17d3a7e69f4233b86c356d510dc2689ac77cbdbf52"
+  }
+}

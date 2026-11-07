@@ -1,0 +1,2 @@
+branch_counts {'y': 2000, 't': 2000, 'b1': 2000, 'b2': 2000, 'b3': 2000, 'b4': 2000, 'a1': 2000, 'a2': 2000, 'a3': 2000, 'a4': 360}
+{'d': 5, 'p': 3, 'modulus': [2, 0, 1, 0, 0, 0, 0, 0, 1], 'q': 6561, 'source': 'numerics/e04_d5_p3.singular.out', 'seed': 20261031, 'arithmetic': 'exact finite field', 'python': '3.14.10', 'expected_length_trace_zero_chart': 2000, 'distinct_chart_points': 2000, 'complete_reduced_chart': True, 'elapsed': 42.70666208490729}

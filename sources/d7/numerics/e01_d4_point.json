@@ -1,0 +1,191 @@
+{
+  "format": "sic-direct-face-vertices-v1",
+  "d": 4,
+  "c": 0,
+  "s": 1,
+  "names": [
+    "a1",
+    "a2",
+    "a3",
+    "b0",
+    "b2",
+    "b3"
+  ],
+  "zero_names": [],
+  "positive_names": [
+    "a1",
+    "a2",
+    "a3",
+    "b0",
+    "b2",
+    "b3"
+  ],
+  "seed": 20261102,
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "z3": "5.0.0",
+  "support_sha256": "bd470856a98914b5bee9a5e21f43d84466ac2fb2c8f09e39ce2a282439d956fe",
+  "char0_support_count": 26,
+  "minimal_projected_support_count": 8,
+  "projected_exponents": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "weights": [
+    {
+      "weight": [
+        "1/2",
+        "1",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1"
+      ],
+      "active_exponents": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rank_certificate": {
+        "pivot_rows": [
+          6,
+          1,
+          4,
+          3,
+          2,
+          0
+        ],
+        "determinant": "4"
+      }
+    }
+  ],
+  "rank_cuts": 6,
+  "solver_models": 7,
+  "complete": true,
+  "coverage": "all strict-positive vertices of exact blocking polyhedron for specified zero coordinates; hence all nonsingular isolated global-minimum faces in that stratum",
+  "termination": "unsat",
+  "full_vertex_count": 1,
+  "elapsed_seconds": 0.11836870800470933
+}

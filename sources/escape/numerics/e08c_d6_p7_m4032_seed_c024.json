@@ -1,0 +1,283 @@
+{
+  "schema": "e08c-sparse-unit-v1",
+  "d": 6,
+  "p": 7,
+  "mask": 4032,
+  "weights": [
+    "5/4",
+    "7/32",
+    "7/32",
+    "1/4",
+    "9/32",
+    "9/32",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "1/32",
+    "3/8",
+    "1/32",
+    "3/8",
+    "1/32",
+    "3/8",
+    "1/4",
+    "3/32",
+    "13/32",
+    "1/4",
+    "3/32",
+    "13/32",
+    "15/32",
+    "1/8",
+    "15/32",
+    "1/8",
+    "15/32",
+    "1/8",
+    "1/2",
+    "1/2",
+    "1/2",
+    "1/2",
+    "1/2",
+    "1/2"
+  ],
+  "first_label": 6,
+  "fixed_minimal_residue_point": true,
+  "members": [
+    {
+      "generator_index_zero_based": 10,
+      "generator": "(4*w^1)*z19*z25+(4)*z22*z25+(2*w^1)*z19*z27+(2)*z22*z27+(1*w^1)*z19*z29+(1)*z22*z29",
+      "multiplier": "2*y*z5"
+    },
+    {
+      "generator_index_zero_based": 27,
+      "generator": "(6*w^1)*z19*z25+(6*w^1)*z19*z27+(6*w^1)*z19*z29+(1)*z22*z25+(1)*z22*z27+(1)*z22*z29",
+      "multiplier": "-3*y*z5"
+    },
+    {
+      "generator_index_zero_based": 50,
+      "generator": "(4*w^1)*z19*z25+(3)*z22*z25+(2*w^1)*z19*z27+(5)*z22*z27+(1*w^1)*z19*z29+(6)*z22*z29",
+      "multiplier": "-2*y*z5"
+    },
+    {
+      "generator_index_zero_based": 59,
+      "generator": "(5)*z1*1+(3)*z2*1+(3*w^1)*z1*z7+(6*w^1)*z2*z7+(1)*z1*z8+(2)*z2*z8+(2*w^1)*z1*z9+(4*w^1)*z2*z9+(3)*z1*z10+(6)*z2*z10+(6*w^1)*z1*z11+(5*w^1)*z2*z11",
+      "multiplier": "-y*z5"
+    },
+    {
+      "generator_index_zero_based": 88,
+      "generator": "(2*w^1)*z19*z25+(5)*z22*z25+(4*w^1)*z19*z27+(3)*z22*z27+(1*w^1)*z19*z29+(6)*z22*z29",
+      "multiplier": "-y*z5"
+    },
+    {
+      "generator_index_zero_based": 129,
+      "generator": "(2*w^1)*z19*z25+(2)*z22*z25+(4*w^1)*z19*z27+(4)*z22*z27+(1*w^1)*z19*z29+(1)*z22*z29",
+      "multiplier": "y*z5"
+    },
+    {
+      "generator_index_zero_based": 138,
+      "generator": "(6*w^1)*z19*z25+(6)*z22*z25+(6*w^1)*z19*z27+(6)*z22*z27+(6*w^1)*z19*z29+(6)*z22*z29",
+      "multiplier": "3*y*z5"
+    },
+    {
+      "generator_index_zero_based": 231,
+      "generator": "(5*w^1)*z1*1+(6)*z2*z11+(2*w^1)*z22*z27",
+      "multiplier": "(-2*w)*y*z5"
+    },
+    {
+      "generator_index_zero_based": 260,
+      "generator": "(1)*z1*z5-t",
+      "multiplier": "-y"
+    },
+    {
+      "generator_index_zero_based": 280,
+      "generator": "t*y-1",
+      "multiplier": "-1"
+    },
+    {
+      "generator_index_zero_based": 281,
+      "generator": "z7-(3*w^1)",
+      "multiplier": "(3*w)*y*z1*z5+(-w)*y*z2*z5"
+    },
+    {
+      "generator_index_zero_based": 282,
+      "generator": "z8-(5)",
+      "multiplier": "y*z1*z5+2*y*z2*z5"
+    },
+    {
+      "generator_index_zero_based": 283,
+      "generator": "z9-(1*w^1)",
+      "multiplier": "(2*w)*y*z1*z5+(-3*w)*y*z2*z5"
+    },
+    {
+      "generator_index_zero_based": 284,
+      "generator": "z10-(4)",
+      "multiplier": "3*y*z1*z5-y*z2*z5"
+    },
+    {
+      "generator_index_zero_based": 285,
+      "generator": "z11-(5*w^1)",
+      "multiplier": "(-w)*y*z1*z5+(3*w)*y*z2*z5"
+    }
+  ],
+  "cell": [
+    {
+      "polynomial_index_zero_based": 10,
+      "leader_term_indices_zero_based": [
+        7,
+        10,
+        19,
+        22,
+        31,
+        34
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 27,
+      "leader_term_indices_zero_based": [
+        7,
+        9,
+        11,
+        25,
+        27,
+        29
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 50,
+      "leader_term_indices_zero_based": [
+        43,
+        46,
+        55,
+        58,
+        67,
+        70
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 59,
+      "leader_term_indices_zero_based": [
+        37,
+        38,
+        43,
+        44,
+        49,
+        50,
+        55,
+        56,
+        61,
+        62,
+        67,
+        68
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 88,
+      "leader_term_indices_zero_based": [
+        7,
+        10,
+        19,
+        22,
+        31,
+        34
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 129,
+      "leader_term_indices_zero_based": [
+        43,
+        46,
+        55,
+        58,
+        67,
+        70
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 138,
+      "leader_term_indices_zero_based": [
+        43,
+        46,
+        55,
+        58,
+        67,
+        70
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 231,
+      "leader_term_indices_zero_based": [
+        1,
+        2,
+        13
+      ]
+    }
+  ],
+  "group_images": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      -1,
+      5
+    ]
+  ],
+  "singular": {
+    "status": "complete",
+    "seconds": 0.230353,
+    "sampled_peak_rss_bytes": 5963776,
+    "initial_result": [
+      -1,
+      0,
+      1,
+      228
+    ],
+    "independent_replay": {
+      "status": "complete",
+      "seconds": 0.007516,
+      "sampled_peak_rss_bytes": 0
+    }
+  },
+  "smt_seconds": 1.122607
+}

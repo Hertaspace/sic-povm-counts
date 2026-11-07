@@ -1,0 +1,30 @@
+ring r=(625,w),(y,t,b0,b1,b2,b3,a0,a1,a2,a3),dp;
+number tau=w^78;
+proc T(int k) { k=k mod 8; if(k<0){k=k+8;} return(tau^k); }
+proc Zf(int p1,int p2) {
+ poly z=0; int s; int bi;
+ for(s=0;s<4;s++){ bi=(s+p1) mod 4; if(bi<0){bi=bi+4;}
+ z=z+T(p1*p2+2*p2*s)*var(3+bi)*var(7+s); }
+ return(z);
+}
+option(redSB);
+ideal J=Zf(0,1)*Zf(0,-1)-t,Zf(0,2)*Zf(0,-2)-t,Zf(1,0)*Zf(-1,0)-t,Zf(1,1)*Zf(-1,-1)-t,Zf(1,2)*Zf(-1,-2)-t,Zf(1,3)*Zf(-1,-3)-t,Zf(2,0)*Zf(-2,0)-t,Zf(2,1)*Zf(-2,-1)-t,Zf(2,2)*Zf(-2,-2)-t,t*y-1;
+poly la=w^314*a0+w^248*a1+w^385*a2+w^75*a3; poly lb=w^525*b0+w^42*b1+w^214*b2+w^254*b3;
+ideal I=J,la-1,lb-1;
+ideal G=std(I);
+print("CHART_DIM="+string(dim(G)));
+print("CHART_LENGTH="+string(vdim(G)));
+print("TRACE_RELATION_REMAINDER="+string(reduce(Zf(0,0)^2,G)));
+ideal H=std(G+ideal(Zf(0,0)));
+print("TRACE_ZERO_LENGTH="+string(vdim(H)));
+ideal E=finduni(H);
+int i; poly f; poly gg; int sf=1;
+for(i=1;i<=ncols(E);i++){f=E[i];
+ if(deg(f)>0){gg=gcd(f,diff(f,var(i))); if(deg(gg)>0){sf=0;}}
+}
+print("TRACE_ZERO_REDUCED="+string(sf));
+ideal HA=std(J+ideal(la));
+print("A_COMPLEMENT_UNIT="+string(reduce(1,HA)==0));
+ideal HB=std(J+ideal(lb));
+print("B_COMPLEMENT_UNIT="+string(reduce(1,HB)==0));
+quit;

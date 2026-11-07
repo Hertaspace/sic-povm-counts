@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "source_sha256": "9e3ac4959683ef30cbf6ece4d5b71a7ed02c533a0d144becf90004e3d49048ca",
+  "child": {
+    "status": "complete",
+    "pid": 27268,
+    "returncode": 0,
+    "seconds": 0.197896,
+    "sampled_peak_rss_bytes": 11419648,
+    "command": [
+      "gp",
+      "-fq"
+    ],
+    "limit_seconds": 180
+  },
+  "root_classes": [
+    {
+      "root_class": 1,
+      "label_index": 2,
+      "degree": 8,
+      "monic_unit": true
+    },
+    {
+      "root_class": 2,
+      "label_index": 3,
+      "degree": 8,
+      "monic_unit": true
+    },
+    {
+      "root_class": 3,
+      "label_index": 4,
+      "degree": 1,
+      "monic_unit": true
+    },
+    {
+      "root_class": 4,
+      "label_index": 5,
+      "degree": 8,
+      "monic_unit": true
+    },
+    {
+      "root_class": 5,
+      "label_index": 6,
+      "degree": 8,
+      "monic_unit": true
+    },
+    {
+      "root_class": 6,
+      "label_index": 7,
+      "degree": 24,
+      "monic_unit": true
+    },
+    {
+      "root_class": 7,
+      "label_index": 8,
+      "degree": 12,
+      "monic_unit": true
+    },
+    {
+      "root_class": 8,
+      "label_index": 10,
+      "degree": 24,
+      "monic_unit": true
+    },
+    {
+      "root_class": 9,
+      "label_index": 13,
+      "degree": 8,
+      "monic_unit": true
+    },
+    {
+      "root_class": 10,
+      "label_index": 14,
+      "degree": 24,
+      "monic_unit": true
+    },
+    {
+      "root_class": 11,
+      "label_index": 16,
+      "degree": 24,
+      "monic_unit": true
+    },
+    {
+      "root_class": 12,
+      "label_index": 18,
+      "degree": 12,
+      "monic_unit": true
+    },
+    {
+      "root_class": 13,
+      "label_index": 25,
+      "degree": 8,
+      "monic_unit": true
+    }
+  ],
+  "squared_phases": "all 35 nonzero labels covered by 13 root-unit classes",
+  "exact_seed": "rank one, Hermitian, trace one, all signed integer-label SIC equations",
+  "seconds": 0.198223
+}

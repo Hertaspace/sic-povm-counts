@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "claim": "d7-finiteness",
+  "mode": "fresh-execution",
+  "result": "work/final-d7-finiteness/result.json",
+  "workspace": "repo",
+  "error": null
+}

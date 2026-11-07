@@ -1,0 +1,7 @@
+OUTPUT INDEX, not an additional run. Seed 20261102.
+All direct face candidates were counted at primes 65563 and 65633.
+Per-case logs: e28_d7_q.out, e28_d7_l1.out, e28_d7_l2.out,
+e28_d7_z.out, e28_d7_x1.out, e28_d7_x2.out.
+All PASS with reduced saturated quotients.
+Representative totals: q4184, l1 136, l2 176, z96, x1 8, x2 32.
+Exact weighted total: 14920 units. Summary: e29_d7_summary.out.

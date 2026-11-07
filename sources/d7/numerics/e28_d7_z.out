@@ -1,0 +1,11 @@
+{"format": "sic-nf6-d7-direct-face-counts-v1", "tag": "z", "seed": 20261102, "gate_sha256": "ac87180cf539c8ce12ce673e9b0a33ead3997ef882424181d7d71bb19de608bd", "vertex_file": "e03_d7_z.json", "vertex_sha256": "44d3195c7a5043dd85e9c9272ad784dd14263d0527649689b4dff03b8cb2166d", "parameters": {"tag": "z", "prime": null, "singular_seconds": 60, "msolve_seconds": 900, "threads": 1, "fallback": true}, "environment": {"python": "3.14.8 | packaged by conda-forge | (main, Oct 12 2026, 17:35:27) [GCC 15.3.0]", "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31"}, "sources_sha256": {"e28_d7_face_counts.py": "9156a6874d555f95b58065bf59e4a799924b7b72f46f450dfc73abb07f43ab49", "e10_face_system.py": "b41f3a6d8cb5356c2386536aa69a368e87d05d61f434198befe031dc44673119", "e17_reducedness_certificates.py": "efadd8fc0bbc61f5dfd5aaf3c38629899faf3c06e02c7d15170b2262bac48ffb"}, "names": ["a1", "a2", "a3", "a4", "a5", "a6", "b0", "b1", "b3", "b4", "b5", "b6"], "zero_names": ["a1", "b3"], "primes": [65563, 65633], "status": "RUNNING", "generic_char0_claim": "certified simple special roots give generic lower bounds only"}
+{"stage": "WEIGHT", "tag": "z", "index": 0, "weight": ["0", "1/2", "1", "1", "1", "1", "1", "1/2", "0", "1", "1", "1"]}
+{"stage": "msolve", "pid": 3011311, "p": 65563, "source_sha256": "0969b9157c58687920c7bb2d999d9681a203620ec89e6bb9935f360925b95234"}
+{"stage": "msolve", "pid": 3011321, "p": 65563, "source_sha256": "6b29da453203883319a3ef18927aed1ff5958f6a997478d039a211ea76fc953d"}
+{"stage": "rur_Singular_verify", "p": 65563, "pid": 3011337}
+{"stage": "COUNT", "tag": "z", "index": 0, "p": 65563, "status": "PASS", "length": 96, "reduced": true}
+{"stage": "msolve", "pid": 3012565, "p": 65633, "source_sha256": "e38b83b6fe3d07fe3ca28277ade79bd06d9c756ff8b90a8659b83487b2b60dea"}
+{"stage": "msolve", "pid": 3012566, "p": 65633, "source_sha256": "87a84c31a0baa581cd85007defdde9b67e9fe40f450668696c0b5fc2d4dbd84a"}
+{"stage": "rur_Singular_verify", "p": 65633, "pid": 3012567}
+{"stage": "COUNT", "tag": "z", "index": 0, "p": 65633, "status": "PASS", "length": 96, "reduced": true}
+{"stage": "SUMMARY", "tag": "z", "status": "PASS", "weights": 1, "total_simple_root_lower_bound": 96}

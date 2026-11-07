@@ -1,0 +1,48 @@
+{
+  "certified_points_before_orbit_dedup": 1728,
+  "certified_representatives": 24,
+  "chunks": [
+    {
+      "count": 24,
+      "file": "e41_d6_cert_000001.jsonl",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "sha256": "823a05f2396e55dcb14ae6a8a1ca1c605c5b5fa1fa9f69cc428c60b79e07ca94"
+    }
+  ],
+  "d": 6,
+  "elapsed_this_run_seconds": 0.3227439485490322,
+  "failures": [],
+  "free_orbit_size": 72,
+  "generator_sha256": "a6deeac821e99d7c3230be2a9928b78bed6cd07805464841dd5fc014f2411ac1",
+  "header_file": "e41_d6_header.json",
+  "header_sha256": "6273e5e20a4243951e1d341484379bdf2879105f987c4180136e049eb5110465",
+  "meaning": "Root boxes individually certified; distinct-orbit count requires e43 separation.",
+  "schema_version": "sic-spur-balls-v1",
+  "seed": 20261102,
+  "utc_updated": "2026-11-02T10:01:01.734700+00:00"
+}

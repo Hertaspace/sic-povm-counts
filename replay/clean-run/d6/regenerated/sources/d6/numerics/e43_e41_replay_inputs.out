@@ -1,0 +1,7 @@
+START support
+PASS support seconds 24.637007
+START geometry
+PASS geometry seconds 488.170545
+START seed
+PASS seed seconds 0.50755
+ALL_INPUT_REPLAYS_PASS 513.331399

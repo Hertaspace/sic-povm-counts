@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "claim": "d7-faces",
+  "mode": "fresh-execution",
+  "result": "work/final-d7-faces/result.json",
+  "workspace": "repo",
+  "error": null
+}

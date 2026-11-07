@@ -1,0 +1,9 @@
+seed=20261031; independent exact finite quotient arithmetic; no floating point
+python=3.14.10 platform=Linux-5.15.0-139-generic-x86_64-with-glibc2.31
+Singular=4.4.1; full SL2 enumeration; all 508 strata rerun; timeout=5s; RSS stop=6GiB
+{"closed_minor_orbits": 1, "closed_minor_survivors": 8, "d": 3, "nonempty_orbits": 1, "nonempty_supports": 8, "opposite_pairs": 4, "p": 2, "raw_minor_survivors": 8, "size_at_least_d": 48, "sl2_order": 24, "square_orbits": 1, "square_survivors": 8}
+{"closed_minor_orbits": 1, "closed_minor_survivors": 12, "d": 4, "nonempty_orbits": 1, "nonempty_supports": 12, "opposite_pairs": 6, "p": 5, "raw_minor_survivors": 12, "size_at_least_d": 496, "sl2_order": 48, "square_orbits": 1, "square_survivors": 12}
+{"closed_minor_orbits": 21, "closed_minor_survivors": 2008, "d": 5, "nonempty_orbits": 2, "nonempty_supports": 48, "opposite_pairs": 12, "p": 2, "raw_minor_survivors": 2008, "size_at_least_d": 521472, "sl2_order": 120, "square_orbits": 21, "square_survivors": 2008}
+{"closed_minor_orbits": 65, "closed_minor_survivors": 7288, "d": 5, "nonempty_orbits": 2, "nonempty_supports": 48, "opposite_pairs": 12, "p": 3, "raw_minor_survivors": 7808, "size_at_least_d": 521472, "sl2_order": 120, "square_orbits": 71, "square_survivors": 8008}
+{"closed_minor_orbits": 420, "closed_minor_survivors": 49648, "d": 6, "nonempty_orbits": 6, "nonempty_supports": 112, "opposite_pairs": 16, "p": 7, "raw_minor_survivors": 61950, "size_at_least_d": 42872832, "sl2_order": 144, "square_orbits": 591, "square_survivors": 65536}
+ALL_CHECKS_PASS; elapsed_seconds=24.221253

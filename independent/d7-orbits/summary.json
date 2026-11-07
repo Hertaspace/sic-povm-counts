@@ -1,0 +1,733 @@
+{
+  "exact": {
+    "unit_tests": true,
+    "seconds": 32.207,
+    "seeds": {
+      "F1": {
+        "Z0_is_one": true,
+        "Z0_zero": false,
+        "n_reps": 24,
+        "hermitian": true,
+        "support_zeta": [
+          0
+        ],
+        "doubling_symmetry": true,
+        "fixed_by_P": true,
+        "q_bad_count": 0,
+        "quartic_bad_count": 0
+      },
+      "F2": {
+        "Z0_is_one": true,
+        "Z0_zero": false,
+        "n_reps": 24,
+        "hermitian": true,
+        "support_zeta": [
+          0
+        ],
+        "doubling_symmetry": true,
+        "fixed_by_P": true,
+        "q_bad_count": 0,
+        "quartic_bad_count": 0
+      },
+      "G1": {
+        "Z0_is_one": true,
+        "Z0_zero": false,
+        "n_reps": 24,
+        "hermitian": false,
+        "support_zeta": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "doubling_symmetry": true,
+        "fixed_by_P": true,
+        "q_bad_count": 0,
+        "quartic_bad_count": 0
+      },
+      "G2": {
+        "Z0_is_one": true,
+        "Z0_zero": false,
+        "n_reps": 24,
+        "hermitian": false,
+        "support_zeta": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "doubling_symmetry": true,
+        "fixed_by_P": true,
+        "q_bad_count": 0,
+        "quartic_bad_count": 0
+      }
+    },
+    "sg": {
+      "r1_sq_ok": true,
+      "r1_real": true,
+      "7a": {
+        "Z0_is_one": false,
+        "Z0_zero": false,
+        "n_reps": 24,
+        "hermitian": true,
+        "support_zeta": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "q_bad_count": 0,
+        "doubling_symmetry": true,
+        "fixed_by_P": true,
+        "seed_parallel": []
+      },
+      "7b": {
+        "Z0_is_one": false,
+        "Z0_zero": false,
+        "n_reps": 24,
+        "hermitian": true,
+        "support_zeta": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "q_bad_count": 0,
+        "doubling_symmetry": true,
+        "fixed_by_P": true,
+        "seed_parallel": []
+      }
+    },
+    "covariance": [
+      {
+        "name": "X",
+        "inverse_ok": true,
+        "unidentified": [],
+        "chi_pair_ok": true,
+        "linear_11": true,
+        "sl_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "det": 1,
+        "n_images": 49
+      },
+      {
+        "name": "Z",
+        "inverse_ok": true,
+        "unidentified": [],
+        "chi_pair_ok": true,
+        "linear_11": true,
+        "sl_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "det": 1,
+        "n_images": 49
+      },
+      {
+        "name": "S",
+        "inverse_ok": true,
+        "unidentified": [],
+        "chi_pair_ok": true,
+        "linear_11": true,
+        "sl_matrix": [
+          [
+            1,
+            0
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "det": 1,
+        "n_images": 49
+      },
+      {
+        "name": "F",
+        "inverse_ok": true,
+        "unidentified": [],
+        "chi_pair_ok": true,
+        "linear_11": true,
+        "sl_matrix": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            0
+          ]
+        ],
+        "det": 1,
+        "n_images": 49
+      }
+    ],
+    "P_orthogonal": true,
+    "P_order": true,
+    "P_WT": true,
+    "P_clifford": {
+      "unidentified": [],
+      "sl": [
+        4,
+        0,
+        0,
+        2
+      ],
+      "det": 1,
+      "trace": 6,
+      "chi_pair_ok": true
+    }
+  },
+  "primes": {
+    "673": {
+      "p": 673,
+      "hom": {
+        "s": 390,
+        "r": 178,
+        "i": 615,
+        "z": 117,
+        "quartic_roots": 4
+      },
+      "group_order": 16464,
+      "displacements_distinct": 49,
+      "displacements_in_group": 49,
+      "kernel": 49,
+      "sigma_fail": 0,
+      "chi_fail": 0,
+      "not_linear": 0,
+      "sl_missing": 0,
+      "sl_extra": 0,
+      "fibre_sizes": [
+        49
+      ],
+      "n_symplectic_images": 336,
+      "seeds": {
+        "F1": {
+          "orbit": 5488,
+          "T_orbit": 5488,
+          "T_in_orbit": false,
+          "intersection": 0,
+          "stab": 3,
+          "stab_sl": [
+            {
+              "matrix": [
+                1,
+                0,
+                0,
+                1
+              ],
+              "det": 1,
+              "trace": 2
+            },
+            {
+              "matrix": [
+                2,
+                0,
+                0,
+                4
+              ],
+              "det": 1,
+              "trace": 6
+            },
+            {
+              "matrix": [
+                4,
+                0,
+                0,
+                2
+              ],
+              "det": 1,
+              "trace": 6
+            }
+          ],
+          "wh_images": 49
+        },
+        "F2": {
+          "orbit": 5488,
+          "T_orbit": 5488,
+          "T_in_orbit": true,
+          "intersection": 5488,
+          "stab": 3,
+          "stab_sl": [
+            {
+              "matrix": [
+                1,
+                0,
+                0,
+                1
+              ],
+              "det": 1,
+              "trace": 2
+            },
+            {
+              "matrix": [
+                2,
+                0,
+                0,
+                4
+              ],
+              "det": 1,
+              "trace": 6
+            },
+            {
+              "matrix": [
+                4,
+                0,
+                0,
+                2
+              ],
+              "det": 1,
+              "trace": 6
+            }
+          ],
+          "wh_images": 49
+        },
+        "G1": {
+          "orbit": 5488,
+          "T_orbit": 5488,
+          "T_in_orbit": false,
+          "intersection": 0,
+          "stab": 3,
+          "stab_sl": [
+            {
+              "matrix": [
+                1,
+                0,
+                0,
+                1
+              ],
+              "det": 1,
+              "trace": 2
+            },
+            {
+              "matrix": [
+                2,
+                0,
+                0,
+                4
+              ],
+              "det": 1,
+              "trace": 6
+            },
+            {
+              "matrix": [
+                4,
+                0,
+                0,
+                2
+              ],
+              "det": 1,
+              "trace": 6
+            }
+          ],
+          "wh_images": 49
+        },
+        "G2": {
+          "orbit": 5488,
+          "T_orbit": 5488,
+          "T_in_orbit": true,
+          "intersection": 5488,
+          "stab": 3,
+          "stab_sl": [
+            {
+              "matrix": [
+                1,
+                0,
+                0,
+                1
+              ],
+              "det": 1,
+              "trace": 2
+            },
+            {
+              "matrix": [
+                2,
+                0,
+                0,
+                4
+              ],
+              "det": 1,
+              "trace": 6
+            },
+            {
+              "matrix": [
+                4,
+                0,
+                0,
+                2
+              ],
+              "det": 1,
+              "trace": 6
+            }
+          ],
+          "wh_images": 49
+        }
+      },
+      "ordinary_orbits": [
+        {
+          "rep": "F1",
+          "size": 5488,
+          "overlap_previous": 0
+        },
+        {
+          "rep": "TF1",
+          "size": 5488,
+          "overlap_previous": 0
+        },
+        {
+          "rep": "F2",
+          "size": 5488,
+          "overlap_previous": 0
+        },
+        {
+          "rep": "G1",
+          "size": 5488,
+          "overlap_previous": 0
+        },
+        {
+          "rep": "TG1",
+          "size": 5488,
+          "overlap_previous": 0
+        },
+        {
+          "rep": "G2",
+          "size": 5488,
+          "overlap_previous": 0
+        }
+      ],
+      "extended_family_sizes": {
+        "F1": 10976,
+        "F2": 5488,
+        "G1": 10976,
+        "G2": 5488
+      },
+      "union": 32928,
+      "sg_membership": {
+        "7a": [
+          "F1"
+        ],
+        "7aswap": [
+          "TF1"
+        ],
+        "7b": [
+          "F2",
+          "TF2"
+        ],
+        "7bswap": [
+          "F2",
+          "TF2"
+        ]
+      },
+      "seconds": 25.336
+    },
+    "953": {
+      "p": 953,
+      "hom": {
+        "s": 461,
+        "r": 138,
+        "i": 511,
+        "z": 431,
+        "quartic_roots": 4
+      },
+      "group_order": 16464,
+      "displacements_distinct": 49,
+      "displacements_in_group": 49,
+      "kernel": 49,
+      "sigma_fail": 0,
+      "chi_fail": 0,
+      "not_linear": 0,
+      "sl_missing": 0,
+      "sl_extra": 0,
+      "fibre_sizes": [
+        49
+      ],
+      "n_symplectic_images": 336,
+      "seeds": {
+        "F1": {
+          "orbit": 5488,
+          "T_orbit": 5488,
+          "T_in_orbit": false,
+          "intersection": 0,
+          "stab": 3,
+          "stab_sl": [
+            {
+              "matrix": [
+                1,
+                0,
+                0,
+                1
+              ],
+              "det": 1,
+              "trace": 2
+            },
+            {
+              "matrix": [
+                2,
+                0,
+                0,
+                4
+              ],
+              "det": 1,
+              "trace": 6
+            },
+            {
+              "matrix": [
+                4,
+                0,
+                0,
+                2
+              ],
+              "det": 1,
+              "trace": 6
+            }
+          ],
+          "wh_images": 49
+        },
+        "F2": {
+          "orbit": 5488,
+          "T_orbit": 5488,
+          "T_in_orbit": true,
+          "intersection": 5488,
+          "stab": 3,
+          "stab_sl": [
+            {
+              "matrix": [
+                1,
+                0,
+                0,
+                1
+              ],
+              "det": 1,
+              "trace": 2
+            },
+            {
+              "matrix": [
+                2,
+                0,
+                0,
+                4
+              ],
+              "det": 1,
+              "trace": 6
+            },
+            {
+              "matrix": [
+                4,
+                0,
+                0,
+                2
+              ],
+              "det": 1,
+              "trace": 6
+            }
+          ],
+          "wh_images": 49
+        },
+        "G1": {
+          "orbit": 5488,
+          "T_orbit": 5488,
+          "T_in_orbit": false,
+          "intersection": 0,
+          "stab": 3,
+          "stab_sl": [
+            {
+              "matrix": [
+                1,
+                0,
+                0,
+                1
+              ],
+              "det": 1,
+              "trace": 2
+            },
+            {
+              "matrix": [
+                2,
+                0,
+                0,
+                4
+              ],
+              "det": 1,
+              "trace": 6
+            },
+            {
+              "matrix": [
+                4,
+                0,
+                0,
+                2
+              ],
+              "det": 1,
+              "trace": 6
+            }
+          ],
+          "wh_images": 49
+        },
+        "G2": {
+          "orbit": 5488,
+          "T_orbit": 5488,
+          "T_in_orbit": true,
+          "intersection": 5488,
+          "stab": 3,
+          "stab_sl": [
+            {
+              "matrix": [
+                1,
+                0,
+                0,
+                1
+              ],
+              "det": 1,
+              "trace": 2
+            },
+            {
+              "matrix": [
+                2,
+                0,
+                0,
+                4
+              ],
+              "det": 1,
+              "trace": 6
+            },
+            {
+              "matrix": [
+                4,
+                0,
+                0,
+                2
+              ],
+              "det": 1,
+              "trace": 6
+            }
+          ],
+          "wh_images": 49
+        }
+      },
+      "ordinary_orbits": [
+        {
+          "rep": "F1",
+          "size": 5488,
+          "overlap_previous": 0
+        },
+        {
+          "rep": "TF1",
+          "size": 5488,
+          "overlap_previous": 0
+        },
+        {
+          "rep": "F2",
+          "size": 5488,
+          "overlap_previous": 0
+        },
+        {
+          "rep": "G1",
+          "size": 5488,
+          "overlap_previous": 0
+        },
+        {
+          "rep": "TG1",
+          "size": 5488,
+          "overlap_previous": 0
+        },
+        {
+          "rep": "G2",
+          "size": 5488,
+          "overlap_previous": 0
+        }
+      ],
+      "extended_family_sizes": {
+        "F1": 10976,
+        "F2": 5488,
+        "G1": 10976,
+        "G2": 5488
+      },
+      "union": 32928,
+      "sg_membership": {
+        "7a": [
+          "F1"
+        ],
+        "7aswap": [
+          "TF1"
+        ],
+        "7b": [
+          "F2",
+          "TF2"
+        ],
+        "7bswap": [
+          "F2",
+          "TF2"
+        ]
+      },
+      "seconds": 25.676
+    }
+  },
+  "sg_words": [
+    {
+      "label": "7a",
+      "seed": "F1",
+      "length": 1,
+      "word": [
+        [
+          "G",
+          "Finv"
+        ]
+      ],
+      "exact_parallel": true
+    },
+    {
+      "label": "7aswap",
+      "seed": "F1",
+      "length": 2,
+      "word": [
+        [
+          "G",
+          "Finv"
+        ],
+        [
+          "T",
+          "T"
+        ]
+      ],
+      "exact_parallel": true
+    },
+    {
+      "label": "7b",
+      "seed": "F2",
+      "length": 1,
+      "word": [
+        [
+          "G",
+          "F"
+        ]
+      ],
+      "exact_parallel": true
+    },
+    {
+      "label": "7bswap",
+      "seed": "F2",
+      "length": 1,
+      "word": [
+        [
+          "G",
+          "Finv"
+        ]
+      ],
+      "exact_parallel": true
+    }
+  ]
+}

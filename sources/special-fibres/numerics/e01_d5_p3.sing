@@ -1,0 +1,14 @@
+ring R=3,(y,t,b1,b2,b3,b4,a1,a2,a3,a4),dp;
+short=0; option(redSB);
+ideal I=1+a1^2*b1^2+a2^2*b2^2+a3^2*b3^2+a4^2*b4^2-2*t,a1*a2*b1*b2+a1*b1+a2*a3*b2*b3+a3*a4*b3*b4+a4*b4-1*t,a1*a3*b1*b3+a1*a4*b1*b4+a2*a4*b2*b4+a2*b2+a3*b3-1*t,a1*a3*b2^2+a1*a4+a2*a4*b3^2+a2*b1^2+a3*b4^2,a1*a3*b4+a1*a4*b2*b3+a2*a4*b1+a2*b3*b4+a3*b1*b2,a1*a2*b3+a1*b2*b4+a2*a3*b1*b4+a3*a4*b2+a4*b1*b3,a1^2*b2+a2^2*b1*b3+a3^2*b2*b4+a4^2*b3+b1*b4,a1*a2*b4^2+a1*b3^2+a2*a3+a3*a4*b1^2+a4*b2^2,a1^2*b3*b4+a2^2*b4+a3^2*b1+a4^2*b1*b2+b2*b3,t*y-1;
+poly N=1+a1*b1+a2*b2+a3*b3+a4*b4;
+ideal G=std(I);
+"FULL_DIM",dim(G); "FULL_LENGTH",vdim(G);
+ideal H=std(G+ideal(N));
+"NULL_DIM",dim(H); "NULL_LENGTH",vdim(H);
+"TRACE_SQUARE_REMAINDER",reduce(N^2-(6)*t,G);
+"BEGIN_DP"; H; "END_DP";
+ring L=3,(y,t,b1,b2,b3,b4,a1,a2,a3,a4),lp; short=0;
+ideal J=fglm(R,H);
+"BEGIN_LEX"; J; "END_LEX";
+quit;

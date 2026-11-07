@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "records": {
+    "e40_replay_boundary.json": "4aaa66404b9b06f18b12b5309650d29cafa45940d252e82b62f2fe4563759537",
+    "e41_replay_inputs.json": "8a7adcbb7abf01551340658eb290229a1ed61acd3ab275e3e84a119f54505352",
+    "e42_replay_known_orbits.out": "2c733a171cb6bd446f11f1720382021233223980ff7de01a914723b2e3847c30",
+    "e90_component_audit.json": "0e0c3035c98a3ac72c26a302ac2271da4ab9906c1eea6d65ad4d0aa83b4d1de1",
+    "e90_r1_plain_audit.json": "4ead4cecd791660bb64ee1875ad179e40b71bf7b994834817adf108431e2c531"
+  },
+  "checked_dependency_hashes": 263,
+  "identity_count": 147,
+  "six_fresh_covers": "UNSAT",
+  "full_special_points": 3456,
+  "full_complex_points": 6912,
+  "upper_bound_recomputed": true,
+  "stages": [
+    {
+      "script": "e40_replay_boundary.py",
+      "command": [
+        "python3",
+        "-B",
+        "sources/d6/numerics/e40_replay_boundary.py"
+      ],
+      "seconds": 98.959151
+    },
+    {
+      "script": "e41_replay_inputs.py",
+      "command": [
+        "python3",
+        "-B",
+        "sources/d6/numerics/e41_replay_inputs.py",
+        "--recompute-upper"
+      ],
+      "seconds": 270.267174
+    },
+    {
+      "script": "e42_replay_known_orbits.py",
+      "command": [
+        "python3",
+        "-B",
+        "sources/d6/numerics/e42_replay_known_orbits.py"
+      ],
+      "seconds": 1.875026
+    },
+    {
+      "script": "e90_component_audit.py",
+      "command": [
+        "python3",
+        "-B",
+        "sources/d6/numerics/e90_component_audit.py"
+      ],
+      "seconds": 2.908572
+    },
+    {
+      "script": "e90_r1_plain_audit.py",
+      "command": [
+        "python3",
+        "-B",
+        "sources/d6/numerics/e90_r1_plain_audit.py"
+      ],
+      "seconds": 18.06931
+    }
+  ],
+  "records_only": false,
+  "seconds": 392.090645,
+  "own_script_sha256": "e5ad8410860889a638de67dc0b5e8462d8e6216bd9b093b6afbad0b4ace6e46b"
+}

@@ -1,0 +1,8 @@
+{"command": ["Singular", "-q", "--no-rc", "--random=20261031", "--cpus=1", "--threads=1", "--flint-threads=1", "sources/d4-upper/numerics/e01_d4_fiber.sing"], "complements": true, "d": 4, "exact": true, "python": "3.15.0", "q": 625, "returncode": 0, "seconds": 34.552, "seed": 20261031, "singular": "4.4.1"}
+CHART_DIM=0
+CHART_LENGTH=512
+TRACE_RELATION_REMAINDER=0
+TRACE_ZERO_LENGTH=256
+TRACE_ZERO_REDUCED=1
+A_COMPLEMENT_UNIT=1
+B_COMPLEMENT_UNIT=1

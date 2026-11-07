@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "claim": "ghosts",
+  "mode": "records-only",
+  "result": "work/final-ghosts/result.json",
+  "workspace": "repo",
+  "error": null
+}

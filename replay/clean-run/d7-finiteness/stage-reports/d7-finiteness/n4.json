@@ -1,0 +1,323 @@
+{
+  "n_patterns": 343,
+  "blocks": [
+    {
+      "mask": 16256,
+      "orbit_index": 0,
+      "n_certificates": 8,
+      "n_cells_used": 8,
+      "z3": "unsat",
+      "seconds": 643.610830783844,
+      "sample": null,
+      "notes": [
+        {
+          "file": "e21_nf5_p29_m16256_b0_main_c0000.json.gz.part000",
+          "n_cell_polys": 6,
+          "n_cell_entries": 6,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m16256_b0_main_c0001.json.gz.part000",
+          "n_cell_polys": 8,
+          "n_cell_entries": 8,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m16256_b0_main_c0002.json.gz.part000",
+          "n_cell_polys": 5,
+          "n_cell_entries": 5,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m16256_b0_main_c0003.json.gz.part000",
+          "n_cell_polys": 7,
+          "n_cell_entries": 7,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_circuit_p29_m16256_b0_hard_smoke.json.gz.part000",
+          "n_cell_polys": 78,
+          "n_cell_entries": 78,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m16256_b0_main_c0005.json.gz.part000",
+          "n_cell_polys": 8,
+          "n_cell_entries": 8,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m16256_b0_main_c0006.json.gz.part000",
+          "n_cell_polys": 51,
+          "n_cell_entries": 51,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m16256_b0_main_c0007.json.gz.part000",
+          "n_cell_polys": 54,
+          "n_cell_entries": 54,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mask": 2097024,
+      "orbit_index": 0,
+      "n_certificates": 3,
+      "n_cells_used": 3,
+      "z3": "unsat",
+      "seconds": 144.84648251533508,
+      "sample": null,
+      "notes": [
+        {
+          "file": "e21_nf5_p29_m2097024_b0_main_c0000.json.gz.part000",
+          "n_cell_polys": 7,
+          "n_cell_entries": 7,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m2097024_b0_main_c0001.json.gz.part000",
+          "n_cell_polys": 8,
+          "n_cell_entries": 8,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m2097024_b0_main_c0002.json.gz.part000",
+          "n_cell_polys": 6,
+          "n_cell_entries": 6,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mask": 2097024,
+      "orbit_index": 1,
+      "n_certificates": 3,
+      "n_cells_used": 3,
+      "z3": "unsat",
+      "seconds": 72.70812511444092,
+      "sample": null,
+      "notes": [
+        {
+          "file": "e21_nf5_p29_m2097024_b1_main_c0000.json.gz.part000",
+          "n_cell_polys": 7,
+          "n_cell_entries": 7,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m2097024_b1_main_c0001.json.gz.part000",
+          "n_cell_polys": 8,
+          "n_cell_entries": 8,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m2097024_b1_main_c0002.json.gz.part000",
+          "n_cell_polys": 6,
+          "n_cell_entries": 6,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mask": 266354560,
+      "orbit_index": 0,
+      "n_certificates": 3,
+      "n_cells_used": 3,
+      "z3": "unsat",
+      "seconds": 137.80569505691528,
+      "sample": null,
+      "notes": [
+        {
+          "file": "e21_nf5_p29_m266354560_b0_main_c0000.json.gz.part000",
+          "n_cell_polys": 7,
+          "n_cell_entries": 7,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m266354560_b0_main_c0001.json.gz.part000",
+          "n_cell_polys": 3,
+          "n_cell_entries": 3,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m266354560_b0_main_c0002.json.gz.part000",
+          "n_cell_polys": 7,
+          "n_cell_entries": 7,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mask": 266354560,
+      "orbit_index": 1,
+      "n_certificates": 3,
+      "n_cells_used": 3,
+      "z3": "unsat",
+      "seconds": 54.488486528396606,
+      "sample": null,
+      "notes": [
+        {
+          "file": "e21_nf5_p29_m266354560_b1_main_c0000.json.gz.part000",
+          "n_cell_polys": 6,
+          "n_cell_entries": 6,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m266354560_b1_main_c0001.json.gz.part000",
+          "n_cell_polys": 3,
+          "n_cell_entries": 3,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        },
+        {
+          "file": "e21_nf5_p29_m266354560_b1_main_c0002.json.gz.part000",
+          "n_cell_polys": 7,
+          "n_cell_entries": 7,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mask": 268435328,
+      "orbit_index": 0,
+      "n_certificates": 1,
+      "n_cells_used": 1,
+      "z3": "unsat",
+      "seconds": 2.165417432785034,
+      "sample": null,
+      "notes": [
+        {
+          "file": "e21_nf5_p29_m268435328_b0_main_c0000.json.gz.part000",
+          "n_cell_polys": 7,
+          "n_cell_entries": 7,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mask": 268435328,
+      "orbit_index": 1,
+      "n_certificates": 1,
+      "n_cells_used": 1,
+      "z3": "unsat",
+      "seconds": 2.0731756687164307,
+      "sample": null,
+      "notes": [
+        {
+          "file": "e21_nf5_p29_m268435328_b1_main_c0000.json.gz.part000",
+          "n_cell_polys": 6,
+          "n_cell_entries": 6,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mask": 268435328,
+      "orbit_index": 2,
+      "n_certificates": 1,
+      "n_cells_used": 1,
+      "z3": "unsat",
+      "seconds": 1.979055404663086,
+      "sample": null,
+      "notes": [
+        {
+          "file": "e21_nf5_p29_m268435328_b2_main_c0000.json.gz.part000",
+          "n_cell_polys": 7,
+          "n_cell_entries": 7,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mask": 34093399936,
+      "orbit_index": 0,
+      "n_certificates": 1,
+      "n_cells_used": 1,
+      "z3": "unsat",
+      "seconds": 1.9106976985931396,
+      "sample": null,
+      "notes": [
+        {
+          "file": "e21_nf5_p29_m34093399936_b0_main_c0000.json.gz.part000",
+          "n_cell_polys": 3,
+          "n_cell_entries": 3,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mask": 34093399936,
+      "orbit_index": 1,
+      "n_certificates": 1,
+      "n_cells_used": 1,
+      "z3": "unsat",
+      "seconds": 2.0604910850524902,
+      "sample": null,
+      "notes": [
+        {
+          "file": "e21_nf5_p29_m34093399936_b1_main_c0000.json.gz.part000",
+          "n_cell_polys": 3,
+          "n_cell_entries": 3,
+          "certificate_weight_in_cell": true,
+          "mu": "1",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "mask": 267386752,
+      "orbit_index": null,
+      "kind": "twenty-element-base",
+      "z3": "unsat",
+      "seconds": 1.5211968421936035,
+      "sample_prefix": null
+    }
+  ]
+}

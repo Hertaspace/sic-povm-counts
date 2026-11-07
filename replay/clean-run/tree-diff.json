@@ -1,0 +1,25 @@
+{
+  "source_tree_sha256": "80cd8d86666285eecba5de16c11f192dfa489e4686430bf7e7d618a24fca538d",
+  "recorded_inputs": 1561,
+  "identical": 1546,
+  "changed": [
+    "LICENSE",
+    "MANIFEST.md",
+    "PROOFS/d4.md",
+    "PROOFS/d5.md",
+    "PROOFS/d6.md",
+    "PROOFS/d7.md",
+    "PROOFS/ghosts.md",
+    "README.md",
+    "SHA256SUMS",
+    "release/README.md",
+    "release/attachment.json",
+    "replay/ENVIRONMENT.md",
+    "replay/PRIVACY.md",
+    "replay/VALIDATION.md",
+    "requirements.txt"
+  ],
+  "added_outside_clean_run": [
+    "LICENSE-DATA"
+  ]
+}

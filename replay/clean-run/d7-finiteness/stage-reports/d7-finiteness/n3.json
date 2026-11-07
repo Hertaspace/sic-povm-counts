@@ -1,0 +1,2526 @@
+{
+  "merge_status_field": "PASS",
+  "n": 25,
+  "results": [
+    {
+      "sum_is_1": true,
+      "n_members": 15,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          59,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          447,
+          "square",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3282,
+          "trace",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m16256_b0_main_c0000.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 16256,
+      "orbit_index": 0,
+      "sha256": "b771f149c86c4ee5e1d0d3ae9f8bb2ad15a5c45ed0b096b5347512200a183b0f",
+      "grade_weight_mismatches_sample": []
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          19,
+          "minor",
+          "initial"
+        ],
+        [
+          41,
+          "minor",
+          "initial"
+        ],
+        [
+          68,
+          "minor",
+          "initial"
+        ],
+        [
+          94,
+          "minor",
+          "initial"
+        ],
+        [
+          107,
+          "minor",
+          "initial"
+        ],
+        [
+          119,
+          "minor",
+          "initial"
+        ],
+        [
+          362,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3275,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m16256_b0_main_c0001.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 16256,
+      "orbit_index": 0,
+      "sha256": "d21d67c5e229bbe0bd52eeded50c5bd9ac1e3ed3ccae3b14155fff71be4f813c",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 15,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          104,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3260,
+          "product",
+          "full"
+        ],
+        [
+          3282,
+          "trace",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m16256_b0_main_c0002.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 16256,
+      "orbit_index": 0,
+      "sha256": "255b18ff6395cc138d27b68b00f6102ca2d80a81df28c02f2d72bcf3409be370",
+      "grade_weight_mismatches_sample": []
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 21,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          17,
+          "minor",
+          "initial"
+        ],
+        [
+          40,
+          "minor",
+          "initial"
+        ],
+        [
+          62,
+          "minor",
+          "initial"
+        ],
+        [
+          106,
+          "minor",
+          "initial"
+        ],
+        [
+          404,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          482,
+          "square",
+          "initial"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3268,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m16256_b0_main_c0003.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 16256,
+      "orbit_index": 0,
+      "sha256": "f72b113ee1e6dccf265fa372e0326db823c037135dfd9533577b121e11908a7c",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "sum_terms": 1,
+      "step_fail": null,
+      "interp_counts": {
+        "equation": 5,
+        "monic": 23
+      },
+      "n_steps": 28,
+      "nonhomogeneous_generators_sample": [],
+      "n_nonhomogeneous_truncated": 0,
+      "generators_matched_to_model": 516,
+      "n_generators": 3290,
+      "unmatched_sample": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288,
+        3289
+      ],
+      "dependency_missing_from_declared": [],
+      "n_dependency_missing": 0,
+      "n_declared_extra_leaves": 0,
+      "n_used_leaves": 106,
+      "used_generators_matched_to_model": 101,
+      "used_generators_matched_to_projections": 48,
+      "unmatched_used_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_circuit_p29_m16256_b0_hard_smoke.json.gz.part000"
+      ],
+      "schema": "portable-unit-circuit-v1",
+      "mask": 16256,
+      "orbit_index": 0,
+      "sha256": "b1f5c2483489de1989a935b404ceaab30eb5746ea325c803eb46544d62593f7e",
+      "grade_weight_mismatches_sample": []
+    },
+    {
+      "sum_is_1": true,
+      "sum_terms": 1,
+      "step_fail": null,
+      "interp_counts": {
+        "equation": 5,
+        "monic": 26
+      },
+      "n_steps": 31,
+      "nonhomogeneous_generators_sample": [],
+      "n_nonhomogeneous_truncated": 0,
+      "generators_matched_to_model": 517,
+      "n_generators": 3290,
+      "unmatched_sample": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288,
+        3289
+      ],
+      "dependency_missing_from_declared": [],
+      "n_dependency_missing": 0,
+      "n_declared_extra_leaves": 0,
+      "n_used_leaves": 21,
+      "used_generators_matched_to_model": 16,
+      "used_generators_matched_to_projections": 0,
+      "unmatched_used_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m16256_b0_main_c0005.json.gz.part000"
+      ],
+      "schema": "portable-unit-circuit-v1",
+      "mask": 16256,
+      "orbit_index": 0,
+      "sha256": "a52e5cc8fc4836368297cf0eb3d092b4209936d9a502f0d78d6509aa6ade83ff",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "sum_terms": 1,
+      "step_fail": null,
+      "interp_counts": {
+        "equation": 5,
+        "monic": 26
+      },
+      "n_steps": 31,
+      "nonhomogeneous_generators_sample": [],
+      "n_nonhomogeneous_truncated": 0,
+      "generators_matched_to_model": 517,
+      "n_generators": 3290,
+      "unmatched_sample": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288,
+        3289
+      ],
+      "dependency_missing_from_declared": [],
+      "n_dependency_missing": 0,
+      "n_declared_extra_leaves": 0,
+      "n_used_leaves": 77,
+      "used_generators_matched_to_model": 72,
+      "used_generators_matched_to_projections": 16,
+      "unmatched_used_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m16256_b0_main_c0006.json.gz.part000"
+      ],
+      "schema": "portable-unit-circuit-v1",
+      "mask": 16256,
+      "orbit_index": 0,
+      "sha256": "b49d94f4b654c38d235d116913fb50cb36990d9e625aaddb4298ebb2e08e67f9",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "sum_terms": 1,
+      "step_fail": null,
+      "interp_counts": {
+        "equation": 5,
+        "monic": 24
+      },
+      "n_steps": 29,
+      "nonhomogeneous_generators_sample": [],
+      "n_nonhomogeneous_truncated": 0,
+      "generators_matched_to_model": 517,
+      "n_generators": 3290,
+      "unmatched_sample": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288,
+        3289
+      ],
+      "dependency_missing_from_declared": [],
+      "n_dependency_missing": 0,
+      "n_declared_extra_leaves": 0,
+      "n_used_leaves": 81,
+      "used_generators_matched_to_model": 76,
+      "used_generators_matched_to_projections": 23,
+      "unmatched_used_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m16256_b0_main_c0007.json.gz.part000"
+      ],
+      "schema": "portable-unit-circuit-v1",
+      "mask": 16256,
+      "orbit_index": 0,
+      "sha256": "f4432738a443636db53f61f15b4449a5183b610c837fe7f19fc5b2f5a252b4b9",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          59,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          110,
+          "minor",
+          "initial"
+        ],
+        [
+          447,
+          "square",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m2097024_b0_main_c0000.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 2097024,
+      "orbit_index": 0,
+      "sha256": "9b751002dd4e66bcc53994ead414f5f1245e2240a7985a7a50e1f76d34ae0d13",
+      "grade_weight_mismatches_sample": []
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          19,
+          "minor",
+          "initial"
+        ],
+        [
+          41,
+          "minor",
+          "initial"
+        ],
+        [
+          68,
+          "minor",
+          "initial"
+        ],
+        [
+          94,
+          "minor",
+          "initial"
+        ],
+        [
+          107,
+          "minor",
+          "initial"
+        ],
+        [
+          119,
+          "minor",
+          "initial"
+        ],
+        [
+          362,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3275,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m2097024_b0_main_c0001.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 2097024,
+      "orbit_index": 0,
+      "sha256": "32f8e84f9e0454f7db080146f4f0394118a8311d4aedaf6da3919a7bc4116be2",
+      "grade_weight_mismatches_sample": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          104,
+          "minor",
+          "initial"
+        ],
+        [
+          110,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3260,
+          "product",
+          "full"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m2097024_b0_main_c0002.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 2097024,
+      "orbit_index": 0,
+      "sha256": "83b490c7870aac973dc753d1b4f1299c722d1d2582ada8350c8d52e9425a1bc2",
+      "grade_weight_mismatches_sample": []
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          59,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          110,
+          "minor",
+          "initial"
+        ],
+        [
+          447,
+          "square",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m2097024_b1_main_c0000.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 2097024,
+      "orbit_index": 1,
+      "sha256": "f36e9f93c882c36b1689740b41ce85e684bb95a6aeaf1e2bcb9d87c1215d215f",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          19,
+          "minor",
+          "initial"
+        ],
+        [
+          41,
+          "minor",
+          "initial"
+        ],
+        [
+          68,
+          "minor",
+          "initial"
+        ],
+        [
+          94,
+          "minor",
+          "initial"
+        ],
+        [
+          107,
+          "minor",
+          "initial"
+        ],
+        [
+          119,
+          "minor",
+          "initial"
+        ],
+        [
+          362,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3275,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m2097024_b1_main_c0001.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 2097024,
+      "orbit_index": 1,
+      "sha256": "97340a5ba850517e63d189984f5a19397b16b62706f31a320f5fb175142b00f1",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          104,
+          "minor",
+          "initial"
+        ],
+        [
+          110,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3260,
+          "product",
+          "full"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m2097024_b1_main_c0002.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 2097024,
+      "orbit_index": 1,
+      "sha256": "bf41c6ebc25c185c3f7886e3f0c6520deef104f241be0ed05c695b4c02ceeeb7",
+      "grade_weight_mismatches_sample": []
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 28,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          20,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          59,
+          "minor",
+          "initial"
+        ],
+        [
+          104,
+          "minor",
+          "initial"
+        ],
+        [
+          110,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3260,
+          "product",
+          "full"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ],
+        [
+          3290,
+          "block",
+          "full"
+        ],
+        [
+          3291,
+          "block",
+          "full"
+        ],
+        [
+          3292,
+          "block",
+          "full"
+        ],
+        [
+          3293,
+          "block",
+          "full"
+        ],
+        [
+          3294,
+          "block",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m266354560_b0_main_c0000.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 266354560,
+      "orbit_index": 0,
+      "sha256": "e8cf1aa62d648759b0fcc07269b165b0bba80006742fdf0a4c9ad0b0b8170c82",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          20,
+          "minor",
+          "initial"
+        ],
+        [
+          108,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3275,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ],
+        [
+          3290,
+          "block",
+          "full"
+        ],
+        [
+          3291,
+          "block",
+          "full"
+        ],
+        [
+          3292,
+          "block",
+          "full"
+        ],
+        [
+          3293,
+          "block",
+          "full"
+        ],
+        [
+          3294,
+          "block",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m266354560_b0_main_c0001.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 266354560,
+      "orbit_index": 0,
+      "sha256": "75962ee961e2f9f96cc12fd20a430b25204a2ec12a5b42198427bef76f9ede14",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          59,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          110,
+          "minor",
+          "initial"
+        ],
+        [
+          447,
+          "square",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m266354560_b0_main_c0002.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 266354560,
+      "orbit_index": 0,
+      "sha256": "49f52cbe1d498226e42b83e2d30d9184250a7210dbee14814851cdcaba0bce61",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 21,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          20,
+          "minor",
+          "initial"
+        ],
+        [
+          59,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          104,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3260,
+          "product",
+          "full"
+        ],
+        [
+          3282,
+          "trace",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ],
+        [
+          3290,
+          "block",
+          "full"
+        ],
+        [
+          3291,
+          "block",
+          "full"
+        ],
+        [
+          3292,
+          "block",
+          "full"
+        ],
+        [
+          3293,
+          "block",
+          "full"
+        ],
+        [
+          3294,
+          "block",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m266354560_b1_main_c0000.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 266354560,
+      "orbit_index": 1,
+      "sha256": "14864fa44a59c774b65385abb114efab204b69c1a381e3e13d6f0468f067a19c",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          20,
+          "minor",
+          "initial"
+        ],
+        [
+          299,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3275,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ],
+        [
+          3290,
+          "block",
+          "full"
+        ],
+        [
+          3291,
+          "block",
+          "full"
+        ],
+        [
+          3292,
+          "block",
+          "full"
+        ],
+        [
+          3293,
+          "block",
+          "full"
+        ],
+        [
+          3294,
+          "block",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m266354560_b1_main_c0001.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 266354560,
+      "orbit_index": 1,
+      "sha256": "8d5ed1bc895b5e2282cdb74bfde7121c379f7148bca03d3b6ec454ecd54c673f",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          59,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          110,
+          "minor",
+          "initial"
+        ],
+        [
+          447,
+          "square",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m266354560_b1_main_c0002.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 266354560,
+      "orbit_index": 1,
+      "sha256": "664d2c2a625964aa7fdb30eb093117a523351bacfaa8950a8bb0bd711e6be162",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          59,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          110,
+          "minor",
+          "initial"
+        ],
+        [
+          447,
+          "square",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m268435328_b0_main_c0000.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 268435328,
+      "orbit_index": 0,
+      "sha256": "8b21c54cdba6cd9eb43ac0622e7476dfea21f4b6facb0d170a3aa21112c6e271",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 15,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          59,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          447,
+          "square",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3282,
+          "trace",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m268435328_b1_main_c0000.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 268435328,
+      "orbit_index": 1,
+      "sha256": "eb4b22ea8f066de19ce896ad3e469885844122cb0218ba581aa52d49cc557097",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          10,
+          "minor",
+          "initial"
+        ],
+        [
+          35,
+          "minor",
+          "initial"
+        ],
+        [
+          59,
+          "minor",
+          "initial"
+        ],
+        [
+          82,
+          "minor",
+          "initial"
+        ],
+        [
+          110,
+          "minor",
+          "initial"
+        ],
+        [
+          447,
+          "square",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3258,
+          "product",
+          "full"
+        ],
+        [
+          3259,
+          "product",
+          "full"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m268435328_b2_main_c0000.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 268435328,
+      "orbit_index": 2,
+      "sha256": "ab4c4e9dfd2433207cee475cf1328a26b9b0d696dd9b46c4e5048e674a28cec6",
+      "grade_weight_mismatches_sample": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          19,
+          "minor",
+          "initial"
+        ],
+        [
+          107,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3275,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ],
+        [
+          3296,
+          "block",
+          "full"
+        ],
+        [
+          3297,
+          "block",
+          "full"
+        ],
+        [
+          3298,
+          "block",
+          "full"
+        ],
+        [
+          3299,
+          "block",
+          "full"
+        ],
+        [
+          3300,
+          "block",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m34093399936_b0_main_c0000.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 34093399936,
+      "orbit_index": 0,
+      "sha256": "14e97bbc1f0c70df70228f3952c2abd39c474ee1d9ecab26ffcd0fd895faf82a",
+      "grade_weight_mismatches_sample": []
+    },
+    {
+      "sum_is_1": true,
+      "n_members": 22,
+      "unmatched_generator_indices": [
+        3284,
+        3285,
+        3286,
+        3287,
+        3288
+      ],
+      "matched_kinds": [
+        [
+          19,
+          "minor",
+          "initial"
+        ],
+        [
+          362,
+          "minor",
+          "initial"
+        ],
+        [
+          454,
+          "square",
+          "initial"
+        ],
+        [
+          3261,
+          "product",
+          "full"
+        ],
+        [
+          3262,
+          "product",
+          "full"
+        ],
+        [
+          3263,
+          "product",
+          "full"
+        ],
+        [
+          3264,
+          "product",
+          "full"
+        ],
+        [
+          3265,
+          "product",
+          "full"
+        ],
+        [
+          3266,
+          "product",
+          "full"
+        ],
+        [
+          3267,
+          "product",
+          "full"
+        ],
+        [
+          3275,
+          "product",
+          "full"
+        ],
+        [
+          3283,
+          "ty",
+          "full"
+        ],
+        [
+          3296,
+          "block",
+          "full"
+        ],
+        [
+          3297,
+          "block",
+          "full"
+        ],
+        [
+          3298,
+          "block",
+          "full"
+        ],
+        [
+          3299,
+          "block",
+          "full"
+        ],
+        [
+          3300,
+          "block",
+          "full"
+        ]
+      ],
+      "sum_terms": 1,
+      "unmatched_linear_in_block_span": 5,
+      "unmatched_not_explained": [],
+      "files": [
+        "e21_nf5_p29_m34093399936_b1_main_c0000.json.gz.part000"
+      ],
+      "schema": "portable-unit-cell-v1",
+      "mask": 34093399936,
+      "orbit_index": 1,
+      "sha256": "4ac25341957e4264e2ed21292771a0fc733c2b21f069a60f38bffa9d7504b9ab",
+      "grade_weight_mismatches_sample": []
+    }
+  ]
+}

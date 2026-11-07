@@ -1,0 +1,1718 @@
+{
+  "schema": "nf5-rectangle-cover-v1",
+  "seed": 20261031,
+  "d": 7,
+  "p": 29,
+  "mask": 2097024,
+  "orbit_index": 1,
+  "support": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "rectangle": {
+    "schema": "nf5-residual-rectangle-v1",
+    "source": "local-complete-e11-catalogue",
+    "d": 7,
+    "p": 29,
+    "mask": 2097024,
+    "orbit_index": 1,
+    "x_shift": 0,
+    "A": [
+      0,
+      1
+    ],
+    "B": [
+      6
+    ],
+    "a_support": [
+      0,
+      1
+    ],
+    "b_support": [
+      6
+    ],
+    "a_size": 2,
+    "b_size": 1,
+    "projective_component_dimension": 1,
+    "parameters": {
+      "a": [
+        "a0",
+        "a1"
+      ],
+      "b": [
+        "b6"
+      ],
+      "parameter_space": "P^1 x P^0",
+      "no_a_or_b_coordinate_fixed": true
+    },
+    "residual_labels": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+    "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+    "weight_action": {
+      "shear": "diagonal conjugation preserves A and B",
+      "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+      "reflected_A": [
+        1
+      ],
+      "reflected_B": [
+        0,
+        6
+      ],
+      "reflection_X_correction": null,
+      "safe_pairs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "orbit_false_always_safe": true,
+      "full_e22_orbit_safe": false
+    }
+  },
+  "field": {
+    "p": 29,
+    "degree": 1,
+    "modulus": [
+      0,
+      1
+    ],
+    "tau": 16,
+    "tau_coefficients": [
+      16
+    ],
+    "tau_order": 7,
+    "digits": 8,
+    "valuation_normalization": "v(p)=1",
+    "trace_exponent": 0
+  },
+  "projected": true,
+  "certificates": [
+    {
+      "files": [
+        "e21_nf5_p29_m2097024_b1_main_c0000.json.gz.part000"
+      ],
+      "uncompressed_bytes": 40234,
+      "compressed_bytes": 7635,
+      "uncompressed_sha256": "f36e9f93c882c36b1689740b41ce85e684bb95a6aeaf1e2bcb9d87c1215d215f"
+    },
+    {
+      "files": [
+        "e21_nf5_p29_m2097024_b1_main_c0001.json.gz.part000"
+      ],
+      "uncompressed_bytes": 41221,
+      "compressed_bytes": 6470,
+      "uncompressed_sha256": "97340a5ba850517e63d189984f5a19397b16b62706f31a320f5fb175142b00f1"
+    },
+    {
+      "files": [
+        "e21_nf5_p29_m2097024_b1_main_c0002.json.gz.part000"
+      ],
+      "uncompressed_bytes": 39691,
+      "compressed_bytes": 7551,
+      "uncompressed_sha256": "bf41c6ebc25c185c3f7886e3f0c6520deef104f241be0ed05c695b4c02ceeeb7"
+    }
+  ],
+  "attempts": [
+    {
+      "iteration": 0,
+      "mu": "1",
+      "weights": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "search": {
+        "eliminated_variables": [
+          "z42",
+          "z13",
+          "z43",
+          "z8",
+          "z48",
+          "z9",
+          "z47",
+          "z10",
+          "z46",
+          "z11",
+          "z12",
+          "z45",
+          "z44",
+          "z14",
+          "z15",
+          "z16",
+          "z17",
+          "z18",
+          "z19",
+          "z0",
+          "z1",
+          "z2",
+          "z3",
+          "z4",
+          "z28",
+          "z29",
+          "z30",
+          "z31",
+          "z21",
+          "z22",
+          "z23",
+          "z24",
+          "z35",
+          "z36"
+        ],
+        "elimination_steps": 34,
+        "original_generators": 3296,
+        "method": "affine-elimination-graded",
+        "normalization": "block",
+        "affine_preprocessing_seconds": 5.418275,
+        "status": "certified",
+        "pid": 99904,
+        "returncode": 0,
+        "seconds": 0.007376,
+        "sampled_peak_rss_bytes": 0,
+        "rss_stop_bytes": 2800000000,
+        "seconds_limit": 60.0,
+        "command": [
+          "Singular",
+          "--no-rc",
+          "--random=20261031",
+          "--cpus=1",
+          "--threads=1",
+          "--flint-threads=1",
+          "-q"
+        ],
+        "source_sha256": "f174d9d150a7255e2bf95ccc19bc30e5de129e09d5c18b24dec56134dcd704a1",
+        "reduced_variables": [
+          "z20",
+          "z25",
+          "z26",
+          "z27",
+          "z32",
+          "z33",
+          "z34",
+          "z37",
+          "z38",
+          "z39",
+          "z40",
+          "z41",
+          "z5",
+          "z6"
+        ],
+        "reduced_generators": 55,
+        "initial_result": [
+          -1,
+          0,
+          1
+        ],
+        "python_replay": {
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 7,
+          "normalization": "block",
+          "normalization_info": {
+            "schema": "nf5-residual-rectangle-v1",
+            "source": "local-complete-e11-catalogue",
+            "d": 7,
+            "p": 29,
+            "mask": 2097024,
+            "orbit_index": 1,
+            "x_shift": 0,
+            "A": [
+              0,
+              1
+            ],
+            "B": [
+              6
+            ],
+            "a_support": [
+              0,
+              1
+            ],
+            "b_support": [
+              6
+            ],
+            "a_size": 2,
+            "b_size": 1,
+            "projective_component_dimension": 1,
+            "parameters": {
+              "a": [
+                "a0",
+                "a1"
+              ],
+              "b": [
+                "b6"
+              ],
+              "parameter_space": "P^1 x P^0",
+              "no_a_or_b_coordinate_fixed": true
+            },
+            "residual_labels": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+            "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+            "weight_action": {
+              "shear": "diagonal conjugation preserves A and B",
+              "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+              "reflected_A": [
+                1
+              ],
+              "reflected_B": [
+                0,
+                6
+              ],
+              "reflection_X_correction": null,
+              "safe_pairs": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "orbit_false_always_safe": true,
+              "full_e22_orbit_safe": false
+            },
+            "kind": "complete-residual-coordinate-rectangle",
+            "block_size": 2,
+            "relations": [
+              "(1)*1+(13)*z13",
+              "(1)*z8+(5)*z13",
+              "(1)*z9+(22)*z13",
+              "(1)*z10+(4)*z13",
+              "(1)*z11+(6)*z13",
+              "(1)*z12+(9)*z13",
+              "(1)*z14+(28)*z20",
+              "(1)*z15+(28)*z20",
+              "(1)*z16+(28)*z20",
+              "(1)*z17+(28)*z20",
+              "(1)*z18+(28)*z20",
+              "(1)*z19+(28)*z20"
+            ],
+            "linear_rank": 12,
+            "residual_matrix_vector_dimension": 2,
+            "rref_labels": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "rref_coefficients": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                13,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                22,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                6,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                28
+              ]
+            ],
+            "coefficient_encoding": "base-p in the recorded finite-field modulus",
+            "proof": "invertible Fourier reconstruction; all forbidden matrix entries vanish; exact finite-field RREF",
+            "all_positive_weight_z_retained": true
+          }
+        },
+        "total_seconds": 9.37236,
+        "certificate": {
+          "files": [
+            "e21_nf5_p29_m2097024_b1_main_c0000.json.gz.part000"
+          ],
+          "uncompressed_bytes": 40234,
+          "compressed_bytes": 7635,
+          "uncompressed_sha256": "f36e9f93c882c36b1689740b41ce85e684bb95a6aeaf1e2bcb9d87c1215d215f"
+        }
+      }
+    },
+    {
+      "iteration": 1,
+      "mu": "1",
+      "weights": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "7/8",
+        "7/8",
+        "7/8",
+        "7/8",
+        "7/8",
+        "7/8",
+        "7/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1/8",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "search": {
+        "eliminated_variables": [
+          "z42",
+          "z13",
+          "z43",
+          "z8",
+          "z48",
+          "z9",
+          "z47",
+          "z10",
+          "z46",
+          "z11",
+          "z12",
+          "z45",
+          "z44",
+          "z14",
+          "z15",
+          "z16",
+          "z17",
+          "z18",
+          "z19",
+          "z0",
+          "z1",
+          "z2",
+          "z3",
+          "z4",
+          "z28",
+          "z29",
+          "z30",
+          "z31",
+          "z32",
+          "z33",
+          "z34"
+        ],
+        "elimination_steps": 31,
+        "original_generators": 3296,
+        "method": "affine-elimination-graded",
+        "normalization": "block",
+        "affine_preprocessing_seconds": 4.559265,
+        "status": "certified",
+        "initial_result": [
+          -1,
+          0,
+          1
+        ],
+        "extraction": "exact affine elimination already yielded a unit",
+        "python_replay": {
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 8,
+          "normalization": "block",
+          "normalization_info": {
+            "schema": "nf5-residual-rectangle-v1",
+            "source": "local-complete-e11-catalogue",
+            "d": 7,
+            "p": 29,
+            "mask": 2097024,
+            "orbit_index": 1,
+            "x_shift": 0,
+            "A": [
+              0,
+              1
+            ],
+            "B": [
+              6
+            ],
+            "a_support": [
+              0,
+              1
+            ],
+            "b_support": [
+              6
+            ],
+            "a_size": 2,
+            "b_size": 1,
+            "projective_component_dimension": 1,
+            "parameters": {
+              "a": [
+                "a0",
+                "a1"
+              ],
+              "b": [
+                "b6"
+              ],
+              "parameter_space": "P^1 x P^0",
+              "no_a_or_b_coordinate_fixed": true
+            },
+            "residual_labels": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+            "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+            "weight_action": {
+              "shear": "diagonal conjugation preserves A and B",
+              "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+              "reflected_A": [
+                1
+              ],
+              "reflected_B": [
+                0,
+                6
+              ],
+              "reflection_X_correction": null,
+              "safe_pairs": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "orbit_false_always_safe": true,
+              "full_e22_orbit_safe": false
+            },
+            "kind": "complete-residual-coordinate-rectangle",
+            "block_size": 2,
+            "relations": [
+              "(1)*1+(13)*z13",
+              "(1)*z8+(5)*z13",
+              "(1)*z9+(22)*z13",
+              "(1)*z10+(4)*z13",
+              "(1)*z11+(6)*z13",
+              "(1)*z12+(9)*z13",
+              "(1)*z14+(28)*z20",
+              "(1)*z15+(28)*z20",
+              "(1)*z16+(28)*z20",
+              "(1)*z17+(28)*z20",
+              "(1)*z18+(28)*z20",
+              "(1)*z19+(28)*z20"
+            ],
+            "linear_rank": 12,
+            "residual_matrix_vector_dimension": 2,
+            "rref_labels": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "rref_coefficients": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                13,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                22,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                6,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                28
+              ]
+            ],
+            "coefficient_encoding": "base-p in the recorded finite-field modulus",
+            "proof": "invertible Fourier reconstruction; all forbidden matrix entries vanish; exact finite-field RREF",
+            "all_positive_weight_z_retained": true
+          }
+        },
+        "total_seconds": 8.140145,
+        "certificate": {
+          "files": [
+            "e21_nf5_p29_m2097024_b1_main_c0001.json.gz.part000"
+          ],
+          "uncompressed_bytes": 41221,
+          "compressed_bytes": 6470,
+          "uncompressed_sha256": "97340a5ba850517e63d189984f5a19397b16b62706f31a320f5fb175142b00f1"
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "mu": "1",
+      "weights": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "3/4",
+        "3/4",
+        "3/4",
+        "3/4",
+        "3/4",
+        "3/4",
+        "3/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "search": {
+        "eliminated_variables": [
+          "z42",
+          "z13",
+          "z43",
+          "z8",
+          "z48",
+          "z9",
+          "z47",
+          "z10",
+          "z46",
+          "z11",
+          "z12",
+          "z45",
+          "z44",
+          "z14",
+          "z15",
+          "z16",
+          "z17",
+          "z18",
+          "z19",
+          "z0",
+          "z1",
+          "z2",
+          "z3",
+          "z28",
+          "z29",
+          "z30",
+          "z31",
+          "z32",
+          "z35",
+          "z36",
+          "z37",
+          "z21",
+          "z22"
+        ],
+        "elimination_steps": 33,
+        "original_generators": 3296,
+        "method": "affine-elimination-graded",
+        "normalization": "block",
+        "affine_preprocessing_seconds": 5.260193,
+        "status": "certified",
+        "pid": 1265,
+        "returncode": 0,
+        "seconds": 0.008033,
+        "sampled_peak_rss_bytes": 0,
+        "rss_stop_bytes": 2800000000,
+        "seconds_limit": 60.0,
+        "command": [
+          "Singular",
+          "--no-rc",
+          "--random=20261031",
+          "--cpus=1",
+          "--threads=1",
+          "--flint-threads=1",
+          "-q"
+        ],
+        "source_sha256": "7added50b7c4d28a85ca60f3d62cc69adcb5930769c61a468cbdbbc2dad75a5c",
+        "reduced_variables": [
+          "z20",
+          "z23",
+          "z24",
+          "z25",
+          "z26",
+          "z27",
+          "z33",
+          "z34",
+          "z38",
+          "z39",
+          "z4",
+          "z40",
+          "z41",
+          "z5",
+          "z6"
+        ],
+        "reduced_generators": 74,
+        "initial_result": [
+          -1,
+          0,
+          1
+        ],
+        "python_replay": {
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 6,
+          "normalization": "block",
+          "normalization_info": {
+            "schema": "nf5-residual-rectangle-v1",
+            "source": "local-complete-e11-catalogue",
+            "d": 7,
+            "p": 29,
+            "mask": 2097024,
+            "orbit_index": 1,
+            "x_shift": 0,
+            "A": [
+              0,
+              1
+            ],
+            "B": [
+              6
+            ],
+            "a_support": [
+              0,
+              1
+            ],
+            "b_support": [
+              6
+            ],
+            "a_size": 2,
+            "b_size": 1,
+            "projective_component_dimension": 1,
+            "parameters": {
+              "a": [
+                "a0",
+                "a1"
+              ],
+              "b": [
+                "b6"
+              ],
+              "parameter_space": "P^1 x P^0",
+              "no_a_or_b_coordinate_fixed": true
+            },
+            "residual_labels": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+            "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+            "weight_action": {
+              "shear": "diagonal conjugation preserves A and B",
+              "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+              "reflected_A": [
+                1
+              ],
+              "reflected_B": [
+                0,
+                6
+              ],
+              "reflection_X_correction": null,
+              "safe_pairs": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "orbit_false_always_safe": true,
+              "full_e22_orbit_safe": false
+            },
+            "kind": "complete-residual-coordinate-rectangle",
+            "block_size": 2,
+            "relations": [
+              "(1)*1+(13)*z13",
+              "(1)*z8+(5)*z13",
+              "(1)*z9+(22)*z13",
+              "(1)*z10+(4)*z13",
+              "(1)*z11+(6)*z13",
+              "(1)*z12+(9)*z13",
+              "(1)*z14+(28)*z20",
+              "(1)*z15+(28)*z20",
+              "(1)*z16+(28)*z20",
+              "(1)*z17+(28)*z20",
+              "(1)*z18+(28)*z20",
+              "(1)*z19+(28)*z20"
+            ],
+            "linear_rank": 12,
+            "residual_matrix_vector_dimension": 2,
+            "rref_labels": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20
+            ],
+            "rref_coefficients": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                13,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                22,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                6,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                28
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                28
+              ]
+            ],
+            "coefficient_encoding": "base-p in the recorded finite-field modulus",
+            "proof": "invertible Fourier reconstruction; all forbidden matrix entries vanish; exact finite-field RREF",
+            "all_positive_weight_z_retained": true
+          }
+        },
+        "total_seconds": 9.215163,
+        "certificate": {
+          "files": [
+            "e21_nf5_p29_m2097024_b1_main_c0002.json.gz.part000"
+          ],
+          "uncompressed_bytes": 39691,
+          "compressed_bytes": 7551,
+          "uncompressed_sha256": "bf41c6ebc25c185c3f7886e3f0c6520deef104f241be0ed05c695b4c02ceeeb7"
+        }
+      }
+    }
+  ],
+  "status": "covered_UNSAT_for_rectangle",
+  "no_d7_length_assumption": true,
+  "uses_saved_smt": false,
+  "versions": {
+    "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "z3": "5.0.0"
+  },
+  "last_weight_check": {
+    "status": "unsat",
+    "seconds": 0.001633,
+    "certified_source_cells": 3,
+    "free_pairs": 10,
+    "raw_terms": 4875,
+    "distinct_affine_forms": 3498,
+    "singleton_necessity_constraints": 3232,
+    "weight_group_order": 7,
+    "trace_exponent": 0,
+    "trace_weight": "(0+mu)/2",
+    "mu_upper_bound": null,
+    "denominator_bound": null,
+    "uses_saved_smt": false,
+    "necessary_polynomial_count": 342,
+    "full_polynomial_count": 3258,
+    "duplicate_clauses_removed": 1662,
+    "constant_true_clauses_removed": 0,
+    "distinct_necessity_clauses": 1570,
+    "coefficient_valuation_histogram": {
+      "0": 77334
+    },
+    "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+    "rectangle_images": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ]
+    ]
+  },
+  "seconds": 32.370126,
+  "last_candidate": {
+    "files": [
+      "e25_nf5_p29_m2097024_b1_main_candidate.json.gz.part000"
+    ],
+    "uncompressed_bytes": 1494606,
+    "compressed_bytes": 143904,
+    "uncompressed_sha256": "c68339b8018dbb521ae6d14d64381270f6b10918d88278ff2eb99022070caccc"
+  },
+  "smt": {
+    "files": [
+      "e25_nf5_p29_m2097024_b1_main_fresh.smt2.gz.part000"
+    ],
+    "uncompressed_bytes": 3498489,
+    "compressed_bytes": 337771,
+    "uncompressed_sha256": "a59b3f3d98e85790194cc6d3a23d1a507f39416512cad4026eeaf4ea281c21f8"
+  },
+  "cover_stats": {
+    "free_pairs": 10,
+    "raw_terms": 4875,
+    "distinct_affine_forms": 3498,
+    "singleton_necessity_constraints": 3232,
+    "weight_group_order": 7,
+    "trace_exponent": 0,
+    "trace_weight": "(0+mu)/2",
+    "mu_upper_bound": null,
+    "denominator_bound": null,
+    "uses_saved_smt": false,
+    "necessary_polynomial_count": 342,
+    "full_polynomial_count": 3258,
+    "duplicate_clauses_removed": 1662,
+    "constant_true_clauses_removed": 0,
+    "distinct_necessity_clauses": 1570,
+    "coefficient_valuation_histogram": {
+      "0": 77334
+    },
+    "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+    "rectangle_images": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ]
+    ]
+  },
+  "implementation_sha256": {
+    "e20_exact_model.py": "6da9a971fdc3c0eff9ade89f1025f12856623f223f9d70e75a88d08d20f99a60",
+    "e21_unit_cells.py": "7df4c48143124aa85d16139d5ab608acc5974d9ea71a32c2fef617debcb30aec",
+    "e22_weight_cover.py": "da6557f5405ebbbf9bd19cb2467fd7b35c8d6d6d6af74ca6fce13fbc158fe855",
+    "e26_rectangle_model.py": "73428db0133c716f7c5184b3f401cbd2f82517b88ceecee5790f41dafae36f31",
+    "e27_rectangle_pipeline.py": "d0948e64220e7747278aaf4f8d496e308103b64117fba2f17bb8fe20d19e8461",
+    "e28_fast_members.py": "d620b5ec9962f9bc14713786e877d271caae818360ad7ee107f75280e3532b93",
+    "e40_projected_model.py": "2611b0eed90caf51ed3cbcf1e9e4049a268b50958fc2e3dc3800a71126edda77",
+    "e11_boundary_blocks.json": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591"
+  }
+}

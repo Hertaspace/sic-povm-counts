@@ -1,0 +1,263 @@
+{
+  "all_pass": true,
+  "char0_claim": "Etale special solutions lift and give a characteristic-zero lower bound for the lifted coefficient system; no automatic equality of total affine characteristic-zero degree.",
+  "d6_boundary_formula": "288*256+288*32+24*1920=129024",
+  "d6_boundary_total": 129024,
+  "format": "sic-nf6-calibration-gate-v1",
+  "grid_free_vertex_covers": [
+    {
+      "candidate_count": 1,
+      "complete": true,
+      "expected_count": 1,
+      "pass_gate": true,
+      "sha256": "a9b7e480f91f52efd1ca65c1e757bce5613ccbbd977c3c997c70dd64ded185f3",
+      "source": "e01_d4_point.json",
+      "tag": "d4_point",
+      "termination": "unsat",
+      "weights_match": true
+    },
+    {
+      "candidate_count": 2,
+      "complete": true,
+      "expected_count": 2,
+      "pass_gate": true,
+      "sha256": "ac950ac43adfd5c2949d630a60818417dfe609c53b1c45a391ca9b86199d9f2f",
+      "source": "e01_d5_point.json",
+      "tag": "d5_point",
+      "termination": "unsat",
+      "weights_match": true
+    },
+    {
+      "candidate_count": 1,
+      "complete": true,
+      "expected_count": 1,
+      "pass_gate": true,
+      "sha256": "19848be549488229df520b8daa594b2ccd0db0a1e4400835402c463e0104e48d",
+      "source": "e01_d5_line.json",
+      "tag": "d5_line",
+      "termination": "unsat",
+      "weights_match": true
+    },
+    {
+      "candidate_count": 1,
+      "complete": true,
+      "expected_count": 1,
+      "pass_gate": true,
+      "sha256": "1d909d1a2831e3e230e1fec19679072220897f62d1954ccdfdd7d8ee19e3b1e4",
+      "source": "e01_d6_point.json",
+      "tag": "d6_point",
+      "termination": "unsat",
+      "weights_match": true
+    },
+    {
+      "candidate_count": 1,
+      "complete": true,
+      "expected_count": 1,
+      "pass_gate": true,
+      "sha256": "3f7fc9fa86e94169b9ce4f143fb85605301ad63e626570fe5d6475a71fbc5bc0",
+      "source": "e01_d6_line.json",
+      "tag": "d6_line",
+      "termination": "unsat",
+      "weights_match": true
+    },
+    {
+      "candidate_count": 1,
+      "complete": true,
+      "expected_count": 1,
+      "pass_gate": true,
+      "sha256": "7ef661d15ac101dfc52d22c67b527434287b9ba5bca5cf7ab258ee2bf22d1fb3",
+      "source": "e01_d6_line_a.json",
+      "tag": "d6_line_a",
+      "termination": "unsat",
+      "weights_match": true
+    },
+    {
+      "candidate_count": 1,
+      "complete": true,
+      "expected_count": 1,
+      "pass_gate": true,
+      "sha256": "7de36e61f62d5f1758b1785de43c9f17e2871d6b0ffe81846f0c3f069137196b",
+      "source": "e01_d6_surface.json",
+      "tag": "d6_surface",
+      "termination": "unsat",
+      "weights_match": true
+    },
+    {
+      "candidate_count": 0,
+      "complete": true,
+      "expected_count": 0,
+      "pass_gate": true,
+      "sha256": "c33cc36d7dc2d259a7f55a7d80be98e8918c9265d07ebdb01a07564f737cdd4d",
+      "source": "e01_d6_embedded_line.json",
+      "tag": "d6_embedded_line",
+      "termination": "unsat",
+      "weights_match": true
+    }
+  ],
+  "no_d7_authorization_until_gate_pass": true,
+  "scope": "All isolated nondegenerate direct GLOBAL-minimum faces with strictly positive transverse and zero stratum valuations; no higher-layer completeness claim.",
+  "seed": 20261102,
+  "status": "PASS",
+  "surface_two_prime_certificates": [
+    {
+      "p": 65761,
+      "pass_gate": true,
+      "reduced": true,
+      "rur_checks": {
+        "DENOMINATOR": true,
+        "INPUT": true,
+        "SEPARATING": true,
+        "SQUAREFREE": true,
+        "TORUS": true
+      },
+      "rur_input_sha256": null,
+      "rur_output_sha256": "f423877f0068601084d25664024869b6884b9f20381840f53cb147d71b88b4b6",
+      "rur_source": "e17_remote_surface_rur_p65761.out",
+      "rur_status": "DONE",
+      "rur_verification_source_sha256": "bca397de733d4e80bea9e21bd7973411d342976bcbe5c270f2817645f03dc265",
+      "saturated_basis_sha256": "1fe7ec79e30d7b3388003c7b54632c08b72b12bd255369bbd3a6e911fde8f238",
+      "saturated_length": 1920,
+      "saturation_input_sha256": "e8915633e6eb362900babcba29facef07cf70c102ca0d01a9d4590161d9070a4",
+      "saturation_source": "e13_remote_surface_sat_p65761.out",
+      "saturation_status": "DONE",
+      "verified_distinct_torus_points": 1920
+    },
+    {
+      "p": 65881,
+      "pass_gate": true,
+      "reduced": true,
+      "rur_checks": {
+        "DENOMINATOR": true,
+        "INPUT": true,
+        "SEPARATING": true,
+        "SQUAREFREE": true,
+        "TORUS": true
+      },
+      "rur_input_sha256": null,
+      "rur_output_sha256": "44ca78f75bbfdfc1c25e1e9131fcfb12f4e4614ef0f0997ccd08fadc996c5fef",
+      "rur_source": "e17_remote_surface_rur_p65881.out",
+      "rur_status": "DONE",
+      "rur_verification_source_sha256": "612f77862e5fe682f20f04f630d8c0a43cbc5cddc6a075b6cfba3ea2981844d5",
+      "saturated_basis_sha256": "6c1182543d0d92f8d2e6e27828bfc3c6b19d45fc971764d8b3e80a1cd17a7e53",
+      "saturated_length": 1920,
+      "saturation_input_sha256": "a22ca18ea89bd17b4093ed10a21bd16967f37f24ed8022c971e864c2b4b1f6dc",
+      "saturation_source": "e13_remote_surface_sat_p65881.out",
+      "saturation_status": "DONE",
+      "verified_distinct_torus_points": 1920
+    }
+  ],
+  "two_prime_finite_field_counts": [
+    {
+      "evidence": "Singular saturation, exact quotient length and invertible square Jacobian",
+      "input_sha256": [
+        "f0ec7c052e33cb00eba4adb6c9085d181cf4ba8430c8531913c22b2234a9e882",
+        "a1bd646dae59cbbe9c225625494259bb07e847d02dc2b5fd696f15f6dae1b210"
+      ],
+      "length": 16,
+      "name": "d4_point16",
+      "pass_gate": true,
+      "primes": [
+        30241,
+        31081
+      ],
+      "reduced_all": true,
+      "source": "e11_known_calibration.out"
+    },
+    {
+      "evidence": "Singular saturation, exact quotient length and invertible square Jacobian",
+      "input_sha256": [
+        "89bc965db0300d0e4fb2ac253c7d76e9200b779d3ea29e6575870be8aed264b9",
+        "29d71e3b975f03565ae0617dd357bd384bfec78d5fc6c368e2ca60064ab860c5"
+      ],
+      "length": 64,
+      "name": "d5_point64",
+      "pass_gate": true,
+      "primes": [
+        30241,
+        31081
+      ],
+      "reduced_all": true,
+      "source": "e11_known_calibration.out"
+    },
+    {
+      "evidence": "Singular saturation, exact quotient length and invertible square Jacobian",
+      "input_sha256": [
+        "c96e4fab002ec20c1bb57b602e0a5bbbc4b4d1f659cf080be8b26b2f94dcbc8b",
+        "62725a3b2ddad797cf9c2d140945203f11a38ae98d2259e7e682d2a6cbb142bd"
+      ],
+      "length": 36,
+      "name": "d5_point36",
+      "pass_gate": true,
+      "primes": [
+        30241,
+        31081
+      ],
+      "reduced_all": true,
+      "source": "e11_known_calibration.out"
+    },
+    {
+      "evidence": "Singular saturation, exact quotient length and invertible square Jacobian",
+      "input_sha256": [
+        "68d4a0ca097ce5c24d1e0a2c995e3d368d84e59ea422a7b9f95c37b28e6581db",
+        "8545a858d4741594dcd3ff10f453b32826e1e46eea701cbc53ad6b882f491e66"
+      ],
+      "length": 8,
+      "name": "d5_line8",
+      "pass_gate": true,
+      "primes": [
+        30241,
+        31081
+      ],
+      "reduced_all": true,
+      "source": "e11_known_calibration.out"
+    },
+    {
+      "evidence": "Singular saturation, exact quotient length and invertible square Jacobian",
+      "input_sha256": [
+        "1257589dc765a71aa313cf6c852ce634ae3edb48ce89034c61c01af608fdb21d",
+        "8c9072353cce7675d806255a9e0d467d2a27967990016a8ef2888a6a74e0b0cc"
+      ],
+      "length": 256,
+      "name": "d6_point256",
+      "pass_gate": true,
+      "primes": [
+        30241,
+        31081
+      ],
+      "reduced_all": true,
+      "source": "e11_known_calibration.out"
+    },
+    {
+      "evidence": "Singular saturation, exact quotient length and invertible square Jacobian",
+      "input_sha256": [
+        "5a89fe2b65d3d693426dc9f119db50f19bfb9eec2308efb3962f81e02c61b220",
+        "1bb506e53f6def589117be9f1fc22941e6f6a615d7802a5a330fd221f552f07b"
+      ],
+      "length": 32,
+      "name": "d6_line32",
+      "pass_gate": true,
+      "primes": [
+        30241,
+        31081
+      ],
+      "reduced_all": true,
+      "source": "e11_known_calibration.out"
+    },
+    {
+      "evidence": "Singular saturation, exact quotient length and invertible square Jacobian",
+      "input_sha256": [
+        "714d227e671d5ca0371aca7dac9113e9451576758cd2ee2c672aa252e4ff209e",
+        "2e6c974d5b24d9581408a783ba635f687d95174c7fb0c011e5f0945eb7564a3f"
+      ],
+      "length": 32,
+      "name": "d6_lineA32",
+      "pass_gate": true,
+      "primes": [
+        30241,
+        31081
+      ],
+      "reduced_all": true,
+      "source": "e11_known_calibration.out"
+    }
+  ]
+}

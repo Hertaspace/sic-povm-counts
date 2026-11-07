@@ -1,0 +1,41 @@
+{
+  "sl2_order": 336,
+  "order_counts": {
+    "1": 1,
+    "2": 1,
+    "3": 56,
+    "4": 42,
+    "6": 56,
+    "7": 48,
+    "8": 84,
+    "14": 48
+  },
+  "zauner": [
+    0,
+    6,
+    1,
+    6
+  ],
+  "zauner_order": 3,
+  "order3_count": 56,
+  "order3_not_conjugate_to_zauner_class": 0,
+  "conjugate_hits": {
+    "(0, 6, 1, 6)": 28,
+    "(6, 1, 6, 0)": 28
+  },
+  "sum_D_equals_7_parity": true,
+  "parity_conjugates_D_to_minus": true,
+  "parity_conjugate_failures": [],
+  "phase_reduction_mod_7_failures": [],
+  "involution_trace_square_obstruction": {
+    "1": {
+      "value": 288,
+      "is_square": false
+    },
+    "-1": {
+      "value": 512,
+      "is_square": false
+    }
+  },
+  "three_support_one_ninth_equals_one_eighth": true
+}

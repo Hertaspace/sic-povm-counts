@@ -1,0 +1,905 @@
+{
+  "format": "sic-nf6-d7-direct-face-counts-v1",
+  "tag": "q",
+  "seed": 20261102,
+  "gate_sha256": "ac87180cf539c8ce12ce673e9b0a33ead3997ef882424181d7d71bb19de608bd",
+  "vertex_file": "e03_d7_q.json",
+  "vertex_sha256": "f85b99494b4eeb0c3851a266f2755a8eb28916db84cef98e28975c81795b6186",
+  "parameters": {
+    "tag": "q",
+    "prime": null,
+    "singular_seconds": 60,
+    "msolve_seconds": 900,
+    "threads": 1,
+    "fallback": true
+  },
+  "environment": {
+    "python": "3.14.8 | packaged by conda-forge | (main, Oct 12 2026, 17:35:27) [GCC 15.3.0]",
+    "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31"
+  },
+  "sources_sha256": {
+    "e28_d7_face_counts.py": "9156a6874d555f95b58065bf59e4a799924b7b72f46f450dfc73abb07f43ab49",
+    "e10_face_system.py": "b41f3a6d8cb5356c2386536aa69a368e87d05d61f434198befe031dc44673119",
+    "e17_reducedness_certificates.py": "efadd8fc0bbc61f5dfd5aaf3c38629899faf3c06e02c7d15170b2262bac48ffb"
+  },
+  "names": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5",
+    "a6",
+    "b0",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6"
+  ],
+  "zero_names": [],
+  "primes": [
+    65563,
+    65633
+  ],
+  "weights": [
+    {
+      "index": 0,
+      "weight": [
+        "1/2",
+        "1",
+        "1/3",
+        "1/4",
+        "3/4",
+        "2/3",
+        "1/2",
+        "2/3",
+        "3/4",
+        "1/4",
+        "1/3",
+        "1"
+      ],
+      "prime_counts": [
+        {
+          "p": 65563,
+          "status": "PASS",
+          "length": 576,
+          "reduced": true,
+          "backend": "Singular",
+          "attempts": [
+            {
+              "backend": "Singular direct saturation and Jacobian",
+              "status": "PASS",
+              "p": 65563,
+              "dim": 0,
+              "length": 576,
+              "reduced": true,
+              "seconds": 1.246034,
+              "pid": 3010025,
+              "source_sha256": "87f67a5b5a4997528fe9f2b3738fa8b27abd35316de4b7ed62698690c4f0c55c",
+              "stdout": "STAGE groebner\nSTAGE saturate\nCOUNT dim=0 length=576\nSTAGE jacobian\nREDUCED 1\n",
+              "errors": [],
+              "saturation": "sat",
+              "algorithm": "std",
+              "seed": 20261102,
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "w": [
+                "1/2",
+                "1",
+                "1/3",
+                "1/4",
+                "3/4",
+                "2/3",
+                "1/2",
+                "2/3",
+                "3/4",
+                "1/4",
+                "1/3",
+                "1"
+              ],
+              "order": "1",
+              "q_forms": 24,
+              "r_monomials": 1,
+              "face_rank": 14,
+              "square_rank": 12
+            }
+          ],
+          "seconds": 1.8494795709848404
+        },
+        {
+          "p": 65633,
+          "status": "PASS",
+          "length": 576,
+          "reduced": true,
+          "backend": "Singular",
+          "attempts": [
+            {
+              "backend": "Singular direct saturation and Jacobian",
+              "status": "PASS",
+              "p": 65633,
+              "dim": 0,
+              "length": 576,
+              "reduced": true,
+              "seconds": 1.238056,
+              "pid": 3010102,
+              "source_sha256": "73e6105433581fbe43a5c6f9d70e65da13fecae8bbd7e3fd9bec11bbb24bd48e",
+              "stdout": "STAGE groebner\nSTAGE saturate\nCOUNT dim=0 length=576\nSTAGE jacobian\nREDUCED 1\n",
+              "errors": [],
+              "saturation": "sat",
+              "algorithm": "std",
+              "seed": 20261102,
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "w": [
+                "1/2",
+                "1",
+                "1/3",
+                "1/4",
+                "3/4",
+                "2/3",
+                "1/2",
+                "2/3",
+                "3/4",
+                "1/4",
+                "1/3",
+                "1"
+              ],
+              "order": "1",
+              "q_forms": 24,
+              "r_monomials": 1,
+              "face_rank": 14,
+              "square_rank": 12
+            }
+          ],
+          "seconds": 1.512157715857029
+        }
+      ],
+      "two_prime_pass": true,
+      "two_prime_lengths_agree": true,
+      "char0_simple_root_lower_bound": 576
+    },
+    {
+      "index": 1,
+      "weight": [
+        "1/2",
+        "1",
+        "1/3",
+        "5/6",
+        "1/6",
+        "2/3",
+        "1/2",
+        "2/3",
+        "1/6",
+        "5/6",
+        "1/3",
+        "1"
+      ],
+      "prime_counts": [
+        {
+          "p": 65563,
+          "status": "PASS",
+          "length": 1968,
+          "reduced": true,
+          "backend": "msolve F4sat plus verified RUR",
+          "attempts": [
+            {
+              "backend": "Singular direct saturation and Jacobian",
+              "status": "TIMEOUT",
+              "p": 65563,
+              "dim": null,
+              "length": null,
+              "reduced": null,
+              "seconds": 60.077243,
+              "pid": 3010204,
+              "source_sha256": "a9a76f4087753617d2972066beaed4679334e9b40c9adc9517d2d9d088cc590b",
+              "stdout": "STAGE groebner\n",
+              "errors": [],
+              "saturation": "sat",
+              "algorithm": "std",
+              "seed": 20261102,
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "w": [
+                "1/2",
+                "1",
+                "1/3",
+                "5/6",
+                "1/6",
+                "2/3",
+                "1/2",
+                "2/3",
+                "1/6",
+                "5/6",
+                "1/3",
+                "1"
+              ],
+              "order": "1",
+              "q_forms": 24,
+              "r_monomials": 1,
+              "face_rank": 16,
+              "square_rank": 12
+            },
+            {
+              "backend": "msolve native F4 saturation",
+              "status": "DONE",
+              "p": 65563,
+              "seed": 20261102,
+              "seconds": 12.679307,
+              "returncode": 0,
+              "stdout": "Initial seed for pseudo-random number generator is 20261102\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65563\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)       11.82 sec\noverall(cpu)           11.80 sec\nselect                  0.60 sec   5.1%\nsymbolic prep.          0.91 sec   7.7%\nupdate                  4.13 sec  34.9%\nconvert                 0.07 sec   0.6%\nlinear algebra          5.90 sec  49.9%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2807\n#terms in basis              890400\n#pairs reduced                29697\n#GM criterion              12016989\n#redundant elements            2102\n#rows reduced                 64279\n#zero reductions              25273\nmax. matrix data              22730 x 18608 (1.319%)\nmax. symbolic hash table size  2^16\nmax. basis hash table size     2^21\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)       11.86 sec\noverall(cpu)           11.84 sec\nselect                  0.60 sec   5.1%\nsymbolic prep.          0.91 sec   7.6%\nupdate                  4.13 sec  34.8%\nconvert                 0.07 sec   0.6%\nlinear algebra          5.90 sec  49.7%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2807\n#terms in basis              890400\n#pairs reduced                29697\n#GM criterion              12016989\n#redundant elements            2102\n#rows reduced                 64279\n#zero reductions              25273\nmax. matrix data              22730 x 18608 (1.319%)\nmax. symbolic hash table size  2^16\nmax. basis hash table size     2^21\n-----------------------------------------\n\n\n\n------------------------------------------------------------------------------------\nmsolve overall time          12.20 sec (elapsed) / 12.18 sec (cpu)\n------------------------------------------------------------------------------------\n",
+              "input_sha256": "c29aa2f52b10188249646cb5bbba83bc2acbc71157624072a9e318a68f9646ab",
+              "result_sha256": "f087e8df4e55d3a3aa4bcd7cbf8c97fae8791e8065b8f254a0685d8c1db7bf23",
+              "threads": 1,
+              "saturation": true,
+              "scheme_length_from_leading_ideal": 1968,
+              "rur_verification": null,
+              "system_sha256": "bd617c47e98f3fc337e8102a84ccaf8af7162e6b8a8879bbda3f968c3c0dc467",
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "weight": [
+                "1/2",
+                "1",
+                "1/3",
+                "5/6",
+                "1/6",
+                "2/3",
+                "1/2",
+                "2/3",
+                "1/6",
+                "5/6",
+                "1/3",
+                "1"
+              ],
+              "exact_face_support_preserved": true,
+              "result_bytes": 18946940,
+              "large_basis_location": "transient server data directory, deleted after counting"
+            },
+            {
+              "backend": "msolve RUR and independent Singular identities",
+              "status": "DONE",
+              "p": 65563,
+              "seed": 20261102,
+              "seconds": 66.526744,
+              "returncode": 0,
+              "stdout": "              1047\n#normal forms                     0\ntotal density                    16.6%\ndensity of the free part         16.6%\ndeg. elim. pol.                 328\ndeg. sqfr. elim. pol.           328\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.80 sec\noverall(cpu)            0.80 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1047\n#normal forms                     0\ntotal density                    16.6%\ndensity of the free part         16.6%\ndeg. elim. pol.                 328\ndeg. sqfr. elim. pol.           328\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        12.46 sec\nrational param(cpu)            12.45 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\nb6, a2, a3, a4, a5, a6, b0, b2, b3, b4, b5, a1\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65563\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)       12.62 sec\noverall(cpu)           12.60 sec\nselect                  0.64 sec   5.1%\nsymbolic prep.          0.47 sec   3.7%\nupdate                  4.52 sec  35.8%\nconvert                 0.04 sec   0.3%\nlinear algebra          6.90 sec  54.6%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2789\n#terms in basis              869680\n#pairs reduced                32561\n#GM criterion              13015825\n#redundant elements            2320\n#rows reduced                 69041\n#zero reductions              28029\nmax. matrix data              26893 x 20114 (1.312%)\nmax. symbolic hash table size  2^15\nmax. basis hash table size     2^21\n-----------------------------------------\n\nIdeal not in generic position, parametrizations are not correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.87 sec\noverall(cpu)            0.87 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1052\n#normal forms                    53\ntotal density                    15.1%\ndensity of the free part         15.5%\ndensity of the nonfree part       6.4%\ndeg. elim. pol.                 656\ndeg. sqfr. elim. pol.           656\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.83 sec\noverall(cpu)            0.83 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1052\n#normal forms                    53\ntotal density                    15.1%\ndensity of the free part         15.5%\ndensity of the nonfree part       6.4%\ndeg. elim. pol.                 656\ndeg. sqfr. elim. pol.           656\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        14.39 sec\nrational param(cpu)            14.36 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\na1, b6, a3, a4, a5, a6, b0, b2, b3, b4, b5, a2\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65563\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)       10.91 sec\noverall(cpu)           10.91 sec\nselect                  0.59 sec   5.4%\nsymbolic prep.          0.48 sec   4.4%\nupdate                  4.21 sec  38.6%\nconvert                 0.05 sec   0.5%\nlinear algebra          5.53 sec  50.7%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2807\n#terms in basis              890406\n#pairs reduced                29697\n#GM criterion              12016989\n#redundant elements            2102\n#rows reduced                 63147\n#zero reductions              25273\nmax. matrix data              22730 x 18608 (1.319%)\nmax. symbolic hash table size  2^15\nmax. basis hash table size     2^21\n-----------------------------------------\n\nIdeal not in generic position, parametrizations are not correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.84 sec\noverall(cpu)            0.84 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1047\n#normal forms                     0\ntotal density                    16.6%\ndensity of the free part         16.6%\ndeg. elim. pol.                 328\ndeg. sqfr. elim. pol.           328\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.87 sec\noverall(cpu)            0.87 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1047\n#normal forms                     0\ntotal density                    16.6%\ndensity of the free part         16.6%\ndeg. elim. pol.                 328\ndeg. sqfr. elim. pol.           328\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        12.67 sec\nrational param(cpu)            12.66 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\na1, a2, b6, a4, a5, a6, b0, b2, b3, b4, b5, a3\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65563\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)       12.87 sec\noverall(cpu)           12.84 sec\nselect                  0.65 sec   5.0%\nsymbolic prep.          0.48 sec   3.7%\nupdate                  4.88 sec  37.9%\nconvert                 0.06 sec   0.4%\nlinear algebra          6.74 sec  52.4%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2735\n#terms in basis              833564\n#pairs reduced                32416\n#GM criterion              13005755\n#redundant elements            2372\n#rows reduced                 68727\n#zero reductions              27901\nmax. matrix data              28047 x 21422 (1.110%)\nmax. symbolic hash table size  2^15\nmax. basis hash table size     2^21\n-----------------------------------------\n\nOnly the first 1 parametrizations of the radical ideal are correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.90 sec\noverall(cpu)            0.90 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1059\n#normal forms                   160\ntotal density                    13.4%\ndensity of the free part         14.2%\ndensity of the nonfree part       8.8%\ndeg. elim. pol.                 984\ndeg. sqfr. elim. pol.           984\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.83 sec\noverall(cpu)            0.83 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1059\n#normal forms                   160\ntotal density                    13.4%\ndensity of the free part         14.2%\ndensity of the nonfree part       8.8%\ndeg. elim. pol.                 984\ndeg. sqfr. elim. pol.           984\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        14.67 sec\nrational param(cpu)            14.63 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\na1, a2, a3, b6, a5, a6, b0, b2, b3, b4, b5, a4\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65563\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)       11.07 sec\noverall(cpu)           11.04 sec\nselect                  0.60 sec   5.4%\nsymbolic prep.          0.47 sec   4.2%\nupdate                  3.98 sec  35.9%\nconvert                 0.04 sec   0.4%\nlinear algebra          5.94 sec  53.6%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2784\n#terms in basis              878721\n#pairs reduced                30078\n#GM criterion              11267803\n#redundant elements            1970\n#rows reduced                 63924\n#zero reductions              25828\nmax. matrix data              24506 x 19794 (1.192%)\nmax. symbolic hash table size  2^15\nmax. basis hash table size     2^21\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.89 sec\noverall(cpu)            0.89 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1053\n#normal forms                    47\ntotal density                    15.4%\ndensity of the free part         15.9%\ndensity of the nonfree part       4.9%\ndeg. elim. pol.                1968\ndeg. sqfr. elim. pol.          1968\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        12.02 sec\nrational param(cpu)            11.98 sec\n-----------------------------------------\n\n\n------------------------------------------------------------------------------------\nmsolve overall time          66.21 sec (elapsed) / 66.09 sec (cpu)\n------------------------------------------------------------------------------------\n",
+              "input_sha256": "bd617c47e98f3fc337e8102a84ccaf8af7162e6b8a8879bbda3f968c3c0dc467",
+              "result_sha256": "660c0f144fbb68ac5ed0d6725a6d45042b13582f3a90f0132b5524b56319be24",
+              "threads": 1,
+              "saturation": false,
+              "scheme_length_from_leading_ideal": null,
+              "rur_verification": {
+                "status": "PASS",
+                "distinct_torus_points": 1968,
+                "reported_degree": 1968,
+                "eliminant_degree": 1968,
+                "checks": {
+                  "SQUAREFREE": true,
+                  "DENOMINATOR": true,
+                  "INPUT": true,
+                  "TORUS": true,
+                  "SEPARATING": true
+                },
+                "stdout": "RUR_DEG 1968\nRUR_SQUAREFREE 1\nRUR_DENOMINATOR 1\nRUR_INPUT 1\nRUR_TORUS 1\nRUR_SEPARATING 1\n",
+                "errors": [],
+                "seconds": 0.209343,
+                "source_sha256": "83849ebcaca897c23135bd0068fae9c9faae281e0973aa6212961aa8f06a2bcd"
+              },
+              "system_sha256": "bd617c47e98f3fc337e8102a84ccaf8af7162e6b8a8879bbda3f968c3c0dc467",
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "weight": [
+                "1/2",
+                "1",
+                "1/3",
+                "5/6",
+                "1/6",
+                "2/3",
+                "1/2",
+                "2/3",
+                "1/6",
+                "5/6",
+                "1/3",
+                "1"
+              ],
+              "exact_face_support_preserved": true,
+              "result_bytes": 86188,
+              "certificate_file": "e28_q_w01_p65563_rur.txt"
+            }
+          ],
+          "seconds": 140.09320994466543
+        },
+        {
+          "p": 65633,
+          "status": "PASS",
+          "length": 1968,
+          "reduced": true,
+          "backend": "msolve F4sat plus verified RUR",
+          "attempts": [
+            {
+              "backend": "Singular direct saturation and Jacobian",
+              "status": "TIMEOUT",
+              "p": 65633,
+              "dim": null,
+              "length": null,
+              "reduced": null,
+              "seconds": 60.086375,
+              "pid": 3012906,
+              "source_sha256": "597e0d79269ffa4d193bca32b432e9c0634186f074df0d88515ee1fe20d7e12e",
+              "stdout": "STAGE groebner\n",
+              "errors": [],
+              "saturation": "sat",
+              "algorithm": "std",
+              "seed": 20261102,
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "w": [
+                "1/2",
+                "1",
+                "1/3",
+                "5/6",
+                "1/6",
+                "2/3",
+                "1/2",
+                "2/3",
+                "1/6",
+                "5/6",
+                "1/3",
+                "1"
+              ],
+              "order": "1",
+              "q_forms": 24,
+              "r_monomials": 1,
+              "face_rank": 16,
+              "square_rank": 12
+            },
+            {
+              "backend": "msolve native F4 saturation",
+              "status": "DONE",
+              "p": 65633,
+              "seed": 20261102,
+              "seconds": 12.59441,
+              "returncode": 0,
+              "stdout": "Initial seed for pseudo-random number generator is 20261102\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65633\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)       11.81 sec\noverall(cpu)           11.80 sec\nselect                  0.59 sec   5.0%\nsymbolic prep.          0.91 sec   7.7%\nupdate                  4.19 sec  35.4%\nconvert                 0.07 sec   0.6%\nlinear algebra          5.84 sec  49.4%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2807\n#terms in basis              890398\n#pairs reduced                29697\n#GM criterion              12016989\n#redundant elements            2102\n#rows reduced                 64279\n#zero reductions              25273\nmax. matrix data              22730 x 18608 (1.319%)\nmax. symbolic hash table size  2^16\nmax. basis hash table size     2^21\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)       11.86 sec\noverall(cpu)           11.85 sec\nselect                  0.59 sec   5.0%\nsymbolic prep.          0.91 sec   7.7%\nupdate                  4.19 sec  35.3%\nconvert                 0.07 sec   0.6%\nlinear algebra          5.84 sec  49.2%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2807\n#terms in basis              890398\n#pairs reduced                29697\n#GM criterion              12016989\n#redundant elements            2102\n#rows reduced                 64279\n#zero reductions              25273\nmax. matrix data              22730 x 18608 (1.319%)\nmax. symbolic hash table size  2^16\nmax. basis hash table size     2^21\n-----------------------------------------\n\n\n\n------------------------------------------------------------------------------------\nmsolve overall time          12.19 sec (elapsed) / 12.18 sec (cpu)\n------------------------------------------------------------------------------------\n",
+              "input_sha256": "795f8487ed8fe40fb32385a40c75020270866c760a72bf12365ed9fff0d47f9e",
+              "result_sha256": "b55732f7c9da367a1f56f02b1ba36fa6c83bb13cb2522373cf544653e672ab76",
+              "threads": 1,
+              "saturation": true,
+              "scheme_length_from_leading_ideal": 1968,
+              "rur_verification": null,
+              "system_sha256": "d89ad59b57629af18c251d6f3ea76eec1048a7b335a0c9573111534094f61b6a",
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "weight": [
+                "1/2",
+                "1",
+                "1/3",
+                "5/6",
+                "1/6",
+                "2/3",
+                "1/2",
+                "2/3",
+                "1/6",
+                "5/6",
+                "1/3",
+                "1"
+              ],
+              "exact_face_support_preserved": true,
+              "result_bytes": 18946214,
+              "large_basis_location": "transient server data directory, deleted after counting"
+            },
+            {
+              "backend": "msolve RUR and independent Singular identities",
+              "status": "DONE",
+              "p": 65633,
+              "seed": 20261102,
+              "seconds": 66.724031,
+              "returncode": 0,
+              "stdout": "              1047\n#normal forms                     0\ntotal density                    16.6%\ndensity of the free part         16.6%\ndeg. elim. pol.                 328\ndeg. sqfr. elim. pol.           328\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.83 sec\noverall(cpu)            0.83 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1047\n#normal forms                     0\ntotal density                    16.6%\ndensity of the free part         16.6%\ndeg. elim. pol.                 328\ndeg. sqfr. elim. pol.           328\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        12.57 sec\nrational param(cpu)            12.56 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\nb6, a2, a3, a4, a5, a6, b0, b2, b3, b4, b5, a1\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65633\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)       13.00 sec\noverall(cpu)           12.95 sec\nselect                  0.65 sec   5.0%\nsymbolic prep.          0.47 sec   3.6%\nupdate                  4.74 sec  36.5%\nconvert                 0.06 sec   0.4%\nlinear algebra          7.01 sec  53.9%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2789\n#terms in basis              869679\n#pairs reduced                32561\n#GM criterion              13015825\n#redundant elements            2320\n#rows reduced                 69041\n#zero reductions              28029\nmax. matrix data              26893 x 20114 (1.312%)\nmax. symbolic hash table size  2^15\nmax. basis hash table size     2^21\n-----------------------------------------\n\nIdeal not in generic position, parametrizations are not correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.89 sec\noverall(cpu)            0.89 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1052\n#normal forms                    53\ntotal density                    15.1%\ndensity of the free part         15.5%\ndensity of the nonfree part       6.4%\ndeg. elim. pol.                 656\ndeg. sqfr. elim. pol.           656\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.87 sec\noverall(cpu)            0.87 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1052\n#normal forms                    53\ntotal density                    15.1%\ndensity of the free part         15.5%\ndensity of the nonfree part       6.4%\ndeg. elim. pol.                 656\ndeg. sqfr. elim. pol.           656\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        14.82 sec\nrational param(cpu)            14.77 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\na1, b6, a3, a4, a5, a6, b0, b2, b3, b4, b5, a2\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65633\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)       10.87 sec\noverall(cpu)           10.84 sec\nselect                  0.59 sec   5.4%\nsymbolic prep.          0.48 sec   4.4%\nupdate                  4.26 sec  39.2%\nconvert                 0.06 sec   0.5%\nlinear algebra          5.44 sec  50.0%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2807\n#terms in basis              890392\n#pairs reduced                29697\n#GM criterion              12016989\n#redundant elements            2102\n#rows reduced                 63147\n#zero reductions              25273\nmax. matrix data              22730 x 18608 (1.319%)\nmax. symbolic hash table size  2^15\nmax. basis hash table size     2^21\n-----------------------------------------\n\nIdeal not in generic position, parametrizations are not correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.88 sec\noverall(cpu)            0.88 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1047\n#normal forms                     0\ntotal density                    16.6%\ndensity of the free part         16.6%\ndeg. elim. pol.                 328\ndeg. sqfr. elim. pol.           328\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.84 sec\noverall(cpu)            0.84 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1047\n#normal forms                     0\ntotal density                    16.6%\ndensity of the free part         16.6%\ndeg. elim. pol.                 328\ndeg. sqfr. elim. pol.           328\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        12.65 sec\nrational param(cpu)            12.61 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\na1, a2, b6, a4, a5, a6, b0, b2, b3, b4, b5, a3\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65633\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)       12.54 sec\noverall(cpu)           12.52 sec\nselect                  0.67 sec   5.3%\nsymbolic prep.          0.46 sec   3.6%\nupdate                  4.67 sec  37.2%\nconvert                 0.05 sec   0.4%\nlinear algebra          6.65 sec  53.1%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2735\n#terms in basis              833570\n#pairs reduced                32416\n#GM criterion              13005755\n#redundant elements            2372\n#rows reduced                 68727\n#zero reductions              27901\nmax. matrix data              28047 x 21422 (1.110%)\nmax. symbolic hash table size  2^15\nmax. basis hash table size     2^21\n-----------------------------------------\n\nOnly the first 1 parametrizations of the radical ideal are correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.84 sec\noverall(cpu)            0.84 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1059\n#normal forms                   160\ntotal density                    13.4%\ndensity of the free part         14.2%\ndensity of the nonfree part       8.8%\ndeg. elim. pol.                 984\ndeg. sqfr. elim. pol.           984\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.85 sec\noverall(cpu)            0.85 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1059\n#normal forms                   160\ntotal density                    13.4%\ndensity of the free part         14.2%\ndensity of the nonfree part       8.8%\ndeg. elim. pol.                 984\ndeg. sqfr. elim. pol.           984\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        14.30 sec\nrational param(cpu)            14.27 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\na1, a2, a3, b6, a5, a6, b0, b2, b3, b4, b5, a4\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65633\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)       11.13 sec\noverall(cpu)           11.11 sec\nselect                  0.60 sec   5.4%\nsymbolic prep.          0.46 sec   4.2%\nupdate                  4.04 sec  36.3%\nconvert                 0.05 sec   0.4%\nlinear algebra          5.93 sec  53.3%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                  2784\n#terms in basis              878713\n#pairs reduced                30078\n#GM criterion              11267803\n#redundant elements            1970\n#rows reduced                 63924\n#zero reductions              25828\nmax. matrix data              24506 x 19794 (1.192%)\nmax. symbolic hash table size  2^15\nmax. basis hash table size     2^21\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.88 sec\noverall(cpu)            0.87 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                1968\n#dense rows                    1053\n#normal forms                    47\ntotal density                    15.4%\ndensity of the free part         15.9%\ndensity of the nonfree part       4.9%\ndeg. elim. pol.                1968\ndeg. sqfr. elim. pol.          1968\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)        12.06 sec\nrational param(cpu)            12.04 sec\n-----------------------------------------\n\n\n------------------------------------------------------------------------------------\nmsolve overall time          66.41 sec (elapsed) / 66.25 sec (cpu)\n------------------------------------------------------------------------------------\n",
+              "input_sha256": "d89ad59b57629af18c251d6f3ea76eec1048a7b335a0c9573111534094f61b6a",
+              "result_sha256": "40cebd910b6aa211aa3a4fcc60b0dfa328be7666065cb642041e419355170408",
+              "threads": 1,
+              "saturation": false,
+              "scheme_length_from_leading_ideal": null,
+              "rur_verification": {
+                "status": "PASS",
+                "distinct_torus_points": 1968,
+                "reported_degree": 1968,
+                "eliminant_degree": 1968,
+                "checks": {
+                  "SQUAREFREE": true,
+                  "DENOMINATOR": true,
+                  "INPUT": true,
+                  "TORUS": true,
+                  "SEPARATING": true
+                },
+                "stdout": "RUR_DEG 1968\nRUR_SQUAREFREE 1\nRUR_DENOMINATOR 1\nRUR_INPUT 1\nRUR_TORUS 1\nRUR_SEPARATING 1\n",
+                "errors": [],
+                "seconds": 0.191971,
+                "source_sha256": "b6a11ae49523031f4a81864d1218d00ea9b476dbd3e874f2645ff4e6eadd5412"
+              },
+              "system_sha256": "d89ad59b57629af18c251d6f3ea76eec1048a7b335a0c9573111534094f61b6a",
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "weight": [
+                "1/2",
+                "1",
+                "1/3",
+                "5/6",
+                "1/6",
+                "2/3",
+                "1/2",
+                "2/3",
+                "1/6",
+                "5/6",
+                "1/3",
+                "1"
+              ],
+              "exact_face_support_preserved": true,
+              "result_bytes": 86138,
+              "certificate_file": "e28_q_w01_p65633_rur.txt"
+            }
+          ],
+          "seconds": 140.19712968170643
+        }
+      ],
+      "two_prime_pass": true,
+      "two_prime_lengths_agree": true,
+      "char0_simple_root_lower_bound": 1968
+    },
+    {
+      "index": 2,
+      "weight": [
+        "1/2",
+        "1",
+        "5/8",
+        "1/4",
+        "3/4",
+        "3/8",
+        "1/2",
+        "3/8",
+        "3/4",
+        "1/4",
+        "5/8",
+        "1"
+      ],
+      "prime_counts": [
+        {
+          "p": 65563,
+          "status": "PASS",
+          "length": 640,
+          "reduced": true,
+          "backend": "msolve F4sat plus verified RUR",
+          "attempts": [
+            {
+              "backend": "Singular direct saturation and Jacobian",
+              "status": "TIMEOUT",
+              "p": 65563,
+              "dim": null,
+              "length": null,
+              "reduced": null,
+              "seconds": 60.075643,
+              "pid": 3014796,
+              "source_sha256": "bca4dc55a839d0c03d0b367e45d232eaa1085aa8956f829dc3d465542e5e364d",
+              "stdout": "STAGE groebner\nSTAGE saturate\n",
+              "errors": [],
+              "saturation": "sat",
+              "algorithm": "std",
+              "seed": 20261102,
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "w": [
+                "1/2",
+                "1",
+                "5/8",
+                "1/4",
+                "3/4",
+                "3/8",
+                "1/2",
+                "3/8",
+                "3/4",
+                "1/4",
+                "5/8",
+                "1"
+              ],
+              "order": "1",
+              "q_forms": 24,
+              "r_monomials": 1,
+              "face_rank": 16,
+              "square_rank": 12
+            },
+            {
+              "backend": "msolve native F4 saturation",
+              "status": "DONE",
+              "p": 65563,
+              "seed": 20261102,
+              "seconds": 0.677895,
+              "returncode": 0,
+              "stdout": "Initial seed for pseudo-random number generator is 20261102\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65563\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.57 sec\noverall(cpu)            0.56 sec\nselect                  0.04 sec   7.5%\nsymbolic prep.          0.05 sec   9.4%\nupdate                  0.27 sec  48.0%\nconvert                 0.01 sec   1.7%\nlinear algebra          0.17 sec  30.6%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   852\n#terms in basis               60938\n#pairs reduced                 9477\n#GM criterion                918726\n#redundant elements             511\n#rows reduced                 20135\n#zero reductions               8159\nmax. matrix data              11121 x 8004 (0.712%)\nmax. symbolic hash table size  2^13\nmax. basis hash table size     2^18\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.57 sec\noverall(cpu)            0.57 sec\nselect                  0.04 sec   7.5%\nsymbolic prep.          0.05 sec   9.4%\nupdate                  0.27 sec  47.8%\nconvert                 0.01 sec   1.7%\nlinear algebra          0.17 sec  30.5%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   852\n#terms in basis               60938\n#pairs reduced                 9477\n#GM criterion                918726\n#redundant elements             511\n#rows reduced                 20135\n#zero reductions               8159\nmax. matrix data              11121 x 8004 (0.712%)\nmax. symbolic hash table size  2^13\nmax. basis hash table size     2^18\n-----------------------------------------\n\n\n\n------------------------------------------------------------------------------------\nmsolve overall time           0.59 sec (elapsed) /  0.59 sec (cpu)\n------------------------------------------------------------------------------------\n",
+              "input_sha256": "8dab0148e327657f4e48f949a8f6b8996ac221d810a944c29dface4412ae9e12",
+              "result_sha256": "a7bf5e2f809369f96e8657987e179b83da9dd9864b029613ce0ef753c3bb7418",
+              "threads": 1,
+              "saturation": true,
+              "scheme_length_from_leading_ideal": 640,
+              "rur_verification": null,
+              "system_sha256": "d5769fe75b4f34214933738e45a5cbd6da78ce7b3d831af4372269e1e20847e1",
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "weight": [
+                "1/2",
+                "1",
+                "5/8",
+                "1/4",
+                "3/4",
+                "3/8",
+                "1/2",
+                "3/8",
+                "3/4",
+                "1/4",
+                "5/8",
+                "1"
+              ],
+              "exact_face_support_preserved": true,
+              "result_bytes": 1170437,
+              "large_basis_location": "transient server data directory, deleted after counting"
+            },
+            {
+              "backend": "msolve RUR and independent Singular identities",
+              "status": "DONE",
+              "p": 65563,
+              "seed": 20261102,
+              "seconds": 2.510171,
+              "returncode": 0,
+              "stdout": "Initial seed for pseudo-random number generator is 20261102\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65563\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.54 sec\noverall(cpu)            0.54 sec\nselect                  0.04 sec   8.2%\nsymbolic prep.          0.04 sec   7.1%\nupdate                  0.28 sec  51.8%\nconvert                 0.01 sec   1.5%\nlinear algebra          0.16 sec  30.5%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   852\n#terms in basis               60938\n#pairs reduced                 9477\n#GM criterion                918726\n#redundant elements             511\n#rows reduced                 19872\n#zero reductions               8159\nmax. matrix data              11121 x 8004 (0.712%)\nmax. symbolic hash table size  2^13\nmax. basis hash table size     2^18\n-----------------------------------------\n\nIdeal not in generic position, parametrizations are not correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.04 sec\noverall(cpu)            0.04 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     317\n#normal forms                     2\ntotal density                    11.7%\ndensity of the free part         11.7%\ndensity of the nonfree part      12.5%\ndeg. elim. pol.                  80\ndeg. sqfr. elim. pol.            80\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.03 sec\noverall(cpu)            0.03 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     317\n#normal forms                     2\ntotal density                    11.7%\ndensity of the free part         11.7%\ndensity of the nonfree part      12.5%\ndeg. elim. pol.                  80\ndeg. sqfr. elim. pol.            80\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)         0.62 sec\nrational param(cpu)             0.62 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\nb6, a2, a3, a4, a5, a6, b0, b2, b3, b4, b5, a1\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65563\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.55 sec\noverall(cpu)            0.55 sec\nselect                  0.04 sec   7.6%\nsymbolic prep.          0.03 sec   6.4%\nupdate                  0.30 sec  53.9%\nconvert                 0.01 sec   1.4%\nlinear algebra          0.16 sec  29.8%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   858\n#terms in basis               60980\n#pairs reduced                 9467\n#GM criterion                976843\n#redundant elements             547\n#rows reduced                 19904\n#zero reductions               8130\nmax. matrix data              11203 x 8182 (0.667%)\nmax. symbolic hash table size  2^14\nmax. basis hash table size     2^18\n-----------------------------------------\n\nIdeal not in generic position, parametrizations are not correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.04 sec\noverall(cpu)            0.04 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     350\n#normal forms                    58\ntotal density                    10.2%\ndensity of the free part         10.6%\ndensity of the nonfree part       8.3%\ndeg. elim. pol.                 160\ndeg. sqfr. elim. pol.           160\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.03 sec\noverall(cpu)            0.03 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     350\n#normal forms                    58\ntotal density                    10.2%\ndensity of the free part         10.6%\ndensity of the nonfree part       8.3%\ndeg. elim. pol.                 160\ndeg. sqfr. elim. pol.           160\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)         0.63 sec\nrational param(cpu)             0.63 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\na1, b6, a3, a4, a5, a6, b0, b2, b3, b4, b5, a2\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65563\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.52 sec\noverall(cpu)            0.52 sec\nselect                  0.04 sec   8.0%\nsymbolic prep.          0.03 sec   6.6%\nupdate                  0.28 sec  53.4%\nconvert                 0.01 sec   1.4%\nlinear algebra          0.16 sec  29.6%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   852\n#terms in basis               60938\n#pairs reduced                 9477\n#GM criterion                918726\n#redundant elements             511\n#rows reduced                 19872\n#zero reductions               8159\nmax. matrix data              11121 x 8004 (0.712%)\nmax. symbolic hash table size  2^13\nmax. basis hash table size     2^18\n-----------------------------------------\n\nIdeal not in generic position, parametrizations are not correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.04 sec\noverall(cpu)            0.04 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     317\n#normal forms                     2\ntotal density                    11.7%\ndensity of the free part         11.7%\ndensity of the nonfree part      12.5%\ndeg. elim. pol.                  80\ndeg. sqfr. elim. pol.            80\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.04 sec\noverall(cpu)            0.04 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     317\n#normal forms                     2\ntotal density                    11.7%\ndensity of the free part         11.7%\ndensity of the nonfree part      12.5%\ndeg. elim. pol.                  80\ndeg. sqfr. elim. pol.            80\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)         0.60 sec\nrational param(cpu)             0.60 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\na1, a2, b6, a4, a5, a6, b0, b2, b3, b4, b5, a3\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65563\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.55 sec\noverall(cpu)            0.55 sec\nselect                  0.04 sec   7.6%\nsymbolic prep.          0.04 sec   7.2%\nupdate                  0.29 sec  52.4%\nconvert                 0.01 sec   1.4%\nlinear algebra          0.17 sec  30.3%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   846\n#terms in basis               60330\n#pairs reduced                 9326\n#GM criterion                939427\n#redundant elements             532\n#rows reduced                 19594\n#zero reductions               8008\nmax. matrix data              11831 x 8893 (0.600%)\nmax. symbolic hash table size  2^14\nmax. basis hash table size     2^18\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.04 sec\noverall(cpu)            0.04 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     336\n#normal forms                    36\ntotal density                    11.0%\ndensity of the free part         11.3%\ndensity of the nonfree part       8.6%\ndeg. elim. pol.                 640\ndeg. sqfr. elim. pol.           640\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)         0.60 sec\nrational param(cpu)             0.60 sec\n-----------------------------------------\n\n\n------------------------------------------------------------------------------------\nmsolve overall time           2.45 sec (elapsed) /  2.44 sec (cpu)\n------------------------------------------------------------------------------------\n",
+              "input_sha256": "d5769fe75b4f34214933738e45a5cbd6da78ce7b3d831af4372269e1e20847e1",
+              "result_sha256": "93b2fd34cf6a66d42cc23b2d13eff0373e3846abb1f50aaa1b2f9ee03e5b4f63",
+              "threads": 1,
+              "saturation": false,
+              "scheme_length_from_leading_ideal": null,
+              "rur_verification": {
+                "status": "PASS",
+                "distinct_torus_points": 640,
+                "reported_degree": 640,
+                "eliminant_degree": 640,
+                "checks": {
+                  "SQUAREFREE": true,
+                  "DENOMINATOR": true,
+                  "INPUT": true,
+                  "TORUS": true,
+                  "SEPARATING": true
+                },
+                "stdout": "RUR_DEG 640\nRUR_SQUAREFREE 1\nRUR_DENOMINATOR 1\nRUR_INPUT 1\nRUR_TORUS 1\nRUR_SEPARATING 1\n",
+                "errors": [],
+                "seconds": 0.027762,
+                "source_sha256": "3b495292ec0ad5e7f57d7e48ca167444b6ecbbe4579db64af0e1511cf2823a41"
+              },
+              "system_sha256": "d5769fe75b4f34214933738e45a5cbd6da78ce7b3d831af4372269e1e20847e1",
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "weight": [
+                "1/2",
+                "1",
+                "5/8",
+                "1/4",
+                "3/4",
+                "3/8",
+                "1/2",
+                "3/8",
+                "3/4",
+                "1/4",
+                "5/8",
+                "1"
+              ],
+              "exact_face_support_preserved": true,
+              "result_bytes": 26875,
+              "certificate_file": "e28_q_w02_p65563_rur.txt"
+            }
+          ],
+          "seconds": 64.04729851335287
+        },
+        {
+          "p": 65633,
+          "status": "PASS",
+          "length": 640,
+          "reduced": true,
+          "backend": "msolve F4sat plus verified RUR",
+          "attempts": [
+            {
+              "backend": "Singular direct saturation and Jacobian",
+              "status": "TIMEOUT",
+              "p": 65633,
+              "dim": null,
+              "length": null,
+              "reduced": null,
+              "seconds": 60.075323,
+              "pid": 3016034,
+              "source_sha256": "a7740834caa9a61bdedc3db630bc17b870af5ea21ae580ad104cfb2ce00d4784",
+              "stdout": "STAGE groebner\nSTAGE saturate\n",
+              "errors": [],
+              "saturation": "sat",
+              "algorithm": "std",
+              "seed": 20261102,
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "w": [
+                "1/2",
+                "1",
+                "5/8",
+                "1/4",
+                "3/4",
+                "3/8",
+                "1/2",
+                "3/8",
+                "3/4",
+                "1/4",
+                "5/8",
+                "1"
+              ],
+              "order": "1",
+              "q_forms": 24,
+              "r_monomials": 1,
+              "face_rank": 16,
+              "square_rank": 12
+            },
+            {
+              "backend": "msolve native F4 saturation",
+              "status": "DONE",
+              "p": 65633,
+              "seed": 20261102,
+              "seconds": 0.763591,
+              "returncode": 0,
+              "stdout": "Initial seed for pseudo-random number generator is 20261102\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65633\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.57 sec\noverall(cpu)            0.57 sec\nselect                  0.04 sec   7.6%\nsymbolic prep.          0.06 sec   9.6%\nupdate                  0.28 sec  47.9%\nconvert                 0.01 sec   1.7%\nlinear algebra          0.17 sec  30.4%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   852\n#terms in basis               60938\n#pairs reduced                 9477\n#GM criterion                918726\n#redundant elements             511\n#rows reduced                 20135\n#zero reductions               8159\nmax. matrix data              11121 x 8004 (0.712%)\nmax. symbolic hash table size  2^13\nmax. basis hash table size     2^18\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.58 sec\noverall(cpu)            0.58 sec\nselect                  0.04 sec   7.6%\nsymbolic prep.          0.06 sec   9.6%\nupdate                  0.28 sec  47.8%\nconvert                 0.01 sec   1.7%\nlinear algebra          0.17 sec  30.3%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   852\n#terms in basis               60938\n#pairs reduced                 9477\n#GM criterion                918726\n#redundant elements             511\n#rows reduced                 20135\n#zero reductions               8159\nmax. matrix data              11121 x 8004 (0.712%)\nmax. symbolic hash table size  2^13\nmax. basis hash table size     2^18\n-----------------------------------------\n\n\n\n------------------------------------------------------------------------------------\nmsolve overall time           0.60 sec (elapsed) /  0.60 sec (cpu)\n------------------------------------------------------------------------------------\n",
+              "input_sha256": "0666d6b21595e0c09d90dc1a40c0a064a1eb59b71097a4ac9a850789b99c6908",
+              "result_sha256": "00d14e46c631aa35e22389ead8e57667d31bcadaf020690ff79ef6d0ab521903",
+              "threads": 1,
+              "saturation": true,
+              "scheme_length_from_leading_ideal": 640,
+              "rur_verification": null,
+              "system_sha256": "1b74d972817f6c7923d8b8fe740394bd9f0cc5e2f121452edfc1c67bcd430ab2",
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "weight": [
+                "1/2",
+                "1",
+                "5/8",
+                "1/4",
+                "3/4",
+                "3/8",
+                "1/2",
+                "3/8",
+                "3/4",
+                "1/4",
+                "5/8",
+                "1"
+              ],
+              "exact_face_support_preserved": true,
+              "result_bytes": 1170192,
+              "large_basis_location": "transient server data directory, deleted after counting"
+            },
+            {
+              "backend": "msolve RUR and independent Singular identities",
+              "status": "DONE",
+              "p": 65633,
+              "seed": 20261102,
+              "seconds": 2.458475,
+              "returncode": 0,
+              "stdout": "Initial seed for pseudo-random number generator is 20261102\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65633\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.53 sec\noverall(cpu)            0.53 sec\nselect                  0.04 sec   8.1%\nsymbolic prep.          0.04 sec   7.1%\nupdate                  0.28 sec  52.2%\nconvert                 0.01 sec   1.5%\nlinear algebra          0.16 sec  30.0%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   852\n#terms in basis               60938\n#pairs reduced                 9477\n#GM criterion                918726\n#redundant elements             511\n#rows reduced                 19872\n#zero reductions               8159\nmax. matrix data              11121 x 8004 (0.712%)\nmax. symbolic hash table size  2^13\nmax. basis hash table size     2^18\n-----------------------------------------\n\nIdeal not in generic position, parametrizations are not correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.04 sec\noverall(cpu)            0.04 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     317\n#normal forms                     2\ntotal density                    11.7%\ndensity of the free part         11.7%\ndensity of the nonfree part      12.5%\ndeg. elim. pol.                  80\ndeg. sqfr. elim. pol.            80\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.03 sec\noverall(cpu)            0.03 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     317\n#normal forms                     2\ntotal density                    11.7%\ndensity of the free part         11.7%\ndensity of the nonfree part      12.5%\ndeg. elim. pol.                  80\ndeg. sqfr. elim. pol.            80\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)         0.60 sec\nrational param(cpu)             0.60 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\nb6, a2, a3, a4, a5, a6, b0, b2, b3, b4, b5, a1\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65633\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.55 sec\noverall(cpu)            0.55 sec\nselect                  0.04 sec   7.5%\nsymbolic prep.          0.04 sec   6.4%\nupdate                  0.29 sec  53.2%\nconvert                 0.01 sec   1.4%\nlinear algebra          0.17 sec  30.6%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   858\n#terms in basis               60980\n#pairs reduced                 9467\n#GM criterion                976843\n#redundant elements             547\n#rows reduced                 19904\n#zero reductions               8130\nmax. matrix data              11203 x 8182 (0.667%)\nmax. symbolic hash table size  2^14\nmax. basis hash table size     2^18\n-----------------------------------------\n\nIdeal not in generic position, parametrizations are not correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.04 sec\noverall(cpu)            0.04 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     350\n#normal forms                    58\ntotal density                    10.2%\ndensity of the free part         10.6%\ndensity of the nonfree part       8.3%\ndeg. elim. pol.                 160\ndeg. sqfr. elim. pol.           160\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.03 sec\noverall(cpu)            0.03 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     350\n#normal forms                    58\ntotal density                    10.2%\ndensity of the free part         10.6%\ndensity of the nonfree part       8.3%\ndeg. elim. pol.                 160\ndeg. sqfr. elim. pol.           160\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)         0.63 sec\nrational param(cpu)             0.63 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\na1, b6, a3, a4, a5, a6, b0, b2, b3, b4, b5, a2\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65633\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.53 sec\noverall(cpu)            0.52 sec\nselect                  0.04 sec   8.0%\nsymbolic prep.          0.03 sec   6.6%\nupdate                  0.27 sec  51.7%\nconvert                 0.01 sec   1.4%\nlinear algebra          0.16 sec  31.2%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   852\n#terms in basis               60937\n#pairs reduced                 9477\n#GM criterion                918726\n#redundant elements             511\n#rows reduced                 19872\n#zero reductions               8159\nmax. matrix data              11121 x 8004 (0.712%)\nmax. symbolic hash table size  2^13\nmax. basis hash table size     2^18\n-----------------------------------------\n\nIdeal not in generic position, parametrizations are not correct\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.03 sec\noverall(cpu)            0.03 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     317\n#normal forms                     2\ntotal density                    11.7%\ndensity of the free part         11.7%\ndensity of the nonfree part      12.5%\ndeg. elim. pol.                  80\ndeg. sqfr. elim. pol.            80\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.03 sec\noverall(cpu)            0.03 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     317\n#normal forms                     2\ntotal density                    11.7%\ndensity of the free part         11.7%\ndensity of the nonfree part      12.5%\ndeg. elim. pol.                  80\ndeg. sqfr. elim. pol.            80\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)         0.59 sec\nrational param(cpu)             0.59 sec\n-----------------------------------------\n\nChanging variable order for possibly more generic staircase:\na1, a2, b6, a4, a5, a6, b0, b2, b3, b4, b5, a3\n\n--------------- INPUT DATA ---------------\n#variables                      12\n#equations                      12\n#invalid equations               0\nfield characteristic         65633\nhomogeneous input?               0\nsignature-based computation      0\nmonomial order                 DRL\nbasis hash table resetting     OFF\nlinear algebra option            2\ninitial hash table size     131072 (2^17)\nmax pair selection             ALL\nreduce gb                        1\n#threads                         1\ninfo level                       1\ngenerate pbm files               0\n------------------------------------------\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.53 sec\noverall(cpu)            0.53 sec\nselect                  0.04 sec   7.8%\nsymbolic prep.          0.04 sec   7.1%\nupdate                  0.27 sec  50.8%\nconvert                 0.01 sec   1.4%\nlinear algebra          0.17 sec  31.9%\nreduce gb               0.00 sec   0.0%\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\nsize of basis                   846\n#terms in basis               60330\n#pairs reduced                 9326\n#GM criterion                939427\n#redundant elements             532\n#rows reduced                 19594\n#zero reductions               8008\nmax. matrix data              11831 x 8893 (0.600%)\nmax. symbolic hash table size  2^14\nmax. basis hash table size     2^18\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\noverall(elapsed)        0.04 sec\noverall(cpu)            0.04 sec\n-----------------------------------------\n\n---------- COMPUTATIONAL DATA -----------\ndegree of ideal                 640\n#dense rows                     336\n#normal forms                    36\ntotal density                    11.0%\ndensity of the free part         11.3%\ndensity of the nonfree part       8.6%\ndeg. elim. pol.                 640\ndeg. sqfr. elim. pol.           640\n-----------------------------------------\n\n\n---------------- TIMINGS ----------------\nrational param(elapsed)         0.58 sec\nrational param(cpu)             0.57 sec\n-----------------------------------------\n\n\n------------------------------------------------------------------------------------\nmsolve overall time           2.40 sec (elapsed) /  2.40 sec (cpu)\n------------------------------------------------------------------------------------\n",
+              "input_sha256": "1b74d972817f6c7923d8b8fe740394bd9f0cc5e2f121452edfc1c67bcd430ab2",
+              "result_sha256": "6ef0ab4697d6e191c51b6d2dc0e3c37ed87ebd5a281fad4a3b32dbee3ac1dad1",
+              "threads": 1,
+              "saturation": false,
+              "scheme_length_from_leading_ideal": null,
+              "rur_verification": {
+                "status": "PASS",
+                "distinct_torus_points": 640,
+                "reported_degree": 640,
+                "eliminant_degree": 640,
+                "checks": {
+                  "SQUAREFREE": true,
+                  "DENOMINATOR": true,
+                  "INPUT": true,
+                  "TORUS": true,
+                  "SEPARATING": true
+                },
+                "stdout": "RUR_DEG 640\nRUR_SQUAREFREE 1\nRUR_DENOMINATOR 1\nRUR_INPUT 1\nRUR_TORUS 1\nRUR_SEPARATING 1\n",
+                "errors": [],
+                "seconds": 0.026897,
+                "source_sha256": "f606f96dad00f838dd9bbfc33698a563e592b230a11e35779d5cdce96784d143"
+              },
+              "system_sha256": "1b74d972817f6c7923d8b8fe740394bd9f0cc5e2f121452edfc1c67bcd430ab2",
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "weight": [
+                "1/2",
+                "1",
+                "5/8",
+                "1/4",
+                "3/4",
+                "3/8",
+                "1/2",
+                "3/8",
+                "3/4",
+                "1/4",
+                "5/8",
+                "1"
+              ],
+              "exact_face_support_preserved": true,
+              "result_bytes": 26881,
+              "certificate_file": "e28_q_w02_p65633_rur.txt"
+            }
+          ],
+          "seconds": 64.08554727211595
+        }
+      ],
+      "two_prime_pass": true,
+      "two_prime_lengths_agree": true,
+      "char0_simple_root_lower_bound": 640
+    },
+    {
+      "index": 3,
+      "weight": [
+        "1/2",
+        "1",
+        "4/5",
+        "3/5",
+        "2/5",
+        "1/5",
+        "1/2",
+        "1/5",
+        "2/5",
+        "3/5",
+        "4/5",
+        "1"
+      ],
+      "prime_counts": [
+        {
+          "p": 65563,
+          "status": "PASS",
+          "length": 1000,
+          "reduced": true,
+          "backend": "Singular",
+          "attempts": [
+            {
+              "backend": "Singular direct saturation and Jacobian",
+              "status": "PASS",
+              "p": 65563,
+              "dim": 0,
+              "length": 1000,
+              "reduced": true,
+              "seconds": 15.591329,
+              "pid": 3016869,
+              "source_sha256": "0787f0f8e765a91c1de443c7dc5bb2230b358b8b55a0488ca98309b498653169",
+              "stdout": "STAGE groebner\nSTAGE saturate\nCOUNT dim=0 length=1000\nSTAGE jacobian\nREDUCED 1\n",
+              "errors": [],
+              "saturation": "sat",
+              "algorithm": "std",
+              "seed": 20261102,
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "w": [
+                "1/2",
+                "1",
+                "4/5",
+                "3/5",
+                "2/5",
+                "1/5",
+                "1/2",
+                "1/5",
+                "2/5",
+                "3/5",
+                "4/5",
+                "1"
+              ],
+              "order": "1",
+              "q_forms": 24,
+              "r_monomials": 1,
+              "face_rank": 15,
+              "square_rank": 12
+            }
+          ],
+          "seconds": 15.847106721252203
+        },
+        {
+          "p": 65633,
+          "status": "PASS",
+          "length": 1000,
+          "reduced": true,
+          "backend": "Singular",
+          "attempts": [
+            {
+              "backend": "Singular direct saturation and Jacobian",
+              "status": "PASS",
+              "p": 65633,
+              "dim": 0,
+              "length": 1000,
+              "reduced": true,
+              "seconds": 15.593639,
+              "pid": 3017052,
+              "source_sha256": "b658979b4a829be554f48147d447a68bec77dd1540f9363676e68db16d75588c",
+              "stdout": "STAGE groebner\nSTAGE saturate\nCOUNT dim=0 length=1000\nSTAGE jacobian\nREDUCED 1\n",
+              "errors": [],
+              "saturation": "sat",
+              "algorithm": "std",
+              "seed": 20261102,
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "w": [
+                "1/2",
+                "1",
+                "4/5",
+                "3/5",
+                "2/5",
+                "1/5",
+                "1/2",
+                "1/5",
+                "2/5",
+                "3/5",
+                "4/5",
+                "1"
+              ],
+              "order": "1",
+              "q_forms": 24,
+              "r_monomials": 1,
+              "face_rank": 15,
+              "square_rank": 12
+            }
+          ],
+          "seconds": 15.854445036500692
+        }
+      ],
+      "two_prime_pass": true,
+      "two_prime_lengths_agree": true,
+      "char0_simple_root_lower_bound": 1000
+    }
+  ],
+  "status": "PASS",
+  "generic_char0_claim": "certified simple special roots give generic lower bounds only",
+  "total_simple_root_lower_bound": 4184
+}

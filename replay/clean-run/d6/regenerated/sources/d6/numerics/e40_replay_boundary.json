@@ -1,0 +1,1858 @@
+{
+  "status": "PASS",
+  "seed": 20261031,
+  "identities": [
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c00_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c00_cut.json": "654c841a68ee69f261dcc279c9d2497c1f2fd5679f5c4d1a7d1005614b5deeb6",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c00_replay.sing": "259f8d95ce69037412c0c0494c3c1463177b0b77ac2329890200ba0d0a1e41f1"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c01_cut.json",
+      "members": 17,
+      "identity": "exactly 1",
+      "core_size": 10,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c01_cut.json": "0c454bc28b0c31c4e4694b1de337a7912c71bf61f68619044e6f5bc6ad69d853",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c01_replay.sing": "95e3ae233fa207f6b9e6bef7b541ebf967671e785c85e9a81822d1c0d856f038"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c02_cut.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c02_cut.json": "2218632a456534fa7da6fd1aa3d749832d58c157d204fcdee7e495c943b4f099",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c02_replay.sing": "bfa2ed78ea9c838b792c3fd962f4eef878d2511d527536b5f386da7284e7a608"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c03_cut.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c03_cut.json": "ba11fc5ecc35d04f33d1d37c79e1aab18daeecf257940999cbeb2d2245e95e1c",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c03_replay.sing": "58f99a1dcf0cb9b465f5eaa6240596c0261cf4a82eb02ed2a9d86cc4e7cdc98c"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c04_cut.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c04_cut.json": "0ec41157337a1dcdb751671a783eafa571a935e23a59b2d81bfbf8516747e252",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c04_replay.sing": "92e64957254c2b9a44030c503318118471a812e6fbbfff31ded003d6938484ed"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c05_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c05_cut.json": "a24333a04bf8eb0fa6499079cd56ebf81afc394f6f481835eea1e6471fe91d4f",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c05_replay.sing": "c3354824493a683b78e89467d50bfe47135d1aab8c2aa6fc7bc1af2c64129f0f"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c06_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c06_cut.json": "0327b202bf7d94f20d68e4e68a92901ac346d3a935db2c30e0e9b415c8b38bbc",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c06_replay.sing": "61d35c30a5fcfbf36571ef4791b39dcf989091bae15c8fd5c35d1752f271ec1f"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c07_cut.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c07_cut.json": "7e48856bef58c25a525170b1b9acd3b8fa4ea6a85085e24eb6fd39d66c3c7ad6",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c07_replay.sing": "ec29adf83c0d2ebce75e27927fa6a2f0ef6f360701f1a0e90a4d65801cc0a180"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c08_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c08_cut.json": "5c34c389d6c0df84837171af7843a0ba531469ff4479828b58f420df6c100ed6",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c08_replay.sing": "47362a555afc8cea5a466a39a96292164485ab953af45b588cab40279299237b"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c09_cut.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c09_cut.json": "46ceb9c4e2a1d755c3fd463bdd6671bddb7e151ba2b1ddb312b4a4f5d4d2c0e3",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c09_replay.sing": "12642a3863376dbb5edfdab60e320c3e2ee0e5282913a8ea989bbefa2109bb04"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c10_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c10_cut.json": "bce1d3e5109b9517ba3bedb425d58aded158b23df6bf22febc985c96cdaa6c55",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c10_replay.sing": "09eaf0c6d8d43cc9b4378f242b6a49eb951a981dfc0526bb19c0aaddbac0598d"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c11_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c11_cut.json": "7335bc450cdd42580be0520c88ba0ff7de888e9c8ad018b230446e271ef245ce",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c11_replay.sing": "5e2ab396357f2948e912033c42f3c203e113ec23eb57cf05871bfe36eaa4a9cc"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c12_cut.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c12_cut.json": "b4b73da4e85f07e7aefdf5f61adb8a06e2ef051226a89adfec6e3a660284d2b8",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c12_replay.sing": "0ab631c2b7a6bfa86182f1e0c89c8732e7a58f20053a5125f2f1da6875d22a81"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c13_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c13_cut.json": "8adf51723c13dcb1e207102eb152ace4a78cd0a34a358f8d0f96a43f8419e638",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c13_replay.sing": "2ef81419a37ff024dde07cb8c7378c76d6febb0be5516a60eda1225205a1f6fb"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c14_cut.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c14_cut.json": "e5bd6093c9449fbfd13dd96efaa5e16d9337d31031dcff83f2d5519c26cf4597",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c14_replay.sing": "166bab28fc70fcd26d24089dceb88cd7dd33af93f9b21d5d3970156e8a5fdebd"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c15_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c15_cut.json": "822a1b965bd228dcd20d8b45c326272a4f51bfe6de56dde08fa27f730e18811c",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c15_replay.sing": "6081a3cf84d9e83ec218cdf33e2283d49d10fb8185d86084294a412d2fddf217"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c16_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c16_cut.json": "b662d645ffd95cdf7e5901821cccd3832cc5de7c8feb940ef88408a66b10f0a5",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c16_replay.sing": "e0464b62335c9e6c8e26437e1f3cd7775abb0844db9fe2ec9a7686b4be1d0133"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c17_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c17_cut.json": "7efe7411b880f49cc2101981f64d13481f5e525e7481085cbbf6c2760e66cf51",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c17_replay.sing": "a4cd50c09a2c65717c86883ac20e8fc0ae4b81a61c529f8b9557480c2d2fc4d4"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c18_cut.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c18_cut.json": "ac24c9920de49474c431aaa43bc0f43ac82251bfa8c0056c063bea2f5868db7f",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c18_replay.sing": "25eecf3c387fea1e970fc66430fa2f77248cebe3e52ca4ee352e5e2bef5c5452"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c19_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c19_cut.json": "1245f473574b5190d0e2299d290ca01e3ffd836fa58c2fe452f8a345d90e24f9",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c19_replay.sing": "06c6898caef75703db704dd1a686263cb6675820db6417d65da4859feba7986a"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c20_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c20_cut.json": "8868fec8c9311db4a402716aa0730ed372412180fb962bb519dbf852bd9da1d0",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c20_replay.sing": "9c3e688f6b970e70b117d8c3972df194aae263da51636c1eb9b081746689501c"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c21_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c21_cut.json": "172a4db517b4e7bd904ce22fbb4234cd425e17382a07cd0286bc61489b59b113",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c21_replay.sing": "e4f5914dc0fa3daef3ef3cefa45bcb8a70630264eebad366990f384d7cb25e40"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c22_cut.json",
+      "members": 17,
+      "identity": "exactly 1",
+      "core_size": 9,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c22_cut.json": "0701b22248e9c2e1d493186fcf651ae1e96fe0157b2dc349f8e7a5d718a154b2",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c22_replay.sing": "85f022fee33a04a2ad33014eea0414d76f168fe7467dc2f10b57a920cf1924ed"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c23_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c23_cut.json": "5591f37f039770d5eece4558f9f21699fb89609efc71776e8ec2a24ac6727c2c",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c23_replay.sing": "8de5c8f3e2f3d9f14cba928f7cb8ac70413c92a4b46ad879a27deb052bf9fb04"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c24_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c24_cut.json": "5df24439197f21612434610a9ea6a8edae33229638bf9e313f286de852db102f",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c24_replay.sing": "9a84591df06e2a489c2bf782cb597c5e1d2d3e6a0e1a7f3366930e42bf61cc06"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c25_cut.json",
+      "members": 17,
+      "identity": "exactly 1",
+      "core_size": 9,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c25_cut.json": "4a9f164b3d5e701ad8e129c81db4cc3bcfae6187800ac523830c122587f2ee14",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c25_replay.sing": "ec875cbcb6e249a315dc467a8a711373d44a4973443cccd5db9df02b67a787ad"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c26_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c26_cut.json": "439b959265bed0781591cb0ee041bc1fc1df7632d0ae65e42af7ee120e2e4fc4",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c26_replay.sing": "bddf936c1bc8a1a3fd673c218d68b43f83756c051a68423af74611868c3fcd1f"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c27_cut.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c27_cut.json": "8a604f93ad0b95e3c553551c0e80d8d3ca13ac8d120de99c3c0dd28c9a88ac5b",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c27_replay.sing": "f575e3bebac30983ff0a98ab2d7fc583d9a23d12beeabd65ea9974327bf5a98f"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c28_cut.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c28_cut.json": "0194a49fba7dc862d5caad92d4b2a08f083a8d121cdde804b93d8c3ff440bef8",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c28_replay.sing": "753fdf3266766761ec2091c65d97e6ce07d2f63607faa0a642693f989aec7e6f"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c29_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c29_cut.json": "1640613dfcc10b20203fde6784fff1a552f1ac792b3127a1c1513505c63e5c1a",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c29_replay.sing": "208bc85dc90419070c8c87284e49cb1f39c4dcf470a129ab0129ed0df8c785a8"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c30_cut.json",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c30_cut.json": "85ab7a389b69fe16c18d4cdad77f9795857207fbcde40101e7c200caf12a53ea",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c30_replay.sing": "f80cca1bf39d50939d5b81bf93601be3acad5620418ae4f7275b1eea4a7317a5"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c31_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c31_cut.json": "f860b026a9e3051af27e92482393c31b98389cc10bf9405fc5ae2a8a1f5cced1",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c31_replay.sing": "64e61a18e56cb52e9631fb7f7971622ab94300c34a892026f1cd6b1f73e0e50a"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c32_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c32_cut.json": "15521d6c1c1d3f6fa0f8f44502e76599aee7416abdf86057282c5b1d68cc7c06",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c32_replay.sing": "9e97b6a6542d47936a0da2332a79321575f2945a65778bbfc458ca22de444dfe"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c33_cut.json",
+      "members": 20,
+      "identity": "exactly 1",
+      "core_size": 12,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c33_cut.json": "23d9446bff12afaec5a6e156f78f19d3207d498d2118ffec6237cbf7ec740037",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c33_replay.sing": "8a6486f1687c8e71ed37f67b03cd5adcacde9c4dd2669437a6f9aef560331f46"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c34_cut.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c34_cut.json": "76714814272b9ecb7a861d913fb4c9ac6a71d9075a5f361851c9395a7b2a23b7",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c34_replay.sing": "35604b4b5ff36dfce68eccdc16a911106b4d04d634b6eabdb7ed42e2bd23938d"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c35_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c35_cut.json": "6fa7030a6868ceb20f38ae2141854e45613a80352a314f532fb5f4f11f5a7907",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c35_replay.sing": "0fcb8af7a6ac3ddbb241f2c2f0c07c0e04671dfe16691eb7f45ee7d9a5553f0d"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c36_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c36_cut.json": "e048b367e5db4e5611be70a530dc9911135430fefcbfa6d70aabc616aa445695",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c36_replay.sing": "353118d02b2702e2decedd984f5d805402c6a0407839a77dd052314125dd1afb"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c37_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c37_cut.json": "b62d164e14da3062b00a82805effc97098f1d0524aca074aea31e08d979dde48",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c37_replay.sing": "82fa949db364bfc3123efca4b8e7a675bd53f787f15e197ee2f4c78d559bec5f"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c38_cut.json",
+      "members": 17,
+      "identity": "exactly 1",
+      "core_size": 10,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c38_cut.json": "f3232237913c0a816fa3bb6da9d8f10d30aef860ff069bfa68e1511d53dce692",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c38_replay.sing": "0c2f7687e1dfbf81a44a72af9c7d686cbdfb45510e0b73755d31553ed5da3415"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c39_cut.json",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 9,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c39_cut.json": "53c7c74ebf43d8a84538c973703d491a632ff56c3d7783d6a43c0252d29dcddb",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c39_replay.sing": "71bd69e96e3d7373ada4b25270e5cb983d77320775bda3bbd52c3bd24c232e00"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c40_cut.json",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 9,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c40_cut.json": "12cfaf4140bca51556a68761fbe8d1703441317771a4846fd3345974d7f4b865",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c40_replay.sing": "c831a74a15ea6af5506ed43afdc925af395e656c5d844289f00e94363f250652"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c41_cut.json",
+      "members": 17,
+      "identity": "exactly 1",
+      "core_size": 10,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c41_cut.json": "dd7a4e08d8e2e238b52af31b9668f5e5396d2d225fbc8e43118073fa2fbd8722",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c41_replay.sing": "829349ab3daed1780ca92048f4fef4b148fd046cda4e997adf18b3a8112b4d20"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c42_cut.json",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 9,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c42_cut.json": "495741b4346f622a984e59365b28c31678e6204932fc0adc3dba0c9e0f40105b",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c42_replay.sing": "9e6b817279b04cb9bfee518f37bba25840d6c8b0942bde7f337496aae77aa956"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c43_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c43_cut.json": "c2e16f286ab308e1860bcb0a6d478865619b6519c60e51cb030079e50fea9c81",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c43_replay.sing": "25130715146a01ac72f8a4cb35bf305bc40e8bffb0f2f39ba747e30e086e84fc"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c44_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c44_cut.json": "39aae30cab6d6db271ab91dbb44004dbe0ca3f1a41b48bd4f603d817959dd839",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c44_replay.sing": "0b17b7090133c76f431fe4e591118b3f51046a51c33b02cd3c8da1ebd32c80c3"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c45_cut.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c45_cut.json": "3fc843b8668754149f3e800082c351cec2b5d0daf41119042291d83a3ad2053e",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c45_replay.sing": "189a84e4ef22b187fb7080804857834526df159d09d573d72a32d94912062bed"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c46_cut.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c46_cut.json": "e7d76b8b28e810108e4c20512471fba714160ea4721f31eccd843f37f8118a69",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c46_replay.sing": "f8fbf89cc0ae285f936d27703b68323f434a52b2bd64e347e22725689afb8bfc"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c47_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c47_cut.json": "a6f0ca2a48a989888f12e2ef389ad6fdcce0ba130a1d1de452ac8f3bbdcbc3ae",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c47_replay.sing": "6a371f5be32fa4916987ce1e058e8b032bc0461e7a32aa453ceac59f9f9fd15f"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c48_cut.json",
+      "members": 18,
+      "identity": "exactly 1",
+      "core_size": 10,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c48_cut.json": "044854b83c005c2721545a0a5e707b68989c1cd5346ee0e2a05fc0eb33b70cec",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c48_replay.sing": "9d5eeaf8f5715123b261c365f6fb4c7df038188304a1b4d2f50e797a019cff66"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c49_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c49_cut.json": "0c0ec16c57c2d89879def82e02bb9e5ee1861b7a2ef1f9fc5083d63ac8bf70fb",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m4032_c49_replay.sing": "908477b592f289e12415091449e66e68183f1a7567dba8ac7c2d2b41646d49a7"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c000.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c000.json": "d088c36856745e48bfea44dacae16e804c8c5af1047f4db898460a4442d66109"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c001.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c001.json": "5d36f30e41dc557e9d90f1ac28a4bd939d55b29e1806ad3fb142632410fd6e88"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c002.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c002.json": "14399ef2bea8dc7e78ae942b9770c75e74c55cc8aa597cf9b5354f86718c57f0"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c003.json",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c003.json": "147f30d71731f0d6d44ef1d905b2a6b7e1c9035c425c3f97ebc1595234d0b263"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c004.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c004.json": "f86c3cee01f08e31f7bda106ae42ec56a94a55ba7fcf52deeac6bccd753935b0"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c005.json",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c005.json": "f5d0e945e7b478f7c89e09987a286ef989880ce452c57858afb3e9c9a129f178"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c006.json",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c006.json": "457d1f14a8653b6f89d399ccd6b9ee78b9f66ad993ffd3971a05d165a1147a7c"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c007.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c007.json": "5761525e3d28a08f14e1a9d19356f35f625cf1038a15e095f0c25dedfa2dd824"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c008.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c008.json": "c38e2dc64b5b7d8def6e2728bb12d046dc64d57a330ce0172ce86b4f8e298e52"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c009.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c009.json": "6301c45041ce6819adf42c0759773d80f64230ae2a028c86beb3b4ac190f981a"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c010.json",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 9,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c010.json": "0f1905abf6ba77dfc2243dd941b51c485adfcaa173cc4eeec90094925d61fa87"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c011.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c011.json": "5bd4d8b0b9d0fec63a5f3febd3476f6303cea83e48268af20a90b3e47c9b05aa"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c012.json",
+      "members": 17,
+      "identity": "exactly 1",
+      "core_size": 10,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c012.json": "c682fd45d77e554cb1531649acb4723b6dfcc88f778fa6e3f37bbf40f7fb75e1"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c013.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c013.json": "75bb962e9ba525066efb1f55002d15648919fb5a3c4496c1bdc958645511903c"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c014.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c014.json": "a78654f6ac49e7e370840d36ac2e3a878694d52f4bc513fee3c0ab61d425c123"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c015.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c015.json": "4691defe5b977895ab4d29d00f0ea3e5ba7095f946cd9c23d752f0ca1c9193b7"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c016.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c016.json": "88209707717364605224fcf0d48e4bf0cf90d27b52e838a90c16adb46335621a"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c017.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c017.json": "e92eafe874a11d8a0d3e14496fd5424a741d9424d8785fac2721895dd61e13c5"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c018.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c018.json": "70a92e6075e663c2faa7e26f239608bed06027c4b4d2c227e93c1cc37617f637"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c019.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c019.json": "39b9a3be8ad2f000261af6f0f2961b566dc4c8e525a9b9d69dceb1821f4f5675"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c020.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c020.json": "c14e4f55fee13b7672277adbaf3aa8eb13b8195f006d9a820f047e5c63d13b27"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c021.json",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 9,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c021.json": "29313efd0dde221a3eec79e854c66fb0e2885e9ef4885e3f1b57d3d7f19494d3"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c022.json",
+      "members": 17,
+      "identity": "exactly 1",
+      "core_size": 10,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c022.json": "81a745dbdd28d39d51c8f4d2551d4027da021aae37569252fbe167a9918f20dd"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c023.json",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 9,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c023.json": "c040892da9fdb6e06074d38e5d3988cb293c8017b0b5fe8a2460c2a8620b0815"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c024.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c024.json": "a0f899c7796c63a6e853a6903afc7044ee496278fd2e5611cbde455bc0a3f34b"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c025.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c025.json": "8f8cc636165ad0f6a705a49b40db4d016ca8cce1264500d75955c05be3c6947e"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c026.json",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c026.json": "fb6ccfcac1c7a7c6a06eb9c45db11ea2f96d853ac856c23ae6266ea71d414abe"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c027.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m4032_seed_c027.json": "0f926882c3e53143f95c2add588775ec56c7bdb825e322e213458e1b9d6c0953"
+      }
+    },
+    {
+      "file": "e10_p7_r1_c0000.json.gz.part000",
+      "members": 16,
+      "identity": "exactly 1",
+      "core_size": 8,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e10_p7_r1_c0000.json.gz.part000": "c5d3de0452851b84aaecea01ea94704cf740cb5adc91fa940548a33d7ca784cb"
+      }
+    },
+    {
+      "file": "e10_p7_r1_c0001.json.gz.part000",
+      "members": 17,
+      "identity": "exactly 1",
+      "core_size": 9,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e10_p7_r1_c0001.json.gz.part000": "23a9f3ec7fb6156c38dc767889e28ae6351c04e4e51a559f948e7d08b453efa7"
+      }
+    },
+    {
+      "file": "e10_p7_r1_c0002.json.gz.part000",
+      "members": 18,
+      "identity": "exactly 1",
+      "core_size": 10,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e10_p7_r1_c0002.json.gz.part000": "f1aea37eeb769b5c47a8d775d4ef046dd3d37c58d606af20281a99e8374bc8e4"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c00_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c00_cut.json": "af81e6631a6b14be45710d69da81be4aeec29f9c217a00f4c2abf0e88d9d6bfc",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c00_replay.sing": "3aa55a30a7fd3c15828fedb86e9274031ce62cd4a2aa57744bca1be60471fcc5"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c01_cut.json",
+      "members": 8,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c01_cut.json": "ae81549771661331c429cec0facb25f7ffd9c118fdb70df3c63d4bfc93f8954f",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c01_replay.sing": "2eaf3dbff6425132ff717ce74da73dde663b8a3788228dd54f245ecd386e4a76"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c02_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c02_cut.json": "b45c917fd0c1e2229071d6e20037998181fe6b3285644067d69f2cd13dbebb68",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c02_replay.sing": "4d5973ee83dc3a4ad5e070858be3d6ed4be237b79202631b5f49dea375a75c79"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c03_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c03_cut.json": "4166aac2c41e302f79cd149921a307f5e977b3396a08dd654a6d14d9a64781ad",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c03_replay.sing": "aa9bf9c7ac88aee2c2bbcb8550aa3aa8c1429364ec0f40cffdaadd9b1f68293f"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c04_cut.json",
+      "members": 8,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c04_cut.json": "0a0d8af8ffb694080a639f0f2a7e5f459583845c08373a36ca4961c2e3ca3a59",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c04_replay.sing": "6ca39ba287e2a00d9715f464f32541012fb0142bcec49a290c327d4d20645369"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c05_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c05_cut.json": "517f81873a449ff5b46e540f0902312215232630dbeabd8ff5b62ad706d3e6e8",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c05_replay.sing": "17dd1bd43c3a7723098e9657e2cb66b978f371bc45e2b721d692e0e621cc8f56"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c06_cut.json",
+      "members": 7,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c06_cut.json": "e5140db23b705df84d13dd95790f97a3321a11e699657399d02bc860ced2cbe1",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c06_replay.sing": "5c24b8c4c9f26fa4f00bc9f1a69a961e3d91ed3ceec3e54233ded08fd0b5ce03"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c07_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c07_cut.json": "7ed17300fe55cc01c2900c04a854953326e14fc405adbd12d058306af0834d7f",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c07_replay.sing": "6c6d12fd53e2b2555a9a6d36817f53acdcafc8477a369e60339efa0344900f0e"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c08_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c08_cut.json": "bd66e38ee089f11c95490599fee80756c767d6b0ddebe22870713d49df706179",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c08_replay.sing": "04199c945eecf89e686b0e729f11e0ed3aa648c5df4cd5afc6c8044282517315"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c09_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c09_cut.json": "9635dcca11e82e557395df32b1a6828d0abb85f227f6a4a9f95f46ac054210d2",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c09_replay.sing": "fc447106ffb089b97942169318a875508c3adfa576cc2ac630588b9d099ecc79"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c10_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c10_cut.json": "64ab3c0ed9a060a8f7cb397778cadaeb3eba138e2222beb6865caf2ce9d58787",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c10_replay.sing": "36c8933383ca4b784fbaca475f9765c07721a8fd32183a8f1f8db474b7d8791c"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c11_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c11_cut.json": "a74a9e94a44895b123e960fd24fa4a9f902807d04f3f90cb0bf5a85d979a2a23",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c11_replay.sing": "8d7fee2429c5e94ab6ecb0edbf0d42eef7c3ac82b734a5d4a0136d27e9195df1"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c12_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c12_cut.json": "b2a6a850c9a83a22b7e56158dda4d9bffcf9b10fc4d13e8a00ff68891d13c61d",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c12_replay.sing": "99ae6b769f40e2dcf3bbc950284ff5cb27f5fa20d0ba28e60754511783faedb1"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c13_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c13_cut.json": "f1ccd001ef7d17e1617ea8d0a896301b94d0a61013cb6703c44c17514541745c",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c13_replay.sing": "416162bc807cb7f5c019a23f01be5054d3015613a46e151e03db5560f720b429"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c14_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c14_cut.json": "af067be41511c032124ed8af2c9e3bbcc91fc964e1bfd301e728d0cba14b46e7",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c14_replay.sing": "f226c201823b87552fd329d00fc550bb96b4a4e122c60edd29fe69108b995687"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c15_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c15_cut.json": "dd66634f32162e40d5785dd345013759ff32aa7734b96bad6f3090bfdcf1da62",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c15_replay.sing": "4e61ca9ff7c5c765ffcfd401963fe7f79fc960f03275f00f8a331e7c109d0949"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c16_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c16_cut.json": "6729bc6d0e6dd9f34677732d88bc066a8711b9300cc2b31908a0639b57264dab",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c16_replay.sing": "07537e9ff3f96477ad53feccf3f5dbe1954c9dce1004efffcf9ab06402a6c614"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c17_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c17_cut.json": "b464e5dbd222a75bb95185228669840f12ed7eda453b781ffb7be84920539e06",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c17_replay.sing": "b796c5d79659641aa3d20f0842a77749f36781b8fb50d5da69d1caa0e51e1485"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c18_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c18_cut.json": "13f6163da6f2736e0550f0c978707ab2e937229495c996a6cd990208170d0f7a",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c18_replay.sing": "367190d43e38688e2f4292728491796f2af1dc8383e3d41dec6b5eb4ebd74cea"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c19_cut.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c19_cut.json": "277cb01f85ef4b92b2ddfd1786936eada4ba7e821f5cda013eb92143e5c4d9b1",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c19_replay.sing": "ae9b24c7a58529e5e64cc9ed82328d3ba168d50f7bacd8e41a628ab106c85fe5"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c20_cut.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c20_cut.json": "ccc4d76f1afe888976d9b03a4b3336bfd44cc56d4d1890e10fc5dd76c4699cbe",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c20_replay.sing": "7d743fc32fea2329c839bd77b8319785ee7d3a0bdfb24393fcccd63bee4b049a"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c21_cut.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c21_cut.json": "88c45b05595705292d71967d6d5dbe97272ba81c692c576854cba083a0bc07b4",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c21_replay.sing": "31cbed96c63477494c2bac2acde892a451b9e2f2787ab5c574f661971ac59bcb"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c22_cut.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c22_cut.json": "3dac14b39eecbbe0be9a0e27d754a22d40814b8f65715172bd462bdce9751a30",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c22_replay.sing": "c9320b6e156382eab30d65a3a692ade566c43d2c58f45f1f6fce4d3d7f00ccd5"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c23_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c23_cut.json": "b17b4506aeaf326d91b8e6afd8c0fe1c9942f757cc6af1ff417ba4e02ea8a388",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c23_replay.sing": "9df32ea5500f89ba55eb1238e2a72b73d399b0de51502c405427cfa555cadb2f"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c24_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c24_cut.json": "571ee36120d4a624167a282964961fccb2473e28f4d06b13241b405f296a3ab3",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c24_replay.sing": "009e524fa43f970ba773ce13d24d61e94a2bb925481f5b52d2f0fc5382933131"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c25_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c25_cut.json": "202a10e74c9fb3516216b88bb2d81e28eee21b97eb1dd04e523843a128c45e8f",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c25_replay.sing": "7cc7d8efcf94bc91938785b6b42f191ae58cc725ecad6cc456f7967f2a8910d0"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c26_cut.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c26_cut.json": "d81279b8f6ed0a393f2261583ab8ee893f6bc4e16df47507333b2784e3e4768f",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c26_replay.sing": "ef83acb1da385a4b4e317f05cf49f5e49daf1426b3e1e69db8542bcacfcd6011"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c27_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c27_cut.json": "e883efc99f945852c52e09c07a7892428054e67134f6aca7b980504f5fa3309d",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c27_replay.sing": "872955b9edbcc2746eb962fd6f11dd9959f2fc9a767a9c75eed49a40b6c315a2"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c28_cut.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c28_cut.json": "ab6f647d67bb3cb8afe4b7494c9bb1f0e6293f7eccc920e256b422b3e625aed6",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c28_replay.sing": "776b290c8b9cab10ab8bc4f997c976442a2f11ae31452b5a7b54456214ef7a8b"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c29_cut.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c29_cut.json": "f0c29ab02c3db8703ccce0a4a94d22076046bcdc4530f987e7698d8269dc6784",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c29_replay.sing": "25c48045c28299b7de3eaa9b1d6892661413e37bf773054130e6b5e933622776"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c30_cut.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c30_cut.json": "71ddc1116d9ae6168ebd6247edb2dc2124da98b709bf6fc0bd41831be93e90dc",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c30_replay.sing": "a4ecfafd43b752fff01c81a55ed65349ab63fc999fd9ac88c4132240db61aa57"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c31_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c31_cut.json": "112556a50011c4218f23e26c8f431359efcc986278625f00756fead1929336b8",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c31_replay.sing": "489ad3dd505602466e0d9e23df5eaf70817d20d588280fcd44581463b2f2b1f5"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c32_cut.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c32_cut.json": "66e1dc1011eedfbbf7737312164bfc9e3e4d5aa791d11a723e867b6dbf50b29f",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c32_replay.sing": "dd14fbc52c0c123a96cd2672e792b56acfef36c7e0c53ae69d7c40fd7bbf5424"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c33_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c33_cut.json": "6c0aea0b13903f48786c33545a68cc03e114ae4c7f74b745a4aa6acccf485e59",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c33_replay.sing": "94e978a509edcbe57705e97c5647fb9a486053fb8f1dbc4174a5bdeb2fded5cc"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c34_cut.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c34_cut.json": "5d58482b8fd8a47bf8da168e2296ca405881f20e2d6c837c58198f195e246ba5",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c34_replay.sing": "6534022d0e898995f19d954eb1bf9a5c888767b90d0ba3660315ce16693e596a"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c35_cut.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c35_cut.json": "b401f68da20cd7ca7f82ab82f4a62a4a372e046770bed8bffbc8c2cab05aed26",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c35_replay.sing": "4db80d61fdf3dec8b6a21a433a65b0a0ed3012d1af1b12fd27c07e393035f044"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c36_cut.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c36_cut.json": "09e18bda618e9a12c97fe48ba466fe8ec7641221274a35dc2eda1f647262754e",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c36_replay.sing": "37688bb2ecf52f71c248b0cfe519300ecc9d64cb248ee7ff5d3c623906cbf1c6"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c37_cut.json",
+      "members": 6,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c37_cut.json": "4404b8cb36fa8c94f92518c10c4c8db315696635f8a5fd88f9d4c58e69b667cf",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c37_replay.sing": "d91ecb3b7a87b56b171f96ef1475e3010c7eeb8fe14cbd374f31fcbdaf6f6f16"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c38_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c38_cut.json": "76eb73ad874f192ec35b01c531061fb544a82e2873beb6a0cdf6ba915810db9d",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c38_replay.sing": "1ee6dd857a11712b16ccfd71ab29f00a3e3ef7a6b6a17bfb67d59a3a825fcd74"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c39_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c39_cut.json": "0b7ad41e37fa082daf3de79691edb89f8f393facc58c36502d064257e6639251",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c39_replay.sing": "01f8f41452bccab173cec00ef57938df269ba5753db6c75f98191ab4c5ff58c3"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c40_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c40_cut.json": "8e9fa36fc24c07e8aa6d346567ec5fbc0d9999d8856c05366553770a3b5b8305",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c40_replay.sing": "7f8060bfb0e9de44773fef54c66981198833788f28af3f6bcebcee328c1fff4c"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c41_cut.json",
+      "members": 11,
+      "identity": "exactly 1",
+      "core_size": 4,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c41_cut.json": "83b4b29c6f0d7076f712e407998ecbc5f968f4fa7754767d4b3b8635b242ff38",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c41_replay.sing": "a1a1fee89d146b5897c9a315a45befd5b15a812b0a039558c81bc07246cc5740"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c42_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c42_cut.json": "9362a46c75b72396167a244d391bb43aa92ae5c1734cc29b03ad5392966f521c",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c42_replay.sing": "a25a1095bc7d124b2587f60bd1600bc9401cffab1a590c36f29edd0bbe0c1002"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c43_cut.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 5,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c43_cut.json": "3336d67f863a295cac73ad85ead7ea35780d3ebd289a9f4e4b94a885c88ea396",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c43_replay.sing": "863a3ebb9bbc447f0e4fa8eb490a3d9da2c383928d9b50325006ecd561355084"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c44_cut.json",
+      "members": 10,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c44_cut.json": "43531218e712a9607d0bb5042cec77068b96b99081242c0a846e0e873ec858c5",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c44_replay.sing": "c7f414de96d6dd22399bf3b7d3c4ea96a370c51411ff45e9a6615100f16658e4"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c45_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c45_cut.json": "069951675d9e15693c60179439a4abc5d13a3014cc2ca9ece4df33a115d17eb4",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c45_replay.sing": "1c471a39b0613a8b0de7dfdc18a26902839c26bb02ac589dea8aa2241bf6d826"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c46_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 7,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c46_cut.json": "d0a6632306d6d524c8cfefcdf8923a92886b2f9d757e3f32ce60d2d7b3e9685b",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c46_replay.sing": "580905f7a86fb0e6aad89c9d2ea5a693b42f115ed7d4a9e52984960aa94c22fa"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c47_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c47_cut.json": "2441ad98b8f2d51e102e414ea52ee6ef68bc72c1a2472949c8d54c010ad4a1e7",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c47_replay.sing": "1f1ae9e4b1c168dbab401b49cdd6ea724e3281594c4c116c4042eb87fc4ef138"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c48_cut.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c48_cut.json": "c4df6a6e039044dce83b5028728eab79a6f2a33bd0b49f9950e5ecd73ec436c9",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c48_replay.sing": "f316c1377160076a9ae01bf1677eb79e320bdda907c804455f51ea7aeb6b3ba8"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c49_cut.json",
+      "members": 9,
+      "identity": "exactly 1",
+      "core_size": 2,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c49_cut.json": "c9a7fd80ea019edbf78a7eca6c1178ea1e80d00ba9d4007261a3c0f22c51e896",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08b_d6_p7_m258048_c49_replay.sing": "ebf71765b048589ccd4ecd875583e0b9b4c28028b4d080b7f3534e724653058d"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m258048_seed_c000.json",
+      "members": 12,
+      "identity": "exactly 1",
+      "core_size": 3,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m258048_seed_c000.json": "1e4fffcdff48a0d1cfcf6571ecfacb334c9954d09a7a96d05730f2bd241f77d2"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m258048_seed_c001.json",
+      "members": 13,
+      "identity": "exactly 1",
+      "core_size": 6,
+      "normalized_residue_point": true,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m258048_seed_c001.json": "e7fc1eeb9a3fb3bb9204f4b6c6488464359972bb9b4ce36f5dc3baca091f0a92"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m352325568_c00_cut.json",
+      "members": 20,
+      "identity": "exactly 1",
+      "core_size": 18,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m352325568_c00_cut.json": "c3616858e6a5a1ce95ed2ae2118f2cad293b55b5284dc1c377308ea3cbee3806",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m352325568_c00_replay.sing": "e3d04dce2fb4aec5b023c249a26adb6abb2c4b66cdfce4fc310fb7fbcf0c32a5"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m352325568_c000.json",
+      "members": 19,
+      "identity": "exactly 1",
+      "core_size": 17,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m352325568_c000.json": "fe629e870ef86d3ea9dd1b46621e0980894c9c2dfcd627dc2c66c2b7632d975e"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m352325568_c001.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 13,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m352325568_c001.json": "571036a26d4a3d34f3d35fa29b714ae8fedf09b4ea61629d5ae01e020be1e5d1"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m704647104_c00_cut.json",
+      "members": 19,
+      "identity": "exactly 1",
+      "core_size": 17,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m704647104_c00_cut.json": "a018e1bdabec19d92aae61843da8d182762186f63623e8e69be6543da698b33c",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m704647104_c00_replay.sing": "91a7f7ea13cd2fb4f9632c8921dbe68e95f01fdfbd069f2ff69c482cb9ffd33a"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c000.json",
+      "members": 20,
+      "identity": "exactly 1",
+      "core_size": 18,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c000.json": "4ba74c282ca5e8b4930c878dce8ef0b8b0429fa099c83d7094717a8d129cdc84"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c001.json",
+      "members": 19,
+      "identity": "exactly 1",
+      "core_size": 17,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c001.json": "a0ef5118c6aa9d9cbd7bd893392eaf1ab8ae13b85198af31137ecb20ed6d0683"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c002.json",
+      "members": 19,
+      "identity": "exactly 1",
+      "core_size": 17,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c002.json": "2ea06ece37a5f0d8f37f829cdbf96b53357400fa2b4a196bba1406f00a77be11"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c003.json",
+      "members": 19,
+      "identity": "exactly 1",
+      "core_size": 17,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c003.json": "2ce12c58c8858777a3be949eaa9d95db90408a9d22f264843769cc392b8d14ba"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c004.json",
+      "members": 15,
+      "identity": "exactly 1",
+      "core_size": 13,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c004.json": "3f95e0cb38513d1e49487e7eea1cad9b995e95844e23488a4b3a8c70d3dada3c"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c005.json",
+      "members": 20,
+      "identity": "exactly 1",
+      "core_size": 18,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_d6_p7_m704647104_c005.json": "4374746a2b578d289717e4a78c9eb412383af11e3a89ec529fc316b38bc8d269"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m262080_c00_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 12,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m262080_c00_cut.json": "8d25dc00b0fdf8cd758a599341d9cb3ec000c2444aa8ae9c1acee5f92201d8ef",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m262080_c00_replay.sing": "4ad968bfb778684acdd924df66cdf78fbdd79cb7f14b8613f1a5c36ae24c60ab"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m262080_c01_cut.json",
+      "members": 14,
+      "identity": "exactly 1",
+      "core_size": 12,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m262080_c01_cut.json": "3a1ebc45259bafba6595a5b38ee221aca5369acb05be3c869a23ad4ea4625552",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m262080_c01_replay.sing": "85dc785306d30e9445a654e2fae40f95f4753249dc960351ed8b0b0aeab2c913"
+      }
+    },
+    {
+      "file": "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m262080_c02_cut.json",
+      "members": 111,
+      "identity": "exactly 1",
+      "core_size": 91,
+      "normalized_residue_point": false,
+      "residue_component": false,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m262080_c02_cut.json": "7879469c2f2068ae399d8043a41279e43e2f4cd451380499acd9adfd31817582",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08_d6_p7_m262080_c02_replay.sing": "f65afc59dd737a30140537f435950bf29952c295313fecf4d0ee19ce973e15fe"
+      }
+    },
+    {
+      "file": "e10_p7_component_c000.json.gz.part000",
+      "members": 115,
+      "identity": "exactly 1",
+      "core_size": 87,
+      "normalized_residue_point": false,
+      "residue_component": true,
+      "hashes": {
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e10_p7_component_c000.json.gz.part000": "dd0bee3101cfd4a4d83b3bdb33354615ccba6bc8727a117e1c981e4e86fcd3b6"
+      }
+    }
+  ],
+  "covers": [
+    {
+      "mask": 4032,
+      "status": "unsat",
+      "source_identities": 81,
+      "group_images_per_identity": 12,
+      "free_pairs": 10,
+      "seconds": 24.153636,
+      "uses_e31": false,
+      "uses_saved_smt": false,
+      "smt": {
+        "files": [
+          "e40_m4032_final.smt2.gz.part000",
+          "e40_m4032_final.smt2.gz.part001",
+          "e40_m4032_final.smt2.gz.part002",
+          "e40_m4032_final.smt2.gz.part003"
+        ],
+        "uncompressed_bytes": 29625053,
+        "compressed_bytes": 2878913,
+        "sha256": "91df25f608675e4e9421dc2fd55cba90ffd708f65efa8e4a938d2902bfdb73d7"
+      }
+    },
+    {
+      "mask": 258048,
+      "status": "unsat",
+      "source_identities": 52,
+      "group_images_per_identity": 12,
+      "free_pairs": 10,
+      "seconds": 28.810605,
+      "uses_e31": false,
+      "uses_saved_smt": false,
+      "smt": {
+        "files": [
+          "e40_m258048_final.smt2.gz.part000",
+          "e40_m258048_final.smt2.gz.part001",
+          "e40_m258048_final.smt2.gz.part002"
+        ],
+        "uncompressed_bytes": 26266868,
+        "compressed_bytes": 2600543,
+        "sha256": "746c20623a7b481fbaceeda8d086db0ba9bc71a0bd7a4584a3ed363d0e112aff"
+      }
+    },
+    {
+      "mask": 352325568,
+      "status": "unsat",
+      "source_identities": 3,
+      "group_images_per_identity": 12,
+      "free_pairs": 7,
+      "seconds": 0.098643,
+      "uses_e31": false,
+      "uses_saved_smt": false,
+      "smt": {
+        "files": [
+          "e40_m352325568_final.smt2.gz.part000",
+          "e40_m352325568_final.smt2.gz.part001"
+        ],
+        "uncompressed_bytes": 9227308,
+        "compressed_bytes": 943059,
+        "sha256": "2fa2dfc54c6671869be7c6ac4c3cb414b0531b08a48848ff5de50996b38a8010"
+      }
+    },
+    {
+      "mask": 704647104,
+      "status": "unsat",
+      "source_identities": 7,
+      "group_images_per_identity": 12,
+      "free_pairs": 7,
+      "seconds": 0.436842,
+      "uses_e31": false,
+      "uses_saved_smt": false,
+      "smt": {
+        "files": [
+          "e40_m704647104_final.smt2.gz.part000",
+          "e40_m704647104_final.smt2.gz.part001"
+        ],
+        "uncompressed_bytes": 9909573,
+        "compressed_bytes": 967655,
+        "sha256": "67abb5cf32dbd266876fa0e6d1340d269cff6bd7b369eab74987ee41079abe63"
+      }
+    },
+    {
+      "mask": 262080,
+      "status": "unsat",
+      "source_identities": 3,
+      "group_images_per_identity": 12,
+      "free_pairs": 4,
+      "seconds": 0.02886,
+      "uses_e31": false,
+      "uses_saved_smt": false,
+      "smt": {
+        "files": [
+          "e40_m262080_final.smt2.gz.part000"
+        ],
+        "uncompressed_bytes": 3661020,
+        "compressed_bytes": 322106,
+        "sha256": "394f0ed877831845dc8ab91078f71124d24badad048371487236efa42e260736"
+      }
+    },
+    {
+      "mask": 1056968640,
+      "status": "unsat",
+      "source_identities": 1,
+      "group_images_per_identity": 12,
+      "free_pairs": 4,
+      "seconds": 0.020185,
+      "uses_e31": false,
+      "uses_saved_smt": false,
+      "smt": {
+        "files": [
+          "e40_m1056968640_final.smt2.gz.part000"
+        ],
+        "uncompressed_bytes": 3474141,
+        "compressed_bytes": 318440,
+        "sha256": "6158393063236e275813350201d447290f0a5059d5a59a814dd1d9d65e52b308"
+      }
+    }
+  ],
+  "seconds": 289.455465,
+  "identity_count": 147,
+  "complete_boundary_coverage": true,
+  "versions": {
+    "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+    "z3": "5.0.0"
+  },
+  "source_hashes": {
+    "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e40_replay_boundary.py": "bc0e121dc0020092b6362622eb2910701b26a0d206f42e0648bf5bce5c5516db",
+    "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e05_initial_forms.py": "a799e16b2f82ec8f97d3c986042a99cd65605bf14c5b50963d938a0738caeedf",
+    "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e90_initial_audit.py": "8e1d1b08b41a087f8c578fff95d70cdfb13212334ef9766f251ac36ee17afad1",
+    "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e90_support_audit.py": "d0293e3e9f425451b38182975c39c8649c4a0a804107cf367cb85e354ed09466"
+  }
+}

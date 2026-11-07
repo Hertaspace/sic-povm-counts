@@ -1,0 +1,174 @@
+{
+  "format": "sic-nf6-d7-direct-face-counts-v1",
+  "tag": "x1",
+  "seed": 20261102,
+  "gate_sha256": "ac87180cf539c8ce12ce673e9b0a33ead3997ef882424181d7d71bb19de608bd",
+  "vertex_file": "e03_d7_x1.json",
+  "vertex_sha256": "e3a872e1395c668f07b953a04a40f39a91401cc9154772a066cce9e4451c83c6",
+  "parameters": {
+    "tag": "x1",
+    "prime": null,
+    "singular_seconds": 60,
+    "msolve_seconds": 900,
+    "threads": 1,
+    "fallback": true
+  },
+  "environment": {
+    "python": "3.14.8 | packaged by conda-forge | (main, Oct 12 2026, 17:35:27) [GCC 15.3.0]",
+    "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31"
+  },
+  "sources_sha256": {
+    "e28_d7_face_counts.py": "9156a6874d555f95b58065bf59e4a799924b7b72f46f450dfc73abb07f43ab49",
+    "e10_face_system.py": "b41f3a6d8cb5356c2386536aa69a368e87d05d61f434198befe031dc44673119",
+    "e17_reducedness_certificates.py": "efadd8fc0bbc61f5dfd5aaf3c38629899faf3c06e02c7d15170b2262bac48ffb"
+  },
+  "names": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "a5",
+    "a6",
+    "b0",
+    "b2",
+    "b3",
+    "b4",
+    "b5",
+    "b6"
+  ],
+  "zero_names": [
+    "b2",
+    "b4"
+  ],
+  "primes": [
+    65563,
+    65633
+  ],
+  "weights": [
+    {
+      "index": 0,
+      "weight": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1/2",
+        "0",
+        "1",
+        "0",
+        "1",
+        "1"
+      ],
+      "prime_counts": [
+        {
+          "p": 65563,
+          "status": "PASS",
+          "length": 8,
+          "reduced": true,
+          "backend": "Singular",
+          "attempts": [
+            {
+              "backend": "Singular direct saturation and Jacobian",
+              "status": "PASS",
+              "p": 65563,
+              "dim": 0,
+              "length": 8,
+              "reduced": true,
+              "seconds": 0.034322,
+              "pid": 3012570,
+              "source_sha256": "3366fd185f687e64c0e057e4290445e547b8f1fbdc3f791193dd8c2cdb0d3b13",
+              "stdout": "STAGE groebner\nSTAGE saturate\nCOUNT dim=0 length=8\nSTAGE jacobian\nREDUCED 1\n",
+              "errors": [],
+              "saturation": "sat",
+              "algorithm": "std",
+              "seed": 20261102,
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "w": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1/2",
+                "0",
+                "1",
+                "0",
+                "1",
+                "1"
+              ],
+              "order": "1",
+              "q_forms": 24,
+              "r_monomials": 6,
+              "face_rank": 16,
+              "square_rank": 12
+            }
+          ],
+          "seconds": 0.5938217453658581
+        },
+        {
+          "p": 65633,
+          "status": "PASS",
+          "length": 8,
+          "reduced": true,
+          "backend": "Singular",
+          "attempts": [
+            {
+              "backend": "Singular direct saturation and Jacobian",
+              "status": "PASS",
+              "p": 65633,
+              "dim": 0,
+              "length": 8,
+              "reduced": true,
+              "seconds": 0.030616,
+              "pid": 3012575,
+              "source_sha256": "16a85cd6ac4f1c4b056e3d6c4ebc6bb60079788c096b9fd396b4dc4ef255e98b",
+              "stdout": "STAGE groebner\nSTAGE saturate\nCOUNT dim=0 length=8\nSTAGE jacobian\nREDUCED 1\n",
+              "errors": [],
+              "saturation": "sat",
+              "algorithm": "std",
+              "seed": 20261102,
+              "d": 7,
+              "chart": [
+                0,
+                1
+              ],
+              "w": [
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1",
+                "1/2",
+                "0",
+                "1",
+                "0",
+                "1",
+                "1"
+              ],
+              "order": "1",
+              "q_forms": 24,
+              "r_monomials": 6,
+              "face_rank": 16,
+              "square_rank": 12
+            }
+          ],
+          "seconds": 0.28509166464209557
+        }
+      ],
+      "two_prime_pass": true,
+      "two_prime_lengths_agree": true,
+      "char0_simple_root_lower_bound": 8
+    }
+  ],
+  "status": "PASS",
+  "generic_char0_claim": "certified simple special roots give generic lower bounds only",
+  "total_simple_root_lower_bound": 8
+}

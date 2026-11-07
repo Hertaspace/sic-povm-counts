@@ -1,0 +1,521 @@
+{
+  "format": "sic-nf6-d7-cone-summary-v1",
+  "seed": 20261102,
+  "all_six_two_prime_nondegenerate": true,
+  "representatives": [
+    {
+      "tag": "q",
+      "status": "PASS",
+      "candidates": 4,
+      "covered_vertex_weights": 4,
+      "representative_simple_path_lower": 4184,
+      "unit_multiplier": 3,
+      "new_units_relative_to_supplied": 0,
+      "weights": [
+        {
+          "weight": [
+            "1/2",
+            "1",
+            "1/3",
+            "1/4",
+            "3/4",
+            "2/3",
+            "1/2",
+            "2/3",
+            "3/4",
+            "1/4",
+            "1/3",
+            "1"
+          ],
+          "simple_char0_lower": 576,
+          "exact_normalized_volume_upper": 576,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_q_w00_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 576,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 576,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        },
+        {
+          "weight": [
+            "1/2",
+            "1",
+            "1/3",
+            "5/6",
+            "1/6",
+            "2/3",
+            "1/2",
+            "2/3",
+            "1/6",
+            "5/6",
+            "1/3",
+            "1"
+          ],
+          "simple_char0_lower": 1968,
+          "exact_normalized_volume_upper": 1968,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_q_w01_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 1968,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 1968,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        },
+        {
+          "weight": [
+            "1/2",
+            "1",
+            "5/8",
+            "1/4",
+            "3/4",
+            "3/8",
+            "1/2",
+            "3/8",
+            "3/4",
+            "1/4",
+            "5/8",
+            "1"
+          ],
+          "simple_char0_lower": 640,
+          "exact_normalized_volume_upper": 640,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_q_w02_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 640,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 640,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        },
+        {
+          "weight": [
+            "1/2",
+            "1",
+            "4/5",
+            "3/5",
+            "2/5",
+            "1/5",
+            "1/2",
+            "1/5",
+            "2/5",
+            "3/5",
+            "4/5",
+            "1"
+          ],
+          "simple_char0_lower": 1000,
+          "exact_normalized_volume_upper": 1000,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_q_w03_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 1000,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 1000,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        }
+      ],
+      "source": "e28_d7_q_counts.json",
+      "source_sha256": "3bd6c13b483b9f28a1a876b861dac8e3ee6e137af49c2f1b5b569ffc4c8224f3"
+    },
+    {
+      "tag": "z",
+      "status": "PASS",
+      "candidates": 1,
+      "covered_vertex_weights": 1,
+      "representative_simple_path_lower": 96,
+      "unit_multiplier": 3,
+      "new_units_relative_to_supplied": 0,
+      "weights": [
+        {
+          "weight": [
+            "0",
+            "1/2",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1/2",
+            "0",
+            "1",
+            "1",
+            "1"
+          ],
+          "simple_char0_lower": 96,
+          "exact_normalized_volume_upper": 96,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_z_w00_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 96,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 96,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        }
+      ],
+      "source": "e28_d7_z_counts.json",
+      "source_sha256": "f2957fc4ebaeeb3975ee5787e47231dede09b2ef02c0df840aa49da4f2641452"
+    },
+    {
+      "tag": "x1",
+      "status": "PASS",
+      "candidates": 1,
+      "covered_vertex_weights": 1,
+      "representative_simple_path_lower": 8,
+      "unit_multiplier": 2,
+      "new_units_relative_to_supplied": 0,
+      "weights": [
+        {
+          "weight": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1/2",
+            "0",
+            "1",
+            "0",
+            "1",
+            "1"
+          ],
+          "simple_char0_lower": 8,
+          "exact_normalized_volume_upper": 8,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_x1_w00_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 8,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 8,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        }
+      ],
+      "source": "e28_d7_x1_counts.json",
+      "source_sha256": "5c0e40e21d9f12c995d128e7d91a291e3a85c1f2636f93d112a48a5129bedae4"
+    },
+    {
+      "tag": "x2",
+      "status": "PASS",
+      "candidates": 1,
+      "covered_vertex_weights": 1,
+      "representative_simple_path_lower": 32,
+      "unit_multiplier": 6,
+      "new_units_relative_to_supplied": 0,
+      "weights": [
+        {
+          "weight": [
+            "1/2",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1/2",
+            "0",
+            "0",
+            "1",
+            "1",
+            "1"
+          ],
+          "simple_char0_lower": 32,
+          "exact_normalized_volume_upper": 32,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_x2_w00_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 32,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 32,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        }
+      ],
+      "source": "e28_d7_x2_counts.json",
+      "source_sha256": "b329844891697786372d42cabbd7bcb305976150c95161209e50fec6a3abab8f"
+    },
+    {
+      "tag": "l1",
+      "status": "PASS",
+      "candidates": 3,
+      "covered_vertex_weights": 3,
+      "representative_simple_path_lower": 136,
+      "unit_multiplier": 6,
+      "new_units_relative_to_supplied": 96,
+      "weights": [
+        {
+          "weight": [
+            "1/2",
+            "1",
+            "1",
+            "1",
+            "1/2",
+            "1/2",
+            "1/2",
+            "0",
+            "1/2",
+            "1/2",
+            "1",
+            "1"
+          ],
+          "simple_char0_lower": 48,
+          "exact_normalized_volume_upper": 48,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_l1_w00_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 48,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 48,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        },
+        {
+          "weight": [
+            "1/2",
+            "1",
+            "1",
+            "1",
+            "2/3",
+            "1/3",
+            "1/2",
+            "0",
+            "1/3",
+            "2/3",
+            "1",
+            "1"
+          ],
+          "simple_char0_lower": 72,
+          "exact_normalized_volume_upper": 72,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_l1_w01_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 72,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 72,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        },
+        {
+          "weight": [
+            "1/2",
+            "1",
+            "1",
+            "1",
+            "3/4",
+            "3/4",
+            "1/2",
+            "0",
+            "3/4",
+            "1/4",
+            "1",
+            "1"
+          ],
+          "simple_char0_lower": 16,
+          "exact_normalized_volume_upper": 16,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_l1_w02_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 16,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 16,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        }
+      ],
+      "source": "e28_d7_l1_counts.json",
+      "source_sha256": "355cbc6ece7c1e0683fded7a8f17647e1cf5dcdb03ec379a86e781ba4df68dfa"
+    },
+    {
+      "tag": "l2",
+      "status": "PASS",
+      "candidates": 2,
+      "covered_vertex_weights": 2,
+      "representative_simple_path_lower": 176,
+      "unit_multiplier": 6,
+      "new_units_relative_to_supplied": 768,
+      "weights": [
+        {
+          "weight": [
+            "1/2",
+            "1",
+            "1/2",
+            "1",
+            "1/2",
+            "1",
+            "1/2",
+            "1/2",
+            "0",
+            "1",
+            "1/2",
+            "1"
+          ],
+          "simple_char0_lower": 48,
+          "exact_normalized_volume_upper": 48,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_l2_w00_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 48,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 48,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        },
+        {
+          "weight": [
+            "3/4",
+            "1",
+            "1/2",
+            "1",
+            "1/4",
+            "1",
+            "1/2",
+            "3/4",
+            "0",
+            "1",
+            "1/4",
+            "1"
+          ],
+          "simple_char0_lower": 128,
+          "exact_normalized_volume_upper": 128,
+          "generic_char0_face_count_exact": true,
+          "volume_certificate": "e04_d7_l2_w01_volume.json",
+          "two_prime_pass": true,
+          "prime_counts": [
+            {
+              "p": 65563,
+              "length": 128,
+              "status": "PASS",
+              "reduced": true
+            },
+            {
+              "p": 65633,
+              "length": 128,
+              "status": "PASS",
+              "reduced": true
+            }
+          ]
+        }
+      ],
+      "source": "e28_d7_l2_counts.json",
+      "source_sha256": "42175e885666d396acd8f6bd9c3ad1aa62eb9b7afe47b219b13c096a2658d535"
+    }
+  ],
+  "all_generic_char0_direct_face_counts_exact": true,
+  "certified_boundary_path_lower": 1671040,
+  "certified_units": 14920,
+  "supplied_units": 14056,
+  "new_units_relative_to_supplied": 864,
+  "bezout": 3784704,
+  "spur_input": {
+    "count": 2080736,
+    "nature": "NUMERICAL, NOT CERTIFIED HERE"
+  },
+  "bound_CONDITIONAL_on_spur": 32928,
+  "strict_target": 49392,
+  "conditional_target_met": true,
+  "remaining_units_to_strict_target": 0,
+  "char0_exact_total_count_claim": false,
+  "scope": "All candidate weights for isolated GLOBAL direct faces only; no coverage of higher-layer Puiseux paths."
+}

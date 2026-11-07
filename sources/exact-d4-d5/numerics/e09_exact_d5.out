@@ -1,0 +1,7 @@
+FIELD PASS: degree 32; explicit order-2 sigma does not commute with conjugation
+PROJECTORS PASS: true Hermitian and sigma-image non-Hermitian; 25 quartics + 24 trace products each
+GROUP PASS: 6000 exact projective EC elements
+ORBIT Hermitian SG5a EC 6000 stabilizer 3 chart rays 2000
+ORBIT non-Hermitian sigma(M) EC 6000 stabilizer 3 chart rays 2000
+PASS: 2000 exact Hermitian roots + 2000 disjoint exact non-Hermitian roots
+SECONDS 2.7201601669949014

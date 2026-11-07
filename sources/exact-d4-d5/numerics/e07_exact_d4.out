@@ -1,0 +1,5 @@
+SIC PASS: 16 Fourier quartics and 15 nonidentity WH overlaps
+GROUP PASS: all 1536 exact projective EC elements, stabilizer=6, unitary=3, antiunitary=3
+CHART PASS: zero first coordinates=0, distinct exact known SIC rays=256
+ZAUNER PASS: both order-3 stabilizers exactly projectively conjugate to Fz
+SECONDS 0.12130191700998694

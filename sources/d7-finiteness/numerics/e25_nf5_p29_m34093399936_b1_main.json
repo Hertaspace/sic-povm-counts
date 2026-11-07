@@ -1,0 +1,1210 @@
+{
+  "schema": "nf5-rectangle-cover-v1",
+  "seed": 20261031,
+  "d": 7,
+  "p": 29,
+  "mask": 34093399936,
+  "orbit_index": 1,
+  "support": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "rectangle": {
+    "schema": "nf5-residual-rectangle-v1",
+    "source": "local-complete-e11-catalogue",
+    "d": 7,
+    "p": 29,
+    "mask": 34093399936,
+    "orbit_index": 1,
+    "x_shift": 0,
+    "A": [
+      0,
+      1,
+      3
+    ],
+    "B": [
+      6
+    ],
+    "a_support": [
+      0,
+      1,
+      3
+    ],
+    "b_support": [
+      6
+    ],
+    "a_size": 3,
+    "b_size": 1,
+    "projective_component_dimension": 2,
+    "parameters": {
+      "a": [
+        "a0",
+        "a1",
+        "a3"
+      ],
+      "b": [
+        "b6"
+      ],
+      "parameter_space": "P^2 x P^0",
+      "no_a_or_b_coordinate_fixed": true
+    },
+    "residual_labels": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+    ],
+    "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+    "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+    "weight_action": {
+      "shear": "diagonal conjugation preserves A and B",
+      "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+      "reflected_A": [
+        1
+      ],
+      "reflected_B": [
+        0,
+        4,
+        6
+      ],
+      "reflection_X_correction": null,
+      "safe_pairs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "orbit_false_always_safe": true,
+      "full_e22_orbit_safe": false
+    }
+  },
+  "field": {
+    "p": 29,
+    "degree": 1,
+    "modulus": [
+      0,
+      1
+    ],
+    "tau": 16,
+    "tau_coefficients": [
+      16
+    ],
+    "tau_order": 7,
+    "digits": 8,
+    "valuation_normalization": "v(p)=1",
+    "trace_exponent": 0
+  },
+  "projected": true,
+  "certificates": [
+    {
+      "files": [
+        "e21_nf5_p29_m34093399936_b1_main_c0000.json.gz.part000"
+      ],
+      "uncompressed_bytes": 47716,
+      "compressed_bytes": 5847,
+      "uncompressed_sha256": "4ac25341957e4264e2ed21292771a0fc733c2b21f069a60f38bffa9d7504b9ab"
+    }
+  ],
+  "attempts": [
+    {
+      "iteration": 0,
+      "mu": "1",
+      "weights": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "search": {
+        "eliminated_variables": [
+          "z42",
+          "z13",
+          "z43",
+          "z8",
+          "z48",
+          "z9",
+          "z47",
+          "z10",
+          "z46",
+          "z11",
+          "z12",
+          "z45",
+          "z44",
+          "z14",
+          "z15",
+          "z16",
+          "z17",
+          "z18",
+          "z19",
+          "z28",
+          "z29",
+          "z30",
+          "z31",
+          "z32",
+          "z33",
+          "z34"
+        ],
+        "elimination_steps": 26,
+        "original_generators": 3302,
+        "method": "affine-elimination-graded",
+        "normalization": "block",
+        "affine_preprocessing_seconds": 3.921944,
+        "status": "certified",
+        "initial_result": [
+          -1,
+          0,
+          1
+        ],
+        "extraction": "exact affine elimination already yielded a unit",
+        "python_replay": {
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 3,
+          "normalization": "block",
+          "normalization_info": {
+            "schema": "nf5-residual-rectangle-v1",
+            "source": "local-complete-e11-catalogue",
+            "d": 7,
+            "p": 29,
+            "mask": 34093399936,
+            "orbit_index": 1,
+            "x_shift": 0,
+            "A": [
+              0,
+              1,
+              3
+            ],
+            "B": [
+              6
+            ],
+            "a_support": [
+              0,
+              1,
+              3
+            ],
+            "b_support": [
+              6
+            ],
+            "a_size": 3,
+            "b_size": 1,
+            "projective_component_dimension": 2,
+            "parameters": {
+              "a": [
+                "a0",
+                "a1",
+                "a3"
+              ],
+              "b": [
+                "b6"
+              ],
+              "parameter_space": "P^2 x P^0",
+              "no_a_or_b_coordinate_fixed": true
+            },
+            "residual_labels": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34
+            ],
+            "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+            "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+            "weight_action": {
+              "shear": "diagonal conjugation preserves A and B",
+              "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+              "reflected_A": [
+                1
+              ],
+              "reflected_B": [
+                0,
+                4,
+                6
+              ],
+              "reflection_X_correction": null,
+              "safe_pairs": [
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  2
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  1,
+                  4
+                ],
+                [
+                  1,
+                  5
+                ],
+                [
+                  1,
+                  6
+                ]
+              ],
+              "orbit_false_always_safe": true,
+              "full_e22_orbit_safe": false
+            },
+            "kind": "complete-residual-coordinate-rectangle",
+            "block_size": 3,
+            "relations": [
+              "(1)*1+(13)*z13",
+              "(1)*z8+(5)*z13",
+              "(1)*z9+(22)*z13",
+              "(1)*z10+(4)*z13",
+              "(1)*z11+(6)*z13",
+              "(1)*z12+(9)*z13",
+              "(1)*z14+(28)*z20",
+              "(1)*z15+(28)*z20",
+              "(1)*z16+(28)*z20",
+              "(1)*z17+(28)*z20",
+              "(1)*z18+(28)*z20",
+              "(1)*z19+(28)*z20",
+              "(1)*z28+(6)*z34",
+              "(1)*z29+(22)*z34",
+              "(1)*z30+(13)*z34",
+              "(1)*z31+(9)*z34",
+              "(1)*z32+(4)*z34",
+              "(1)*z33+(5)*z34"
+            ],
+            "linear_rank": 18,
+            "residual_matrix_vector_dimension": 3,
+            "rref_labels": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34
+            ],
+            "rref_coefficients": [
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                13,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                5,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                22,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                4,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                6,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                9,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                28,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                28,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                28,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                28,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                28,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                28,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                6
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                22
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                13
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                9
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                4
+              ],
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                5
+              ]
+            ],
+            "rank_one_parameterization": [
+              {
+                "label": 7,
+                "terms": [
+                  {
+                    "a_coordinate": 0,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 25
+                  }
+                ]
+              },
+              {
+                "label": 8,
+                "terms": [
+                  {
+                    "a_coordinate": 0,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 23
+                  }
+                ]
+              },
+              {
+                "label": 9,
+                "terms": [
+                  {
+                    "a_coordinate": 0,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 20
+                  }
+                ]
+              },
+              {
+                "label": 10,
+                "terms": [
+                  {
+                    "a_coordinate": 0,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 1
+                  }
+                ]
+              },
+              {
+                "label": 11,
+                "terms": [
+                  {
+                    "a_coordinate": 0,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 16
+                  }
+                ]
+              },
+              {
+                "label": 12,
+                "terms": [
+                  {
+                    "a_coordinate": 0,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 24
+                  }
+                ]
+              },
+              {
+                "label": 13,
+                "terms": [
+                  {
+                    "a_coordinate": 0,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 7
+                  }
+                ]
+              },
+              {
+                "label": 14,
+                "terms": [
+                  {
+                    "a_coordinate": 1,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 25
+                  }
+                ]
+              },
+              {
+                "label": 15,
+                "terms": [
+                  {
+                    "a_coordinate": 1,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 25
+                  }
+                ]
+              },
+              {
+                "label": 16,
+                "terms": [
+                  {
+                    "a_coordinate": 1,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 25
+                  }
+                ]
+              },
+              {
+                "label": 17,
+                "terms": [
+                  {
+                    "a_coordinate": 1,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 25
+                  }
+                ]
+              },
+              {
+                "label": 18,
+                "terms": [
+                  {
+                    "a_coordinate": 1,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 25
+                  }
+                ]
+              },
+              {
+                "label": 19,
+                "terms": [
+                  {
+                    "a_coordinate": 1,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 25
+                  }
+                ]
+              },
+              {
+                "label": 20,
+                "terms": [
+                  {
+                    "a_coordinate": 1,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 25
+                  }
+                ]
+              },
+              {
+                "label": 28,
+                "terms": [
+                  {
+                    "a_coordinate": 3,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 25
+                  }
+                ]
+              },
+              {
+                "label": 29,
+                "terms": [
+                  {
+                    "a_coordinate": 3,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 24
+                  }
+                ]
+              },
+              {
+                "label": 30,
+                "terms": [
+                  {
+                    "a_coordinate": 3,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 1
+                  }
+                ]
+              },
+              {
+                "label": 31,
+                "terms": [
+                  {
+                    "a_coordinate": 3,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 23
+                  }
+                ]
+              },
+              {
+                "label": 32,
+                "terms": [
+                  {
+                    "a_coordinate": 3,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 7
+                  }
+                ]
+              },
+              {
+                "label": 33,
+                "terms": [
+                  {
+                    "a_coordinate": 3,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 16
+                  }
+                ]
+              },
+              {
+                "label": 34,
+                "terms": [
+                  {
+                    "a_coordinate": 3,
+                    "b_coordinate": 6,
+                    "coefficient_base_p": 20
+                  }
+                ]
+              }
+            ],
+            "parameterization_formula": "M_ij=a_i*b_j; z_q=sum(coefficient*a_i*b_j); divide all z by nonzero z_first only for the projective chart",
+            "coefficient_encoding": "base-p in the recorded finite-field modulus",
+            "proof": "invertible Fourier reconstruction; all forbidden matrix entries vanish; exact finite-field RREF",
+            "all_positive_weight_z_retained": true
+          }
+        },
+        "total_seconds": 8.281145,
+        "certificate": {
+          "files": [
+            "e21_nf5_p29_m34093399936_b1_main_c0000.json.gz.part000"
+          ],
+          "uncompressed_bytes": 47716,
+          "compressed_bytes": 5847,
+          "uncompressed_sha256": "4ac25341957e4264e2ed21292771a0fc733c2b21f069a60f38bffa9d7504b9ab"
+        }
+      }
+    }
+  ],
+  "status": "covered_UNSAT_for_rectangle",
+  "no_d7_length_assumption": true,
+  "uses_saved_smt": false,
+  "versions": {
+    "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+    "z3": "5.0.0"
+  },
+  "last_weight_check": {
+    "status": "unsat",
+    "seconds": 0.001093,
+    "certified_source_cells": 1,
+    "free_pairs": 3,
+    "raw_terms": 4875,
+    "distinct_affine_forms": 1824,
+    "singleton_necessity_constraints": 1272,
+    "weight_group_order": 7,
+    "trace_exponent": 0,
+    "trace_weight": "(0+mu)/2",
+    "mu_upper_bound": null,
+    "denominator_bound": null,
+    "uses_saved_smt": false,
+    "necessary_polynomial_count": 342,
+    "full_polynomial_count": 3258,
+    "duplicate_clauses_removed": 1209,
+    "constant_true_clauses_removed": 0,
+    "distinct_necessity_clauses": 63,
+    "coefficient_valuation_histogram": {
+      "0": 77334
+    },
+    "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+    "rectangle_images": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ]
+    ]
+  },
+  "seconds": 9.219659,
+  "last_candidate": {
+    "files": [
+      "e25_nf5_p29_m34093399936_b1_main_candidate.json.gz.part000"
+    ],
+    "uncompressed_bytes": 1416099,
+    "compressed_bytes": 133124,
+    "uncompressed_sha256": "8466a268ee47faad70aa12034fea128f60b7d8dacfd92c953f78ded22662b01e"
+  },
+  "smt": {
+    "files": [
+      "e25_nf5_p29_m34093399936_b1_main_fresh.smt2.gz.part000"
+    ],
+    "uncompressed_bytes": 82980,
+    "compressed_bytes": 3673,
+    "uncompressed_sha256": "4acb23710e86680f84e22de37cacd5f1d73b50bb28b2fb8ad44121b81aac8a99"
+  },
+  "cover_stats": {
+    "free_pairs": 3,
+    "raw_terms": 4875,
+    "distinct_affine_forms": 1824,
+    "singleton_necessity_constraints": 1272,
+    "weight_group_order": 7,
+    "trace_exponent": 0,
+    "trace_weight": "(0+mu)/2",
+    "mu_upper_bound": null,
+    "denominator_bound": null,
+    "uses_saved_smt": false,
+    "necessary_polynomial_count": 342,
+    "full_polynomial_count": 3258,
+    "duplicate_clauses_removed": 1209,
+    "constant_true_clauses_removed": 0,
+    "distinct_necessity_clauses": 63,
+    "coefficient_valuation_histogram": {
+      "0": 77334
+    },
+    "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+    "rectangle_images": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ]
+    ]
+  },
+  "implementation_sha256": {
+    "e20_exact_model.py": "af487e70cd367315c39ea66b66e2b6e494a9bbd3cf1c17cf00bb244b6cf4d6f9",
+    "e21_unit_cells.py": "7df4c48143124aa85d16139d5ab608acc5974d9ea71a32c2fef617debcb30aec",
+    "e22_weight_cover.py": "da6557f5405ebbbf9bd19cb2467fd7b35c8d6d6d6af74ca6fce13fbc158fe855",
+    "e26_rectangle_model.py": "73428db0133c716f7c5184b3f401cbd2f82517b88ceecee5790f41dafae36f31",
+    "e27_rectangle_pipeline.py": "d0948e64220e7747278aaf4f8d496e308103b64117fba2f17bb8fe20d19e8461",
+    "e28_fast_members.py": "6f13d21e2c9e64b7f78c5b6d526ace56fdf5025a40fd4252f601c6127b5aa0a5",
+    "e40_projected_model.py": "2611b0eed90caf51ed3cbcf1e9e4049a268b50958fc2e3dc3800a71126edda77",
+    "e11_boundary_blocks.json": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591"
+  }
+}

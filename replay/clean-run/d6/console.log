@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "claim": "d6",
+  "mode": "fresh-execution",
+  "result": "work/final-d6/result.json",
+  "workspace": "repo",
+  "error": null
+}

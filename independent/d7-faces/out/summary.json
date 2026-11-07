@@ -1,0 +1,1370 @@
+{
+  "primes": [
+    100003,
+    100129
+  ],
+  "forbidden_primes_avoided": [
+    30241,
+    31081,
+    65563,
+    65633,
+    65761,
+    65881
+  ],
+  "q_union_support_excluding_q00": 112,
+  "matrix_vs_definition_mismatches": 0,
+  "q_rank_with_q00": 16,
+  "q_rank_sic": {
+    "p": 100003,
+    "rank": 15,
+    "monomials": 112
+  },
+  "cones": {
+    "l1_16": {
+      "tag": "l1_16",
+      "claimed_length": 16,
+      "weight": "1/2,1,1,1,3/4,3/4,1/2,0,3/4,1/4,1,1",
+      "exact_support_count": 112,
+      "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+      "generator_term_occurrences": 3108,
+      "min_weight": "1",
+      "min_weight_is_one": true,
+      "weights_below_one": [],
+      "n_monomials_at_weight_one": 12,
+      "weight_one_sha256": "83705c5df43964f6be40f21713797fc6fb8f5a816fb6492db12db30e58c2ad35",
+      "smallest_weights": [
+        {
+          "weight": "1",
+          "n_monomials": 12
+        },
+        {
+          "weight": "3/2",
+          "n_monomials": 9
+        },
+        {
+          "weight": "7/4",
+          "n_monomials": 8
+        },
+        {
+          "weight": "2",
+          "n_monomials": 1
+        },
+        {
+          "weight": "9/4",
+          "n_monomials": 28
+        },
+        {
+          "weight": "5/2",
+          "n_monomials": 2
+        },
+        {
+          "weight": "11/4",
+          "n_monomials": 18
+        },
+        {
+          "weight": "3",
+          "n_monomials": 15
+        }
+      ],
+      "perturbation_monomials": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dim_P": 3,
+      "primes": {
+        "100003": {
+          "primitive_7th_root": 33669,
+          "q_rank": 15,
+          "q_support_mod_p": 112,
+          "dim_L": 11,
+          "dim_V": 14,
+          "n_weight1_monomials_surviving": 12,
+          "weight1_monomials_killed": 0,
+          "dim_P": 3
+        },
+        "100129": {
+          "primitive_7th_root": 25525,
+          "q_rank": 15,
+          "q_support_mod_p": 112,
+          "dim_L": 11,
+          "dim_V": 14,
+          "n_weight1_monomials_surviving": 12,
+          "weight1_monomials_killed": 0,
+          "dim_P": 3
+        }
+      }
+    },
+    "l2_128": {
+      "tag": "l2_128",
+      "claimed_length": 128,
+      "weight": "3/4,1,1/2,1,1/4,1,1/2,3/4,0,1,1/4,1",
+      "exact_support_count": 112,
+      "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+      "generator_term_occurrences": 3108,
+      "min_weight": "1",
+      "min_weight_is_one": true,
+      "weights_below_one": [],
+      "n_monomials_at_weight_one": 17,
+      "weight_one_sha256": "0a5ef8f07a241de0237e73e6f6dcb4e72c5886588dd582897a28763061e4576a",
+      "smallest_weights": [
+        {
+          "weight": "1",
+          "n_monomials": 17
+        },
+        {
+          "weight": "5/4",
+          "n_monomials": 11
+        },
+        {
+          "weight": "3/2",
+          "n_monomials": 2
+        },
+        {
+          "weight": "2",
+          "n_monomials": 3
+        },
+        {
+          "weight": "9/4",
+          "n_monomials": 16
+        },
+        {
+          "weight": "5/2",
+          "n_monomials": 27
+        },
+        {
+          "weight": "11/4",
+          "n_monomials": 21
+        },
+        {
+          "weight": "3",
+          "n_monomials": 1
+        }
+      ],
+      "perturbation_monomials": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dim_P": 3,
+      "primes": {
+        "100003": {
+          "primitive_7th_root": 33669,
+          "q_rank": 15,
+          "q_support_mod_p": 112,
+          "dim_L": 12,
+          "dim_V": 15,
+          "n_weight1_monomials_surviving": 17,
+          "weight1_monomials_killed": 0,
+          "dim_P": 3
+        },
+        "100129": {
+          "primitive_7th_root": 25525,
+          "q_rank": 15,
+          "q_support_mod_p": 112,
+          "dim_L": 12,
+          "dim_V": 15,
+          "n_weight1_monomials_surviving": 17,
+          "weight1_monomials_killed": 0,
+          "dim_P": 3
+        }
+      }
+    },
+    "l1_72": {
+      "tag": "l1_72",
+      "claimed_length": 72,
+      "weight": "1/2,1,1,1,2/3,1/3,1/2,0,1/3,2/3,1,1",
+      "exact_support_count": 112,
+      "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+      "generator_term_occurrences": 3108,
+      "min_weight": "1",
+      "min_weight_is_one": true,
+      "weights_below_one": [],
+      "n_monomials_at_weight_one": 14,
+      "weight_one_sha256": "4853b3e923d6e3bc2be07a4bfbfca3b50335af8ef7775aaccf1fe70ff1f3fd5c",
+      "smallest_weights": [
+        {
+          "weight": "1",
+          "n_monomials": 14
+        },
+        {
+          "weight": "4/3",
+          "n_monomials": 8
+        },
+        {
+          "weight": "3/2",
+          "n_monomials": 5
+        },
+        {
+          "weight": "5/3",
+          "n_monomials": 1
+        },
+        {
+          "weight": "11/6",
+          "n_monomials": 14
+        },
+        {
+          "weight": "2",
+          "n_monomials": 1
+        },
+        {
+          "weight": "13/6",
+          "n_monomials": 10
+        },
+        {
+          "weight": "7/3",
+          "n_monomials": 6
+        }
+      ],
+      "perturbation_monomials": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "dim_P": 3,
+      "primes": {
+        "100003": {
+          "primitive_7th_root": 33669,
+          "q_rank": 15,
+          "q_support_mod_p": 112,
+          "dim_L": 11,
+          "dim_V": 14,
+          "n_weight1_monomials_surviving": 14,
+          "weight1_monomials_killed": 0,
+          "dim_P": 3
+        },
+        "100129": {
+          "primitive_7th_root": 25525,
+          "q_rank": 15,
+          "q_support_mod_p": 112,
+          "dim_L": 11,
+          "dim_V": 14,
+          "n_weight1_monomials_surviving": 14,
+          "weight1_monomials_killed": 0,
+          "dim_P": 3
+        }
+      }
+    }
+  },
+  "solves": {
+    "l1_16": [
+      {
+        "label": "l1_16_p100003_s8675309",
+        "p": 100003,
+        "seed": 8675309,
+        "mode": "generic_12_plane",
+        "dim_V": 14,
+        "claimed": 16,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 16,
+          "minpoly_degree": 16,
+          "nvars_reported": 13,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "zz",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a5"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 16,
+          "nlead": 31,
+          "pure_powers": {
+            "b5": 1,
+            "b2": 1,
+            "a5": 1,
+            "a4": 1,
+            "a3": 1,
+            "a2": 1,
+            "b6": 2,
+            "b4": 2,
+            "b3": 2,
+            "b0": 2,
+            "a6": 2,
+            "a1": 2,
+            "zz": 3
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l1_16_p100003_s8675309_sat1.rur.log",
+          "out": "work/faces/l1_16_p100003_s8675309_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l1_16_p100003_s8675309_sat1.gb.log",
+          "out": "work/faces/l1_16_p100003_s8675309_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l1_16_p100003_s42424249",
+        "p": 100003,
+        "seed": 42424249,
+        "mode": "generic_12_plane",
+        "dim_V": 14,
+        "claimed": 16,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 16,
+          "minpoly_degree": 16,
+          "nvars_reported": 13,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "zz",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a5"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 16,
+          "nlead": 31,
+          "pure_powers": {
+            "b5": 1,
+            "b2": 1,
+            "a5": 1,
+            "a4": 1,
+            "a3": 1,
+            "a2": 1,
+            "b6": 2,
+            "b4": 2,
+            "b3": 2,
+            "b0": 2,
+            "a6": 2,
+            "a1": 2,
+            "zz": 3
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.001,
+          "log": "work/faces/l1_16_p100003_s42424249_sat1.rur.log",
+          "out": "work/faces/l1_16_p100003_s42424249_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l1_16_p100003_s42424249_sat1.gb.log",
+          "out": "work/faces/l1_16_p100003_s42424249_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l1_16_p100003_naive",
+        "p": 100003,
+        "mode": "naive_full_support",
+        "support": 15,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 16,
+          "minpoly_degree": 16,
+          "nvars_reported": 13,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "zz",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a5"
+          ],
+          "simple": true
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l1_16_p100003_naive.rur.log",
+          "out": "work/faces/l1_16_p100003_naive.rur"
+        }
+      },
+      {
+        "label": "l1_16_p100129_s8675309",
+        "p": 100129,
+        "seed": 8675309,
+        "mode": "generic_12_plane",
+        "dim_V": 14,
+        "claimed": 16,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 16,
+          "minpoly_degree": 16,
+          "nvars_reported": 13,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "zz",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a5"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 16,
+          "nlead": 31,
+          "pure_powers": {
+            "b5": 1,
+            "b2": 1,
+            "a5": 1,
+            "a4": 1,
+            "a3": 1,
+            "a2": 1,
+            "b6": 2,
+            "b4": 2,
+            "b3": 2,
+            "b0": 2,
+            "a6": 2,
+            "a1": 2,
+            "zz": 3
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l1_16_p100129_s8675309_sat1.rur.log",
+          "out": "work/faces/l1_16_p100129_s8675309_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l1_16_p100129_s8675309_sat1.gb.log",
+          "out": "work/faces/l1_16_p100129_s8675309_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l1_16_p100129_s42424249",
+        "p": 100129,
+        "seed": 42424249,
+        "mode": "generic_12_plane",
+        "dim_V": 14,
+        "claimed": 16,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 16,
+          "minpoly_degree": 16,
+          "nvars_reported": 13,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "zz",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a5"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 16,
+          "nlead": 31,
+          "pure_powers": {
+            "b5": 1,
+            "b2": 1,
+            "a5": 1,
+            "a4": 1,
+            "a3": 1,
+            "a2": 1,
+            "b6": 2,
+            "b4": 2,
+            "b3": 2,
+            "b0": 2,
+            "a6": 2,
+            "a1": 2,
+            "zz": 3
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.001,
+          "log": "work/faces/l1_16_p100129_s42424249_sat1.rur.log",
+          "out": "work/faces/l1_16_p100129_s42424249_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l1_16_p100129_s42424249_sat1.gb.log",
+          "out": "work/faces/l1_16_p100129_s42424249_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l1_16_p100129_naive",
+        "p": 100129,
+        "mode": "naive_full_support",
+        "support": 15,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 16,
+          "minpoly_degree": 16,
+          "nvars_reported": 13,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "zz",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a5"
+          ],
+          "simple": true
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.001,
+          "log": "work/faces/l1_16_p100129_naive.rur.log",
+          "out": "work/faces/l1_16_p100129_naive.rur"
+        }
+      }
+    ],
+    "l2_128": [
+      {
+        "label": "l2_128_p100003_s8675309",
+        "p": 100003,
+        "seed": 8675309,
+        "mode": "generic_12_plane",
+        "dim_V": 15,
+        "claimed": 128,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 128,
+          "minpoly_degree": 128,
+          "nvars_reported": 13,
+          "names": [
+            "zz",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a1"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 128,
+          "nlead": 206,
+          "pure_powers": {
+            "a4": 1,
+            "a2": 1,
+            "b4": 2,
+            "b3": 2,
+            "b6": 3,
+            "b5": 3,
+            "b2": 3,
+            "b0": 3,
+            "a6": 3,
+            "a5": 3,
+            "a3": 3,
+            "a1": 3,
+            "zz": 4
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.001,
+          "log": "work/faces/l2_128_p100003_s8675309_sat1.rur.log",
+          "out": "work/faces/l2_128_p100003_s8675309_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l2_128_p100003_s8675309_sat1.gb.log",
+          "out": "work/faces/l2_128_p100003_s8675309_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l2_128_p100003_s42424249",
+        "p": 100003,
+        "seed": 42424249,
+        "mode": "generic_12_plane",
+        "dim_V": 15,
+        "claimed": 128,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 128,
+          "minpoly_degree": 128,
+          "nvars_reported": 13,
+          "names": [
+            "zz",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a1"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 128,
+          "nlead": 206,
+          "pure_powers": {
+            "a4": 1,
+            "a2": 1,
+            "b4": 2,
+            "b3": 2,
+            "b6": 3,
+            "b5": 3,
+            "b2": 3,
+            "b0": 3,
+            "a6": 3,
+            "a5": 3,
+            "a3": 3,
+            "a1": 3,
+            "zz": 4
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.001,
+          "log": "work/faces/l2_128_p100003_s42424249_sat1.rur.log",
+          "out": "work/faces/l2_128_p100003_s42424249_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l2_128_p100003_s42424249_sat1.gb.log",
+          "out": "work/faces/l2_128_p100003_s42424249_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l2_128_p100003_naive",
+        "p": 100003,
+        "mode": "naive_full_support",
+        "support": 20,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 128,
+          "minpoly_degree": 128,
+          "nvars_reported": 13,
+          "names": [
+            "zz",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a1"
+          ],
+          "simple": true
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l2_128_p100003_naive.rur.log",
+          "out": "work/faces/l2_128_p100003_naive.rur"
+        }
+      },
+      {
+        "label": "l2_128_p100129_s8675309",
+        "p": 100129,
+        "seed": 8675309,
+        "mode": "generic_12_plane",
+        "dim_V": 15,
+        "claimed": 128,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 128,
+          "minpoly_degree": 128,
+          "nvars_reported": 13,
+          "names": [
+            "zz",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a1"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 128,
+          "nlead": 206,
+          "pure_powers": {
+            "a4": 1,
+            "a2": 1,
+            "b4": 2,
+            "b3": 2,
+            "b6": 3,
+            "b5": 3,
+            "b2": 3,
+            "b0": 3,
+            "a6": 3,
+            "a5": 3,
+            "a3": 3,
+            "a1": 3,
+            "zz": 4
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.001,
+          "log": "work/faces/l2_128_p100129_s8675309_sat1.rur.log",
+          "out": "work/faces/l2_128_p100129_s8675309_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l2_128_p100129_s8675309_sat1.gb.log",
+          "out": "work/faces/l2_128_p100129_s8675309_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l2_128_p100129_s42424249",
+        "p": 100129,
+        "seed": 42424249,
+        "mode": "generic_12_plane",
+        "dim_V": 15,
+        "claimed": 128,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 128,
+          "minpoly_degree": 128,
+          "nvars_reported": 13,
+          "names": [
+            "zz",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a1"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 128,
+          "nlead": 206,
+          "pure_powers": {
+            "a4": 1,
+            "a2": 1,
+            "b4": 2,
+            "b3": 2,
+            "b6": 3,
+            "b5": 3,
+            "b2": 3,
+            "b0": 3,
+            "a6": 3,
+            "a5": 3,
+            "a3": 3,
+            "a1": 3,
+            "zz": 4
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l2_128_p100129_s42424249_sat1.rur.log",
+          "out": "work/faces/l2_128_p100129_s42424249_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.003,
+          "log": "work/faces/l2_128_p100129_s42424249_sat1.gb.log",
+          "out": "work/faces/l2_128_p100129_s42424249_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l2_128_p100129_naive",
+        "p": 100129,
+        "mode": "naive_full_support",
+        "support": 20,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 128,
+          "minpoly_degree": 128,
+          "nvars_reported": 13,
+          "names": [
+            "zz",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "a1"
+          ],
+          "simple": true
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.001,
+          "log": "work/faces/l2_128_p100129_naive.rur.log",
+          "out": "work/faces/l2_128_p100129_naive.rur"
+        }
+      }
+    ],
+    "l1_72": [
+      {
+        "label": "l1_72_p100003_s8675309",
+        "p": 100003,
+        "seed": 8675309,
+        "mode": "generic_12_plane",
+        "dim_V": 14,
+        "claimed": 72,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 72,
+          "minpoly_degree": 72,
+          "nvars_reported": 14,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "zz",
+            "A"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 72,
+          "nlead": 20,
+          "pure_powers": {
+            "b6": 1,
+            "b5": 1,
+            "b2": 1,
+            "a4": 1,
+            "a3": 1,
+            "a2": 1,
+            "zz": 2,
+            "b3": 2,
+            "a6": 2,
+            "a5": 2,
+            "a1": 2,
+            "b4": 3,
+            "b0": 3
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.001,
+          "log": "work/faces/l1_72_p100003_s8675309_sat1.rur.log",
+          "out": "work/faces/l1_72_p100003_s8675309_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l1_72_p100003_s8675309_sat1.gb.log",
+          "out": "work/faces/l1_72_p100003_s8675309_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l1_72_p100003_s42424249",
+        "p": 100003,
+        "seed": 42424249,
+        "mode": "generic_12_plane",
+        "dim_V": 14,
+        "claimed": 72,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 72,
+          "minpoly_degree": 72,
+          "nvars_reported": 14,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "zz",
+            "A"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 72,
+          "nlead": 20,
+          "pure_powers": {
+            "b6": 1,
+            "b5": 1,
+            "b2": 1,
+            "a4": 1,
+            "a3": 1,
+            "a2": 1,
+            "zz": 2,
+            "b3": 2,
+            "a6": 2,
+            "a5": 2,
+            "a1": 2,
+            "b4": 3,
+            "b0": 3
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.001,
+          "log": "work/faces/l1_72_p100003_s42424249_sat1.rur.log",
+          "out": "work/faces/l1_72_p100003_s42424249_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l1_72_p100003_s42424249_sat1.gb.log",
+          "out": "work/faces/l1_72_p100003_s42424249_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l1_72_p100003_naive",
+        "p": 100003,
+        "mode": "naive_full_support",
+        "support": 17,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 72,
+          "minpoly_degree": 72,
+          "nvars_reported": 14,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "zz",
+            "A"
+          ],
+          "simple": true
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 6.002,
+          "log": "work/faces/l1_72_p100003_naive.rur.log",
+          "out": "work/faces/l1_72_p100003_naive.rur"
+        }
+      },
+      {
+        "label": "l1_72_p100129_s8675309",
+        "p": 100129,
+        "seed": 8675309,
+        "mode": "generic_12_plane",
+        "dim_V": 14,
+        "claimed": 72,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 72,
+          "minpoly_degree": 72,
+          "nvars_reported": 14,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "zz",
+            "A"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 72,
+          "nlead": 20,
+          "pure_powers": {
+            "b6": 1,
+            "b5": 1,
+            "b2": 1,
+            "a4": 1,
+            "a3": 1,
+            "a2": 1,
+            "zz": 2,
+            "b3": 2,
+            "a6": 2,
+            "a5": 2,
+            "a1": 2,
+            "b4": 3,
+            "b0": 3
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.001,
+          "log": "work/faces/l1_72_p100129_s8675309_sat1.rur.log",
+          "out": "work/faces/l1_72_p100129_s8675309_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l1_72_p100129_s8675309_sat1.gb.log",
+          "out": "work/faces/l1_72_p100129_s8675309_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l1_72_p100129_s42424249",
+        "p": 100129,
+        "seed": 42424249,
+        "mode": "generic_12_plane",
+        "dim_V": 14,
+        "claimed": 72,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 72,
+          "minpoly_degree": 72,
+          "nvars_reported": 14,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "zz",
+            "A"
+          ],
+          "simple": true
+        },
+        "staircase": {
+          "status": "zero_dimensional",
+          "length": 72,
+          "nlead": 20,
+          "pure_powers": {
+            "b6": 1,
+            "b5": 1,
+            "b2": 1,
+            "a4": 1,
+            "a3": 1,
+            "a2": 1,
+            "zz": 2,
+            "b3": 2,
+            "a6": 2,
+            "a5": 2,
+            "a1": 2,
+            "b4": 3,
+            "b0": 3
+          }
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.001,
+          "log": "work/faces/l1_72_p100129_s42424249_sat1.rur.log",
+          "out": "work/faces/l1_72_p100129_s42424249_sat1.rur"
+        },
+        "gb_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 2.002,
+          "log": "work/faces/l1_72_p100129_s42424249_sat1.gb.log",
+          "out": "work/faces/l1_72_p100129_s42424249_sat1.gb"
+        },
+        "length_agree": true
+      },
+      {
+        "label": "l1_72_p100129_naive",
+        "p": 100129,
+        "mode": "naive_full_support",
+        "support": 17,
+        "rur": {
+          "status": "finite",
+          "scheme_length": 72,
+          "minpoly_degree": 72,
+          "nvars_reported": 14,
+          "names": [
+            "a1",
+            "a2",
+            "a3",
+            "a4",
+            "a5",
+            "a6",
+            "b0",
+            "b2",
+            "b3",
+            "b4",
+            "b5",
+            "b6",
+            "zz",
+            "A"
+          ],
+          "simple": true
+        },
+        "rur_run": {
+          "returncode": 0,
+          "killed": null,
+          "seconds": 6.002,
+          "log": "work/faces/l1_72_p100129_naive.rur.log",
+          "out": "work/faces/l1_72_p100129_naive.rur"
+        }
+      }
+    ]
+  }
+}

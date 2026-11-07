@@ -1,0 +1,10 @@
+integrity exit=0
+d7-orbits exit=0
+d4 exit=0
+d5 exit=0
+d6 exit=0
+d7-faces exit=0
+d7-finiteness exit=0
+d7-spurious exit=0
+ghosts exit=0
+ALL-DONE

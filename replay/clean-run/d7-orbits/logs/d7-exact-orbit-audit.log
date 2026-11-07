@@ -1,0 +1,34 @@
+exact F1 {'Z0_is_one': True, 'Z0_zero': False, 'n_reps': 24, 'hermitian': True, 'support_zeta': [0], 'doubling_symmetry': True, 'fixed_by_P': True, 'q_bad_count': 0, 'quartic_bad_count': 0}
+exact F2 {'Z0_is_one': True, 'Z0_zero': False, 'n_reps': 24, 'hermitian': True, 'support_zeta': [0], 'doubling_symmetry': True, 'fixed_by_P': True, 'q_bad_count': 0, 'quartic_bad_count': 0}
+exact G1 {'Z0_is_one': True, 'Z0_zero': False, 'n_reps': 24, 'hermitian': False, 'support_zeta': [0, 1, 2, 4], 'doubling_symmetry': True, 'fixed_by_P': True, 'q_bad_count': 0, 'quartic_bad_count': 0}
+exact G2 {'Z0_is_one': True, 'Z0_zero': False, 'n_reps': 24, 'hermitian': False, 'support_zeta': [0, 1, 2, 4], 'doubling_symmetry': True, 'fixed_by_P': True, 'q_bad_count': 0, 'quartic_bad_count': 0}
+sg 7a {'Z0_is_one': False, 'Z0_zero': False, 'n_reps': 24, 'hermitian': True, 'support_zeta': [0, 1, 2, 4], 'q_bad_count': 0, 'doubling_symmetry': True, 'fixed_by_P': True, 'seed_parallel': []}
+sg 7b {'Z0_is_one': False, 'Z0_zero': False, 'n_reps': 24, 'hermitian': True, 'support_zeta': [0, 1, 2, 4], 'q_bad_count': 0, 'doubling_symmetry': True, 'fixed_by_P': True, 'seed_parallel': []}
+covariance [{'name': 'X', 'inverse_ok': True, 'unidentified': [], 'chi_pair_ok': True, 'linear_11': True, 'sl_matrix': [[1, 0], [0, 1]], 'det': 1, 'n_images': 49}, {'name': 'Z', 'inverse_ok': True, 'unidentified': [], 'chi_pair_ok': True, 'linear_11': True, 'sl_matrix': [[1, 0], [0, 1]], 'det': 1, 'n_images': 49}, {'name': 'S', 'inverse_ok': True, 'unidentified': [], 'chi_pair_ok': True, 'linear_11': True, 'sl_matrix': [[1, 0], [6, 1]], 'det': 1, 'n_images': 49}, {'name': 'F', 'inverse_ok': True, 'unidentified': [], 'chi_pair_ok': True, 'linear_11': True, 'sl_matrix': [[0, 1], [6, 0]], 'det': 1, 'n_images': 49}]
+P {'unidentified': [], 'sl': [4, 0, 0, 2], 'det': 1, 'trace': 6, 'chi_pair_ok': True} orth True order3 True
+hom p=673 {'s': 390, 'r': 178, 'i': 615, 'z': 117} roots 4
+group order 16464 in 12.0s
+sigma done 5.5s kernel=49 fail=0 chi_fail=0 not_linear=0 missingSL=0 fibres=[49] nimage=336
+F1 {'orbit': 5488, 'T_orbit': 5488, 'T_in_orbit': False, 'intersection': 0, 'stab': 3, 'stab_sl': [{'matrix': (1, 0, 0, 1), 'det': 1, 'trace': 2}, {'matrix': (2, 0, 0, 4), 'det': 1, 'trace': 6}, {'matrix': (4, 0, 0, 2), 'det': 1, 'trace': 6}], 'wh_images': 49}
+F2 {'orbit': 5488, 'T_orbit': 5488, 'T_in_orbit': True, 'intersection': 5488, 'stab': 3, 'stab_sl': [{'matrix': (1, 0, 0, 1), 'det': 1, 'trace': 2}, {'matrix': (2, 0, 0, 4), 'det': 1, 'trace': 6}, {'matrix': (4, 0, 0, 2), 'det': 1, 'trace': 6}], 'wh_images': 49}
+G1 {'orbit': 5488, 'T_orbit': 5488, 'T_in_orbit': False, 'intersection': 0, 'stab': 3, 'stab_sl': [{'matrix': (1, 0, 0, 1), 'det': 1, 'trace': 2}, {'matrix': (2, 0, 0, 4), 'det': 1, 'trace': 6}, {'matrix': (4, 0, 0, 2), 'det': 1, 'trace': 6}], 'wh_images': 49}
+G2 {'orbit': 5488, 'T_orbit': 5488, 'T_in_orbit': True, 'intersection': 5488, 'stab': 3, 'stab_sl': [{'matrix': (1, 0, 0, 1), 'det': 1, 'trace': 2}, {'matrix': (2, 0, 0, 4), 'det': 1, 'trace': 6}, {'matrix': (4, 0, 0, 2), 'det': 1, 'trace': 6}], 'wh_images': 49}
+distinct_labeled 32928 union 32928 ordinary [{'rep': 'F1', 'size': 5488, 'overlap_previous': 0}, {'rep': 'TF1', 'size': 5488, 'overlap_previous': 0}, {'rep': 'F2', 'size': 5488, 'overlap_previous': 0}, {'rep': 'G1', 'size': 5488, 'overlap_previous': 0}, {'rep': 'TG1', 'size': 5488, 'overlap_previous': 0}, {'rep': 'G2', 'size': 5488, 'overlap_previous': 0}] families {'F1': 10976, 'F2': 5488, 'G1': 10976, 'G2': 5488} sg {'7a': ['F1'], '7aswap': ['TF1'], '7b': ['F2', 'TF2'], '7bswap': ['F2', 'TF2']}
+hom p=953 {'s': 461, 'r': 138, 'i': 511, 'z': 431} roots 4
+group order 16464 in 12.3s
+sigma done 5.5s kernel=49 fail=0 chi_fail=0 not_linear=0 missingSL=0 fibres=[49] nimage=336
+F1 {'orbit': 5488, 'T_orbit': 5488, 'T_in_orbit': False, 'intersection': 0, 'stab': 3, 'stab_sl': [{'matrix': (1, 0, 0, 1), 'det': 1, 'trace': 2}, {'matrix': (2, 0, 0, 4), 'det': 1, 'trace': 6}, {'matrix': (4, 0, 0, 2), 'det': 1, 'trace': 6}], 'wh_images': 49}
+F2 {'orbit': 5488, 'T_orbit': 5488, 'T_in_orbit': True, 'intersection': 5488, 'stab': 3, 'stab_sl': [{'matrix': (1, 0, 0, 1), 'det': 1, 'trace': 2}, {'matrix': (2, 0, 0, 4), 'det': 1, 'trace': 6}, {'matrix': (4, 0, 0, 2), 'det': 1, 'trace': 6}], 'wh_images': 49}
+G1 {'orbit': 5488, 'T_orbit': 5488, 'T_in_orbit': False, 'intersection': 0, 'stab': 3, 'stab_sl': [{'matrix': (1, 0, 0, 1), 'det': 1, 'trace': 2}, {'matrix': (2, 0, 0, 4), 'det': 1, 'trace': 6}, {'matrix': (4, 0, 0, 2), 'det': 1, 'trace': 6}], 'wh_images': 49}
+G2 {'orbit': 5488, 'T_orbit': 5488, 'T_in_orbit': True, 'intersection': 5488, 'stab': 3, 'stab_sl': [{'matrix': (1, 0, 0, 1), 'det': 1, 'trace': 2}, {'matrix': (2, 0, 0, 4), 'det': 1, 'trace': 6}, {'matrix': (4, 0, 0, 2), 'det': 1, 'trace': 6}], 'wh_images': 49}
+distinct_labeled 32928 union 32928 ordinary [{'rep': 'F1', 'size': 5488, 'overlap_previous': 0}, {'rep': 'TF1', 'size': 5488, 'overlap_previous': 0}, {'rep': 'F2', 'size': 5488, 'overlap_previous': 0}, {'rep': 'G1', 'size': 5488, 'overlap_previous': 0}, {'rep': 'TG1', 'size': 5488, 'overlap_previous': 0}, {'rep': 'G2', 'size': 5488, 'overlap_previous': 0}] families {'F1': 10976, 'F2': 5488, 'G1': 10976, 'G2': 5488} sg {'7a': ['F1'], '7aswap': ['TF1'], '7b': ['F2', 'TF2'], '7bswap': ['F2', 'TF2']}
+searching exact words
+wordsearch F1 reached 10976
+wordsearch F2 reached 5488
+wordsearch G1 reached 10976
+wordsearch G2 reached 5488
+replay 7a F1 1 True
+replay 7aswap F1 2 True
+replay 7b F2 1 True
+replay 7bswap F2 1 True
+wrote summary.json

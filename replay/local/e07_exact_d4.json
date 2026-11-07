@@ -1,0 +1,465 @@
+{
+  "norm_squared_basis": [
+    640,
+    -320,
+    128,
+    -64,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "quartic_zero_residuals": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "WH_overlap_zero_residuals": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "python": "3.15.0 (main, Oct  9 2026, 11:16:41) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "seed": 20261022,
+  "source": "Scott--Grassl arXiv:0910.5784 Appendix B p.167",
+  "arithmetic": "16-dimensional exact integer basis s^a t^b r^c i^e, s^2=2,t^2=5,r^2=1+t,i^2=-1",
+  "field_degree_over_Q": 16,
+  "representative_basis": [
+    [
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      -4,
+      4,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      -4,
+      0,
+      0,
+      0,
+      -2,
+      1,
+      -2,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -8,
+      8,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      4,
+      -4,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      4,
+      0,
+      0,
+      0,
+      -2,
+      1,
+      -2,
+      1
+    ]
+  ],
+  "SL_lift_order": 384,
+  "raw_representations": 12288,
+  "kernel_multiplicity": 8,
+  "projective_EC_order": 1536,
+  "all_admissible_XZ_actions_checked": true,
+  "stabilizer_order": 6,
+  "stabilizer": [
+    {
+      "F_lift": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "word": "",
+      "q": [
+        0,
+        0
+      ],
+      "anti": false,
+      "exact_key": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "projective_order": 1
+    },
+    {
+      "F_lift": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "word": "SSPSPP",
+      "q": [
+        3,
+        1
+      ],
+      "anti": false,
+      "exact_key": [
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "projective_order": 3,
+      "Zauner_projective_conjugator": {
+        "F_lift": [
+          [
+            7,
+            7
+          ],
+          [
+            0,
+            7
+          ]
+        ],
+        "word": "PSP",
+        "q": [
+          2,
+          3
+        ],
+        "anti": false,
+        "exact_key": [
+          0,
+          3,
+          3,
+          0,
+          3,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "F_lift": [
+        [
+          2,
+          7
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "word": "SPSPPS",
+      "q": [
+        3,
+        2
+      ],
+      "anti": false,
+      "exact_key": [
+        0,
+        2,
+        3,
+        3,
+        1,
+        4,
+        1
+      ],
+      "projective_order": 3,
+      "Zauner_projective_conjugator": {
+        "F_lift": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "word": "PP",
+        "q": [
+          0,
+          3
+        ],
+        "anti": false,
+        "exact_key": [
+          0,
+          1,
+          0,
+          2,
+          1,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "F_lift": [
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "word": "SP",
+      "q": [
+        1,
+        2
+      ],
+      "anti": true,
+      "exact_key": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        6,
+        7
+      ],
+      "projective_order": 6
+    },
+    {
+      "F_lift": [
+        [
+          7,
+          7
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "word": "PS",
+      "q": [
+        3,
+        3
+      ],
+      "anti": true,
+      "exact_key": [
+        1,
+        3,
+        1,
+        1,
+        0,
+        7,
+        6
+      ],
+      "projective_order": 6
+    },
+    {
+      "F_lift": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "word": "SSSPPSPP",
+      "q": [
+        2,
+        2
+      ],
+      "anti": true,
+      "exact_key": [
+        1,
+        1,
+        2,
+        2,
+        3,
+        6,
+        2
+      ],
+      "projective_order": 2
+    }
+  ],
+  "zero_first_coordinate_images": 0,
+  "projective_orbit_rays": 256,
+  "chart_psi0_nonzero_rays": 256,
+  "scope": "exact lower bound 256 known-orbit SIC rays in the chart; classification of all roots requires an independent upper bound",
+  "group_keys_sha256": "13549cc07aa3717399a75f17bb991920cca0956e2b60a3eee454802053df24b2",
+  "script_sha256": "aea600c3fbdb4e3323df70baa0c8bc285e9df9d360494dc54243b7e405b762b8",
+  "elapsed_seconds": 0.06507883302401751
+}

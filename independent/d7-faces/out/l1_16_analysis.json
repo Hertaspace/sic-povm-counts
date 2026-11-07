@@ -1,0 +1,114 @@
+{
+  "tag": "l1_16",
+  "claimed_length": 16,
+  "weight": "1/2,1,1,1,3/4,3/4,1/2,0,3/4,1/4,1,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 12,
+  "weight_one_sha256": "83705c5df43964f6be40f21713797fc6fb8f5a816fb6492db12db30e58c2ad35",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 12
+    },
+    {
+      "weight": "3/2",
+      "n_monomials": 9
+    },
+    {
+      "weight": "7/4",
+      "n_monomials": 8
+    },
+    {
+      "weight": "2",
+      "n_monomials": 1
+    },
+    {
+      "weight": "9/4",
+      "n_monomials": 28
+    },
+    {
+      "weight": "5/2",
+      "n_monomials": 2
+    },
+    {
+      "weight": "11/4",
+      "n_monomials": 18
+    },
+    {
+      "weight": "3",
+      "n_monomials": 15
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 3,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 11,
+      "dim_V": 14,
+      "n_weight1_monomials_surviving": 12,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 11,
+      "dim_V": 14,
+      "n_weight1_monomials_surviving": 12,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    }
+  }
+}

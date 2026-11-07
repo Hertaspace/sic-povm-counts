@@ -1,0 +1,21 @@
+// Full trace-one Fourier equations, x0=1. Exact characteristic zero.
+ring R=0,(x1,x2,x3,y0,y1,y2,y3,y4),dp;
+short=0; option(redSB);
+ideal I=-1+1*x1*y1+1*x2*y2+1*x3*y3+1*y0,-2+6*x1*x1*y1*y1+6*x2*x2*y2*y2+6*x3*x3*y3*y3+6*y0*y0,-1+6*x1*x2*y1*y2+6*x1*y0*y1+6*x2*x3*y2*y3,-1+6*x1*x3*y1*y3+6*x2*y0*y2+6*x3*y0*y3,-1+6*x1*x3*y1*y3+6*x2*y0*y2+6*x3*y0*y3,-1+6*x1*x2*y1*y2+6*x1*y0*y1+6*x2*x3*y2*y3,-1+6*x1*x2*y1*y2+6*x1*y0*y1+6*x2*x3*y2*y3,6*x1*x3*y2*y2+6*x2*y1*y1+6*x3*y4*y4,6*x1*x3*y0*y4+6*x2*y3*y4+6*x3*y1*y2,6*x1*x2*y0*y3+6*x1*y2*y4+6*x2*x3*y1*y4,6*x1*x1*y0*y2+6*x2*x2*y1*y3+6*x3*x3*y2*y4+6*y1*y4,-1+6*x1*x3*y1*y3+6*x2*y0*y2+6*x3*y0*y3,6*x1*x3*y0*y4+6*x2*y3*y4+6*x3*y1*y2,6*x1*x2*y4*y4+6*x1*y3*y3+6*x2*x3*y0*y0,6*x1*x1*y3*y4+6*x2*x2*y0*y4+6*x3*x3*y0*y1+6*y2*y3,6*x1*x2*y0*y3+6*x1*y2*y4+6*x2*x3*y1*y4,-1+6*x1*x3*y1*y3+6*x2*y0*y2+6*x3*y0*y3,6*x1*x2*y0*y3+6*x1*y2*y4+6*x2*x3*y1*y4,6*x1*x1*y3*y4+6*x2*x2*y0*y4+6*x3*x3*y0*y1+6*y2*y3,6*x1*x2*y4*y4+6*x1*y3*y3+6*x2*x3*y0*y0,6*x1*x3*y0*y4+6*x2*y3*y4+6*x3*y1*y2,-1+6*x1*x2*y1*y2+6*x1*y0*y1+6*x2*x3*y2*y3,6*x1*x1*y0*y2+6*x2*x2*y1*y3+6*x3*x3*y2*y4+6*y1*y4,6*x1*x2*y0*y3+6*x1*y2*y4+6*x2*x3*y1*y4,6*x1*x3*y0*y4+6*x2*y3*y4+6*x3*y1*y2,6*x1*x3*y2*y2+6*x2*y1*y1+6*x3*y4*y4;
+print("INPUT_GENERATORS="+string(size(I)));
+ideal G=std(I);
+print("DIMENSION="+string(dim(G)));
+print("QUOTIENT_DIMENSION="+string(vdim(G)));
+print("GB_SIZE="+string(size(G)));
+ideal Rem=reduce(I,G); int rz=1; int ri;
+for(ri=1;ri<=size(Rem);ri++){if(Rem[ri]!=0){rz=0;}}
+print("GENERATOR_REMAINDERS_ZERO="+string(rz));
+if (size(G)==1 && G[1]==1) {
+ matrix T=lift(I,G);
+ matrix Diff=matrix(I)*T-matrix(G); int lz=1; int li; int lj;
+ for(li=1;li<=nrows(Diff);li++){for(lj=1;lj<=ncols(Diff);lj++){if(Diff[li,lj]!=0){lz=0;}}}
+ print("UNIT_LIFT_ZERO="+string(lz));
+ int j; for(j=1;j<=size(I);j++){print("LIFT:"+string(j)+":"+string(T[j,1]));}
+}
+print("COMPLETE=1");
+quit;

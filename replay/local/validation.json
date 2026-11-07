@@ -1,0 +1,173 @@
+{
+  "schema": "local-partial-replay-v1",
+  "date": "2026-11-06",
+  "python": "3.15.0",
+  "full_theorems_replayed": false,
+  "partial_mathematical_replays": [
+    "known d4 Hermitian orbit of 256 (not full d4 count)",
+    "d5 exact distinct-point lower bound of 4000",
+    "degree-48 tower irreducibility",
+    "interval arithmetic calibration and six corrupt-certificate rejections",
+    "2688 q-space spanning identities and rank15 witness",
+    "order98 Heisenberg-parity group and all9604 multiplication pairs"
+  ],
+  "checks": [
+    {
+      "name": "e07_exact_d4.py",
+      "seconds": 0.103948,
+      "source_sha256": "aea600c3fbdb4e3323df70baa0c8bc285e9df9d360494dc54243b7e405b762b8",
+      "helper_sha256": "5e77d1ab533bed1f1177c4c345a6c366929f072263ef73398aeac32f680b19aa"
+    },
+    {
+      "name": "e09_exact_d5.py",
+      "seconds": 1.470861,
+      "source_sha256": "5eaecf6f2728df3ebaba38562663993fbbf4825ed285cc02f73b4d09237c8d5d",
+      "helper_sha256": "5e77d1ab533bed1f1177c4c345a6c366929f072263ef73398aeac32f680b19aa"
+    },
+    {
+      "name": "integer-selftest",
+      "seconds": 0.346742,
+      "source_sha256": "12105f9c973e8321b91c83d1112b866cce87bc3017c7782df4ad214af8da781a",
+      "helper_sha256": "5e77d1ab533bed1f1177c4c345a6c366929f072263ef73398aeac32f680b19aa"
+    },
+    {
+      "name": "integer-negative-selftest",
+      "seconds": 0.231698,
+      "source_sha256": "12105f9c973e8321b91c83d1112b866cce87bc3017c7782df4ad214af8da781a",
+      "helper_sha256": "5e77d1ab533bed1f1177c4c345a6c366929f072263ef73398aeac32f680b19aa"
+    },
+    {
+      "name": "e43_spur_q_basis.py",
+      "python": "3.14.7",
+      "seconds": 0.467291,
+      "source_sha256": "a62f5a67a1c61bd3cc0b9ac806a5e6e7190efeeaa8bd3f139800785ef6e98c25"
+    },
+    {
+      "name": "e45_spur_symmetry.py",
+      "python": "3.14.7",
+      "seconds": 0.155393,
+      "source_sha256": "9435bf95bafc1a4fa01313d37e6200454543f6550178e3754a9a3a649228f052"
+    },
+    {
+      "name": "finiteness model self-test",
+      "source_sha256": "bfffc3b9bbfba63f89fce5cb0b44f52bb2c373d6501ff3f8824690d5d6a9216a",
+      "all_boolean_fields_checked": [
+        "tau7_is_1",
+        "reconstruction_7abT",
+        "c_q_equals_Z_minus_q",
+        "minors_vanish_on_rank1",
+        "squares_vanish_on_rank1",
+        "row_witness_C",
+        "products_zero_on_row",
+        "z0_zero_on_row",
+        "parse_ty",
+        "parse_prod",
+        "parse_trace_is_z0sq_minus_8t",
+        "parse_bare_coeff",
+        "parse_pow"
+      ]
+    }
+  ],
+  "outputs": {
+    "e07_exact_d4.json": "2ea51316bebce60b1637daa9c9db3a9535341d35ef737297a2532103eb0818fd",
+    "e09_exact_d5.json": "8dafd885d58a39ca19e0d67e2a8be5a81c2954d6f016702a6e80e651ecf611ab",
+    "integer-negative-selftest.json": "9e4ff7a307def54eeb120a7af1215235c15d7d105673f735a0d000a288a79026",
+    "integer-selftest.json": "8e3ef6c099cce3c3ecb44166cf463db88c68b237c3b0d9945a097b88e4dd2d0f",
+    "tower.out": "5735e669d50f5bbd05c6fae3154a3cd8a779e99ed7cd3efb90445f3969e243b0",
+    "q_basis.json": "a7c230de3a237ba42bb209d8bbc8c8b437b65cc9e1b185bb29c062ebdf612178",
+    "symmetry.json": "abea8136f71eb8cdd48fab01a1d8e4b44f7810cc4fff4a96cd42c6aef80986c9",
+    "finiteness-self.json": "4c634f6842ad3f3e24a22f79447ec38f5166f3c4b214b45503841f3bd2f76573"
+  },
+  "input_hashes": {
+    "replay/portable.py": "5e77d1ab533bed1f1177c4c345a6c366929f072263ef73398aeac32f680b19aa",
+    "replay/check_tower.gp": "38618c76335e6ba4a1d4aeb8c961df468b62bc52ccd5ed3098d27c45b428c8b3",
+    "sources/d7/numerics/e41_d7_header.json": "e6007fc911d2baabc86316e7267ae8f2fd2b6138a5d332a95bee807c6a015930",
+    "sources/d7/numerics/e40_d7_matrix.json": "1eb835d56a371b274585b8679b9d4e7c1ccffac6c02a7d708b29a786c7cd892f",
+    "sources/d7/numerics/e41_d7_cert_000001.jsonl": "b04605d77269e3838c802ea849528290542c4e35931083635f77239955029d03",
+    "sources/exact-d4-d5/calibration/sg_appendix_b_d4_d7.txt": "840309f2afc961d4b8ed3da86dc16280098948f5a856f6380e3ec81a13dfad2e",
+    "sources/d7/numerics/e10_face_system.py": "638f6dd3b540489819f9bcb2983e86415e7f0a20d69096549c57d49c9d74f516",
+    "sources/d7/numerics/e43_d7_q_basis.json": "e67ef6dea11b3ee8c75ee1309556c542a684295c2efa4caa8ff34d285217099d"
+  },
+  "unified_cli_historical_checks": [
+    {
+      "claim": "integrity",
+      "exit": 0,
+      "status": "PASS",
+      "mode": "records-only",
+      "expected_complete": true,
+      "seconds": 3.345
+    },
+    {
+      "claim": "d4",
+      "exit": 0,
+      "status": "PASS",
+      "mode": "records-only",
+      "expected_complete": true,
+      "seconds": 2.531
+    },
+    {
+      "claim": "d5",
+      "exit": 0,
+      "status": "PASS",
+      "mode": "records-only",
+      "expected_complete": true,
+      "seconds": 2.512
+    },
+    {
+      "claim": "d6",
+      "exit": 0,
+      "status": "PASS",
+      "mode": "records-only",
+      "expected_complete": true,
+      "seconds": 2.473
+    },
+    {
+      "claim": "d7-spurious",
+      "exit": 0,
+      "status": "PASS",
+      "mode": "records-only",
+      "expected_complete": true,
+      "seconds": 2.654
+    },
+    {
+      "claim": "d7-orbits",
+      "exit": 0,
+      "status": "PASS",
+      "mode": "records-only",
+      "expected_complete": true,
+      "seconds": 2.367
+    },
+    {
+      "claim": "ghosts",
+      "exit": 0,
+      "status": "PASS",
+      "mode": "records-only",
+      "expected_complete": true,
+      "seconds": 2.398
+    },
+    {
+      "claim": "d7-faces",
+      "exit": 1,
+      "status": "FAILED",
+      "mode": "records-only",
+      "expected_complete": false,
+      "seconds": 2.313
+    },
+    {
+      "claim": "d7-finiteness",
+      "exit": 1,
+      "status": "FAILED",
+      "mode": "records-only",
+      "expected_complete": false,
+      "seconds": 2.414
+    }
+  ],
+  "unified_cli_source_sha256": "88b722e2f9f6ca6519109404a44f93eb3d2ee74d20aceba8c9e4b265ba0ea430",
+  "acceptance_source_sha256": "3af2bf957bccf6944c9ff6e2ca6fe4896781f1f20e8b3e461b4fc83d003bd2a7",
+  "regression_tests": {
+    "count": 13,
+    "passed": true,
+    "source_sha256": "0ad2df3e7680bc98c9bbfcf102a29a271482b1dfc3660e39bd095834eabacf2b",
+    "heavy_cas_or_solver_replayed": false
+  }
+}

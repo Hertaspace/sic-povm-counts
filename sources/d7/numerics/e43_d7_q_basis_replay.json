@@ -1,0 +1,31 @@
+{
+  "schema": "spur-q-basis-replay-v1",
+  "d": 7,
+  "passed": true,
+  "rank": 15,
+  "raw_q_indices": [
+    3,
+    17,
+    10,
+    0,
+    4,
+    18,
+    11,
+    7,
+    8,
+    9,
+    12,
+    2,
+    6,
+    13,
+    14
+  ],
+  "coefficient_identities_checked": 2688,
+  "prime": 30241,
+  "determinant": 15720,
+  "basis_file": "e43_d7_q_basis.json",
+  "basis_sha256": "e67ef6dea11b3ee8c75ee1309556c542a684295c2efa4caa8ff34d285217099d",
+  "q_model_sha256": "7ae8788e50946a5ee56cec6991f5e77c1dded75450eb17a9a9953a93652d2956",
+  "seconds": 0.910433,
+  "python": "3.14.8 | packaged by conda-forge | (main, Oct 12 2026, 17:35:27) [GCC 15.3.0]"
+}

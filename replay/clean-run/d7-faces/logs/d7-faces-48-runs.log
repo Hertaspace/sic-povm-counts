@@ -1,0 +1,1460 @@
+self-test cyclotomic
+self-test product expansion
+build q
+sic generators=48 (q_00 dropped) union_support=112 build_seconds=0.032
+primes [100003, 100129]
+matrix_mismatches=0 rank_with_q00=16 rank_sic=15 on 112 monomials
+ANALYZE q576
+{
+  "tag": "q576",
+  "claimed_length": 576,
+  "weight": "1/2,1,1/3,1/4,3/4,2/3,1/2,2/3,3/4,1/4,1/3,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 20,
+  "weight_one_sha256": "b90e0c8632783a49aa81d71324e1c05c43c646bb2260d07ed5c89685ba4a1304",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 20
+    },
+    {
+      "weight": "19/12",
+      "n_monomials": 28
+    },
+    {
+      "weight": "13/6",
+      "n_monomials": 33
+    },
+    {
+      "weight": "11/4",
+      "n_monomials": 26
+    },
+    {
+      "weight": "10/3",
+      "n_monomials": 5
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 1,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 13,
+      "dim_V": 14,
+      "n_weight1_monomials_surviving": 20,
+      "weight1_monomials_killed": 0,
+      "dim_P": 1
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 13,
+      "dim_V": 14,
+      "n_weight1_monomials_surviving": 20,
+      "weight1_monomials_killed": 0,
+      "dim_P": 1
+    }
+  }
+}
+RUN q576_p100003_s8675309 mode=generic_12_plane dimV=14
+DONE q576_p100003_s8675309 rur=finite len=576 minpoly=576 stair=zero_dimensional slen=576 sec=6.003
+RUN q576_p100003_s42424249 mode=generic_12_plane dimV=14
+DONE q576_p100003_s42424249 rur=finite len=576 minpoly=576 stair=zero_dimensional slen=576 sec=6.002
+RUN q576_p100129_s8675309 mode=generic_12_plane dimV=14
+DONE q576_p100129_s8675309 rur=finite len=576 minpoly=576 stair=zero_dimensional slen=576 sec=6.002
+RUN q576_p100129_s42424249 mode=generic_12_plane dimV=14
+DONE q576_p100129_s42424249 rur=finite len=576 minpoly=576 stair=zero_dimensional slen=576 sec=6.003
+ANALYZE q1968
+{
+  "tag": "q1968",
+  "claimed_length": 1968,
+  "weight": "1/2,1,1/3,5/6,1/6,2/3,1/2,2/3,1/6,5/6,1/3,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 30,
+  "weight_one_sha256": "e060cdbf1772fc11716455136e895cef8ac19812fc304e3daa92224446586046",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 30
+    },
+    {
+      "weight": "13/6",
+      "n_monomials": 68
+    },
+    {
+      "weight": "10/3",
+      "n_monomials": 14
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 1,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 15,
+      "dim_V": 16,
+      "n_weight1_monomials_surviving": 30,
+      "weight1_monomials_killed": 0,
+      "dim_P": 1
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 15,
+      "dim_V": 16,
+      "n_weight1_monomials_surviving": 30,
+      "weight1_monomials_killed": 0,
+      "dim_P": 1
+    }
+  }
+}
+RUN q1968_p100003_s8675309 mode=generic_12_plane dimV=16
+DONE q1968_p100003_s8675309 rur=finite len=1968 minpoly=1968 stair=zero_dimensional slen=1968 sec=102.023
+RUN q1968_p100003_s42424249 mode=generic_12_plane dimV=16
+DONE q1968_p100003_s42424249 rur=finite len=1968 minpoly=1968 stair=zero_dimensional slen=1968 sec=98.024
+RUN q1968_p100129_s8675309 mode=generic_12_plane dimV=16
+DONE q1968_p100129_s8675309 rur=finite len=1968 minpoly=1968 stair=zero_dimensional slen=1968 sec=104.019
+RUN q1968_p100129_s42424249 mode=generic_12_plane dimV=16
+DONE q1968_p100129_s42424249 rur=finite len=1968 minpoly=1968 stair=zero_dimensional slen=1968 sec=102.018
+ANALYZE q640
+{
+  "tag": "q640",
+  "claimed_length": 640,
+  "weight": "1/2,1,5/8,1/4,3/4,3/8,1/2,3/8,3/4,1/4,5/8,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 22,
+  "weight_one_sha256": "1f1c012e4b0cc03e53903637d8eac99900b4a6d44801b67c465a0bd7a6981493",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 22
+    },
+    {
+      "weight": "15/8",
+      "n_monomials": 54
+    },
+    {
+      "weight": "11/4",
+      "n_monomials": 34
+    },
+    {
+      "weight": "29/8",
+      "n_monomials": 2
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 1,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 15,
+      "dim_V": 16,
+      "n_weight1_monomials_surviving": 22,
+      "weight1_monomials_killed": 0,
+      "dim_P": 1
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 15,
+      "dim_V": 16,
+      "n_weight1_monomials_surviving": 22,
+      "weight1_monomials_killed": 0,
+      "dim_P": 1
+    }
+  }
+}
+RUN q640_p100003_s8675309 mode=generic_12_plane dimV=16
+DONE q640_p100003_s8675309 rur=finite len=640 minpoly=640 stair=zero_dimensional slen=640 sec=6.002
+RUN q640_p100003_s42424249 mode=generic_12_plane dimV=16
+DONE q640_p100003_s42424249 rur=finite len=640 minpoly=640 stair=zero_dimensional slen=640 sec=6.002
+RUN q640_p100129_s8675309 mode=generic_12_plane dimV=16
+DONE q640_p100129_s8675309 rur=finite len=640 minpoly=640 stair=zero_dimensional slen=640 sec=6.002
+RUN q640_p100129_s42424249 mode=generic_12_plane dimV=16
+DONE q640_p100129_s42424249 rur=finite len=640 minpoly=640 stair=zero_dimensional slen=640 sec=6.002
+ANALYZE q1000
+{
+  "tag": "q1000",
+  "claimed_length": 1000,
+  "weight": "1/2,1,4/5,3/5,2/5,1/5,1/2,1/5,2/5,3/5,4/5,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 23,
+  "weight_one_sha256": "0cd1e4d368526308ec1a018ec8080671e057ebce66009005303e2199beab74e7",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 23
+    },
+    {
+      "weight": "17/10",
+      "n_monomials": 30
+    },
+    {
+      "weight": "12/5",
+      "n_monomials": 49
+    },
+    {
+      "weight": "31/10",
+      "n_monomials": 8
+    },
+    {
+      "weight": "19/5",
+      "n_monomials": 2
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 1,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 14,
+      "dim_V": 15,
+      "n_weight1_monomials_surviving": 23,
+      "weight1_monomials_killed": 0,
+      "dim_P": 1
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 14,
+      "dim_V": 15,
+      "n_weight1_monomials_surviving": 23,
+      "weight1_monomials_killed": 0,
+      "dim_P": 1
+    }
+  }
+}
+RUN q1000_p100003_s8675309 mode=generic_12_plane dimV=15
+DONE q1000_p100003_s8675309 rur=finite len=1000 minpoly=1000 stair=zero_dimensional slen=1000 sec=52.012
+RUN q1000_p100003_s42424249 mode=generic_12_plane dimV=15
+DONE q1000_p100003_s42424249 rur=finite len=1000 minpoly=1000 stair=zero_dimensional slen=1000 sec=52.013
+RUN q1000_p100129_s8675309 mode=generic_12_plane dimV=15
+DONE q1000_p100129_s8675309 rur=finite len=1000 minpoly=1000 stair=zero_dimensional slen=1000 sec=50.01
+RUN q1000_p100129_s42424249 mode=generic_12_plane dimV=15
+DONE q1000_p100129_s42424249 rur=finite len=1000 minpoly=1000 stair=zero_dimensional slen=1000 sec=48.01
+ANALYZE l1_48
+{
+  "tag": "l1_48",
+  "claimed_length": 48,
+  "weight": "1/2,1,1,1,1/2,1/2,1/2,0,1/2,1/2,1,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 14,
+  "weight_one_sha256": "3605cb1cc390e4e110d8c684af8c20172dd15d94e706581d7ff3c28ff8dcc9a6",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 14
+    },
+    {
+      "weight": "3/2",
+      "n_monomials": 16
+    },
+    {
+      "weight": "2",
+      "n_monomials": 21
+    },
+    {
+      "weight": "5/2",
+      "n_monomials": 26
+    },
+    {
+      "weight": "3",
+      "n_monomials": 25
+    },
+    {
+      "weight": "7/2",
+      "n_monomials": 8
+    },
+    {
+      "weight": "4",
+      "n_monomials": 2
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 3,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 12,
+      "dim_V": 15,
+      "n_weight1_monomials_surviving": 14,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 12,
+      "dim_V": 15,
+      "n_weight1_monomials_surviving": 14,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    }
+  }
+}
+RUN l1_48_p100003_s8675309 mode=generic_12_plane dimV=15
+DONE l1_48_p100003_s8675309 rur=finite len=48 minpoly=48 stair=zero_dimensional slen=48 sec=2.002
+RUN l1_48_p100003_s42424249 mode=generic_12_plane dimV=15
+DONE l1_48_p100003_s42424249 rur=finite len=48 minpoly=48 stair=zero_dimensional slen=48 sec=2.001
+RUN l1_48_p100129_s8675309 mode=generic_12_plane dimV=15
+DONE l1_48_p100129_s8675309 rur=finite len=48 minpoly=48 stair=zero_dimensional slen=48 sec=2.002
+RUN l1_48_p100129_s42424249 mode=generic_12_plane dimV=15
+DONE l1_48_p100129_s42424249 rur=finite len=48 minpoly=48 stair=zero_dimensional slen=48 sec=2.002
+ANALYZE l1_72
+{
+  "tag": "l1_72",
+  "claimed_length": 72,
+  "weight": "1/2,1,1,1,2/3,1/3,1/2,0,1/3,2/3,1,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 14,
+  "weight_one_sha256": "4853b3e923d6e3bc2be07a4bfbfca3b50335af8ef7775aaccf1fe70ff1f3fd5c",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 14
+    },
+    {
+      "weight": "4/3",
+      "n_monomials": 8
+    },
+    {
+      "weight": "3/2",
+      "n_monomials": 5
+    },
+    {
+      "weight": "5/3",
+      "n_monomials": 1
+    },
+    {
+      "weight": "11/6",
+      "n_monomials": 14
+    },
+    {
+      "weight": "2",
+      "n_monomials": 1
+    },
+    {
+      "weight": "13/6",
+      "n_monomials": 10
+    },
+    {
+      "weight": "7/3",
+      "n_monomials": 6
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 3,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 11,
+      "dim_V": 14,
+      "n_weight1_monomials_surviving": 14,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 11,
+      "dim_V": 14,
+      "n_weight1_monomials_surviving": 14,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    }
+  }
+}
+RUN l1_72_p100003_s8675309 mode=generic_12_plane dimV=14
+DONE l1_72_p100003_s8675309 rur=finite len=72 minpoly=72 stair=zero_dimensional slen=72 sec=2.002
+RUN l1_72_p100003_s42424249 mode=generic_12_plane dimV=14
+DONE l1_72_p100003_s42424249 rur=finite len=72 minpoly=72 stair=zero_dimensional slen=72 sec=2.002
+RUN l1_72_p100129_s8675309 mode=generic_12_plane dimV=14
+DONE l1_72_p100129_s8675309 rur=finite len=72 minpoly=72 stair=zero_dimensional slen=72 sec=2.002
+RUN l1_72_p100129_s42424249 mode=generic_12_plane dimV=14
+DONE l1_72_p100129_s42424249 rur=finite len=72 minpoly=72 stair=zero_dimensional slen=72 sec=2.002
+ANALYZE l1_16
+{
+  "tag": "l1_16",
+  "claimed_length": 16,
+  "weight": "1/2,1,1,1,3/4,3/4,1/2,0,3/4,1/4,1,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 12,
+  "weight_one_sha256": "83705c5df43964f6be40f21713797fc6fb8f5a816fb6492db12db30e58c2ad35",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 12
+    },
+    {
+      "weight": "3/2",
+      "n_monomials": 9
+    },
+    {
+      "weight": "7/4",
+      "n_monomials": 8
+    },
+    {
+      "weight": "2",
+      "n_monomials": 1
+    },
+    {
+      "weight": "9/4",
+      "n_monomials": 28
+    },
+    {
+      "weight": "5/2",
+      "n_monomials": 2
+    },
+    {
+      "weight": "11/4",
+      "n_monomials": 18
+    },
+    {
+      "weight": "3",
+      "n_monomials": 15
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 3,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 11,
+      "dim_V": 14,
+      "n_weight1_monomials_surviving": 12,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 11,
+      "dim_V": 14,
+      "n_weight1_monomials_surviving": 12,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    }
+  }
+}
+RUN l1_16_p100003_s8675309 mode=generic_12_plane dimV=14
+DONE l1_16_p100003_s8675309 rur=finite len=16 minpoly=16 stair=zero_dimensional slen=16 sec=2.002
+RUN l1_16_p100003_s42424249 mode=generic_12_plane dimV=14
+DONE l1_16_p100003_s42424249 rur=finite len=16 minpoly=16 stair=zero_dimensional slen=16 sec=2.002
+RUN l1_16_p100129_s8675309 mode=generic_12_plane dimV=14
+DONE l1_16_p100129_s8675309 rur=finite len=16 minpoly=16 stair=zero_dimensional slen=16 sec=2.002
+RUN l1_16_p100129_s42424249 mode=generic_12_plane dimV=14
+DONE l1_16_p100129_s42424249 rur=finite len=16 minpoly=16 stair=zero_dimensional slen=16 sec=2.002
+ANALYZE l2_48
+{
+  "tag": "l2_48",
+  "claimed_length": 48,
+  "weight": "1/2,1,1/2,1,1/2,1,1/2,1/2,0,1,1/2,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 16,
+  "weight_one_sha256": "3e9db5a843820fef0e490ae57d5f6631757a33ba134b31e24a40335223a512b0",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 16
+    },
+    {
+      "weight": "3/2",
+      "n_monomials": 13
+    },
+    {
+      "weight": "2",
+      "n_monomials": 14
+    },
+    {
+      "weight": "5/2",
+      "n_monomials": 46
+    },
+    {
+      "weight": "3",
+      "n_monomials": 10
+    },
+    {
+      "weight": "7/2",
+      "n_monomials": 9
+    },
+    {
+      "weight": "4",
+      "n_monomials": 4
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 3,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 13,
+      "dim_V": 16,
+      "n_weight1_monomials_surviving": 16,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 13,
+      "dim_V": 16,
+      "n_weight1_monomials_surviving": 16,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    }
+  }
+}
+RUN l2_48_p100003_s8675309 mode=generic_12_plane dimV=16
+DONE l2_48_p100003_s8675309 rur=finite len=48 minpoly=48 stair=zero_dimensional slen=48 sec=2.002
+RUN l2_48_p100003_s42424249 mode=generic_12_plane dimV=16
+DONE l2_48_p100003_s42424249 rur=finite len=48 minpoly=48 stair=zero_dimensional slen=48 sec=2.002
+RUN l2_48_p100129_s8675309 mode=generic_12_plane dimV=16
+DONE l2_48_p100129_s8675309 rur=finite len=48 minpoly=48 stair=zero_dimensional slen=48 sec=2.002
+RUN l2_48_p100129_s42424249 mode=generic_12_plane dimV=16
+DONE l2_48_p100129_s42424249 rur=finite len=48 minpoly=48 stair=zero_dimensional slen=48 sec=2.002
+ANALYZE l2_128
+{
+  "tag": "l2_128",
+  "claimed_length": 128,
+  "weight": "3/4,1,1/2,1,1/4,1,1/2,3/4,0,1,1/4,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 17,
+  "weight_one_sha256": "0a5ef8f07a241de0237e73e6f6dcb4e72c5886588dd582897a28763061e4576a",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 17
+    },
+    {
+      "weight": "5/4",
+      "n_monomials": 11
+    },
+    {
+      "weight": "3/2",
+      "n_monomials": 2
+    },
+    {
+      "weight": "2",
+      "n_monomials": 3
+    },
+    {
+      "weight": "9/4",
+      "n_monomials": 16
+    },
+    {
+      "weight": "5/2",
+      "n_monomials": 27
+    },
+    {
+      "weight": "11/4",
+      "n_monomials": 21
+    },
+    {
+      "weight": "3",
+      "n_monomials": 1
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 3,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 12,
+      "dim_V": 15,
+      "n_weight1_monomials_surviving": 17,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 12,
+      "dim_V": 15,
+      "n_weight1_monomials_surviving": 17,
+      "weight1_monomials_killed": 0,
+      "dim_P": 3
+    }
+  }
+}
+RUN l2_128_p100003_s8675309 mode=generic_12_plane dimV=15
+DONE l2_128_p100003_s8675309 rur=finite len=128 minpoly=128 stair=zero_dimensional slen=128 sec=2.002
+RUN l2_128_p100003_s42424249 mode=generic_12_plane dimV=15
+DONE l2_128_p100003_s42424249 rur=finite len=128 minpoly=128 stair=zero_dimensional slen=128 sec=2.002
+RUN l2_128_p100129_s8675309 mode=generic_12_plane dimV=15
+DONE l2_128_p100129_s8675309 rur=finite len=128 minpoly=128 stair=zero_dimensional slen=128 sec=2.002
+RUN l2_128_p100129_s42424249 mode=generic_12_plane dimV=15
+DONE l2_128_p100129_s42424249 rur=finite len=128 minpoly=128 stair=zero_dimensional slen=128 sec=2.002
+ANALYZE x1_8
+{
+  "tag": "x1_8",
+  "claimed_length": 8,
+  "weight": "1,1,1,1,1,1,1/2,0,1,0,1,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 10,
+  "weight_one_sha256": "0685c61343659fc862a39e0b8a50fa7a15696f20d97cf0820fb6a9a052be5ddc",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 10
+    },
+    {
+      "weight": "3/2",
+      "n_monomials": 3
+    },
+    {
+      "weight": "2",
+      "n_monomials": 24
+    },
+    {
+      "weight": "5/2",
+      "n_monomials": 12
+    },
+    {
+      "weight": "3",
+      "n_monomials": 36
+    },
+    {
+      "weight": "7/2",
+      "n_monomials": 9
+    },
+    {
+      "weight": "4",
+      "n_monomials": 18
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 6,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 10,
+      "dim_V": 16,
+      "n_weight1_monomials_surviving": 10,
+      "weight1_monomials_killed": 0,
+      "dim_P": 6
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 10,
+      "dim_V": 16,
+      "n_weight1_monomials_surviving": 10,
+      "weight1_monomials_killed": 0,
+      "dim_P": 6
+    }
+  }
+}
+RUN x1_8_p100003_s8675309 mode=generic_12_plane dimV=16
+DONE x1_8_p100003_s8675309 rur=finite len=8 minpoly=8 stair=zero_dimensional slen=8 sec=2.002
+RUN x1_8_p100003_s42424249 mode=generic_12_plane dimV=16
+DONE x1_8_p100003_s42424249 rur=finite len=8 minpoly=8 stair=zero_dimensional slen=8 sec=2.003
+RUN x1_8_p100129_s8675309 mode=generic_12_plane dimV=16
+DONE x1_8_p100129_s8675309 rur=finite len=8 minpoly=8 stair=zero_dimensional slen=8 sec=2.002
+RUN x1_8_p100129_s42424249 mode=generic_12_plane dimV=16
+DONE x1_8_p100129_s42424249 rur=finite len=8 minpoly=8 stair=zero_dimensional slen=8 sec=2.002
+ANALYZE x2_32
+{
+  "tag": "x2_32",
+  "claimed_length": 32,
+  "weight": "1/2,1,1,1,1,1,1/2,0,0,1,1,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 12,
+  "weight_one_sha256": "9c6c5db5b730442727411ac6c946538ac57dc6e93da7aa447d466cf5897dadd7",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 12
+    },
+    {
+      "weight": "3/2",
+      "n_monomials": 10
+    },
+    {
+      "weight": "2",
+      "n_monomials": 18
+    },
+    {
+      "weight": "5/2",
+      "n_monomials": 18
+    },
+    {
+      "weight": "3",
+      "n_monomials": 31
+    },
+    {
+      "weight": "7/2",
+      "n_monomials": 10
+    },
+    {
+      "weight": "4",
+      "n_monomials": 13
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 6,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 11,
+      "dim_V": 17,
+      "n_weight1_monomials_surviving": 12,
+      "weight1_monomials_killed": 0,
+      "dim_P": 6
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 11,
+      "dim_V": 17,
+      "n_weight1_monomials_surviving": 12,
+      "weight1_monomials_killed": 0,
+      "dim_P": 6
+    }
+  }
+}
+RUN x2_32_p100003_s8675309 mode=generic_12_plane dimV=17
+DONE x2_32_p100003_s8675309 rur=finite len=32 minpoly=32 stair=zero_dimensional slen=32 sec=2.002
+RUN x2_32_p100003_s42424249 mode=generic_12_plane dimV=17
+DONE x2_32_p100003_s42424249 rur=finite len=32 minpoly=32 stair=zero_dimensional slen=32 sec=2.002
+RUN x2_32_p100129_s8675309 mode=generic_12_plane dimV=17
+DONE x2_32_p100129_s8675309 rur=finite len=32 minpoly=32 stair=zero_dimensional slen=32 sec=2.002
+RUN x2_32_p100129_s42424249 mode=generic_12_plane dimV=17
+DONE x2_32_p100129_s42424249 rur=finite len=32 minpoly=32 stair=zero_dimensional slen=32 sec=2.002
+ANALYZE z96
+{
+  "tag": "z96",
+  "claimed_length": 96,
+  "weight": "1/2,1,1,1,1,0,1/2,0,1,1,1,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 15,
+  "weight_one_sha256": "748ef5c49419863f3c8fbe1e392bd1d9485dc6396907decc5cad3db68d2be2ca",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 15
+    },
+    {
+      "weight": "3/2",
+      "n_monomials": 12
+    },
+    {
+      "weight": "2",
+      "n_monomials": 11
+    },
+    {
+      "weight": "5/2",
+      "n_monomials": 16
+    },
+    {
+      "weight": "3",
+      "n_monomials": 34
+    },
+    {
+      "weight": "7/2",
+      "n_monomials": 10
+    },
+    {
+      "weight": "4",
+      "n_monomials": 14
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 9,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 12,
+      "dim_V": 21,
+      "n_weight1_monomials_surviving": 15,
+      "weight1_monomials_killed": 0,
+      "dim_P": 9
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 12,
+      "dim_V": 21,
+      "n_weight1_monomials_surviving": 15,
+      "weight1_monomials_killed": 0,
+      "dim_P": 9
+    }
+  }
+}
+RUN z96_p100003_s8675309 mode=generic_12_plane dimV=21
+DONE z96_p100003_s8675309 rur=finite len=96 minpoly=96 stair=zero_dimensional slen=96 sec=2.002
+RUN z96_p100003_s42424249 mode=generic_12_plane dimV=21
+DONE z96_p100003_s42424249 rur=finite len=96 minpoly=96 stair=zero_dimensional slen=96 sec=2.002
+RUN z96_p100129_s8675309 mode=generic_12_plane dimV=21
+DONE z96_p100129_s8675309 rur=finite len=96 minpoly=96 stair=zero_dimensional slen=96 sec=2.003
+RUN z96_p100129_s42424249 mode=generic_12_plane dimV=21
+DONE z96_p100129_s42424249 rur=finite len=96 minpoly=96 stair=zero_dimensional slen=96 sec=2.002
+WROTE work/d7-faces-out/summary.json
+{"accepted_face_runs": 48, "cones": 12, "higher_order_path_exhaustion_claimed": false}

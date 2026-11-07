@@ -1,0 +1,79 @@
+wrote work/d7-finiteness/self.json
+{
+  "tau7_is_1": true,
+  "reconstruction_7abT": true,
+  "c_q_equals_Z_minus_q": true,
+  "n_minors": 441,
+  "minors_vanish_on_rank1": true,
+  "n_squares": 49,
+  "squares_vanish_on_rank1": true,
+  "row_witness_C": true,
+  "row_witness_mask": 16256,
+  "row_witness_desc": {
+    "1": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "products_zero_on_row": true,
+  "z0_zero_on_row": true,
+  "parse_ty": true,
+  "parse_prod": true,
+  "parse_trace_is_z0sq_minus_8t": true,
+  "parse_bare_coeff": true,
+  "parse_pow": true
+}
+wrote work/d7-finiteness/n1.json
+n1 positive 0 of 40131
+group 336 failed_gens 0
+base patterns 343
+closed patterns 2401
+z3 closed 2401 blocking 544
+z3 closed result unsat 1012.0782761573792
+z3 base 343
+z3 base result sat 2.1877942085266113
+wrote work/d7-finiteness/n2.json
+n2 group 336 closed 2401 z3 unsat claimed 544
+cert e21_nf5_p29_m16256_b0_main_c0000.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m16256_b0_main_c0001.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m16256_b0_main_c0002.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m16256_b0_main_c0003.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_circuit_p29_m16256_b0_hard_smoke.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m16256_b0_main_c0005.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m16256_b0_main_c0006.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m16256_b0_main_c0007.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m2097024_b0_main_c0000.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m2097024_b0_main_c0001.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m2097024_b0_main_c0002.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m2097024_b1_main_c0000.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m2097024_b1_main_c0001.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m2097024_b1_main_c0002.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m266354560_b0_main_c0000.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m266354560_b0_main_c0001.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m266354560_b0_main_c0002.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m266354560_b1_main_c0000.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m266354560_b1_main_c0001.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m266354560_b1_main_c0002.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m268435328_b0_main_c0000.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m268435328_b1_main_c0000.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m268435328_b2_main_c0000.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m34093399936_b0_main_c0000.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+cert e21_nf5_p29_m34093399936_b1_main_c0000.json.gz.part000 sum1 unmatched 5 linear_in_block_span 5 unexplained [] step None
+wrote work/d7-finiteness/n3.json
+cover 16256 0 unsat 643.6s
+cover 2097024 0 unsat 144.8s
+cover 2097024 1 unsat 72.7s
+cover 266354560 0 unsat 137.8s
+cover 266354560 1 unsat 54.5s
+cover 268435328 0 unsat 2.2s
+cover 268435328 1 unsat 2.1s
+cover 268435328 2 unsat 2.0s
+cover 34093399936 0 unsat 1.9s
+cover 34093399936 1 unsat 2.1s
+cover twenty unsat 1.5s
+wrote work/d7-finiteness/n4.json

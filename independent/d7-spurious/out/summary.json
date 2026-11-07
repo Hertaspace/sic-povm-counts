@@ -1,0 +1,22 @@
+{
+  "n_records": 21232,
+  "n_ok": 21232,
+  "n_bad": 0,
+  "bad_ids": [],
+  "bad_stages": [],
+  "unique_ids": 21232,
+  "stab_failures": 0,
+  "q_failures": 0,
+  "real_clusters_gt1": 0,
+  "largest_real_cluster": 1,
+  "unseparated_pairs": [],
+  "n_unseparated_pairs": 0,
+  "newton_step0_max": 4442331029711582271778010810393720674793971,
+  "newton_step_last_max": 50773,
+  "move_max": 4442331029711582271778010810393720674904174,
+  "radius_exp_min": 40,
+  "prec": 256,
+  "elapsed_sec": 478.949,
+  "workers": 40,
+  "n_scheduled": 21232
+}

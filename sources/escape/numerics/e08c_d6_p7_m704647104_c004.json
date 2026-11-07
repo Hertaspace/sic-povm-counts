@@ -1,0 +1,478 @@
+{
+  "schema": "e08c-sparse-unit-v1",
+  "d": 6,
+  "p": 7,
+  "mask": 704647104,
+  "weights": [
+    "5/4",
+    "1/4",
+    "1/4",
+    "1/4",
+    "1/4",
+    "1/4",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "1/4",
+    "1/2",
+    "1/4",
+    "1/2",
+    "1/4",
+    "1/2",
+    "1/4",
+    "1/4",
+    "1/4",
+    "1/4",
+    "1/4",
+    "1/4",
+    "1/4",
+    "0",
+    "1/4",
+    "0",
+    "1/4",
+    "0",
+    "1/2",
+    "1/2",
+    "1/2",
+    "1/2",
+    "1/2",
+    "1/2"
+  ],
+  "mu": "1/2",
+  "first_label": 6,
+  "fixed_minimal_residue_point": false,
+  "generator_count": 281,
+  "members": [
+    {
+      "generator_index_zero_based": 22,
+      "generator": "(6)*1*z12+(6*w^1)*z7*z12+(1)*z8*z12+(1*w^1)*z9*z12+(6)*z10*z12+(6*w^1)*z11*z12+(5)*1*z14+(5*w^1)*z7*z14+(2)*z8*z14+(2*w^1)*z9*z14+(5)*z10*z14+(5*w^1)*z11*z14+(3)*1*z16+(3*w^1)*z7*z16+(4)*z8*z16+(4*w^1)*z9*z16+(3)*z10*z16+(3*w^1)*z11*z16",
+      "multiplier": "3*y*z26"
+    },
+    {
+      "generator_index_zero_based": 38,
+      "generator": "(6)*1*z12+(5)*1*z14+(3)*1*z16+(5*w^1)*z7*z12+(3*w^1)*z7*z14+(6*w^1)*z7*z16+(4)*z8*z12+(1)*z8*z14+(2)*z8*z16+(1*w^1)*z9*z12+(2*w^1)*z9*z14+(4*w^1)*z9*z16+(5)*z10*z12+(3)*z10*z14+(6)*z10*z16+(3*w^1)*z11*z12+(6*w^1)*z11*z14+(5*w^1)*z11*z16",
+      "multiplier": "3*y*z26"
+    },
+    {
+      "generator_index_zero_based": 40,
+      "generator": "(6)*1*z12+(2*w^1)*z7*z12+(4)*z8*z12+(6*w^1)*z9*z12+(5)*z10*z12+(4*w^1)*z11*z12+(5)*1*z14+(4*w^1)*z7*z14+(1)*z8*z14+(5*w^1)*z9*z14+(3)*z10*z14+(1*w^1)*z11*z14+(3)*1*z16+(1*w^1)*z7*z16+(2)*z8*z16+(3*w^1)*z9*z16+(6)*z10*z16+(2*w^1)*z11*z16",
+      "multiplier": "3*y*z26"
+    },
+    {
+      "generator_index_zero_based": 56,
+      "generator": "(6)*1*z12+(6)*1*z14+(6)*1*z16+(5*w^1)*z7*z12+(5*w^1)*z7*z14+(5*w^1)*z7*z16+(4)*z8*z12+(4)*z8*z14+(4)*z8*z16+(1*w^1)*z9*z12+(1*w^1)*z9*z14+(1*w^1)*z9*z16+(5)*z10*z12+(5)*z10*z14+(5)*z10*z16+(3*w^1)*z11*z12+(3*w^1)*z11*z14+(3*w^1)*z11*z16",
+      "multiplier": "-2*y*z26"
+    },
+    {
+      "generator_index_zero_based": 101,
+      "generator": "(6)*1*z12+(2*w^1)*z7*z12+(4)*z8*z12+(6*w^1)*z9*z12+(5)*z10*z12+(4*w^1)*z11*z12+(6)*1*z14+(2*w^1)*z7*z14+(4)*z8*z14+(6*w^1)*z9*z14+(5)*z10*z14+(4*w^1)*z11*z14+(6)*1*z16+(2*w^1)*z7*z16+(4)*z8*z16+(6*w^1)*z9*z16+(5)*z10*z16+(4*w^1)*z11*z16",
+      "multiplier": "-2*y*z26"
+    },
+    {
+      "generator_index_zero_based": 106,
+      "generator": "(1)*1*z12+(1)*1*z14+(1)*1*z16+(3*w^1)*z7*z12+(3*w^1)*z7*z14+(3*w^1)*z7*z16+(5)*z8*z12+(5)*z8*z14+(5)*z8*z16+(1*w^1)*z9*z12+(1*w^1)*z9*z14+(1*w^1)*z9*z16+(4)*z10*z12+(4)*z10*z14+(4)*z10*z16+(5*w^1)*z11*z12+(5*w^1)*z11*z14+(5*w^1)*z11*z16",
+      "multiplier": "2*y*z26"
+    },
+    {
+      "generator_index_zero_based": 118,
+      "generator": "(6)*1*z12+(3*w^1)*z7*z12+(2)*z8*z12+(1*w^1)*z9*z12+(3)*z10*z12+(5*w^1)*z11*z12+(6)*1*z14+(3*w^1)*z7*z14+(2)*z8*z14+(1*w^1)*z9*z14+(3)*z10*z14+(5*w^1)*z11*z14+(6)*1*z16+(3*w^1)*z7*z16+(2)*z8*z16+(1*w^1)*z9*z16+(3)*z10*z16+(5*w^1)*z11*z16",
+      "multiplier": "-2*y*z26"
+    },
+    {
+      "generator_index_zero_based": 122,
+      "generator": "(1)*1*z12+(4)*1*z14+(2)*1*z16+(3*w^1)*z7*z12+(5*w^1)*z7*z14+(6*w^1)*z7*z16+(5)*z8*z12+(6)*z8*z14+(3)*z8*z16+(1*w^1)*z9*z12+(4*w^1)*z9*z14+(2*w^1)*z9*z16+(4)*z10*z12+(2)*z10*z14+(1)*z10*z16+(5*w^1)*z11*z12+(6*w^1)*z11*z14+(3*w^1)*z11*z16",
+      "multiplier": "y*z26"
+    },
+    {
+      "generator_index_zero_based": 152,
+      "generator": "(1)*1*z12+(4*w^1)*z7*z12+(5)*z8*z12+(6*w^1)*z9*z12+(4)*z10*z12+(2*w^1)*z11*z12+(4)*1*z14+(2*w^1)*z7*z14+(6)*z8*z14+(3*w^1)*z9*z14+(2)*z10*z14+(1*w^1)*z11*z14+(2)*1*z16+(1*w^1)*z7*z16+(3)*z8*z16+(5*w^1)*z9*z16+(1)*z10*z16+(4*w^1)*z11*z16",
+      "multiplier": "y*z26"
+    },
+    {
+      "generator_index_zero_based": 168,
+      "generator": "(1)*1*z12+(6*w^1)*z7*z12+(6)*z8*z12+(1*w^1)*z9*z12+(1)*z10*z12+(6*w^1)*z11*z12+(4)*1*z14+(3*w^1)*z7*z14+(3)*z8*z14+(4*w^1)*z9*z14+(4)*z10*z14+(3*w^1)*z11*z14+(2)*1*z16+(5*w^1)*z7*z16+(5)*z8*z16+(2*w^1)*z9*z16+(2)*z10*z16+(5*w^1)*z11*z16",
+      "multiplier": "y*z26"
+    },
+    {
+      "generator_index_zero_based": 171,
+      "generator": "(1)*1*z12+(4)*1*z14+(2)*1*z16+(1*w^1)*z7*z12+(4*w^1)*z7*z14+(2*w^1)*z7*z16+(6)*z8*z12+(3)*z8*z14+(5)*z8*z16+(6*w^1)*z9*z12+(3*w^1)*z9*z14+(5*w^1)*z9*z16+(1)*z10*z12+(4)*z10*z14+(2)*z10*z16+(1*w^1)*z11*z12+(4*w^1)*z11*z14+(2*w^1)*z11*z16",
+      "multiplier": "y*z26"
+    },
+    {
+      "generator_index_zero_based": 202,
+      "generator": "(1)*1*z12+(6*w^1)*z7*z12+(6)*z8*z12+(1*w^1)*z9*z12+(1)*z10*z12+(6*w^1)*z11*z12+(2)*1*z14+(5*w^1)*z7*z14+(5)*z8*z14+(2*w^1)*z9*z14+(2)*z10*z14+(5*w^1)*z11*z14+(4)*1*z16+(3*w^1)*z7*z16+(3)*z8*z16+(4*w^1)*z9*z16+(4)*z10*z16+(3*w^1)*z11*z16",
+      "multiplier": "-3*y*z26"
+    },
+    {
+      "generator_index_zero_based": 246,
+      "generator": "(6)*1*z16+(1)*z8*z14+(6)*z10*z12",
+      "multiplier": "2*y*z26"
+    },
+    {
+      "generator_index_zero_based": 273,
+      "generator": "(1)*z16*z26-t",
+      "multiplier": "-y"
+    },
+    {
+      "generator_index_zero_based": 280,
+      "generator": "t*y-1",
+      "multiplier": "-1"
+    }
+  ],
+  "cell": [
+    {
+      "polynomial_index_zero_based": 22,
+      "leader_term_indices_zero_based": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 38,
+      "leader_term_indices_zero_based": [
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 40,
+      "leader_term_indices_zero_based": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 56,
+      "leader_term_indices_zero_based": [
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 101,
+      "leader_term_indices_zero_based": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 106,
+      "leader_term_indices_zero_based": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 118,
+      "leader_term_indices_zero_based": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 122,
+      "leader_term_indices_zero_based": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 152,
+      "leader_term_indices_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 168,
+      "leader_term_indices_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 171,
+      "leader_term_indices_zero_based": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 202,
+      "leader_term_indices_zero_based": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "polynomial_index_zero_based": 246,
+      "leader_term_indices_zero_based": [
+        3,
+        5,
+        7
+      ]
+    }
+  ],
+  "group_images": [
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      -1,
+      3
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      -1,
+      5
+    ]
+  ],
+  "singular": {
+    "status": "complete",
+    "seconds": 0.59374,
+    "sampled_peak_rss_bytes": 13369344,
+    "initial_result": [
+      -1,
+      0,
+      1,
+      227
+    ],
+    "independent_replay": {
+      "status": "complete",
+      "seconds": 0.008193,
+      "sampled_peak_rss_bytes": 0
+    }
+  },
+  "smt_seconds": 3.189737
+}

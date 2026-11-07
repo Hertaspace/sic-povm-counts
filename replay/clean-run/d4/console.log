@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "claim": "d4",
+  "mode": "fresh-execution",
+  "result": "work/final-d4/result.json",
+  "workspace": "repo",
+  "error": null
+}

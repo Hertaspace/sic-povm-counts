@@ -1,0 +1,72 @@
+REPLAY e40_replay_boundary.py
+REPLAY e41_replay_inputs.py
+REPLAY e42_replay_known_orbits.py
+REPLAY e90_component_audit.py
+REPLAY e90_r1_plain_audit.py
+{
+  "status": "PASS",
+  "records": {
+    "e40_replay_boundary.json": "ce5aea98a04174c262376d38d10cff2f7e0ce821af1fb2a6cf5a5538698a2525",
+    "e41_replay_inputs.json": "aa4d805afc380e6131f4df5d8ed175ebc0b58935d554bd3031565458da2e0cb3",
+    "e43_e42_replay_known_orbits.out": "35d12983b34d91bef6d5ea7a88ab03c2dcbe009ba28c9169027afe7a272d6b3a",
+    "e90_component_audit.json": "c908c4fa929f84e361c933cca03461c7920fbd676cb3ee470acce002c383fc36",
+    "e90_r1_plain_audit.json": "01a4d53dbded1ba98f4065f832abc6851c04016849c028e97050b2e82c4bc119"
+  },
+  "checked_dependency_hashes": 263,
+  "identity_count": 147,
+  "six_fresh_covers": "UNSAT",
+  "full_special_points": 3456,
+  "full_complex_points": 6912,
+  "upper_bound_recomputed": true,
+  "stages": [
+    {
+      "script": "e40_replay_boundary.py",
+      "command": [
+        "/home/ubuntu/counts-replay/env/bin/python",
+        "-B",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e40_replay_boundary.py"
+      ],
+      "seconds": 289.644931
+    },
+    {
+      "script": "e41_replay_inputs.py",
+      "command": [
+        "/home/ubuntu/counts-replay/env/bin/python",
+        "-B",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e41_replay_inputs.py",
+        "--recompute-upper"
+      ],
+      "seconds": 513.434495
+    },
+    {
+      "script": "e42_replay_known_orbits.py",
+      "command": [
+        "/home/ubuntu/counts-replay/env/bin/python",
+        "-B",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e42_replay_known_orbits.py"
+      ],
+      "seconds": 5.735926
+    },
+    {
+      "script": "e90_component_audit.py",
+      "command": [
+        "/home/ubuntu/counts-replay/env/bin/python",
+        "-B",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e90_component_audit.py"
+      ],
+      "seconds": 8.885714
+    },
+    {
+      "script": "e90_r1_plain_audit.py",
+      "command": [
+        "/home/ubuntu/counts-replay/env/bin/python",
+        "-B",
+        "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e90_r1_plain_audit.py"
+      ],
+      "seconds": 47.954118
+    }
+  ],
+  "records_only": false,
+  "seconds": 865.685821,
+  "own_script_sha256": "c303efdc4c6c60399ff785bcb22bd5882ff77f70881ea38005d1a9c9a3c3cf17"
+}

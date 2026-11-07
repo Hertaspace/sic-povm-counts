@@ -1,0 +1,23 @@
+{
+  "schema": "spur-exact-symmetry-v1",
+  "d": 7,
+  "seed": 20261102,
+  "q_equations": 24,
+  "homogeneous_terms": 1554,
+  "invariance_generators": [
+    "X",
+    "Z",
+    "parity"
+  ],
+  "group_order": 98,
+  "all_projective_normal_forms_distinct": true,
+  "multiplication_pairs_checked": 9604,
+  "multiplication": "(s,i,j)*(t,k,l)=(s*t,i+s*k,j+s*l) modulo d, central phase zeta^(j*s*k)",
+  "action": "U=X^i Z^j P^((1-s)/2); (a,b)->(Ua,U^(-T)b)",
+  "free_wedge": "zeta^(j*r)*a[s*(r-i)]-a[r]*a[-s*i], for r=1,...,d-1",
+  "proof_scope": "Exact homogeneous q invariance plus finite group law; root-level freeness still requires each interval witness.",
+  "status": "PASS",
+  "seconds": 0.348269,
+  "python": "3.14.8 | packaged by conda-forge | (main, Oct 12 2026, 17:35:27) [GCC 15.3.0]",
+  "model_source_sha256": "b41f3a6d8cb5356c2386536aa69a368e87d05d61f434198befe031dc44673119"
+}

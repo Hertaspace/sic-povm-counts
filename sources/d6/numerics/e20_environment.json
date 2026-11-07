@@ -1,0 +1,24 @@
+{
+  "seed": 20261031,
+  "python": "3.14.7",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "singular": "Singular for arm64-Darwin version 4.4.1 (44105, 64 bit) Nov 11 2025 16:12:34",
+  "z3_python": "5.0.0",
+  "arithmetic": "exact cyclotomic integers, unramified integers modulo p^6, finite fields and rational linear arithmetic",
+  "resource_policy": {
+    "max_heavy_children": 1,
+    "per_child_limit_bytes": 17179869184,
+    "rss_stop_bytes": 15032385536
+  },
+  "current_heavy_processes": "historical resource observation; process identifiers omitted",
+  "files": 346,
+  "large_files": [],
+  "script_sha256": {
+    "e20_coefficient_norms.py": "2c392720ac77312a447f7c89e00947f319dcb3f2eafeb79c2b3718b9bee6749a",
+    "e20_environment.py": "5202a97f41146c5a8d8a574ce0cba0e6809d3eca807372f19176f19f6b666c09",
+    "e20_independent_audit.py": "ff1a2178179f78dc1406b414bdecf77311f9ab7733b106e3acd818f8170e30e4",
+    "e20_normalized_lift.py": "1c5264b742996d76d1ab03aa2e70479a7eff2774f426de18d89d9701ae83ab6d",
+    "e20_ordinary_primes.py": "ea3d078cbbeeb8c0d5ddee4111178da38b930819822b1e027f4ccb1230b7080d"
+  },
+  "final_scope": "p5 five support types / 43 cores independently audited; p5 2D source extraction unfinished; p7 full closure handled by coordinator"
+}

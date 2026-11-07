@@ -1,0 +1,194 @@
+{
+  "tag": "z96",
+  "claimed_length": 96,
+  "weight": "1/2,1,1,1,1,0,1/2,0,1,1,1,1",
+  "exact_support_count": 112,
+  "exact_support_sha256": "ce8ad186c74ce0b7dadcf65ce1a5cb2bda7c5b028060f70e9deed7dbb0df5e80",
+  "generator_term_occurrences": 3108,
+  "min_weight": "1",
+  "min_weight_is_one": true,
+  "weights_below_one": [],
+  "n_monomials_at_weight_one": 15,
+  "weight_one_sha256": "748ef5c49419863f3c8fbe1e392bd1d9485dc6396907decc5cad3db68d2be2ca",
+  "smallest_weights": [
+    {
+      "weight": "1",
+      "n_monomials": 15
+    },
+    {
+      "weight": "3/2",
+      "n_monomials": 12
+    },
+    {
+      "weight": "2",
+      "n_monomials": 11
+    },
+    {
+      "weight": "5/2",
+      "n_monomials": 16
+    },
+    {
+      "weight": "3",
+      "n_monomials": 34
+    },
+    {
+      "weight": "7/2",
+      "n_monomials": 10
+    },
+    {
+      "weight": "4",
+      "n_monomials": 14
+    }
+  ],
+  "perturbation_monomials": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "dim_P": 9,
+  "primes": {
+    "100003": {
+      "primitive_7th_root": 33669,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 12,
+      "dim_V": 21,
+      "n_weight1_monomials_surviving": 15,
+      "weight1_monomials_killed": 0,
+      "dim_P": 9
+    },
+    "100129": {
+      "primitive_7th_root": 25525,
+      "q_rank": 15,
+      "q_support_mod_p": 112,
+      "dim_L": 12,
+      "dim_V": 21,
+      "n_weight1_monomials_surviving": 15,
+      "weight1_monomials_killed": 0,
+      "dim_P": 9
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "baseline_id": 1,
+  "negative_cases": {
+    "center_shifted_by_at_least_one": {
+      "rejected": true,
+      "reason": "Jacobian contraction eta>=1"
+    },
+    "zero_inverse": {
+      "rejected": true,
+      "reason": "Jacobian contraction eta>=1"
+    },
+    "zero_wedge_witnesses": {
+      "rejected": true,
+      "reason": "a-wedge witness index out of range"
+    },
+    "invalid_q_witness": {
+      "rejected": true,
+      "reason": "q!=0 witness failed"
+    },
+    "omega_shifted_by_at_least_one": {
+      "rejected": true,
+      "reason": "omega strict Krawczyk inclusion failed"
+    },
+    "one_changed_exact_matrix_numerator": {
+      "rejected": true,
+      "reason": "certificate matrix entry differs from original matrix"
+    }
+  },
+  "bits": 384,
+  "header_sha256": "6273e5e20a4243951e1d341484379bdf2879105f987c4180136e049eb5110465",
+  "certificate_sha256": {
+    "e41_d6_cert_000001.jsonl": "823a05f2396e55dcb14ae6a8a1ca1c605c5b5fa1fa9f69cc428c60b79e07ca94"
+  },
+  "python": "3.14.8",
+  "dependencies": "Python standard library only",
+  "checker_sha256": "90deb42a3a40020babb236732fc944c18c00f9a6f183e7eb4bb0c60f9b0ee708",
+  "elapsed_seconds": 0.21338381245732307
+}

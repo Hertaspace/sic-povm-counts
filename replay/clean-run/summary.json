@@ -1,0 +1,122 @@
+{
+  "schema": "clean-run-summary-v1",
+  "rows": [
+    {
+      "claim": "integrity",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_clock": "0:08.20",
+      "max_rss_kib_gnu_time": 31208,
+      "started_utc": "2026-11-06T13:14:41Z",
+      "finished_utc": "2026-11-06T13:14:49Z",
+      "source_tree_sha256": "80cd8d86666285eecba5de16c11f192dfa489e4686430bf7e7d618a24fca538d",
+      "source_input_count": 1561,
+      "input_tree_unchanged": true,
+      "outputs": 0
+    },
+    {
+      "claim": "d4",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_clock": "1:47.27",
+      "max_rss_kib_gnu_time": 66556,
+      "started_utc": "2026-11-06T13:14:49Z",
+      "finished_utc": "2026-11-06T13:16:36Z",
+      "source_tree_sha256": "80cd8d86666285eecba5de16c11f192dfa489e4686430bf7e7d618a24fca538d",
+      "source_input_count": 1561,
+      "input_tree_unchanged": true,
+      "outputs": 15
+    },
+    {
+      "claim": "d5",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_clock": "7:20.19",
+      "max_rss_kib_gnu_time": 295532,
+      "started_utc": "2026-11-06T13:14:49Z",
+      "finished_utc": "2026-11-06T13:22:09Z",
+      "source_tree_sha256": "80cd8d86666285eecba5de16c11f192dfa489e4686430bf7e7d618a24fca538d",
+      "source_input_count": 1561,
+      "input_tree_unchanged": true,
+      "outputs": 34
+    },
+    {
+      "claim": "d6",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_clock": "14:32.51",
+      "max_rss_kib_gnu_time": 2916164,
+      "started_utc": "2026-11-06T13:14:49Z",
+      "finished_utc": "2026-11-06T13:29:21Z",
+      "source_tree_sha256": "80cd8d86666285eecba5de16c11f192dfa489e4686430bf7e7d618a24fca538d",
+      "source_input_count": 1561,
+      "input_tree_unchanged": true,
+      "outputs": 21
+    },
+    {
+      "claim": "d7-finiteness",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_clock": "37:36.84",
+      "max_rss_kib_gnu_time": 1113140,
+      "started_utc": "2026-11-06T13:14:49Z",
+      "finished_utc": "2026-11-06T13:52:25Z",
+      "source_tree_sha256": "80cd8d86666285eecba5de16c11f192dfa489e4686430bf7e7d618a24fca538d",
+      "source_input_count": 1561,
+      "input_tree_unchanged": true,
+      "outputs": 6
+    },
+    {
+      "claim": "d7-faces",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_clock": "16:59.12",
+      "max_rss_kib_gnu_time": 1178232,
+      "started_utc": "2026-11-06T13:14:49Z",
+      "finished_utc": "2026-11-06T13:31:48Z",
+      "source_tree_sha256": "80cd8d86666285eecba5de16c11f192dfa489e4686430bf7e7d618a24fca538d",
+      "source_input_count": 1561,
+      "input_tree_unchanged": true,
+      "outputs": 266
+    },
+    {
+      "claim": "d7-spurious",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_clock": "1:20:38",
+      "max_rss_kib_gnu_time": 138424,
+      "started_utc": "2026-11-06T13:14:49Z",
+      "finished_utc": "2026-11-06T14:35:27Z",
+      "source_tree_sha256": "80cd8d86666285eecba5de16c11f192dfa489e4686430bf7e7d618a24fca538d",
+      "source_input_count": 1561,
+      "input_tree_unchanged": true,
+      "outputs": 902
+    },
+    {
+      "claim": "d7-orbits",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_clock": "1:38.39",
+      "max_rss_kib_gnu_time": 163028,
+      "started_utc": "2026-11-06T13:14:49Z",
+      "finished_utc": "2026-11-06T13:16:27Z",
+      "source_tree_sha256": "80cd8d86666285eecba5de16c11f192dfa489e4686430bf7e7d618a24fca538d",
+      "source_input_count": 1561,
+      "input_tree_unchanged": true,
+      "outputs": 3
+    },
+    {
+      "claim": "ghosts",
+      "status": "PASS",
+      "exit_code": 0,
+      "wall_clock": "0:05.86",
+      "max_rss_kib_gnu_time": 29204,
+      "started_utc": "2026-11-06T14:35:27Z",
+      "finished_utc": "2026-11-06T14:35:33Z",
+      "source_tree_sha256": "80cd8d86666285eecba5de16c11f192dfa489e4686430bf7e7d618a24fca538d",
+      "source_input_count": 1561,
+      "input_tree_unchanged": true,
+      "outputs": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "n_labels": 24,
+  "labels_match_e40": true,
+  "header_q_formula_matches_UV": true,
+  "phase_changes_q_11": true,
+  "q_preserved_by_all_98": true,
+  "n_preserved": 98,
+  "failed_labels": [],
+  "distinct_projective_ops": 98,
+  "scalar_labels": [
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "q_rank": 15,
+  "q_monomials_used": 112,
+  "M_rank_over_Q_i": 12,
+  "multiplication_law_failures": 0,
+  "denominator": 4294967296,
+  "chart": "a0=b1=1"
+}

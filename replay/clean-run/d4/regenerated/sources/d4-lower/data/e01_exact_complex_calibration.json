@@ -1,0 +1,700 @@
+{
+  "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "seed": 20261024,
+  "random_choices": 0,
+  "threads": 1,
+  "precision": "exact integers and rationals",
+  "script_sha256": "e8c052f6da119e4948b871d86c2cec40242552dfc5791e642b2650bf54a19683",
+  "d4_upper": {
+    "command": [
+      "/home/ubuntu/counts-replay/env/bin/Singular",
+      "-q",
+      "--random=20261024",
+      "--cpus=1",
+      "--threads=1",
+      "--flint-threads=1",
+      "--no-rc",
+      "/home/ubuntu/counts-replay/repo3/work/final-d4/repo/sources/d4-lower/numerics/e01_d4_trace_one.sing"
+    ],
+    "pid": 3266384,
+    "exit_code": 0,
+    "wall_seconds": 0.8020956106483936,
+    "sampled_max_rss_bytes": null,
+    "child_max_rss_platform_units": 19936,
+    "memory_monitor": "ps unavailable in sandbox; only tiny calibrated d4 job run locally",
+    "stop_reason": null,
+    "errors": [],
+    "input_sha256": "4b26c31bfc3c7157037c90ce415c1eda87a1d347d0999582890ee5e0cda0af52",
+    "output_sha256": "6e3dbe066ca694bdd15e4fcbf2cc90508bd40c5f9b7af09a66d7e0d1a09c9d44",
+    "completed": true,
+    "input_generators": 17,
+    "dimension": 0,
+    "quotient_dimension": 512,
+    "gb_size": 233,
+    "generator_remainders_zero": 1
+  },
+  "d4": {
+    "group_order": 1536,
+    "sigma_order": 2,
+    "upstream_sha256": "aea600c3fbdb4e3323df70baa0c8bc285e9df9d360494dc54243b7e405b762b8",
+    "packets": {
+      "physical": {
+        "fourier_equations": 16,
+        "WH_trace_products": 15,
+        "norm_basis": [
+          640,
+          -320,
+          128,
+          -64,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "nonHermitian_witness": null,
+        "stabilizer": [
+          {
+            "key": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "order": 1,
+            "anti": false
+          },
+          {
+            "key": [
+              0,
+              1,
+              1,
+              1,
+              2,
+              1,
+              0
+            ],
+            "order": 3,
+            "anti": false
+          },
+          {
+            "key": [
+              0,
+              2,
+              3,
+              3,
+              1,
+              4,
+              1
+            ],
+            "order": 3,
+            "anti": false
+          },
+          {
+            "key": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              6,
+              7
+            ],
+            "order": 6,
+            "anti": true
+          },
+          {
+            "key": [
+              1,
+              3,
+              1,
+              1,
+              0,
+              7,
+              6
+            ],
+            "order": 6,
+            "anti": true
+          },
+          {
+            "key": [
+              1,
+              1,
+              2,
+              2,
+              3,
+              6,
+              2
+            ],
+            "order": 2,
+            "anti": true
+          }
+        ],
+        "stabilizer_order": 6,
+        "orbit_size": 256,
+        "zero_first_ket_images": 0,
+        "zero_first_bra_images": 0
+      },
+      "ghost": {
+        "fourier_equations": 16,
+        "WH_trace_products": 15,
+        "norm_basis": [
+          640,
+          -320,
+          -128,
+          64,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "nonHermitian_witness": {
+          "indices": [
+            0,
+            1
+          ],
+          "residual_basis": [
+            0,
+            0,
+            0,
+            0,
+            122880,
+            -81920,
+            -49152,
+            32768,
+            0,
+            0,
+            0,
+            0,
+            40960,
+            -40960,
+            -16384,
+            16384
+          ]
+        },
+        "stabilizer": [
+          {
+            "key": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "order": 1,
+            "anti": false
+          },
+          {
+            "key": [
+              0,
+              1,
+              1,
+              1,
+              2,
+              1,
+              0
+            ],
+            "order": 3,
+            "anti": false
+          },
+          {
+            "key": [
+              0,
+              2,
+              3,
+              3,
+              1,
+              4,
+              1
+            ],
+            "order": 3,
+            "anti": false
+          },
+          {
+            "key": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              6,
+              7
+            ],
+            "order": 6,
+            "anti": true
+          },
+          {
+            "key": [
+              1,
+              3,
+              1,
+              1,
+              0,
+              7,
+              6
+            ],
+            "order": 6,
+            "anti": true
+          },
+          {
+            "key": [
+              1,
+              1,
+              2,
+              2,
+              3,
+              6,
+              2
+            ],
+            "order": 2,
+            "anti": true
+          }
+        ],
+        "stabilizer_order": 6,
+        "orbit_size": 256,
+        "zero_first_ket_images": 0,
+        "zero_first_bra_images": 0
+      }
+    },
+    "known_distinct_chart_points": 512,
+    "disjointness": "Hermitian property is preserved by all EC maps and inverses",
+    "complete_classification": true
+  },
+  "d5": {
+    "group_order": 6000,
+    "field": {
+      "base_field": "Q(zeta60)",
+      "base_degree": 16,
+      "field_degree": 32,
+      "nonsquare_prime": 61,
+      "zeta60_residue": 2,
+      "u_t_R_i_A_residues": [
+        53,
+        26,
+        1,
+        11,
+        50
+      ],
+      "A_legendre_residue": 60,
+      "sigma_W_numerator_basis": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        -60,
+        -70,
+        40,
+        10,
+        -15,
+        -15,
+        15,
+        5
+      ],
+      "sigma_W_denominator": 40,
+      "sigma_order": 2,
+      "sigma_base_cyclotomic_exponent": 41,
+      "sigma_fixes_zeta5": true,
+      "sigma_commutes_with_complex_conjugation": false
+    },
+    "upstream_sha256": "5eaecf6f2728df3ebaba38562663993fbbf4825ed285cc02f73b4d09237c8d5d",
+    "input_text_sha256": "840309f2afc961d4b8ed3da86dc16280098948f5a856f6380e3ec81a13dfad2e",
+    "packets": {
+      "physical": {
+        "enumerated_projective_elements": 6000,
+        "stabilizer_order": 3,
+        "stabilizer": [
+          {
+            "F_lift": [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "word": "",
+            "q": [
+              0,
+              0
+            ],
+            "anti": false,
+            "exact_key": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "projective_order": 1
+          },
+          {
+            "F_lift": [
+              [
+                4,
+                2
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "word": "SPPSPPP",
+            "q": [
+              2,
+              2
+            ],
+            "anti": false,
+            "exact_key": [
+              0,
+              4,
+              2,
+              2,
+              0,
+              6,
+              8
+            ],
+            "projective_order": 3,
+            "Zauner_projective_conjugator": {
+              "F_lift": [
+                [
+                  4,
+                  4
+                ],
+                [
+                  4,
+                  3
+                ]
+              ],
+              "word": "PSPP",
+              "q": [
+                2,
+                1
+              ],
+              "anti": false,
+              "exact_key": [
+                0,
+                4,
+                4,
+                4,
+                3,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "F_lift": [
+              [
+                0,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "word": "PPSPPPS",
+            "q": [
+              4,
+              1
+            ],
+            "anti": false,
+            "exact_key": [
+              0,
+              0,
+              3,
+              3,
+              4,
+              6,
+              6
+            ],
+            "projective_order": 3,
+            "Zauner_projective_conjugator": {
+              "F_lift": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  4,
+                  4
+                ]
+              ],
+              "word": "PSPPS",
+              "q": [
+                2,
+                1
+              ],
+              "anti": false,
+              "exact_key": [
+                0,
+                1,
+                2,
+                4,
+                4,
+                0,
+                6
+              ]
+            }
+          }
+        ],
+        "zero_right_first_coordinates": 0,
+        "zero_left_first_coordinates": 0,
+        "projector_orbit_size": 2000,
+        "chart_root_count": 2000,
+        "nonHermitian_witness": null
+      },
+      "ghost": {
+        "enumerated_projective_elements": 6000,
+        "stabilizer_order": 3,
+        "stabilizer": [
+          {
+            "F_lift": [
+              [
+                1,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "word": "",
+            "q": [
+              0,
+              0
+            ],
+            "anti": false,
+            "exact_key": [
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "projective_order": 1
+          },
+          {
+            "F_lift": [
+              [
+                4,
+                2
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "word": "SPPSPPP",
+            "q": [
+              2,
+              2
+            ],
+            "anti": false,
+            "exact_key": [
+              0,
+              4,
+              2,
+              2,
+              0,
+              6,
+              8
+            ],
+            "projective_order": 3,
+            "Zauner_projective_conjugator": {
+              "F_lift": [
+                [
+                  4,
+                  4
+                ],
+                [
+                  4,
+                  3
+                ]
+              ],
+              "word": "PSPP",
+              "q": [
+                2,
+                1
+              ],
+              "anti": false,
+              "exact_key": [
+                0,
+                4,
+                4,
+                4,
+                3,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "F_lift": [
+              [
+                0,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "word": "PPSPPPS",
+            "q": [
+              4,
+              1
+            ],
+            "anti": false,
+            "exact_key": [
+              0,
+              0,
+              3,
+              3,
+              4,
+              6,
+              6
+            ],
+            "projective_order": 3,
+            "Zauner_projective_conjugator": {
+              "F_lift": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  4,
+                  4
+                ]
+              ],
+              "word": "PSPPS",
+              "q": [
+                2,
+                1
+              ],
+              "anti": false,
+              "exact_key": [
+                0,
+                1,
+                2,
+                4,
+                4,
+                0,
+                6
+              ]
+            }
+          }
+        ],
+        "zero_right_first_coordinates": 0,
+        "zero_left_first_coordinates": 0,
+        "projector_orbit_size": 2000,
+        "chart_root_count": 2000,
+        "nonHermitian_witness": {
+          "indices": [
+            0,
+            0
+          ],
+          "nonzero_residual_basis": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            314572800,
+            -419430400,
+            251658240,
+            -146800640,
+            78643200,
+            -131072000,
+            78643200,
+            -26214400
+          ]
+        }
+      }
+    },
+    "known_distinct_chart_points": 4000,
+    "complete_classification": false
+  },
+  "support_thresholds": {
+    "d4": {
+      "support_lower_bound": 3,
+      "free_orbit_chart_lower_bound": 1152,
+      "certified_chart_length": 512,
+      "no_free_complex_points": true
+    },
+    "d5": {
+      "support_lower_bound": 3,
+      "free_orbit_chart_lower_bound": 3600,
+      "known_nonfree_chart_points": 4000,
+      "sufficient_strict_upper_threshold": 7600,
+      "no_free_complex_points": "open"
+    }
+  },
+  "wall_seconds": 7.342846624553204
+}

@@ -1,0 +1,26 @@
+{"format": "sic-nf6-d7-direct-face-counts-v1", "tag": "q", "seed": 20261102, "gate_sha256": "ac87180cf539c8ce12ce673e9b0a33ead3997ef882424181d7d71bb19de608bd", "vertex_file": "e03_d7_q.json", "vertex_sha256": "f85b99494b4eeb0c3851a266f2755a8eb28916db84cef98e28975c81795b6186", "parameters": {"tag": "q", "prime": null, "singular_seconds": 60, "msolve_seconds": 900, "threads": 1, "fallback": true}, "environment": {"python": "3.14.8 | packaged by conda-forge | (main, Oct 12 2026, 17:35:27) [GCC 15.3.0]", "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31"}, "sources_sha256": {"e28_d7_face_counts.py": "9156a6874d555f95b58065bf59e4a799924b7b72f46f450dfc73abb07f43ab49", "e10_face_system.py": "b41f3a6d8cb5356c2386536aa69a368e87d05d61f434198befe031dc44673119", "e17_reducedness_certificates.py": "efadd8fc0bbc61f5dfd5aaf3c38629899faf3c06e02c7d15170b2262bac48ffb"}, "names": ["a1", "a2", "a3", "a4", "a5", "a6", "b0", "b2", "b3", "b4", "b5", "b6"], "zero_names": [], "primes": [65563, 65633], "status": "RUNNING", "generic_char0_claim": "certified simple special roots give generic lower bounds only"}
+{"stage": "WEIGHT", "tag": "q", "index": 0, "weight": ["1/2", "1", "1/3", "1/4", "3/4", "2/3", "1/2", "2/3", "3/4", "1/4", "1/3", "1"]}
+{"stage": "COUNT", "tag": "q", "index": 0, "p": 65563, "status": "PASS", "length": 576, "reduced": true}
+{"stage": "COUNT", "tag": "q", "index": 0, "p": 65633, "status": "PASS", "length": 576, "reduced": true}
+{"stage": "WEIGHT", "tag": "q", "index": 1, "weight": ["1/2", "1", "1/3", "5/6", "1/6", "2/3", "1/2", "2/3", "1/6", "5/6", "1/3", "1"]}
+{"stage": "msolve", "pid": 3011382, "p": 65563, "source_sha256": "c29aa2f52b10188249646cb5bbba83bc2acbc71157624072a9e318a68f9646ab"}
+{"stage": "msolve", "pid": 3011622, "p": 65563, "source_sha256": "bd617c47e98f3fc337e8102a84ccaf8af7162e6b8a8879bbda3f968c3c0dc467"}
+{"stage": "rur_Singular_verify", "p": 65563, "pid": 3012905}
+{"stage": "COUNT", "tag": "q", "index": 1, "p": 65563, "status": "PASS", "length": 1968, "reduced": true}
+{"stage": "msolve", "pid": 3013576, "p": 65633, "source_sha256": "795f8487ed8fe40fb32385a40c75020270866c760a72bf12365ed9fff0d47f9e"}
+{"stage": "msolve", "pid": 3013702, "p": 65633, "source_sha256": "d89ad59b57629af18c251d6f3ea76eec1048a7b335a0c9573111534094f61b6a"}
+{"stage": "rur_Singular_verify", "p": 65633, "pid": 3014795}
+{"stage": "COUNT", "tag": "q", "index": 1, "p": 65633, "status": "PASS", "length": 1968, "reduced": true}
+{"stage": "WEIGHT", "tag": "q", "index": 2, "weight": ["1/2", "1", "5/8", "1/4", "3/4", "3/8", "1/2", "3/8", "3/4", "1/4", "5/8", "1"]}
+{"stage": "msolve", "pid": 3015972, "p": 65563, "source_sha256": "8dab0148e327657f4e48f949a8f6b8996ac221d810a944c29dface4412ae9e12"}
+{"stage": "msolve", "pid": 3015973, "p": 65563, "source_sha256": "d5769fe75b4f34214933738e45a5cbd6da78ce7b3d831af4372269e1e20847e1"}
+{"stage": "rur_Singular_verify", "p": 65563, "pid": 3016033}
+{"stage": "COUNT", "tag": "q", "index": 2, "p": 65563, "status": "PASS", "length": 640, "reduced": true}
+{"stage": "msolve", "pid": 3016798, "p": 65633, "source_sha256": "0666d6b21595e0c09d90dc1a40c0a064a1eb59b71097a4ac9a850789b99c6908"}
+{"stage": "msolve", "pid": 3016855, "p": 65633, "source_sha256": "1b74d972817f6c7923d8b8fe740394bd9f0cc5e2f121452edfc1c67bcd430ab2"}
+{"stage": "rur_Singular_verify", "p": 65633, "pid": 3016868}
+{"stage": "COUNT", "tag": "q", "index": 2, "p": 65633, "status": "PASS", "length": 640, "reduced": true}
+{"stage": "WEIGHT", "tag": "q", "index": 3, "weight": ["1/2", "1", "4/5", "3/5", "2/5", "1/5", "1/2", "1/5", "2/5", "3/5", "4/5", "1"]}
+{"stage": "COUNT", "tag": "q", "index": 3, "p": 65563, "status": "PASS", "length": 1000, "reduced": true}
+{"stage": "COUNT", "tag": "q", "index": 3, "p": 65633, "status": "PASS", "length": 1000, "reduced": true}
+{"stage": "SUMMARY", "tag": "q", "status": "PASS", "weights": 4, "total_simple_root_lower_bound": 4184}

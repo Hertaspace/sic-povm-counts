@@ -1,0 +1,171 @@
+{"stage": "q_boxes_loaded", "d": 7, "roots": 21232, "basis_dimension": 15, "seconds": 12.4709244184196}
+{
+  "schema": "spur-invariant-separation-v1",
+  "d": 7,
+  "seed": 20261102,
+  "header_file": "e41_d7_header.json",
+  "header_sha256": "e6007fc911d2baabc86316e7267ae8f2fd2b6138a5d332a95bee807c6a015930",
+  "matrix_file": "e40_d7_matrix.json",
+  "matrix_sha256": "1eb835d56a371b274585b8679b9d4e7c1ccffac6c02a7d708b29a786c7cd892f",
+  "system_file": "e40_d7_matrix.json",
+  "system_sha256": "1eb835d56a371b274585b8679b9d4e7c1ccffac6c02a7d708b29a786c7cd892f",
+  "basis_file": "e43_d7_q_basis.json",
+  "basis_sha256": "e67ef6dea11b3ee8c75ee1309556c542a684295c2efa4caa8ff34d285217099d",
+  "individual_manifest_file": "e44_d7_public_20261106T131449Z_c1feffd1_root_snapshot.json",
+  "individual_manifest_sha256": "32ff7680408a594da91ea7ba16b9d880a01efb74080b616525c8ae62d37825f9",
+  "raw_q_indices": [
+    3,
+    17,
+    10,
+    0,
+    4,
+    18,
+    11,
+    7,
+    8,
+    9,
+    12,
+    2,
+    6,
+    13,
+    14
+  ],
+  "functional_num": [
+    [
+      -4,
+      -8
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      -5,
+      4
+    ],
+    [
+      2,
+      -4
+    ],
+    [
+      -9,
+      5
+    ],
+    [
+      -6,
+      -3
+    ],
+    [
+      6,
+      -3
+    ],
+    [
+      2,
+      -4
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      -4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      -3,
+      9
+    ],
+    [
+      4,
+      -7
+    ],
+    [
+      -3,
+      -4
+    ],
+    [
+      -1,
+      -4
+    ]
+  ],
+  "functional_den": [
+    [
+      9,
+      5
+    ],
+    [
+      -5,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      6,
+      -4
+    ],
+    [
+      5,
+      -5
+    ],
+    [
+      8,
+      -3
+    ],
+    [
+      1,
+      -7
+    ],
+    [
+      -8,
+      -5
+    ],
+    [
+      -2,
+      -8
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      8,
+      -5
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      -9,
+      5
+    ]
+  ],
+  "certified_orbits": 21232,
+  "group_order": 98,
+  "distinct_point_lower_bound": 2080736,
+  "interval_scale": -256,
+  "minimum_scaled_adjacent_gap": "348795898899187514411546471718761621752243158494415049211029709543890",
+  "primary_precision_bits": 512,
+  "primary_projection_trial": 0,
+  "primary_all_adjacent_strict": true,
+  "all_orbit_pairs_separated": true,
+  "previous_projection_failures": [],
+  "meaning": "One strictly ordered real projective-q invariant separates every pair of certified G orbits; root and freeness certificates are separate.",
+  "seconds": 13.027397,
+  "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+  "checker_sha256": "7fd0561771c34983c6adf2285f63ab586ad067670de983651718ce5392cfb5e0"
+}

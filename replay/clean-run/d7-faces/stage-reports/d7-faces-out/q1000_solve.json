@@ -1,0 +1,266 @@
+[
+  {
+    "label": "q1000_p100003_s8675309",
+    "p": 100003,
+    "seed": 8675309,
+    "mode": "generic_12_plane",
+    "dim_V": 15,
+    "claimed": 1000,
+    "rur": {
+      "status": "finite",
+      "scheme_length": 1000,
+      "minpoly_degree": 1000,
+      "nvars_reported": 14,
+      "names": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "b0",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "zz",
+        "A"
+      ],
+      "simple": true
+    },
+    "staircase": {
+      "status": "zero_dimensional",
+      "length": 1000,
+      "nlead": 448,
+      "pure_powers": {
+        "a1": 2,
+        "b3": 3,
+        "b2": 3,
+        "b0": 3,
+        "a6": 3,
+        "a5": 3,
+        "a4": 3,
+        "a3": 3,
+        "a2": 3,
+        "zz": 4,
+        "b6": 4,
+        "b5": 4,
+        "b4": 4
+      }
+    },
+    "rur_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 52.012,
+      "log": "work/d7-faces-work/q1000_p100003_s8675309_sat1.rur.log",
+      "out": "work/d7-faces-work/q1000_p100003_s8675309_sat1.rur"
+    },
+    "gb_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 2.002,
+      "log": "work/d7-faces-work/q1000_p100003_s8675309_sat1.gb.log",
+      "out": "work/d7-faces-work/q1000_p100003_s8675309_sat1.gb"
+    },
+    "length_agree": true
+  },
+  {
+    "label": "q1000_p100003_s42424249",
+    "p": 100003,
+    "seed": 42424249,
+    "mode": "generic_12_plane",
+    "dim_V": 15,
+    "claimed": 1000,
+    "rur": {
+      "status": "finite",
+      "scheme_length": 1000,
+      "minpoly_degree": 1000,
+      "nvars_reported": 14,
+      "names": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "b0",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "zz",
+        "A"
+      ],
+      "simple": true
+    },
+    "staircase": {
+      "status": "zero_dimensional",
+      "length": 1000,
+      "nlead": 448,
+      "pure_powers": {
+        "a1": 2,
+        "b3": 3,
+        "b2": 3,
+        "b0": 3,
+        "a6": 3,
+        "a5": 3,
+        "a4": 3,
+        "a3": 3,
+        "a2": 3,
+        "zz": 4,
+        "b6": 4,
+        "b5": 4,
+        "b4": 4
+      }
+    },
+    "rur_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 52.013,
+      "log": "work/d7-faces-work/q1000_p100003_s42424249_sat1.rur.log",
+      "out": "work/d7-faces-work/q1000_p100003_s42424249_sat1.rur"
+    },
+    "gb_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 2.002,
+      "log": "work/d7-faces-work/q1000_p100003_s42424249_sat1.gb.log",
+      "out": "work/d7-faces-work/q1000_p100003_s42424249_sat1.gb"
+    },
+    "length_agree": true
+  },
+  {
+    "label": "q1000_p100129_s8675309",
+    "p": 100129,
+    "seed": 8675309,
+    "mode": "generic_12_plane",
+    "dim_V": 15,
+    "claimed": 1000,
+    "rur": {
+      "status": "finite",
+      "scheme_length": 1000,
+      "minpoly_degree": 1000,
+      "nvars_reported": 14,
+      "names": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "b0",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "zz",
+        "A"
+      ],
+      "simple": true
+    },
+    "staircase": {
+      "status": "zero_dimensional",
+      "length": 1000,
+      "nlead": 448,
+      "pure_powers": {
+        "a1": 2,
+        "b3": 3,
+        "b2": 3,
+        "b0": 3,
+        "a6": 3,
+        "a5": 3,
+        "a4": 3,
+        "a3": 3,
+        "a2": 3,
+        "zz": 4,
+        "b6": 4,
+        "b5": 4,
+        "b4": 4
+      }
+    },
+    "rur_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 50.01,
+      "log": "work/d7-faces-work/q1000_p100129_s8675309_sat1.rur.log",
+      "out": "work/d7-faces-work/q1000_p100129_s8675309_sat1.rur"
+    },
+    "gb_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 2.002,
+      "log": "work/d7-faces-work/q1000_p100129_s8675309_sat1.gb.log",
+      "out": "work/d7-faces-work/q1000_p100129_s8675309_sat1.gb"
+    },
+    "length_agree": true
+  },
+  {
+    "label": "q1000_p100129_s42424249",
+    "p": 100129,
+    "seed": 42424249,
+    "mode": "generic_12_plane",
+    "dim_V": 15,
+    "claimed": 1000,
+    "rur": {
+      "status": "finite",
+      "scheme_length": 1000,
+      "minpoly_degree": 1000,
+      "nvars_reported": 14,
+      "names": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "b0",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "zz",
+        "A"
+      ],
+      "simple": true
+    },
+    "staircase": {
+      "status": "zero_dimensional",
+      "length": 1000,
+      "nlead": 448,
+      "pure_powers": {
+        "a1": 2,
+        "b3": 3,
+        "b2": 3,
+        "b0": 3,
+        "a6": 3,
+        "a5": 3,
+        "a4": 3,
+        "a3": 3,
+        "a2": 3,
+        "zz": 4,
+        "b6": 4,
+        "b5": 4,
+        "b4": 4
+      }
+    },
+    "rur_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 48.01,
+      "log": "work/d7-faces-work/q1000_p100129_s42424249_sat1.rur.log",
+      "out": "work/d7-faces-work/q1000_p100129_s42424249_sat1.rur"
+    },
+    "gb_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 2.003,
+      "log": "work/d7-faces-work/q1000_p100129_s42424249_sat1.gb.log",
+      "out": "work/d7-faces-work/q1000_p100129_s42424249_sat1.gb"
+    },
+    "length_agree": true
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "certificates": 6,
+  "records": [
+    {
+      "file": "e28_q_w01_p65563_rur.txt",
+      "tag": "q",
+      "index": 1,
+      "p": 65563,
+      "seed": 20261102,
+      "certificate_sha256": "660c0f144fbb68ac5ed0d6725a6d45042b13582f3a90f0132b5524b56319be24",
+      "expected_saturated_length": 1968,
+      "status": "PASS",
+      "distinct_torus_points": 1968,
+      "reported_degree": 1968,
+      "eliminant_degree": 1968,
+      "checks": {
+        "SQUAREFREE": true,
+        "DENOMINATOR": true,
+        "INPUT": true,
+        "TORUS": true,
+        "SEPARATING": true
+      },
+      "stdout": "RUR_DEG 1968\nRUR_SQUAREFREE 1\nRUR_DENOMINATOR 1\nRUR_INPUT 1\nRUR_TORUS 1\nRUR_SEPARATING 1\n",
+      "errors": [],
+      "seconds": 0.19398,
+      "source_sha256": "83849ebcaca897c23135bd0068fae9c9faae281e0973aa6212961aa8f06a2bcd"
+    },
+    {
+      "file": "e28_q_w01_p65633_rur.txt",
+      "tag": "q",
+      "index": 1,
+      "p": 65633,
+      "seed": 20261102,
+      "certificate_sha256": "40cebd910b6aa211aa3a4fcc60b0dfa328be7666065cb642041e419355170408",
+      "expected_saturated_length": 1968,
+      "status": "PASS",
+      "distinct_torus_points": 1968,
+      "reported_degree": 1968,
+      "eliminant_degree": 1968,
+      "checks": {
+        "SQUAREFREE": true,
+        "DENOMINATOR": true,
+        "INPUT": true,
+        "TORUS": true,
+        "SEPARATING": true
+      },
+      "stdout": "RUR_DEG 1968\nRUR_SQUAREFREE 1\nRUR_DENOMINATOR 1\nRUR_INPUT 1\nRUR_TORUS 1\nRUR_SEPARATING 1\n",
+      "errors": [],
+      "seconds": 0.183681,
+      "source_sha256": "b6a11ae49523031f4a81864d1218d00ea9b476dbd3e874f2645ff4e6eadd5412"
+    },
+    {
+      "file": "e28_q_w02_p65563_rur.txt",
+      "tag": "q",
+      "index": 2,
+      "p": 65563,
+      "seed": 20261102,
+      "certificate_sha256": "93b2fd34cf6a66d42cc23b2d13eff0373e3846abb1f50aaa1b2f9ee03e5b4f63",
+      "expected_saturated_length": 640,
+      "status": "PASS",
+      "distinct_torus_points": 640,
+      "reported_degree": 640,
+      "eliminant_degree": 640,
+      "checks": {
+        "SQUAREFREE": true,
+        "DENOMINATOR": true,
+        "INPUT": true,
+        "TORUS": true,
+        "SEPARATING": true
+      },
+      "stdout": "RUR_DEG 640\nRUR_SQUAREFREE 1\nRUR_DENOMINATOR 1\nRUR_INPUT 1\nRUR_TORUS 1\nRUR_SEPARATING 1\n",
+      "errors": [],
+      "seconds": 0.02752,
+      "source_sha256": "3b495292ec0ad5e7f57d7e48ca167444b6ecbbe4579db64af0e1511cf2823a41"
+    },
+    {
+      "file": "e28_q_w02_p65633_rur.txt",
+      "tag": "q",
+      "index": 2,
+      "p": 65633,
+      "seed": 20261102,
+      "certificate_sha256": "6ef0ab4697d6e191c51b6d2dc0e3c37ed87ebd5a281fad4a3b32dbee3ac1dad1",
+      "expected_saturated_length": 640,
+      "status": "PASS",
+      "distinct_torus_points": 640,
+      "reported_degree": 640,
+      "eliminant_degree": 640,
+      "checks": {
+        "SQUAREFREE": true,
+        "DENOMINATOR": true,
+        "INPUT": true,
+        "TORUS": true,
+        "SEPARATING": true
+      },
+      "stdout": "RUR_DEG 640\nRUR_SQUAREFREE 1\nRUR_DENOMINATOR 1\nRUR_INPUT 1\nRUR_TORUS 1\nRUR_SEPARATING 1\n",
+      "errors": [],
+      "seconds": 0.025805,
+      "source_sha256": "f606f96dad00f838dd9bbfc33698a563e592b230a11e35779d5cdce96784d143"
+    },
+    {
+      "file": "e28_z_w00_p65563_rur.txt",
+      "tag": "z",
+      "index": 0,
+      "p": 65563,
+      "seed": 20261102,
+      "certificate_sha256": "bf780ae984ffbc707685f7da5d1f1a3961ddeaae959959a6e540ef835115e2ce",
+      "expected_saturated_length": 96,
+      "status": "PASS",
+      "distinct_torus_points": 96,
+      "reported_degree": 96,
+      "eliminant_degree": 96,
+      "checks": {
+        "SQUAREFREE": true,
+        "DENOMINATOR": true,
+        "INPUT": true,
+        "TORUS": true,
+        "SEPARATING": true
+      },
+      "stdout": "RUR_DEG 96\nRUR_SQUAREFREE 1\nRUR_DENOMINATOR 1\nRUR_INPUT 1\nRUR_TORUS 1\nRUR_SEPARATING 1\n",
+      "errors": [],
+      "seconds": 0.023064,
+      "source_sha256": "a64d39bef2c19c68b6c6e83009f0f1e68913e1d040027535352d4da57b88ee43"
+    },
+    {
+      "file": "e28_z_w00_p65633_rur.txt",
+      "tag": "z",
+      "index": 0,
+      "p": 65633,
+      "seed": 20261102,
+      "certificate_sha256": "d6436fc81ce29a40554e2d64a3daf345d57553c6c698de65a2f8500965cc7328",
+      "expected_saturated_length": 96,
+      "status": "PASS",
+      "distinct_torus_points": 96,
+      "reported_degree": 96,
+      "eliminant_degree": 96,
+      "checks": {
+        "SQUAREFREE": true,
+        "DENOMINATOR": true,
+        "INPUT": true,
+        "TORUS": true,
+        "SEPARATING": true
+      },
+      "stdout": "RUR_DEG 96\nRUR_SQUAREFREE 1\nRUR_DENOMINATOR 1\nRUR_INPUT 1\nRUR_TORUS 1\nRUR_SEPARATING 1\n",
+      "errors": [],
+      "seconds": 0.019108,
+      "source_sha256": "412739b3e640f72b7f881d953f58e8cc19d877f64954cd4e75fe4938702c1645"
+    }
+  ],
+  "scheme_lengths_recomputed": false,
+  "all_substitutions_to_original_face": true
+}

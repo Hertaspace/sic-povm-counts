@@ -1,0 +1,262 @@
+[
+  {
+    "label": "q1968_p100003_s8675309",
+    "p": 100003,
+    "seed": 8675309,
+    "mode": "generic_12_plane",
+    "dim_V": 16,
+    "claimed": 1968,
+    "rur": {
+      "status": "finite",
+      "scheme_length": 1968,
+      "minpoly_degree": 1968,
+      "nvars_reported": 13,
+      "names": [
+        "a1",
+        "a2",
+        "a3",
+        "zz",
+        "a5",
+        "a6",
+        "b0",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "a4"
+      ],
+      "simple": true
+    },
+    "staircase": {
+      "status": "zero_dimensional",
+      "length": 1968,
+      "nlead": 4128,
+      "pure_powers": {
+        "a3": 4,
+        "b6": 5,
+        "b5": 5,
+        "b4": 5,
+        "b3": 5,
+        "b2": 5,
+        "b0": 5,
+        "a6": 5,
+        "a5": 5,
+        "a4": 5,
+        "a2": 5,
+        "a1": 5,
+        "zz": 6
+      }
+    },
+    "rur_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 102.023,
+      "log": "work/d7-faces-work/q1968_p100003_s8675309_sat1.rur.log",
+      "out": "work/d7-faces-work/q1968_p100003_s8675309_sat1.rur"
+    },
+    "gb_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 20.006,
+      "log": "work/d7-faces-work/q1968_p100003_s8675309_sat1.gb.log",
+      "out": "work/d7-faces-work/q1968_p100003_s8675309_sat1.gb"
+    },
+    "length_agree": true
+  },
+  {
+    "label": "q1968_p100003_s42424249",
+    "p": 100003,
+    "seed": 42424249,
+    "mode": "generic_12_plane",
+    "dim_V": 16,
+    "claimed": 1968,
+    "rur": {
+      "status": "finite",
+      "scheme_length": 1968,
+      "minpoly_degree": 1968,
+      "nvars_reported": 13,
+      "names": [
+        "a1",
+        "a2",
+        "a3",
+        "zz",
+        "a5",
+        "a6",
+        "b0",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "a4"
+      ],
+      "simple": true
+    },
+    "staircase": {
+      "status": "zero_dimensional",
+      "length": 1968,
+      "nlead": 4128,
+      "pure_powers": {
+        "a3": 4,
+        "b6": 5,
+        "b5": 5,
+        "b4": 5,
+        "b3": 5,
+        "b2": 5,
+        "b0": 5,
+        "a6": 5,
+        "a5": 5,
+        "a4": 5,
+        "a2": 5,
+        "a1": 5,
+        "zz": 6
+      }
+    },
+    "rur_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 98.024,
+      "log": "work/d7-faces-work/q1968_p100003_s42424249_sat1.rur.log",
+      "out": "work/d7-faces-work/q1968_p100003_s42424249_sat1.rur"
+    },
+    "gb_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 20.007,
+      "log": "work/d7-faces-work/q1968_p100003_s42424249_sat1.gb.log",
+      "out": "work/d7-faces-work/q1968_p100003_s42424249_sat1.gb"
+    },
+    "length_agree": true
+  },
+  {
+    "label": "q1968_p100129_s8675309",
+    "p": 100129,
+    "seed": 8675309,
+    "mode": "generic_12_plane",
+    "dim_V": 16,
+    "claimed": 1968,
+    "rur": {
+      "status": "finite",
+      "scheme_length": 1968,
+      "minpoly_degree": 1968,
+      "nvars_reported": 13,
+      "names": [
+        "a1",
+        "a2",
+        "a3",
+        "zz",
+        "a5",
+        "a6",
+        "b0",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "a4"
+      ],
+      "simple": true
+    },
+    "staircase": {
+      "status": "zero_dimensional",
+      "length": 1968,
+      "nlead": 4128,
+      "pure_powers": {
+        "a3": 4,
+        "b6": 5,
+        "b5": 5,
+        "b4": 5,
+        "b3": 5,
+        "b2": 5,
+        "b0": 5,
+        "a6": 5,
+        "a5": 5,
+        "a4": 5,
+        "a2": 5,
+        "a1": 5,
+        "zz": 6
+      }
+    },
+    "rur_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 104.019,
+      "log": "work/d7-faces-work/q1968_p100129_s8675309_sat1.rur.log",
+      "out": "work/d7-faces-work/q1968_p100129_s8675309_sat1.rur"
+    },
+    "gb_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 20.005,
+      "log": "work/d7-faces-work/q1968_p100129_s8675309_sat1.gb.log",
+      "out": "work/d7-faces-work/q1968_p100129_s8675309_sat1.gb"
+    },
+    "length_agree": true
+  },
+  {
+    "label": "q1968_p100129_s42424249",
+    "p": 100129,
+    "seed": 42424249,
+    "mode": "generic_12_plane",
+    "dim_V": 16,
+    "claimed": 1968,
+    "rur": {
+      "status": "finite",
+      "scheme_length": 1968,
+      "minpoly_degree": 1968,
+      "nvars_reported": 13,
+      "names": [
+        "a1",
+        "a2",
+        "a3",
+        "zz",
+        "a5",
+        "a6",
+        "b0",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "a4"
+      ],
+      "simple": true
+    },
+    "staircase": {
+      "status": "zero_dimensional",
+      "length": 1968,
+      "nlead": 4128,
+      "pure_powers": {
+        "a3": 4,
+        "b6": 5,
+        "b5": 5,
+        "b4": 5,
+        "b3": 5,
+        "b2": 5,
+        "b0": 5,
+        "a6": 5,
+        "a5": 5,
+        "a4": 5,
+        "a2": 5,
+        "a1": 5,
+        "zz": 6
+      }
+    },
+    "rur_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 102.018,
+      "log": "work/d7-faces-work/q1968_p100129_s42424249_sat1.rur.log",
+      "out": "work/d7-faces-work/q1968_p100129_s42424249_sat1.rur"
+    },
+    "gb_run": {
+      "returncode": 0,
+      "killed": null,
+      "seconds": 20.005,
+      "log": "work/d7-faces-work/q1968_p100129_s42424249_sat1.gb.log",
+      "out": "work/d7-faces-work/q1968_p100129_s42424249_sat1.gb"
+    },
+    "length_agree": true
+  }
+]

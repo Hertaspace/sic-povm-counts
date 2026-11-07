@@ -1,0 +1,2240 @@
+{
+  "schema": "nf5-single-prime-merged-cover-v1",
+  "p": 29,
+  "seed": 20261031,
+  "status": "PASS",
+  "results": [
+    {
+      "mask": 16256,
+      "orbit_index": 0,
+      "source_file": "e25_nf5_p29_m16256_b0_main.json",
+      "status": "PASS",
+      "authenticated_identities": [
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m16256_b0_main_c0000.json.gz.part000"
+            ],
+            "uncompressed_bytes": 28463,
+            "compressed_bytes": 5544,
+            "uncompressed_sha256": "b771f149c86c4ee5e1d0d3ae9f8bb2ad15a5c45ed0b096b5347512200a183b0f"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 15,
+          "core_polynomials": 6,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m16256_b0_main_c0001.json.gz.part000"
+            ],
+            "uncompressed_bytes": 37611,
+            "compressed_bytes": 6245,
+            "uncompressed_sha256": "d21d67c5e229bbe0bd52eeded50c5bd9ac1e3ed3ccae3b14155fff71be4f813c"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 8,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m16256_b0_main_c0002.json.gz.part000"
+            ],
+            "uncompressed_bytes": 23017,
+            "compressed_bytes": 4392,
+            "uncompressed_sha256": "255b18ff6395cc138d27b68b00f6102ca2d80a81df28c02f2d72bcf3409be370"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 15,
+          "core_polynomials": 5,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m16256_b0_main_c0003.json.gz.part000"
+            ],
+            "uncompressed_bytes": 37422,
+            "compressed_bytes": 5751,
+            "uncompressed_sha256": "f72b113ee1e6dccf265fa372e0326db823c037135dfd9533577b121e11908a7c"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 21,
+          "core_polynomials": 7,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_circuit_p29_m16256_b0_hard_smoke.json.gz.part000"
+            ],
+            "uncompressed_bytes": 2771804,
+            "compressed_bytes": 493463,
+            "uncompressed_sha256": "b1f5c2483489de1989a935b404ceaab30eb5746ea325c803eb46544d62593f7e"
+          },
+          "certificate_kind": "exact-source-circuit-and-homogeneous-recovery",
+          "identity": "exactly 1 in reduced ring",
+          "local_source_chain": "all exact forward identities replayed",
+          "source_generators": 106,
+          "core_polynomials": 78,
+          "reduced_nonzero_multipliers": 78,
+          "statistics": {
+            "affine_steps": 28,
+            "unit_division_steps": 0,
+            "row_add_steps": 0,
+            "exact_local_identities": 35432
+          },
+          "normalization": "block",
+          "recovery": "homogeneous-faithfully-flat-v1",
+          "flat_members_expanded": false
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m16256_b0_main_c0005.json.gz.part000"
+            ],
+            "uncompressed_bytes": 1756800,
+            "compressed_bytes": 316972,
+            "uncompressed_sha256": "a52e5cc8fc4836368297cf0eb3d092b4209936d9a502f0d78d6509aa6ade83ff"
+          },
+          "certificate_kind": "exact-source-circuit-and-homogeneous-recovery",
+          "identity": "exactly 1 in reduced ring",
+          "local_source_chain": "all exact forward identities replayed",
+          "source_generators": 21,
+          "core_polynomials": 8,
+          "reduced_nonzero_multipliers": 1,
+          "statistics": {
+            "affine_steps": 31,
+            "unit_division_steps": 0,
+            "row_add_steps": 0,
+            "exact_local_identities": 29145
+          },
+          "normalization": "block",
+          "recovery": "homogeneous-faithfully-flat-v1",
+          "flat_members_expanded": false
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m16256_b0_main_c0006.json.gz.part000"
+            ],
+            "uncompressed_bytes": 2026618,
+            "compressed_bytes": 369435,
+            "uncompressed_sha256": "b49d94f4b654c38d235d116913fb50cb36990d9e625aaddb4298ebb2e08e67f9"
+          },
+          "certificate_kind": "exact-source-circuit-and-homogeneous-recovery",
+          "identity": "exactly 1 in reduced ring",
+          "local_source_chain": "all exact forward identities replayed",
+          "source_generators": 77,
+          "core_polynomials": 51,
+          "reduced_nonzero_multipliers": 46,
+          "statistics": {
+            "affine_steps": 31,
+            "unit_division_steps": 0,
+            "row_add_steps": 0,
+            "exact_local_identities": 33592
+          },
+          "normalization": "block",
+          "recovery": "homogeneous-faithfully-flat-v1",
+          "flat_members_expanded": false
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m16256_b0_main_c0007.json.gz.part000"
+            ],
+            "uncompressed_bytes": 1967847,
+            "compressed_bytes": 359089,
+            "uncompressed_sha256": "f4432738a443636db53f61f15b4449a5183b610c837fe7f19fc5b2f5a252b4b9"
+          },
+          "certificate_kind": "exact-source-circuit-and-homogeneous-recovery",
+          "identity": "exactly 1 in reduced ring",
+          "local_source_chain": "all exact forward identities replayed",
+          "source_generators": 81,
+          "core_polynomials": 54,
+          "reduced_nonzero_multipliers": 52,
+          "statistics": {
+            "affine_steps": 29,
+            "unit_division_steps": 0,
+            "row_add_steps": 0,
+            "exact_local_identities": 32206
+          },
+          "normalization": "block",
+          "recovery": "homogeneous-faithfully-flat-v1",
+          "flat_members_expanded": false
+        }
+      ],
+      "fresh_cover": {
+        "status": "unsat",
+        "seconds": 23.057307,
+        "certified_source_cells": 8,
+        "free_pairs": 17,
+        "raw_terms": 4875,
+        "distinct_affine_forms": 4494,
+        "singleton_necessity_constraints": 4408,
+        "weight_group_order": 14,
+        "trace_exponent": 0,
+        "trace_weight": "(0+mu)/2",
+        "mu_upper_bound": null,
+        "denominator_bound": null,
+        "uses_saved_smt": false,
+        "necessary_polynomial_count": 342,
+        "full_polynomial_count": 3258,
+        "duplicate_clauses_removed": 420,
+        "constant_true_clauses_removed": 0,
+        "distinct_necessity_clauses": 3988,
+        "coefficient_valuation_histogram": {
+          "0": 77334
+        },
+        "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+        "rectangle_images": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
+            -1,
+            3
+          ],
+          [
+            -1,
+            4
+          ],
+          [
+            -1,
+            5
+          ],
+          [
+            -1,
+            6
+          ]
+        ]
+      },
+      "rectangle": {
+        "schema": "nf5-residual-rectangle-v1",
+        "source": "local-complete-e11-catalogue",
+        "d": 7,
+        "p": 29,
+        "mask": 16256,
+        "orbit_index": 0,
+        "x_shift": 0,
+        "A": [
+          0
+        ],
+        "B": [
+          6
+        ],
+        "a_support": [
+          0
+        ],
+        "b_support": [
+          6
+        ],
+        "a_size": 1,
+        "b_size": 1,
+        "projective_component_dimension": 0,
+        "parameters": {
+          "a": [
+            "a0"
+          ],
+          "b": [
+            "b6"
+          ],
+          "parameter_space": "P^0 x P^0",
+          "no_a_or_b_coordinate_fixed": true
+        },
+        "residual_labels": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+        "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+        "weight_action": {
+          "shear": "diagonal conjugation preserves A and B",
+          "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+          "reflected_A": [
+            1
+          ],
+          "reflected_B": [
+            0
+          ],
+          "reflection_X_correction": 6,
+          "safe_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ],
+            [
+              -1,
+              3
+            ],
+            [
+              -1,
+              4
+            ],
+            [
+              -1,
+              5
+            ],
+            [
+              -1,
+              6
+            ]
+          ],
+          "orbit_false_always_safe": true,
+          "full_e22_orbit_safe": true
+        }
+      }
+    },
+    {
+      "mask": 2097024,
+      "orbit_index": 0,
+      "source_file": "e25_nf5_p29_m2097024_b0_main.json",
+      "status": "PASS",
+      "authenticated_identities": [
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m2097024_b0_main_c0000.json.gz.part000"
+            ],
+            "uncompressed_bytes": 40219,
+            "compressed_bytes": 7667,
+            "uncompressed_sha256": "9b751002dd4e66bcc53994ead414f5f1245e2240a7985a7a50e1f76d34ae0d13"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 7,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m2097024_b0_main_c0001.json.gz.part000"
+            ],
+            "uncompressed_bytes": 41205,
+            "compressed_bytes": 6503,
+            "uncompressed_sha256": "32f8e84f9e0454f7db080146f4f0394118a8311d4aedaf6da3919a7bc4116be2"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 8,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m2097024_b0_main_c0002.json.gz.part000"
+            ],
+            "uncompressed_bytes": 39674,
+            "compressed_bytes": 7582,
+            "uncompressed_sha256": "83b490c7870aac973dc753d1b4f1299c722d1d2582ada8350c8d52e9425a1bc2"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 6,
+          "normalization": "block"
+        }
+      ],
+      "fresh_cover": {
+        "status": "unsat",
+        "seconds": 0.633827,
+        "certified_source_cells": 3,
+        "free_pairs": 10,
+        "raw_terms": 4875,
+        "distinct_affine_forms": 3498,
+        "singleton_necessity_constraints": 3232,
+        "weight_group_order": 7,
+        "trace_exponent": 0,
+        "trace_weight": "(0+mu)/2",
+        "mu_upper_bound": null,
+        "denominator_bound": null,
+        "uses_saved_smt": false,
+        "necessary_polynomial_count": 342,
+        "full_polynomial_count": 3258,
+        "duplicate_clauses_removed": 1662,
+        "constant_true_clauses_removed": 0,
+        "distinct_necessity_clauses": 1570,
+        "coefficient_valuation_histogram": {
+          "0": 77334
+        },
+        "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+        "rectangle_images": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "rectangle": {
+        "schema": "nf5-residual-rectangle-v1",
+        "source": "local-complete-e11-catalogue",
+        "d": 7,
+        "p": 29,
+        "mask": 2097024,
+        "orbit_index": 0,
+        "x_shift": 0,
+        "A": [
+          0
+        ],
+        "B": [
+          5,
+          6
+        ],
+        "a_support": [
+          0
+        ],
+        "b_support": [
+          5,
+          6
+        ],
+        "a_size": 1,
+        "b_size": 2,
+        "projective_component_dimension": 1,
+        "parameters": {
+          "a": [
+            "a0"
+          ],
+          "b": [
+            "b5",
+            "b6"
+          ],
+          "parameter_space": "P^0 x P^1",
+          "no_a_or_b_coordinate_fixed": true
+        },
+        "residual_labels": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+        "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+        "weight_action": {
+          "shear": "diagonal conjugation preserves A and B",
+          "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+          "reflected_A": [
+            1,
+            2
+          ],
+          "reflected_B": [
+            0
+          ],
+          "reflection_X_correction": null,
+          "safe_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "orbit_false_always_safe": true,
+          "full_e22_orbit_safe": false
+        }
+      }
+    },
+    {
+      "mask": 2097024,
+      "orbit_index": 1,
+      "source_file": "e25_nf5_p29_m2097024_b1_main.json",
+      "status": "PASS",
+      "authenticated_identities": [
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m2097024_b1_main_c0000.json.gz.part000"
+            ],
+            "uncompressed_bytes": 40234,
+            "compressed_bytes": 7635,
+            "uncompressed_sha256": "f36e9f93c882c36b1689740b41ce85e684bb95a6aeaf1e2bcb9d87c1215d215f"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 7,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m2097024_b1_main_c0001.json.gz.part000"
+            ],
+            "uncompressed_bytes": 41221,
+            "compressed_bytes": 6470,
+            "uncompressed_sha256": "97340a5ba850517e63d189984f5a19397b16b62706f31a320f5fb175142b00f1"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 8,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m2097024_b1_main_c0002.json.gz.part000"
+            ],
+            "uncompressed_bytes": 39691,
+            "compressed_bytes": 7551,
+            "uncompressed_sha256": "bf41c6ebc25c185c3f7886e3f0c6520deef104f241be0ed05c695b4c02ceeeb7"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 6,
+          "normalization": "block"
+        }
+      ],
+      "fresh_cover": {
+        "status": "unsat",
+        "seconds": 0.806606,
+        "certified_source_cells": 3,
+        "free_pairs": 10,
+        "raw_terms": 4875,
+        "distinct_affine_forms": 3498,
+        "singleton_necessity_constraints": 3232,
+        "weight_group_order": 7,
+        "trace_exponent": 0,
+        "trace_weight": "(0+mu)/2",
+        "mu_upper_bound": null,
+        "denominator_bound": null,
+        "uses_saved_smt": false,
+        "necessary_polynomial_count": 342,
+        "full_polynomial_count": 3258,
+        "duplicate_clauses_removed": 1662,
+        "constant_true_clauses_removed": 0,
+        "distinct_necessity_clauses": 1570,
+        "coefficient_valuation_histogram": {
+          "0": 77334
+        },
+        "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+        "rectangle_images": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "rectangle": {
+        "schema": "nf5-residual-rectangle-v1",
+        "source": "local-complete-e11-catalogue",
+        "d": 7,
+        "p": 29,
+        "mask": 2097024,
+        "orbit_index": 1,
+        "x_shift": 0,
+        "A": [
+          0,
+          1
+        ],
+        "B": [
+          6
+        ],
+        "a_support": [
+          0,
+          1
+        ],
+        "b_support": [
+          6
+        ],
+        "a_size": 2,
+        "b_size": 1,
+        "projective_component_dimension": 1,
+        "parameters": {
+          "a": [
+            "a0",
+            "a1"
+          ],
+          "b": [
+            "b6"
+          ],
+          "parameter_space": "P^1 x P^0",
+          "no_a_or_b_coordinate_fixed": true
+        },
+        "residual_labels": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+        "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+        "weight_action": {
+          "shear": "diagonal conjugation preserves A and B",
+          "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+          "reflected_A": [
+            1
+          ],
+          "reflected_B": [
+            0,
+            6
+          ],
+          "reflection_X_correction": null,
+          "safe_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "orbit_false_always_safe": true,
+          "full_e22_orbit_safe": false
+        }
+      }
+    },
+    {
+      "mask": 266354560,
+      "orbit_index": 0,
+      "source_file": "e25_nf5_p29_m266354560_b0_main.json",
+      "status": "PASS",
+      "authenticated_identities": [
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m266354560_b0_main_c0000.json.gz.part000"
+            ],
+            "uncompressed_bytes": 796268,
+            "compressed_bytes": 122842,
+            "uncompressed_sha256": "e8cf1aa62d648759b0fcc07269b165b0bba80006742fdf0a4c9ad0b0b8170c82"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 28,
+          "core_polynomials": 7,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m266354560_b0_main_c0001.json.gz.part000"
+            ],
+            "uncompressed_bytes": 38205,
+            "compressed_bytes": 5481,
+            "uncompressed_sha256": "75962ee961e2f9f96cc12fd20a430b25204a2ec12a5b42198427bef76f9ede14"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 3,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m266354560_b0_main_c0002.json.gz.part000"
+            ],
+            "uncompressed_bytes": 46479,
+            "compressed_bytes": 8203,
+            "uncompressed_sha256": "49f52cbe1d498226e42b83e2d30d9184250a7210dbee14814851cdcaba0bce61"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 7,
+          "normalization": "block"
+        }
+      ],
+      "fresh_cover": {
+        "status": "unsat",
+        "seconds": 0.479487,
+        "certified_source_cells": 3,
+        "free_pairs": 10,
+        "raw_terms": 4875,
+        "distinct_affine_forms": 3498,
+        "singleton_necessity_constraints": 3232,
+        "weight_group_order": 7,
+        "trace_exponent": 0,
+        "trace_weight": "(0+mu)/2",
+        "mu_upper_bound": null,
+        "denominator_bound": null,
+        "uses_saved_smt": false,
+        "necessary_polynomial_count": 342,
+        "full_polynomial_count": 3258,
+        "duplicate_clauses_removed": 1662,
+        "constant_true_clauses_removed": 0,
+        "distinct_necessity_clauses": 1570,
+        "coefficient_valuation_histogram": {
+          "0": 77334
+        },
+        "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+        "rectangle_images": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "rectangle": {
+        "schema": "nf5-residual-rectangle-v1",
+        "source": "local-complete-e11-catalogue",
+        "d": 7,
+        "p": 29,
+        "mask": 266354560,
+        "orbit_index": 0,
+        "x_shift": 0,
+        "A": [
+          0
+        ],
+        "B": [
+          4,
+          6
+        ],
+        "a_support": [
+          0
+        ],
+        "b_support": [
+          4,
+          6
+        ],
+        "a_size": 1,
+        "b_size": 2,
+        "projective_component_dimension": 1,
+        "parameters": {
+          "a": [
+            "a0"
+          ],
+          "b": [
+            "b4",
+            "b6"
+          ],
+          "parameter_space": "P^0 x P^1",
+          "no_a_or_b_coordinate_fixed": true
+        },
+        "residual_labels": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+        "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+        "weight_action": {
+          "shear": "diagonal conjugation preserves A and B",
+          "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+          "reflected_A": [
+            1,
+            3
+          ],
+          "reflected_B": [
+            0
+          ],
+          "reflection_X_correction": null,
+          "safe_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "orbit_false_always_safe": true,
+          "full_e22_orbit_safe": false
+        }
+      }
+    },
+    {
+      "mask": 266354560,
+      "orbit_index": 1,
+      "source_file": "e25_nf5_p29_m266354560_b1_main.json",
+      "status": "PASS",
+      "authenticated_identities": [
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m266354560_b1_main_c0000.json.gz.part000"
+            ],
+            "uncompressed_bytes": 630905,
+            "compressed_bytes": 98213,
+            "uncompressed_sha256": "14864fa44a59c774b65385abb114efab204b69c1a381e3e13d6f0468f067a19c"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 21,
+          "core_polynomials": 6,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m266354560_b1_main_c0001.json.gz.part000"
+            ],
+            "uncompressed_bytes": 38180,
+            "compressed_bytes": 5464,
+            "uncompressed_sha256": "8d5ed1bc895b5e2282cdb74bfde7121c379f7148bca03d3b6ec454ecd54c673f"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 3,
+          "normalization": "block"
+        },
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m266354560_b1_main_c0002.json.gz.part000"
+            ],
+            "uncompressed_bytes": 46479,
+            "compressed_bytes": 8204,
+            "uncompressed_sha256": "664d2c2a625964aa7fdb30eb093117a523351bacfaa8950a8bb0bd711e6be162"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 7,
+          "normalization": "block"
+        }
+      ],
+      "fresh_cover": {
+        "status": "unsat",
+        "seconds": 0.302464,
+        "certified_source_cells": 3,
+        "free_pairs": 10,
+        "raw_terms": 4875,
+        "distinct_affine_forms": 3498,
+        "singleton_necessity_constraints": 3232,
+        "weight_group_order": 7,
+        "trace_exponent": 0,
+        "trace_weight": "(0+mu)/2",
+        "mu_upper_bound": null,
+        "denominator_bound": null,
+        "uses_saved_smt": false,
+        "necessary_polynomial_count": 342,
+        "full_polynomial_count": 3258,
+        "duplicate_clauses_removed": 1662,
+        "constant_true_clauses_removed": 0,
+        "distinct_necessity_clauses": 1570,
+        "coefficient_valuation_histogram": {
+          "0": 77334
+        },
+        "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+        "rectangle_images": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "rectangle": {
+        "schema": "nf5-residual-rectangle-v1",
+        "source": "local-complete-e11-catalogue",
+        "d": 7,
+        "p": 29,
+        "mask": 266354560,
+        "orbit_index": 1,
+        "x_shift": 0,
+        "A": [
+          0,
+          2
+        ],
+        "B": [
+          6
+        ],
+        "a_support": [
+          0,
+          2
+        ],
+        "b_support": [
+          6
+        ],
+        "a_size": 2,
+        "b_size": 1,
+        "projective_component_dimension": 1,
+        "parameters": {
+          "a": [
+            "a0",
+            "a2"
+          ],
+          "b": [
+            "b6"
+          ],
+          "parameter_space": "P^1 x P^0",
+          "no_a_or_b_coordinate_fixed": true
+        },
+        "residual_labels": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+        "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+        "weight_action": {
+          "shear": "diagonal conjugation preserves A and B",
+          "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+          "reflected_A": [
+            1
+          ],
+          "reflected_B": [
+            0,
+            5
+          ],
+          "reflection_X_correction": null,
+          "safe_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "orbit_false_always_safe": true,
+          "full_e22_orbit_safe": false
+        }
+      }
+    },
+    {
+      "mask": 268435328,
+      "orbit_index": 0,
+      "source_file": "e25_nf5_p29_m268435328_b0_main.json",
+      "status": "PASS",
+      "authenticated_identities": [
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m268435328_b0_main_c0000.json.gz.part000"
+            ],
+            "uncompressed_bytes": 55899,
+            "compressed_bytes": 8521,
+            "uncompressed_sha256": "8b21c54cdba6cd9eb43ac0622e7476dfea21f4b6facb0d170a3aa21112c6e271"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 7,
+          "normalization": "block"
+        }
+      ],
+      "fresh_cover": {
+        "status": "unsat",
+        "seconds": 0.001582,
+        "certified_source_cells": 1,
+        "free_pairs": 3,
+        "raw_terms": 4875,
+        "distinct_affine_forms": 1768,
+        "singleton_necessity_constraints": 1272,
+        "weight_group_order": 7,
+        "trace_exponent": 0,
+        "trace_weight": "(0+mu)/2",
+        "mu_upper_bound": null,
+        "denominator_bound": null,
+        "uses_saved_smt": false,
+        "necessary_polynomial_count": 342,
+        "full_polynomial_count": 3258,
+        "duplicate_clauses_removed": 1185,
+        "constant_true_clauses_removed": 0,
+        "distinct_necessity_clauses": 87,
+        "coefficient_valuation_histogram": {
+          "0": 77334
+        },
+        "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+        "rectangle_images": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "rectangle": {
+        "schema": "nf5-residual-rectangle-v1",
+        "source": "local-complete-e11-catalogue",
+        "d": 7,
+        "p": 29,
+        "mask": 268435328,
+        "orbit_index": 0,
+        "x_shift": 0,
+        "A": [
+          0
+        ],
+        "B": [
+          4,
+          5,
+          6
+        ],
+        "a_support": [
+          0
+        ],
+        "b_support": [
+          4,
+          5,
+          6
+        ],
+        "a_size": 1,
+        "b_size": 3,
+        "projective_component_dimension": 2,
+        "parameters": {
+          "a": [
+            "a0"
+          ],
+          "b": [
+            "b4",
+            "b5",
+            "b6"
+          ],
+          "parameter_space": "P^0 x P^2",
+          "no_a_or_b_coordinate_fixed": true
+        },
+        "residual_labels": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+        "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+        "weight_action": {
+          "shear": "diagonal conjugation preserves A and B",
+          "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+          "reflected_A": [
+            1,
+            2,
+            3
+          ],
+          "reflected_B": [
+            0
+          ],
+          "reflection_X_correction": null,
+          "safe_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "orbit_false_always_safe": true,
+          "full_e22_orbit_safe": false
+        }
+      }
+    },
+    {
+      "mask": 268435328,
+      "orbit_index": 1,
+      "source_file": "e25_nf5_p29_m268435328_b1_main.json",
+      "status": "PASS",
+      "authenticated_identities": [
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m268435328_b1_main_c0000.json.gz.part000"
+            ],
+            "uncompressed_bytes": 49794,
+            "compressed_bytes": 7160,
+            "uncompressed_sha256": "eb4b22ea8f066de19ce896ad3e469885844122cb0218ba581aa52d49cc557097"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 15,
+          "core_polynomials": 6,
+          "normalization": "block"
+        }
+      ],
+      "fresh_cover": {
+        "status": "unsat",
+        "seconds": 0.001336,
+        "certified_source_cells": 1,
+        "free_pairs": 3,
+        "raw_terms": 4875,
+        "distinct_affine_forms": 1768,
+        "singleton_necessity_constraints": 1272,
+        "weight_group_order": 14,
+        "trace_exponent": 0,
+        "trace_weight": "(0+mu)/2",
+        "mu_upper_bound": null,
+        "denominator_bound": null,
+        "uses_saved_smt": false,
+        "necessary_polynomial_count": 342,
+        "full_polynomial_count": 3258,
+        "duplicate_clauses_removed": 1185,
+        "constant_true_clauses_removed": 0,
+        "distinct_necessity_clauses": 87,
+        "coefficient_valuation_histogram": {
+          "0": 77334
+        },
+        "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+        "rectangle_images": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            -1,
+            0
+          ],
+          [
+            -1,
+            1
+          ],
+          [
+            -1,
+            2
+          ],
+          [
+            -1,
+            3
+          ],
+          [
+            -1,
+            4
+          ],
+          [
+            -1,
+            5
+          ],
+          [
+            -1,
+            6
+          ]
+        ]
+      },
+      "rectangle": {
+        "schema": "nf5-residual-rectangle-v1",
+        "source": "local-complete-e11-catalogue",
+        "d": 7,
+        "p": 29,
+        "mask": 268435328,
+        "orbit_index": 1,
+        "x_shift": 0,
+        "A": [
+          0,
+          1
+        ],
+        "B": [
+          5,
+          6
+        ],
+        "a_support": [
+          0,
+          1
+        ],
+        "b_support": [
+          5,
+          6
+        ],
+        "a_size": 2,
+        "b_size": 2,
+        "projective_component_dimension": 2,
+        "parameters": {
+          "a": [
+            "a0",
+            "a1"
+          ],
+          "b": [
+            "b5",
+            "b6"
+          ],
+          "parameter_space": "P^1 x P^1",
+          "no_a_or_b_coordinate_fixed": true
+        },
+        "residual_labels": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+        "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+        "weight_action": {
+          "shear": "diagonal conjugation preserves A and B",
+          "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+          "reflected_A": [
+            1,
+            2
+          ],
+          "reflected_B": [
+            0,
+            6
+          ],
+          "reflection_X_correction": 6,
+          "safe_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ],
+            [
+              -1,
+              0
+            ],
+            [
+              -1,
+              1
+            ],
+            [
+              -1,
+              2
+            ],
+            [
+              -1,
+              3
+            ],
+            [
+              -1,
+              4
+            ],
+            [
+              -1,
+              5
+            ],
+            [
+              -1,
+              6
+            ]
+          ],
+          "orbit_false_always_safe": true,
+          "full_e22_orbit_safe": true
+        }
+      }
+    },
+    {
+      "mask": 268435328,
+      "orbit_index": 2,
+      "source_file": "e25_nf5_p29_m268435328_b2_main.json",
+      "status": "PASS",
+      "authenticated_identities": [
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m268435328_b2_main_c0000.json.gz.part000"
+            ],
+            "uncompressed_bytes": 55919,
+            "compressed_bytes": 8456,
+            "uncompressed_sha256": "ab4c4e9dfd2433207cee475cf1328a26b9b0d696dd9b46c4e5048e674a28cec6"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 7,
+          "normalization": "block"
+        }
+      ],
+      "fresh_cover": {
+        "status": "unsat",
+        "seconds": 0.001454,
+        "certified_source_cells": 1,
+        "free_pairs": 3,
+        "raw_terms": 4875,
+        "distinct_affine_forms": 1768,
+        "singleton_necessity_constraints": 1272,
+        "weight_group_order": 7,
+        "trace_exponent": 0,
+        "trace_weight": "(0+mu)/2",
+        "mu_upper_bound": null,
+        "denominator_bound": null,
+        "uses_saved_smt": false,
+        "necessary_polynomial_count": 342,
+        "full_polynomial_count": 3258,
+        "duplicate_clauses_removed": 1185,
+        "constant_true_clauses_removed": 0,
+        "distinct_necessity_clauses": 87,
+        "coefficient_valuation_histogram": {
+          "0": 77334
+        },
+        "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+        "rectangle_images": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "rectangle": {
+        "schema": "nf5-residual-rectangle-v1",
+        "source": "local-complete-e11-catalogue",
+        "d": 7,
+        "p": 29,
+        "mask": 268435328,
+        "orbit_index": 2,
+        "x_shift": 0,
+        "A": [
+          0,
+          1,
+          2
+        ],
+        "B": [
+          6
+        ],
+        "a_support": [
+          0,
+          1,
+          2
+        ],
+        "b_support": [
+          6
+        ],
+        "a_size": 3,
+        "b_size": 1,
+        "projective_component_dimension": 2,
+        "parameters": {
+          "a": [
+            "a0",
+            "a1",
+            "a2"
+          ],
+          "b": [
+            "b6"
+          ],
+          "parameter_space": "P^2 x P^0",
+          "no_a_or_b_coordinate_fixed": true
+        },
+        "residual_labels": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+        "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+        "weight_action": {
+          "shear": "diagonal conjugation preserves A and B",
+          "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+          "reflected_A": [
+            1
+          ],
+          "reflected_B": [
+            0,
+            5,
+            6
+          ],
+          "reflection_X_correction": null,
+          "safe_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "orbit_false_always_safe": true,
+          "full_e22_orbit_safe": false
+        }
+      }
+    },
+    {
+      "mask": 34093399936,
+      "orbit_index": 0,
+      "source_file": "e25_nf5_p29_m34093399936_b0_main.json",
+      "status": "PASS",
+      "authenticated_identities": [
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m34093399936_b0_main_c0000.json.gz.part000"
+            ],
+            "uncompressed_bytes": 47696,
+            "compressed_bytes": 5929,
+            "uncompressed_sha256": "14e97bbc1f0c70df70228f3952c2abd39c474ee1d9ecab26ffcd0fd895faf82a"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 3,
+          "normalization": "block"
+        }
+      ],
+      "fresh_cover": {
+        "status": "unsat",
+        "seconds": 0.000703,
+        "certified_source_cells": 1,
+        "free_pairs": 3,
+        "raw_terms": 4875,
+        "distinct_affine_forms": 1824,
+        "singleton_necessity_constraints": 1272,
+        "weight_group_order": 7,
+        "trace_exponent": 0,
+        "trace_weight": "(0+mu)/2",
+        "mu_upper_bound": null,
+        "denominator_bound": null,
+        "uses_saved_smt": false,
+        "necessary_polynomial_count": 342,
+        "full_polynomial_count": 3258,
+        "duplicate_clauses_removed": 1209,
+        "constant_true_clauses_removed": 0,
+        "distinct_necessity_clauses": 63,
+        "coefficient_valuation_histogram": {
+          "0": 77334
+        },
+        "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+        "rectangle_images": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "rectangle": {
+        "schema": "nf5-residual-rectangle-v1",
+        "source": "local-complete-e11-catalogue",
+        "d": 7,
+        "p": 29,
+        "mask": 34093399936,
+        "orbit_index": 0,
+        "x_shift": 0,
+        "A": [
+          0
+        ],
+        "B": [
+          3,
+          5,
+          6
+        ],
+        "a_support": [
+          0
+        ],
+        "b_support": [
+          3,
+          5,
+          6
+        ],
+        "a_size": 1,
+        "b_size": 3,
+        "projective_component_dimension": 2,
+        "parameters": {
+          "a": [
+            "a0"
+          ],
+          "b": [
+            "b3",
+            "b5",
+            "b6"
+          ],
+          "parameter_space": "P^0 x P^2",
+          "no_a_or_b_coordinate_fixed": true
+        },
+        "residual_labels": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+        "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+        "weight_action": {
+          "shear": "diagonal conjugation preserves A and B",
+          "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+          "reflected_A": [
+            1,
+            2,
+            4
+          ],
+          "reflected_B": [
+            0
+          ],
+          "reflection_X_correction": null,
+          "safe_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "orbit_false_always_safe": true,
+          "full_e22_orbit_safe": false
+        }
+      }
+    },
+    {
+      "mask": 34093399936,
+      "orbit_index": 1,
+      "source_file": "e25_nf5_p29_m34093399936_b1_main.json",
+      "status": "PASS",
+      "authenticated_identities": [
+        {
+          "manifest": {
+            "files": [
+              "e21_nf5_p29_m34093399936_b1_main_c0000.json.gz.part000"
+            ],
+            "uncompressed_bytes": 47716,
+            "compressed_bytes": 5847,
+            "uncompressed_sha256": "4ac25341957e4264e2ed21292771a0fc733c2b21f069a60f38bffa9d7504b9ab"
+          },
+          "certificate_kind": "expanded-original-ring-members",
+          "identity": "exactly 1",
+          "nonzero_multipliers": 22,
+          "core_polynomials": 3,
+          "normalization": "block"
+        }
+      ],
+      "fresh_cover": {
+        "status": "unsat",
+        "seconds": 0.000683,
+        "certified_source_cells": 1,
+        "free_pairs": 3,
+        "raw_terms": 4875,
+        "distinct_affine_forms": 1824,
+        "singleton_necessity_constraints": 1272,
+        "weight_group_order": 7,
+        "trace_exponent": 0,
+        "trace_weight": "(0+mu)/2",
+        "mu_upper_bound": null,
+        "denominator_bound": null,
+        "uses_saved_smt": false,
+        "necessary_polynomial_count": 342,
+        "full_polynomial_count": 3258,
+        "duplicate_clauses_removed": 1209,
+        "constant_true_clauses_removed": 0,
+        "distinct_necessity_clauses": 63,
+        "coefficient_valuation_histogram": {
+          "0": 77334
+        },
+        "mu_ray_section": "mu=1 by positive scaling of every homogeneous weight condition",
+        "rectangle_images": [
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "rectangle": {
+        "schema": "nf5-residual-rectangle-v1",
+        "source": "local-complete-e11-catalogue",
+        "d": 7,
+        "p": 29,
+        "mask": 34093399936,
+        "orbit_index": 1,
+        "x_shift": 0,
+        "A": [
+          0,
+          1,
+          3
+        ],
+        "B": [
+          6
+        ],
+        "a_support": [
+          0,
+          1,
+          3
+        ],
+        "b_support": [
+          6
+        ],
+        "a_size": 3,
+        "b_size": 1,
+        "projective_component_dimension": 2,
+        "parameters": {
+          "a": [
+            "a0",
+            "a1",
+            "a3"
+          ],
+          "b": [
+            "b6"
+          ],
+          "parameter_space": "P^2 x P^0",
+          "no_a_or_b_coordinate_fixed": true
+        },
+        "residual_labels": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "catalogue_sha256": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591",
+        "relation_scope": "only leading residue coordinates z_q for q in S; never full trait coordinates",
+        "weight_action": {
+          "shear": "diagonal conjugation preserves A and B",
+          "reflection": "P*M^T*P sends A x B to (-B) x (-A)",
+          "reflected_A": [
+            1
+          ],
+          "reflected_B": [
+            0,
+            4,
+            6
+          ],
+          "reflection_X_correction": null,
+          "safe_pairs": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "orbit_false_always_safe": true,
+          "full_e22_orbit_safe": false
+        }
+      }
+    }
+  ],
+  "twenty_label_support": {
+    "mask": 267386752,
+    "orbit_supports": 336,
+    "fresh_cover": {
+      "status": "unsat",
+      "seconds": 0.000535,
+      "certified_source_cells": 0,
+      "free_pairs": 4,
+      "raw_terms": 4875,
+      "distinct_affine_forms": 2096,
+      "singleton_necessity_constraints": 1600,
+      "weight_group_order": 2,
+      "trace_exponent": 0,
+      "trace_weight": "(0+mu)/2",
+      "mu_upper_bound": null,
+      "denominator_bound": null,
+      "uses_saved_smt": false,
+      "necessary_polynomial_count": 342,
+      "full_polynomial_count": 3258,
+      "duplicate_clauses_removed": 974,
+      "constant_true_clauses_removed": 0,
+      "distinct_necessity_clauses": 626
+    }
+  },
+  "five_class_support_counts": [
+    48,
+    48,
+    48,
+    48,
+    16
+  ],
+  "remaining_support_total": 208,
+  "covered_five_class_supports": 208,
+  "all_boundary_supports": 544,
+  "source_identities": 25,
+  "uses_saved_smt": false,
+  "no_cross_prime_merge": true,
+  "no_d7_length_assumption": true,
+  "open_fibre_length": null,
+  "conditional_transfer": "Only after this SAME prime has a complete finite open special fibre of scheme length L does nonescape imply generic length <= L.",
+  "implementation_sha256": {
+    "e20_exact_model.py": "2bcd33ced7fa89fa529002cf962afaa7fee455ab4f0036156464bd53f6a28a69",
+    "e21_unit_cells.py": "7df4c48143124aa85d16139d5ab608acc5974d9ea71a32c2fef617debcb30aec",
+    "e22_weight_cover.py": "ef37af3229299b46c0e30705f4eabafdb57982995fc982126a7403033981f1ec",
+    "e26_rectangle_model.py": "7e6bc1fe8b04a14d1a72efccfa86c2cce90d22325a7a5b3ab7d15fbef5c03826",
+    "e27_rectangle_pipeline.py": "a8dbbda0024f75c2a9e57f3916c8f1954492b0fdfac66a8be38863db65d9257e",
+    "e28_fast_members.py": "a34c791423f3e942a5ee34106b2355190e2417ad653e6e20f3111f391b739c51",
+    "e40_projected_model.py": "2611b0eed90caf51ed3cbcf1e9e4049a268b50958fc2e3dc3800a71126edda77",
+    "e11_boundary_blocks.json": "05acfc17f957e00bf3e4b5ccb33e7203e4f26f46153c51610b122500b9216591"
+  },
+  "seconds": 95.848015
+}

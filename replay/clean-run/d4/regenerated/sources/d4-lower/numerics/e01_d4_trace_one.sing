@@ -1,0 +1,14 @@
+// Full trace-one Fourier equations, x0=1. Exact characteristic zero.
+ring R=0,(x1,x2,x3,y0,y1,y2,y3),dp;
+short=0; option(redSB);
+ideal I=-1+1*x1*y1+1*x2*y2+1*x3*y3+1*y0,-2+5*x1*x1*y1*y1+5*x2*x2*y2*y2+5*x3*x3*y3*y3+5*y0*y0,-1+5*x1*x2*y1*y2+5*x1*y0*y1+5*x2*x3*y2*y3+5*x3*y0*y3,-1+10*x1*x3*y1*y3+10*x2*y0*y2,-1+5*x1*x2*y1*y2+5*x1*y0*y1+5*x2*x3*y2*y3+5*x3*y0*y3,-1+5*x1*x2*y1*y2+5*x1*y0*y1+5*x2*x3*y2*y3+5*x3*y0*y3,5*x1*x3*y0*y0+5*x1*x3*y2*y2+5*x2*y1*y1+5*x2*y3*y3,5*x1*x2*y0*y3+5*x1*y2*y3+5*x2*x3*y0*y1+5*x3*y1*y2,5*x1*x1*y0*y2+5*x2*x2*y1*y3+5*x3*x3*y0*y2+5*y1*y3,-1+10*x1*x3*y1*y3+10*x2*y0*y2,5*x1*x2*y0*y3+5*x1*y2*y3+5*x2*x3*y0*y1+5*x3*y1*y2,5*x1*x1*y3*y3+5*x2*x2*y0*y0+5*x3*x3*y1*y1+5*y2*y2,5*x1*x2*y0*y3+5*x1*y2*y3+5*x2*x3*y0*y1+5*x3*y1*y2,-1+5*x1*x2*y1*y2+5*x1*y0*y1+5*x2*x3*y2*y3+5*x3*y0*y3,5*x1*x1*y0*y2+5*x2*x2*y1*y3+5*x3*x3*y0*y2+5*y1*y3,5*x1*x2*y0*y3+5*x1*y2*y3+5*x2*x3*y0*y1+5*x3*y1*y2,5*x1*x3*y0*y0+5*x1*x3*y2*y2+5*x2*y1*y1+5*x2*y3*y3;
+print("INPUT_GENERATORS="+string(size(I)));
+ideal G=std(I);
+print("DIMENSION="+string(dim(G)));
+print("QUOTIENT_DIMENSION="+string(vdim(G)));
+print("GB_SIZE="+string(size(G)));
+ideal Rem=reduce(I,G); int rz=1; int ri;
+for(ri=1;ri<=size(Rem);ri++){if(Rem[ri]!=0){rz=0;}}
+print("GENERATOR_REMAINDERS_ZERO="+string(rz));
+print("COMPLETE=1");
+quit;

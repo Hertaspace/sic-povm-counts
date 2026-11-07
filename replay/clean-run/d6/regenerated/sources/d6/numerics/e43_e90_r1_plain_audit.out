@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "seed": 20261031,
+  "uses_e31_strengthening": false,
+  "old_smt_sha256": "5e6130adb2d0d83bae72a5d48270997decf4756f764400abdfa2f58b48c5431d",
+  "prior_assertions": 6531,
+  "new_assertions": 36,
+  "three_certificates": [
+    {
+      "sha256": "38fac9187b25c7485aedda10afb72ca9e5100a097022d409516dc53cfe67b135",
+      "members": 16,
+      "initial_polynomials": 8,
+      "identity": "1",
+      "leaders_rebuilt": true
+    },
+    {
+      "sha256": "3897e5727673ec92415558a5c95c67f98dbba6fc0500c4958614e2523a4a9d61",
+      "members": 17,
+      "initial_polynomials": 9,
+      "identity": "1",
+      "leaders_rebuilt": true
+    },
+    {
+      "sha256": "75b37decc497a84efd3abfbcaa4128df19f7584b80455276966cf7544a34b9af",
+      "members": 18,
+      "initial_polynomials": 10,
+      "identity": "1",
+      "leaders_rebuilt": true
+    }
+  ],
+  "declared_pure_final_smt_exact_assertions_match": true,
+  "serialization_normalized_assertions": [
+    6531,
+    6532,
+    6533,
+    6534,
+    6535,
+    6536,
+    6537,
+    6538,
+    6539,
+    6540,
+    6541,
+    6542,
+    6543,
+    6544,
+    6545,
+    6546,
+    6547,
+    6548,
+    6549,
+    6550,
+    6551,
+    6552,
+    6553,
+    6554,
+    6555,
+    6556,
+    6557,
+    6558,
+    6559,
+    6560,
+    6561,
+    6562,
+    6563,
+    6564,
+    6565,
+    6566
+  ],
+  "regenerated_final_result": "unsat",
+  "check_seconds": 18.835537,
+  "arithmetic": "independent AST and exact sparse F49",
+  "seconds": 47.821369,
+  "versions": {
+    "python": "3.14.10 | packaged by conda-forge | (main, Oct 26 2026, 11:35:38) [GCC 15.3.0]",
+    "z3": "5.0.0"
+  },
+  "source_sha256": {
+    "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e90_r1_plain_audit.py": "9dfa0e91288053c8feb3ea4ea6fd3f57e622e98c70b5dda225365b8c88aabbea",
+    "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e90_exact_arithmetic.py": "d9f1555510ad4f8af2e9d4e4b7d7b4574ea7d11fd52c5935b4cd671edbb96412",
+    "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/d6/numerics/e10_p7.py": "b6f7672bb0f5396c9a2f0e14da66d55e4aea94a9f91451715c1c99cd63aa6b18",
+    "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e08c_cover.py": "0f738fbbf36b16942e779fc23b87007d9b69088c89c27dbd5ff962e7427ada1c",
+    "/home/ubuntu/counts-replay/repo3/work/final-d6/repo/sources/escape/numerics/e05_initial_forms.py": "a799e16b2f82ec8f97d3c986042a99cd65605bf14c5b50963d938a0738caeedf"
+  }
+}

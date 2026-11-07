@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "trace_upper": {
+    "mode": "recomputed GB",
+    "input_sha256": "3ba6291cf4237c68fd0ec4d79dc1a8a849ba23a2c6c43a25fbc647aeadf1eed5",
+    "transcript_sha256": "349d393e5da35d08e253759ea47e632510016c4e023b2723ad2d3b56074560b7",
+    "length": 3456,
+    "child": {
+      "status": "complete",
+      "pid": 17455,
+      "returncode": 0,
+      "seconds": 235.843598,
+      "sampled_peak_rss_bytes": 2053406720,
+      "command": [
+        "Singular",
+        "--no-rc",
+        "--random=20261031",
+        "--cpus=1",
+        "--threads=1",
+        "--flint-threads=1",
+        "-q"
+      ],
+      "limit_seconds": 900
+    }
+  },
+  "points": 3456,
+  "local_algebra": "k[N]/(N^2)",
+  "full_special_length": 6912,
+  "all_point_jacobians": "{(9, 10): 3456}",
+  "all_coordinate_units": true,
+  "cyclic_shift_closed": true,
+  "group_replay": {
+    "verified": true,
+    "points": 3456,
+    "ordinary_group_order": 5184,
+    "ordinary_orbits": 2,
+    "fixed_actions_checked": 10368
+  },
+  "actual_nonidentity_stabilizer_orders_and_traces": [
+    3,
+    5
+  ],
+  "input_hashes": {
+    "sources/special-fibres/numerics/e13_complete_d6.json": "ab816eeac75db9793892268101deb7bd0726427a34a663e513d09ba8ed46cf9b",
+    "sources/special-fibres/numerics/e02_d6_stabilizers.json": "7eec8c1ca268137a8e957f6fbab9fd24314dde2af745228eebbb90a8925874f6",
+    "sources/special-fibres/numerics/e02_groups.py": "57c30b93ec59f1c5b50c7b9d60a3ccbe638dad55e04bfb2dc0545f90c170badc",
+    "sources/prime-fibres/numerics/e07_d6_p7_a0b0_N.sing": "3ba6291cf4237c68fd0ec4d79dc1a8a849ba23a2c6c43a25fbc647aeadf1eed5",
+    "sources/prime-fibres/numerics/e07_d6_p7_a0b0_N.json": "1e2614964586e5113fc209596765fd4d5fd9536c3a34cdc5e1de3ed48256acc1",
+    "sources/prime-fibres/numerics/e07_d6_p7_a0b0_N.out": "349d393e5da35d08e253759ea47e632510016c4e023b2723ad2d3b56074560b7"
+  },
+  "seconds": 252.846803
+}

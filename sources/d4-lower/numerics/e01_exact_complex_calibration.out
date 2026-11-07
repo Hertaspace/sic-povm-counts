@@ -1,0 +1,9 @@
+D4 exact QQ chart: dimension=0, quotient length=512
+D4 physical: 16 quartics, 15 trace products, stabilizer=6, chart points=256
+D4 ghost: 16 quartics, 15 trace products, stabilizer=6, chart points=256
+ORBIT physical EC 6000 stabilizer 3 chart rays 2000
+ORBIT ghost EC 6000 stabilizer 3 chart rays 2000
+D5 zero ket probe: {"completed": false, "reason": "not run: sandbox denies RSS monitoring; leave uncalibrated job offline"}
+PASS: d4 complete 512-point normalized complex variety, two EC stabilizers of order 6
+PASS: d5 lower bound 4000 normalized complex points, not a completeness claim
+SECONDS 2.345201999996789

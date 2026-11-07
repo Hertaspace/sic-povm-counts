@@ -1,0 +1,8 @@
+# Versions used in the clean replay of 6 November 2026.
+python-flint==0.9.0
+gmpy2==2.3.2
+z3-solver==5.0.0
+# Symbolic face construction and supplementary volume proposals:
+sympy==1.14.0
+numpy==2.5.4
+scipy==1.18.1

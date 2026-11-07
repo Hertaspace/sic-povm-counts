@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+work/
+release/*.tar.zst
+sources/d7/numerics/e41_d7_cert_*.jsonl

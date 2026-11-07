@@ -1,0 +1,29 @@
+{
+  "tau7_is_1": true,
+  "reconstruction_7abT": true,
+  "c_q_equals_Z_minus_q": true,
+  "n_minors": 441,
+  "minors_vanish_on_rank1": true,
+  "n_squares": 49,
+  "squares_vanish_on_rank1": true,
+  "row_witness_C": true,
+  "row_witness_mask": 16256,
+  "row_witness_desc": {
+    "1": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "products_zero_on_row": true,
+  "z0_zero_on_row": true,
+  "parse_ty": true,
+  "parse_prod": true,
+  "parse_trace_is_z0sq_minus_8t": true,
+  "parse_bare_coeff": true,
+  "parse_pow": true
+}
